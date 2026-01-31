@@ -456,3 +456,61 @@ footer .container {
         font-size: 13px;
     }
 }
+
+/* City Grid Styles */
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.city-card {
+    background: var(--surface);
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.city-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+.city-card a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.city-card a:hover {
+    color: var(--accent);
+}
+
+@media (max-width: 968px) {
+    .city-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .city-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .city-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Locations Section */
+.locations {
+    padding: 5rem 0;
+    background: white;
+}
