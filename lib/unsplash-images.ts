@@ -1,0 +1,119 @@
+// Curated Unsplash images for BookB website
+// Using direct URLs for performance (no API calls on each page load)
+
+export const images = {
+  // Hero/Dashboard images - successful salon owners
+  hero: {
+    url: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=800&fit=crop',
+    alt: 'Professional salon owner managing successful hair salon with modern booking system',
+  },
+
+  // Feature images - outcome focused
+  queueManagement: {
+    url: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop',
+    alt: 'Organized salon waiting area with happy customers using queue management system',
+  },
+
+  scheduling: {
+    url: 'https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=800&h=600&fit=crop',
+    alt: 'Hair stylist consulting with client using professional appointment scheduling software',
+  },
+
+  pos: {
+    url: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
+    alt: 'Seamless salon checkout experience with modern POS payment system',
+  },
+
+  mobileApp: {
+    url: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop',
+    alt: 'Customer booking salon appointment on mobile phone app',
+  },
+
+  analytics: {
+    url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+    alt: 'Salon business owner reviewing analytics and performance reports',
+  },
+
+  staffManagement: {
+    url: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop',
+    alt: 'Professional salon team meeting for staff scheduling and management',
+  },
+
+  // Salon types - professional environments
+  hairSalon: {
+    url: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&h=800&fit=crop',
+    alt: 'Modern professional hair salon interior with stylists serving clients',
+  },
+
+  barbershop: {
+    url: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&h=800&fit=crop',
+    alt: 'Professional barbershop with barber providing quality service to client',
+  },
+
+  nailSalon: {
+    url: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=800&fit=crop',
+    alt: 'Elegant nail salon with manicurist providing professional nail service',
+  },
+
+  daySpa: {
+    url: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&h=800&fit=crop',
+    alt: 'Luxurious day spa environment providing relaxation and beauty treatments',
+  },
+
+  // City landmarks for location pages
+  cities: {
+    london: {
+      url: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&h=800&fit=crop',
+      alt: 'London skyline with iconic landmarks - salon software serving London businesses',
+    },
+    manchester: {
+      url: 'https://images.unsplash.com/photo-1598786993440-988b91c27e27?w=1200&h=800&fit=crop',
+      alt: 'Manchester city center - salon management software for Manchester salons',
+    },
+    newYork: {
+      url: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=800&fit=crop',
+      alt: 'New York City skyline - professional salon software for NYC businesses',
+    },
+    losAngeles: {
+      url: 'https://images.unsplash.com/photo-1534190239940-9ba8944ea261?w=1200&h=800&fit=crop',
+      alt: 'Los Angeles cityscape - salon booking system for LA beauty businesses',
+    },
+    chicago: {
+      url: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=1200&h=800&fit=crop',
+      alt: 'Chicago skyline and architecture - salon software serving Chicago area',
+    },
+    sydney: {
+      url: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&h=800&fit=crop',
+      alt: 'Sydney Opera House and harbor - salon management software for Australian salons',
+    },
+    dubai: {
+      url: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&h=800&fit=crop',
+      alt: 'Dubai skyline with Burj Khalifa - salon software for UAE beauty businesses',
+    },
+  },
+
+  // Trust/testimonial images
+  testimonial1: {
+    url: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
+    alt: 'Satisfied salon owner testimonial for BookB salon management software',
+  },
+  testimonial2: {
+    url: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
+    alt: 'Happy hair salon owner using BookB appointment scheduling system',
+  },
+  testimonial3: {
+    url: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+    alt: 'Professional salon business owner managing successful beauty business',
+  },
+};
+
+// Helper function to get optimized Unsplash URL with specific dimensions
+export function getOptimizedUrl(baseUrl: string, width: number, height?: number, quality = 80) {
+  const url = new URL(baseUrl);
+  url.searchParams.set('w', width.toString());
+  if (height) url.searchParams.set('h', height.toString());
+  url.searchParams.set('q', quality.toString());
+  url.searchParams.set('fit', 'crop');
+  url.searchParams.set('auto', 'format');
+  return url.toString();
+}
