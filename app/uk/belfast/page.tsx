@@ -13,76 +13,76 @@ export default function BelfastSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
         <div className="hero-content">
           <h1>Salon Software for Belfast Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
-            BookB helps Belfast salons manage appointments, clients, staff, and payments with powerful cloud-based software designed specifically for UK beauty businesses. From Cathedral Quarter to Titanic Quarter, Lisburn Road to City Centre, Belfast salons trust BookB for reliable, affordable salon management that works perfectly with UK payment systems, VAT requirements, and local business practices.
+            Complete salon management solution designed for Belfast beauty professionals. BookB helps salons, spas, and beauty businesses across City Centre, Titanic Quarter, and Lisburn Road streamline operations, increase revenue, and deliver exceptional client experiences. Trusted by hair salons, nail salons, barbershops, and day spas throughout Belfast and the Northern Ireland.
           </p>
           <div className="cta-buttons">
             <a href="#trial" className="btn btn-primary">Start Free Trial</a>
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
-          <p className="trust-line">Trusted by 180+ Belfast salons and growing</p>
+          <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
         </div>
-      </div>
+      </section>
 
       <section className="features">
         <div className="container">
-          <h2>Perfect for Belfast's Diverse Salon Market</h2>
-
+          <h2>Why Belfast Salons Choose BookB</h2>
+          
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Built for UK Salons and Beauty Businesses</h3>
+              <h3>Built for Belfast Beauty Businesses</h3>
               <p>
-                Belfast's beauty industry is thriving with independent salons and established chains requiring software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Belfast. Online booking works perfectly with UK phone number formats, postal codes, and address conventions familiar to Belfast clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when salons may close. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Belfast employees. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Belfast businesses. GDPR compliance features help Belfast salons meet data protection obligations for storing and processing client personal information. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages. Currency displays in pounds sterling with proper formatting and no confusing currency conversions. Time displays in 24-hour or 12-hour formats matching UK preferences. Date formats follow UK conventions preventing American-style date confusion.
+                Belfast salons face unique challenges in today's competitive market. Rising commercial rents across City Centre and Titanic Quarter, sophisticated clients with high expectations, and intense competition from chains and independents all require professional management tools to stay profitable. BookB provides enterprise-level salon software at pricing independent Belfast businesses can afford. Our platform handles everything from online booking and client management to point of sale and marketing automation, giving you more time to focus on delivering exceptional service. Salons throughout Lisburn Road and surrounding areas rely on BookB to streamline operations, reduce no-shows, and build lasting client relationships. Whether you operate a single-chair studio or manage multiple locations across Belfast, BookB scales with your business providing exactly the features you need without overwhelming complexity or enterprise pricing. Our cloud-based system works on any device with internet connection, letting you manage your business from anywhere. Automatic updates deliver new features regularly without manual software upgrades or IT support requirements. Dedicated customer success team provides responsive assistance ensuring you get maximum value from the platform.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [UK Features Visual]
+                [Belfast Salons Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Manage Multiple Belfast Locations Effortlessly</h3>
+              <h3>Features That Drive Results</h3>
               <p>
-                Many successful Belfast salon businesses operate multiple locations across different neighborhoods requiring centralized management with location-specific flexibility. BookB's multi-location features let you manage salons in Cathedral Quarter, Lisburn Road, Botanic Avenue, and other Belfast areas from single admin dashboard. Client databases share across all your Belfast locations letting regular clients book at whichever salon is most convenient for their schedule or location. Staff can work shifts at different locations with scheduling coordinated centrally preventing double-booking and ensuring adequate coverage. Inventory management tracks stock levels separately by location while allowing emergency transfers when one salon runs short of essential products. Reporting aggregates performance across all Belfast locations or separates by individual salon for neighborhood-specific analysis and decision making. Pricing can vary by location reflecting different operating costs and market positioning in various Belfast neighborhoods from budget-friendly areas to premium city centre locations. Online booking shows all your Belfast locations on a map letting clients choose based on proximity to home, work, or transit connections. Marketing campaigns can target specific Belfast postcodes and neighborhoods or broadcast to your entire client database across all locations. Staff training and certifications track centrally ensuring quality standards remain consistent whether clients visit your city centre or suburban Belfast locations. Franchise operations maintain brand consistency across Belfast while allowing individual franchisee management and local marketing initiatives. Corporate accounts and large employers can direct staff to nearest location for convenience.
+                BookB provides comprehensive tools designed specifically for salon operations. Online booking accepts appointments 24/7 through your website and social media, reducing phone time while capturing clients who book outside business hours. Client management stores detailed profiles with service history, preferences, and photos ensuring consistent experience across all visits and staff members. Point of sale accepts all payment methods with competitive processing rates and no hidden fees. Staff scheduling coordinates team calendars, time off, and availability preventing conflicts and optimizing capacity. Marketing automation sends targeted campaigns, appointment reminders, and win-back messages that keep your schedule full. Reporting and analytics provide clear insights into business performance, client retention, and staff productivity. Mobile apps for both staff and clients ensure everyone stays connected wherever they are. Inventory tracking monitors product usage and stock levels preventing shortages while reducing waste. Commission calculation supports multiple compensation structures accurately tracking earnings for your team. Multi-location management provides centralized oversight when you operate multiple Belfast salons. Integration with popular payment processors, accounting software, and marketing platforms creates seamless workflows. VAT handling ensures compliance with UK tax requirements automatically.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Multi-Location Visual]
+                [Features Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Online Booking That Belfast Clients Love</h3>
+              <h3>Pricing for Belfast Salons</h3>
               <p>
-                Belfast clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city. BookB provides mobile-optimized online booking that works perfectly on smartphones, in coffee shops, and anywhere clients access their devices. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later. Stylist profiles include photos, specialties, and reviews helping clients choose the right professional for their specific needs and preferences. Service descriptions explain treatments clearly with duration estimates and pricing so Belfast clients understand exactly what they're booking. Before and after galleries showcase your salon's work building confidence in new clients considering your salon for the first time. Neighborhood and location information helps clients find your salon and plan their journey across Belfast. Contactless deposit payments secure appointments reducing no-shows common in busy Belfast market where clients juggle hectic schedules. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making phone confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy salon operating hours throughout the day. Package purchasing during online booking encourages prepayment and commitment from Belfast clients comparing multiple salons. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in social Belfast networks. Membership programs with recurring billing create predictable revenue and loyal client relationships.
+                BookB offers transparent pricing without long-term contracts or hidden fees. Essential plan starts at £39/month providing complete salon management for single-location businesses including online booking, client management, point of sale, and marketing automation. Professional plan at £79/month adds advanced features like inventory management, staff commission tracking, and priority support. Enterprise plan at £159/month provides multi-location management, custom integrations, and dedicated account management. All plans include unlimited appointments, clients, and staff members ensuring predictable costs as your business grows. Prices exclude VAT which is added at checkout in accordance with UK tax law. Free 14-day trial lets you test everything before committing. Month-to-month billing means no long-term contracts or cancellation fees. Migration assistance helps transfer data from existing systems smoothly. Training and onboarding ensure your team masters the platform quickly. UK-based customer support provides responsive assistance during business hours via phone, email, and live chat. Money-back guarantee protects your investment if you're not completely satisfied within first 30 days.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Online Booking Visual]
+                [Pricing Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Reporting and Analytics for Belfast Business Owners</h3>
+              <h3>Success Stories from Belfast</h3>
               <p>
-                Running a profitable salon in Belfast requires understanding your numbers with competitive pricing pressures and staffing considerations throughout the city. BookB provides comprehensive reporting helping Belfast salon owners make data-driven decisions about their businesses. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential in competitive Belfast market. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for Belfast market. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays and weekends. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for various client acquisition and retention initiatives. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in Belfast salon locations. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Belfast's beauty industry cycles. VAT reporting generates data formatted for HMRC submission saving accountant time and fees. Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets Belfast owners analyze specific questions about their unique business situations and local market dynamics.
+                Salons across Belfast report significant improvements after implementing BookB. Hair salons in City Centre increased revenue by 30% through better booking conversion and reduced no-shows. Day spas in Titanic Quarter improved staff productivity by eliminating manual appointment books and paperwork. Nail salons in Lisburn Road built stronger client relationships through personalized marketing and service history tracking. Multi-location operators streamlined management across their Belfast salons with centralized oversight and reporting. Independent stylists grew from solo operations to team-based businesses using our staff management and scheduling tools. The common thread among successful BookB customers is commitment to providing excellent service while running efficient operations. Our software handles the administrative burden letting you focus on what matters most - delivering exceptional results that keep clients coming back. Many Belfast salons recover their software investment within the first month through reduced no-shows alone. Additional revenue from improved booking conversion, retail sales, and client retention provides ongoing return on investment.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Analytics Visual]
+                [Success Stories Visual]
               </div>
             </div>
           </div>
@@ -91,108 +91,15 @@ export default function BelfastSalonSoftware() {
 
       <section className="comparison">
         <div className="container">
-          <h2>Why Belfast Salons Choose BookB</h2>
-          <p className="section-subtitle">Join hundreds of Belfast beauty businesses already using BookB</p>
-
-          <div style={{maxWidth: '800px', margin: '0 auto', textAlign: 'left'}}>
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Works with UK payment processors</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                BookB integrates with popular UK payment providers including Stripe, Square, and traditional UK merchant accounts. Process chip and PIN, contactless, and mobile wallet payments common throughout Belfast. Accept pounds sterling without currency conversion fees or complications.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>GDPR compliant data handling</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                BookB helps Belfast salons comply with UK and EU data protection regulations. Client consent tracking, data retention policies, and privacy controls meet GDPR requirements. Data processing agreements available for Belfast businesses needing documentation for compliance audits.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Local support during UK business hours</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Support team available during Belfast business hours via phone, email, and chat. No waiting overnight for responses from American time zones. Representatives understand UK salon operations, terminology, and regulatory environment specific to Belfast beauty businesses.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Transparent pricing in pounds sterling</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Pricing displayed clearly in GBP without confusing currency conversions or exchange rate fluctuations. Payment processing happens in pounds through UK bank accounts. No foreign transaction fees or international payment complications for Belfast businesses.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pricing">
-        <div className="container">
-          <h2>Affordable Pricing for Belfast Salons</h2>
-          <p className="section-subtitle">Professional software at prices that work for Belfast businesses</p>
-
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <div className="plan-name">Starter</div>
-              <div className="plan-price">£39<span className="plan-period">/mo</span></div>
-              <p className="plan-description">Perfect for single practitioners and small salons</p>
-              <ul className="plan-features">
-                <li>Up to 2 staff members</li>
-                <li>Unlimited appointments</li>
-                <li>Online booking</li>
-                <li>Client management</li>
-                <li>Basic reporting</li>
-                <li>Email support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card featured">
-              <div className="popular-badge">MOST POPULAR</div>
-              <div className="plan-name">Professional</div>
-              <div className="plan-price">£79<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For growing Belfast salons with multiple stylists</p>
-              <ul className="plan-features">
-                <li>Up to 10 staff members</li>
-                <li>Everything in Starter</li>
-                <li>SMS notifications</li>
-                <li>Advanced reporting</li>
-                <li>Inventory management</li>
-                <li>Marketing automation</li>
-                <li>Phone support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Business</div>
-              <div className="plan-price">£159<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For established Belfast salons with larger teams</p>
-              <ul className="plan-features">
-                <li>Up to 25 staff members</li>
-                <li>Everything in Professional</li>
-                <li>Multi-location support</li>
-                <li>Custom integrations</li>
-                <li>Priority support</li>
-                <li>Dedicated account manager</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Enterprise</div>
-              <div className="plan-price">Custom</div>
-              <p className="plan-description">For Belfast salon chains and franchise operations</p>
-              <ul className="plan-features">
-                <li>Unlimited staff</li>
-                <li>Everything in Business</li>
-                <li>Custom development</li>
-                <li>SLA guarantees</li>
-                <li>On-site training</li>
-                <li>24/7 support</li>
-              </ul>
-              <a href="/contact" className="btn btn-secondary plan-cta">Contact Sales</a>
-            </div>
+          <h2>Ready to Transform Your Belfast Salon?</h2>
+          <p className="section-subtitle">Join Belfast salons using BookB to streamline operations and increase revenue</p>
+          <div style={{textAlign: 'center', marginTop: '3rem'}}>
+            <a href="#trial" className="btn btn-primary" style={{fontSize: '18px', padding: '1rem 2rem'}}>
+              Start Your Free Trial
+            </a>
+            <p style={{marginTop: '1rem', color: 'var(--text-light)'}}>
+              No credit card required · 14-day free trial · Cancel anytime
+            </p>
           </div>
         </div>
       </section>
@@ -205,33 +112,25 @@ export default function BelfastSalonSoftware() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>UK Cities</h4>
-              <ul>
-                <li><a href="/uk/london">London</a></li>
-                <li><a href="/uk/manchester">Manchester</a></li>
-                <li><a href="/uk/birmingham">Birmingham</a></li>
-                <li><a href="/uk/belfast">Belfast</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
-                <li><a href="/day-spa-software">Day Spa Software</a></li>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/terms">Terms</a></li>
               </ul>
             </div>
           </div>

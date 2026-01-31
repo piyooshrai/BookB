@@ -1,4 +1,4 @@
-export default function salon_booking_systemPage() {
+export default function online_booking_for_salonsPage() {
   return (
     <>
       <nav>
@@ -15,7 +15,7 @@ export default function salon_booking_systemPage() {
 
       <section className="hero">
         <div className="hero-content">
-          <h1>Salon Booking System</h1>
+          <h1>Online Booking for Salons</h1>
           <p className="hero-subtitle">
             Complete guide to online booking for modern salons. Learn proven strategies, best practices, and practical solutions that help beauty businesses improve operations, increase revenue, and deliver better client experiences. BookB provides the software tools you need to implement these strategies effectively.
           </p>
@@ -29,7 +29,7 @@ export default function salon_booking_systemPage() {
 
       <section className="features">
         <div className="container">
-          <h2>Understanding Salon Booking System</h2>
+          <h2>Understanding Online Booking for Salons</h2>
 
           <div className="feature-item">
             <div className="feature-content">
