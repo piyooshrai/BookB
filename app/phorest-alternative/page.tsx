@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function PhorestAlternative() {
   return (
     <>
@@ -13,7 +16,8 @@ export default function PhorestAlternative() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>The Modern Phorest Alternative That Saves You Thousands</h1>
           <p className="hero-subtitle">
@@ -25,7 +29,18 @@ export default function PhorestAlternative() {
           </div>
           <p className="trust-line">Join thousands of salons saving $3,000+ annually versus Phorest</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="comparison">
         <div className="container">

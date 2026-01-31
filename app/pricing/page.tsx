@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function PricingPage() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function PricingPage() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Simple, Transparent Pricing</h1>
           <p className="hero-subtitle">
             Professional salon management software at pricing that makes sense for your business. No hidden fees, no setup costs, no annual contracts. Just honest pricing that scales as you grow. BookB provides enterprise-level features at independent business pricing, helping salons worldwide streamline operations and increase revenue.
@@ -24,6 +28,17 @@ export default function PricingPage() {
             <a href="/contact" className="btn btn-secondary">Contact Sales</a>
           </div>
           <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 

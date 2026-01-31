@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function USPage() {
   return (
     <>
@@ -25,6 +28,16 @@ export default function USPage() {
               <a href="/pricing" className="btn btn-secondary">See US Pricing</a>
             </div>
             <p className="trust-line">Serving salons coast-to-coast across America</p>
+          </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.newYork.url}
+              alt={images.cities.newYork.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
           </div>
         </div>
       </section>

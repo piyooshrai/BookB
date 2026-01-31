@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function SmallBusinessPage() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function SmallBusinessPage() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Salon Software for Small Business</h1>
           <p className="hero-subtitle">
             Complete management solution designed specifically for small beauty businesses. BookB helps independent salon owners, solo stylists, and small teams streamline operations, increase revenue, and deliver exceptional client experiences without enterprise pricing or complexity. Trusted by small salons worldwide.
@@ -24,6 +28,17 @@ export default function SmallBusinessPage() {
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
           <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.hairSalon.url}
+              alt={images.hairSalon.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 

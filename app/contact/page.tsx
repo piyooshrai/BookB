@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function ContactPage() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function ContactPage() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Get Started with BookB</h1>
           <p className="hero-subtitle">
             Start your free 14-day trial today and discover how BookB can transform your salon operations. No credit card required, no setup fees, no long-term contracts. Join 1,000+ salons worldwide who trust BookB to manage their business. Our team is here to help you get started and answer any questions about features, pricing, migration, or implementation.
@@ -24,6 +28,17 @@ export default function ContactPage() {
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
           <p className="trust-line">Response within 24 hours · No sales pressure</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 
