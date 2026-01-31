@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#0F172A"/>
+  <!-- Comb -->
+  <rect x="4" y="8" width="8" height="16" rx="1" fill="white"/>
+  <rect x="5.5" y="11" width="5" height="1.5" fill="#0F172A"/>
+  <rect x="5.5" y="13.5" width="5" height="1.5" fill="#0F172A"/>
+  <rect x="5.5" y="16" width="5" height="1.5" fill="#0F172A"/>
+  <rect x="5.5" y="18.5" width="5" height="1.5" fill="#0F172A"/>
+  <rect x="5.5" y="21" width="5" height="1.5" fill="#0F172A"/>
+
+  <!-- Scissors -->
+  <path d="M16 4 L20 10 L19 11 L16 8 L13 11 L12 10 Z" fill="white"/>
+  <circle cx="13" cy="16" r="3" fill="white"/>
+  <circle cx="13" cy="16" r="1.5" fill="#0F172A"/>
+  <circle cx="19" cy="16" r="3" fill="white"/>
+  <circle cx="19" cy="16" r="1.5" fill="#0F172A"/>
+  <rect x="15" y="11.5" width="2" height="2" fill="#0F172A"/>
+</svg>
