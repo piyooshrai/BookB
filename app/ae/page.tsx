@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function AEPage() {
   return (
     <>
@@ -25,6 +28,16 @@ export default function AEPage() {
               <a href="/pricing" className="btn btn-secondary">See UAE Pricing</a>
             </div>
             <p className="trust-line">Serving salons across the UAE and Middle East</p>
+          </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.dubai.url}
+              alt={images.cities.dubai.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
           </div>
         </div>
       </section>

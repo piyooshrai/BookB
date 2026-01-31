@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function VerticalPage() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function VerticalPage() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Barbershop Management Software</h1>
           <p className="hero-subtitle">
             Complete management solution designed specifically for barbershops. BookB helps beauty professionals streamline operations, increase revenue, and deliver exceptional client experiences. Trusted by barbershops worldwide, our platform handles everything from online booking and client management to point of sale and marketing automation.
@@ -24,6 +28,17 @@ export default function VerticalPage() {
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
           <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.barbershop.url}
+              alt={images.barbershop.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 

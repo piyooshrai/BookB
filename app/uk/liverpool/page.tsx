@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function LiverpoolSalonSoftware() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function LiverpoolSalonSoftware() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Salon Software for Liverpool Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
             Complete salon management solution designed for Liverpool beauty professionals. BookB helps salons, spas, and beauty businesses across Albert Dock, Baltic Triangle, and Bold Street streamline operations, increase revenue, and deliver exceptional client experiences. Trusted by hair salons, nail salons, barbershops, and day spas throughout Liverpool and the Merseyside.
@@ -24,6 +28,17 @@ export default function LiverpoolSalonSoftware() {
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
           <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.generic.url}
+              alt={images.cities.generic.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 

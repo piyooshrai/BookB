@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function SouthamptonSalonSoftware() {
   return (
     <>

@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function AUPage() {
   return (
     <>
@@ -25,6 +28,16 @@ export default function AUPage() {
               <a href="/pricing" className="btn btn-secondary">See Australian Pricing</a>
             </div>
             <p className="trust-line">Proudly serving salons across Australia</p>
+          </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.sydney.url}
+              alt={images.cities.sydney.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
           </div>
         </div>
       </section>
