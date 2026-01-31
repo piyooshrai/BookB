@@ -71,9 +71,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Trial Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -85,9 +90,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Demo Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -99,9 +109,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Sales Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -113,9 +128,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Support Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -127,9 +147,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Migration Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -141,9 +166,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Partnership Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>

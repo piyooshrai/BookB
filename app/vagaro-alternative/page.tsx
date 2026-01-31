@@ -116,9 +116,14 @@ export default function VagaroAlternative() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Client Ownership Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -130,9 +135,14 @@ export default function VagaroAlternative() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Professional Features Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -144,9 +154,14 @@ export default function VagaroAlternative() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Marketing Control Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -158,9 +173,14 @@ export default function VagaroAlternative() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Expert Support Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>

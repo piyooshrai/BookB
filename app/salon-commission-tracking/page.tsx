@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function salon_commission_trackingPage() {
   return (
     <>
@@ -56,9 +59,14 @@ export default function salon_commission_trackingPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Concept Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -70,9 +78,14 @@ export default function salon_commission_trackingPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Solution Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -84,9 +97,14 @@ export default function salon_commission_trackingPage() {
               </p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [ROI Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>

@@ -68,9 +68,14 @@ export default function BrisbaneSalonSoftware() {
               <p>Brisbane's beauty industry requires software that understands local business practices. BookB provides features designed for Australian salons including GST calculation and reporting. Payment processing integrates with Australian banks and EFTPOS systems. Online booking works with local phone formats and postcodes. Appointment scheduling accounts for Australian public holidays. Staff scheduling respects Fair Work requirements. Currency displays in AUD. Time and date formats match Australian preferences.</p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Features Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>
