@@ -1,202 +1,274 @@
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { ComparisonTable } from '@/components/ComparisonTable'
-import { FeatureShowcase } from '@/components/FeatureShowcase'
-import { ROICalculator } from '@/components/ROICalculator'
-import { PricingCard } from '@/components/PricingCard'
-import Link from 'next/link'
-
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary to-accent text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-                Why pay £300 when BookB delivers same results for £15?
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-gray-200">
-                Enterprise salon management software at a price that makes sense. Queue management, booking system, POS, and analytics—all included.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/contact"
-                  className="bg-white text-accent px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
-                >
-                  Start Free Trial
-                </Link>
-                <Link
-                  href="/pricing"
-                  className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
-                >
-                  View Pricing
-                </Link>
-              </div>
-              <p className="mt-6 text-sm text-gray-300">
-                No credit card required • 14-day free trial • Cancel anytime
-              </p>
-            </div>
-          </div>
-        </section>
+      <nav>
+        <div className="container">
+          <div className="logo">BookB</div>
+          <ul>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="#trial" className="nav-cta">Start Free Trial</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        {/* Comparison Section */}
-        <section className="py-20 bg-surface">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-primary mb-4">
-                BookB vs Zenoti: Side-by-Side
-              </h2>
-              <p className="text-xl text-gray-600">
-                Same features. 95% lower cost. No annual contract.
-              </p>
-            </div>
-            <ComparisonTable competitorName="Zenoti" competitorPrice={300} />
-          </div>
-        </section>
-
-        {/* Features Section */}
-        <section className="py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-primary mb-4">
-                Everything You Need to Run Your Salon
-              </h2>
-              <p className="text-xl text-gray-600">
-                Professional features without the enterprise price tag
-              </p>
-            </div>
-            <FeatureShowcase />
-          </div>
-        </section>
-
-        {/* ROI Calculator */}
-        <section className="py-20 bg-surface">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ROICalculator />
-          </div>
-        </section>
-
-        {/* Pricing Section */}
-        <section className="py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-primary mb-4">
-                Simple, Transparent Pricing
-              </h2>
-              <p className="text-xl text-gray-600">
-                No hidden fees. No annual contracts. Just honest pricing.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <PricingCard
-                tier="starter"
-                features={[
-                  'Up to 1 stylist',
-                  'Queue management',
-                  'Online booking',
-                  'Basic POS',
-                  'SMS reminders',
-                  'Mobile app',
-                ]}
-              />
-              <PricingCard
-                tier="professional"
-                featured={true}
-                features={[
-                  'Up to 5 stylists',
-                  'All Starter features',
-                  'Advanced analytics',
-                  'Inventory management',
-                  'Email marketing',
-                  'Priority support',
-                ]}
-              />
-              <PricingCard
-                tier="business"
-                features={[
-                  'Up to 15 stylists',
-                  'All Professional features',
-                  'Multi-location support',
-                  'Custom branding',
-                  'API access',
-                  'Dedicated account manager',
-                ]}
-              />
-              <PricingCard
-                tier="enterprise"
-                features={[
-                  'Unlimited stylists',
-                  'All Business features',
-                  'Custom integrations',
-                  'White-label option',
-                  'SLA guarantee',
-                  '24/7 phone support',
-                ]}
-              />
-            </div>
-
-            <div className="text-center mt-12">
-              <Link
-                href="/pricing"
-                className="text-accent hover:text-accent/80 font-medium text-lg"
-              >
-                View full pricing comparison →
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Social Proof */}
-        <section className="py-20 bg-primary text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">
-                Trusted by 1,000+ Salons Worldwide
-              </h2>
-              <div className="grid md:grid-cols-3 gap-8">
-                <div className="bg-white/10 rounded-lg p-8">
-                  <div className="text-5xl font-bold font-mono mb-2">95%</div>
-                  <div className="text-gray-300">Cost Savings vs Zenoti</div>
-                </div>
-                <div className="bg-white/10 rounded-lg p-8">
-                  <div className="text-5xl font-bold font-mono mb-2">40%</div>
-                  <div className="text-gray-300">Reduction in No-Shows</div>
-                </div>
-                <div className="bg-white/10 rounded-lg p-8">
-                  <div className="text-5xl font-bold font-mono mb-2">24/7</div>
-                  <div className="text-gray-300">Customer Support</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Final CTA */}
-        <section className="py-20 bg-surface">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl font-bold text-primary mb-6">
-              Ready to Save Thousands Per Year?
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Join 1,000+ salons who switched to BookB and never looked back.
+      <section className="hero">
+        <div className="hero-grid">
+          <div className="hero-content">
+            <h1>Why pay £300 when BookB delivers same results for £15?</h1>
+            <p className="hero-subtitle">
+              Professional salon management for independent pricing. Queue management, scheduling, POS, and mobile apps. Save £3,420 annually vs enterprise software.
             </p>
-            <Link
-              href="/contact"
-              className="inline-block bg-accent text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-accent/90 transition-colors"
-            >
-              Start Your Free Trial
-            </Link>
-            <p className="mt-4 text-sm text-gray-500">
-              14-day free trial • No credit card required • Migrate your data for free
-            </p>
+            <div className="cta-buttons">
+              <a href="#trial" className="btn btn-primary">Start 14-Day Free Trial</a>
+              <a href="/pricing" className="btn btn-secondary">See Pricing</a>
+            </div>
+            <p className="trust-line">Trusted by salons in 15+ countries · No credit card required</p>
           </div>
-        </section>
-      </main>
-      <Footer />
+          <div className="hero-image">
+            <p>Your Dashboard Screenshot Here</p>
+            <p style={{fontSize: '14px', color: '#6B7280', marginTop: '1rem'}}>Show: Queue management + Analytics + Modern UI<br/>(Blur sensitive data)</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="comparison">
+        <div className="container">
+          <h2>The £3,420 Question</h2>
+          <p className="section-subtitle">Same enterprise features. 95% lower cost. No contracts.</p>
+          <div className="comparison-table">
+            <div className="comparison-row comparison-header">
+              <div>Feature</div>
+              <div>Zenoti</div>
+              <div>BookB</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Monthly Cost</div>
+              <div className="competitor-value">£300+</div>
+              <div className="bookb-value">£15</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Setup Fees</div>
+              <div className="competitor-value">£500+</div>
+              <div className="bookb-value">FREE</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Queue Management</div>
+              <div className="competitor-value">✓</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Appointment Scheduling</div>
+              <div className="competitor-value">✓</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">POS System</div>
+              <div className="competitor-value">✓</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Mobile App</div>
+              <div className="competitor-value">✓</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Contract Required</div>
+              <div className="competitor-value">Yes</div>
+              <div className="bookb-value">No</div>
+            </div>
+            <div className="comparison-row savings-row">
+              <div className="feature-name"><strong>Annual Savings</strong></div>
+              <div className="competitor-value">—</div>
+              <div className="bookb-value">£3,420</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="features">
+        <div className="container">
+          <h2>Enterprise Features at Independent Pricing</h2>
+          <p className="section-subtitle">Professional salon management tools that don't require enterprise budgets</p>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Queue Management</h3>
+              <p>Smart queue system eliminates walk-in chaos. Real-time updates, estimated wait times, and SMS notifications keep customers informed and happy.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[Queue Board Screenshot Placeholder]</p>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Appointment Scheduling</h3>
+              <p>Professional booking with automated reminders. Reduce no-shows by 40% with SMS and email confirmations. Online booking integrates seamlessly.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[Calendar Screenshot Placeholder]</p>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Complete POS System</h3>
+              <p>Fast payments with integrated processing. Accept cards, contactless, and digital payments. Track sales, tips, and inventory in one system.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[POS Screenshot Placeholder]</p>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Branded Mobile App</h3>
+              <p>Customized app for your clients. They book appointments, check queue status, and receive notifications. Your salon name, your branding.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[Mobile App Screenshot Placeholder]</p>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Real-Time Analytics</h3>
+              <p>Comprehensive business intelligence. Track busiest hours, top services, stylist performance, and revenue trends. Make data-driven decisions.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[Analytics Screenshot Placeholder]</p>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Staff Management</h3>
+              <p>Schedule, track performance, and manage teams. Digital rota, shift swaps, and performance metrics. Keep your team organized and motivated.</p>
+            </div>
+            <div className="feature-visual">
+              <p>[Staff Rota Screenshot Placeholder]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pricing">
+        <div className="container">
+          <h2>Choose Your Plan</h2>
+          <p className="section-subtitle">Professional salon management at independent pricing. All plans include every feature.</p>
+          <div className="pricing-grid">
+
+            <div className="pricing-card">
+              <div className="plan-name">Starter</div>
+              <div className="plan-price">£15</div>
+              <div className="plan-period">/month</div>
+              <div className="plan-description">Perfect for solo stylists</div>
+              <ul className="plan-features">
+                <li>Single owner/stylist</li>
+                <li>Queue management</li>
+                <li>Appointment scheduling</li>
+                <li>POS system</li>
+                <li>Mobile app</li>
+                <li>Basic analytics</li>
+              </ul>
+              <a href="/contact" className="btn btn-primary plan-cta">Get Started</a>
+            </div>
+
+            <div className="pricing-card featured">
+              <div className="popular-badge">Most Popular</div>
+              <div className="plan-name">Professional</div>
+              <div className="plan-price">£45</div>
+              <div className="plan-period">/month</div>
+              <div className="plan-description">For growing salons</div>
+              <ul className="plan-features">
+                <li>Up to 15 stylists</li>
+                <li>All Starter features</li>
+                <li>Advanced analytics</li>
+                <li>Staff management</li>
+                <li>Marketing automation</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="/contact" className="btn btn-primary plan-cta">Get Started</a>
+            </div>
+
+            <div className="pricing-card">
+              <div className="plan-name">Business</div>
+              <div className="plan-price">£75</div>
+              <div className="plan-period">/month</div>
+              <div className="plan-description">For established salons</div>
+              <ul className="plan-features">
+                <li>Up to 50 stylists</li>
+                <li>All Professional features</li>
+                <li>Multi-location support</li>
+                <li>Advanced integrations</li>
+                <li>Custom branding</li>
+                <li>Dedicated support</li>
+              </ul>
+              <a href="/contact" className="btn btn-primary plan-cta">Get Started</a>
+            </div>
+
+            <div className="pricing-card">
+              <div className="plan-name">Enterprise</div>
+              <div className="plan-price">£125</div>
+              <div className="plan-period">/month</div>
+              <div className="plan-description">For large chains</div>
+              <ul className="plan-features">
+                <li>Unlimited stylists</li>
+                <li>All Business features</li>
+                <li>White-label options</li>
+                <li>Custom development</li>
+                <li>Advanced security</li>
+                <li>24/7 support</li>
+              </ul>
+              <a href="/contact" className="btn btn-primary plan-cta">Contact Sales</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div className="container">
+          <div className="footer-grid">
+            <div className="footer-column">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+                <li><a href="/nail-salon-software">Nail Salons</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
+                <li><a href="/fresha-alternative">vs Fresha</a></li>
+                <li><a href="/phorest-alternative">vs Phorest</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="/privacy">Privacy</a></li>
+                <li><a href="/terms">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            © 2026 BookB. All rights reserved.
+          </div>
+        </div>
+      </footer>
     </>
-  )
+  );
 }
