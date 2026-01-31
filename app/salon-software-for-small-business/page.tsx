@@ -1,44 +1,142 @@
-import { Metadata } from 'next'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { PricingCard } from '@/components/PricingCard'
-import { ROICalculator } from '@/components/ROICalculator'
-
-export const metadata: Metadata = {
-  title: 'Salon Software for Small Business | Affordable & Simple - £15/month',
-  description: 'Salon software designed for small businesses. No enterprise pricing, no complex features. Just what you need to run your salon. From £15/month.',
-}
-
-export default function SalonSoftwareSmallBusinessPage() {
+export default function SmallBusinessPage() {
   return (
     <>
-      <Header />
-      <main>
-        <section className="bg-gradient-to-br from-primary to-accent text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-5xl font-bold mb-6">Salon Software for Small Businesses</h1>
-            <p className="text-xl mb-8">Designed for independent salons. Simple pricing, powerful features, no enterprise bloat. From £15/month.</p>
-            <a href="/contact" className="inline-block bg-white text-accent px-8 py-4 rounded-lg font-bold hover:bg-gray-100">Start Free Trial</a>
+      <nav>
+        <div className="container">
+          <div className="logo">BookB</div>
+          <ul>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="#trial" className="nav-cta">Start Free Trial</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section className="hero">
+        <div className="hero-content">
+          <h1>Salon Software for Small Business</h1>
+          <p className="hero-subtitle">
+            Complete management solution designed specifically for small beauty businesses. BookB helps independent salon owners, solo stylists, and small teams streamline operations, increase revenue, and deliver exceptional client experiences without enterprise pricing or complexity. Trusted by small salons worldwide.
+          </p>
+          <div className="cta-buttons">
+            <a href="#trial" className="btn btn-primary">Start Free Trial</a>
+            <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
-        </section>
-        <section className="py-20 bg-surface">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ROICalculator />
-          </div>
-        </section>
-        <section className="py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl font-bold text-primary text-center mb-12">Simple Pricing for Small Businesses</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <PricingCard tier="starter" features={['1 stylist', 'All core features', 'No setup fees', 'Cancel anytime', 'Email support', 'Mobile app']} />
-              <PricingCard tier="professional" featured features={['Up to 5 stylists', 'Advanced features', 'Email marketing', 'Priority support', 'Custom branding', 'Analytics']} />
-              <PricingCard tier="business" features={['Up to 15 stylists', 'Multi-location', 'API access', 'Dedicated support', 'Advanced reports', 'Custom integrations']} />
-              <PricingCard tier="enterprise" features={['Unlimited stylists', 'White-label', 'Enterprise features', 'SLA guarantee', 'Custom contracts', '24/7 phone support']} />
+          <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+      </section>
+
+      <section className="features">
+        <div className="container">
+          <h2>Why Small Salons Choose BookB</h2>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Built for Independent Businesses</h3>
+              <p>
+                Small salon businesses face unique challenges in today's competitive market. You need professional software to compete with larger chains, but enterprise solutions cost hundreds of pounds per month with features you will never use. Budget options lack essential capabilities forcing you to cobble together multiple tools. BookB solves this problem by providing professional features at pricing independent businesses can afford. Our Starter plan at just £15/month gives solo stylists complete salon management including unlimited appointments, online booking, client records, POS system, SMS reminders, and mobile app access. No setup fees, no long-term contracts, no hidden costs. Professional plan at £35/month supports up to 5 staff members adding advanced analytics, inventory management, email marketing, and priority support. Business plan at £75/month handles up to 15 staff with multi-location capabilities, advanced reporting, and dedicated account manager. Whether you operate solo from home, rent a chair at an established salon, or run a small team from your own location, BookB scales perfectly with your business. You get enterprise-level capabilities without enterprise-level costs or complexity. Our intuitive interface ensures you can start using the system productively within hours not weeks. Cloud-based access means you manage everything from your phone, tablet, or computer. Automatic updates deliver new features regularly without manual upgrades or IT support requirements.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
+                [Small Business Visual]
+              </div>
             </div>
           </div>
-        </section>
-      </main>
-      <Footer />
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Essential Features Without Complexity</h3>
+              <p>
+                Small businesses need software that works immediately without extensive training or configuration. BookB provides essential salon management features in an intuitive interface your entire team can master quickly. Online booking widget embeds on your website or shares as direct link on Instagram, Facebook, and Google letting clients book 24/7 without phone calls. Real-time availability prevents double-bookings automatically. Clients receive instant confirmation and can reschedule through their portal. Client management stores service history, preferences, photos, and notes ensuring consistent experience. Automated birthday messages and win-back campaigns keep your schedule full. Point of sale accepts cards, cash, and mobile payments with competitive processing rates. No transaction fees unlike competitors who charge 5-10% per booking. Split payments, tips, and receipts all handled smoothly. Staff scheduling for small teams coordinates calendars and time off preventing conflicts. Commission tracking supports percentage splits, tiered rates, or service-specific compensation. SMS reminders reduce no-shows by up to 40% saving you hundreds in lost revenue monthly. Email marketing keeps clients engaged with targeted campaigns and special offers. Basic analytics show revenue trends, popular services, and client retention. Mobile app lets you manage everything from your phone between appointments. Inventory tracking for retail products prevents stockouts and reduces waste. Gift cards and prepaid packages encourage commitment while improving cash flow. All features work together seamlessly without jumping between different systems or paying for multiple subscriptions.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
+                [Features Visual]
+              </div>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Affordable Pricing That Scales</h3>
+              <p>
+                Small businesses need predictable costs that scale appropriately as you grow. BookB pricing starts at just £15/month for solo operators and grows only when you add team members or need advanced features. Starter plan provides complete salon management for one person including everything needed to run professional operations - unlimited appointments and clients, online booking widget, client database with service history, basic POS system accepting all payment methods, SMS appointment reminders, mobile app for iOS and Android, and email support during business hours. That is less than one haircut per month for complete business management. Professional plan at £35/month supports teams up to 5 staff adding advanced analytics showing revenue trends and client retention, inventory management tracking product usage and stock levels, email marketing sending 1,000 campaigns monthly, custom branding on booking widget and receipts, staff performance reports comparing productivity across team members, and priority support with faster response times. Business plan at £75/month handles larger teams up to 15 staff with multi-location support managing multiple salons centrally, advanced reporting with custom date ranges and filters, email marketing allowance of 5,000 campaigns monthly, API access for custom integrations, loyalty program management rewarding repeat clients, and dedicated account manager providing personalized assistance. All plans include unlimited appointments, clients, and bookings so costs stay predictable as your business grows. Free 14-day trial lets you test everything before paying anything. Month-to-month billing means no annual contracts or long-term commitments. Pay annually and save 20% making Professional plan just £336/year instead of £420. Money-back guarantee if not completely satisfied within first 30 days.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
+                [Pricing Visual]
+              </div>
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Success Stories from Small Salons</h3>
+              <p>
+                Thousands of small salon businesses trust BookB to manage their operations efficiently. Solo stylists working from home studios use BookB to accept online bookings, manage client relationships, and process payments professionally competing effectively against larger salons. Chair renters at established salons maintain their own client database and schedule independently while looking professional to clients. Small salon owners with 2-5 staff members coordinate team schedules, track individual performance, and manage inventory without needing dedicated administrative staff. Mobile hairdressers running businesses from their vehicle use the mobile app to manage appointments on the go and process payments at client locations. Husband-wife salon teams split responsibilities with one focusing on services while the other handles marketing and client retention using BookB automation. Home-based nail technicians expanded to small studios hiring additional technicians and scaling BookB alongside their growth. The common thread among successful BookB customers is focus on service delivery rather than administrative tasks. Our software handles booking confirmations, payment processing, appointment reminders, marketing campaigns, and record-keeping automatically in the background. This frees small business owners to focus on what they do best - delivering exceptional service that keeps clients coming back. Many small salons report that BookB pays for itself within the first month just through reduced no-shows from automated reminders. Additional revenue from improved booking conversion, retail product sales, and client retention provides ongoing return making BookB one of the best investments small salon businesses can make.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
+                [Success Visual]
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="comparison">
+        <div className="container">
+          <h2>Ready to Get Started?</h2>
+          <p className="section-subtitle">Join small salons worldwide using BookB to streamline operations and increase revenue</p>
+          <div style={{textAlign: 'center', marginTop: '3rem'}}>
+            <a href="#trial" className="btn btn-primary" style={{fontSize: '18px', padding: '1rem 2rem'}}>
+              Start Your Free Trial
+            </a>
+            <p style={{marginTop: '1rem', color: 'var(--text-light)'}}>
+              No credit card required · 14-day free trial · Cancel anytime
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div className="container">
+          <div className="footer-grid">
+            <div className="footer-column">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Solutions</h4>
+              <ul>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="footer-bottom">© 2026 BookB. All rights reserved.</div>
+        </div>
+      </footer>
     </>
-  )
+  );
 }
