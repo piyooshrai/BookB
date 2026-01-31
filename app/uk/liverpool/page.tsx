@@ -13,76 +13,76 @@ export default function LiverpoolSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
         <div className="hero-content">
           <h1>Salon Software for Liverpool Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
-            BookB helps Liverpool salons manage appointments, clients, staff, and payments with powerful cloud-based software designed specifically for UK beauty businesses. From City Centre to Liverpool ONE, Bold Street to Albert Dock, Liverpool salons trust BookB for reliable, affordable salon management that works perfectly with UK payment systems, VAT requirements, and Merseyside business practices serving one of England's most vibrant cities.
+            Complete salon management solution designed for Liverpool beauty professionals. BookB helps salons, spas, and beauty businesses across Albert Dock, Baltic Triangle, and Bold Street streamline operations, increase revenue, and deliver exceptional client experiences. Trusted by hair salons, nail salons, barbershops, and day spas throughout Liverpool and the Merseyside.
           </p>
           <div className="cta-buttons">
             <a href="#trial" className="btn btn-primary">Start Free Trial</a>
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
-          <p className="trust-line">Trusted by 270+ Liverpool salons and growing</p>
+          <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
         </div>
-      </div>
+      </section>
 
       <section className="features">
         <div className="container">
-          <h2>Perfect for Liverpool's Style-Conscious Market</h2>
-
+          <h2>Why Liverpool Salons Choose BookB</h2>
+          
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Built for UK Salons and Beauty Businesses</h3>
+              <h3>Built for Liverpool Beauty Businesses</h3>
               <p>
-                Liverpool's beauty industry serves a city famous for style and appearance requiring software that understands local business practices and regulatory requirements while supporting the city's fashion-forward culture. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Liverpool business owners managing successful salons across Merseyside. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities ensuring compliance. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Liverpool from Liverpool ONE to independent boutiques in Bold Street. Online booking works perfectly with UK phone number formats, postal codes including Liverpool's L postcodes covering Woolton, Allerton, and city centre, and address conventions familiar to local clients across Merseyside. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Liverpool salons may close for celebrations. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Liverpool employees whether experienced senior stylists or apprentice beauty therapists learning their trade. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Liverpool businesses from sole traders to multi-location salon chains expanding across Merseyside. GDPR compliance features help Liverpool salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations protecting customer privacy and data rights. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Liverpool client base throughout Merseyside. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications affecting pricing transparency. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Liverpool's diverse neighborhoods from waterfront to suburbs. Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors and frustrated clients missing their scheduled services.
+                Liverpool salons face unique challenges in today's competitive market. Rising commercial rents across Albert Dock and Baltic Triangle, sophisticated clients with high expectations, and intense competition from chains and independents all require professional management tools to stay profitable. BookB provides enterprise-level salon software at pricing independent Liverpool businesses can afford. Our platform handles everything from online booking and client management to point of sale and marketing automation, giving you more time to focus on delivering exceptional service. Salons throughout Bold Street and surrounding areas rely on BookB to streamline operations, reduce no-shows, and build lasting client relationships. Whether you operate a single-chair studio or manage multiple locations across Liverpool, BookB scales with your business providing exactly the features you need without overwhelming complexity or enterprise pricing. Our cloud-based system works on any device with internet connection, letting you manage your business from anywhere. Automatic updates deliver new features regularly without manual software upgrades or IT support requirements. Dedicated customer success team provides responsive assistance ensuring you get maximum value from the platform.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [UK Features Visual]
+                [Liverpool Salons Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Payment Processing for Liverpool Salons</h3>
+              <h3>Features That Drive Results</h3>
               <p>
-                Liverpool salons process thousands of pounds weekly requiring reliable payment processing that's secure, fast, and integrated with appointment booking and client records. BookB's payment features help Liverpool salons get paid quickly while maintaining accurate financial records. Card payment integration connects with UK payment processors like Stripe and Square enabling chip and PIN, contactless, and mobile wallet payments common throughout Liverpool. Split payments allow clients paying separately for group bookings or dividing costs between payment methods combining cards, cash, and gift certificates. Deposit collection secures appointments by charging partial payment at booking protecting Liverpool salons from no-show revenue losses during busy periods. Automatic payment capture charges cards on file after appointments reducing checkout time and letting clients leave quickly without waiting for payment processing. Refund processing handles cancellations and service issues maintaining accurate records of original payments and refunded amounts for accounting reconciliation. Tip management lets clients add gratuity during payment with amounts distributed to stylists according to your Liverpool salon's tipping policies. Package payments process large prepayments for bundled services tracking remaining balances and automatically applying credits to future appointments. Membership billing charges recurring monthly fees for subscription programs creating predictable revenue streams and loyal client relationships. Gift card sales process purchases of gift certificates generating revenue and introducing new clients through existing customer networks throughout Liverpool. Payment reconciliation matches processed payments to appointment records identifying discrepancies and ensuring accurate financial reporting. Commission calculations determine stylist earnings based on services performed and payment methods used respecting complex commission structures common in Liverpool salons. Tax reporting separates VAT collected from service revenue providing data needed for HMRC submissions and UK tax compliance. Payment security maintains PCI compliance protecting Liverpool clients' card information and your salon from data breaches and fraud liability.
+                BookB provides comprehensive tools designed specifically for salon operations. Online booking accepts appointments 24/7 through your website and social media, reducing phone time while capturing clients who book outside business hours. Client management stores detailed profiles with service history, preferences, and photos ensuring consistent experience across all visits and staff members. Point of sale accepts all payment methods with competitive processing rates and no hidden fees. Staff scheduling coordinates team calendars, time off, and availability preventing conflicts and optimizing capacity. Marketing automation sends targeted campaigns, appointment reminders, and win-back messages that keep your schedule full. Reporting and analytics provide clear insights into business performance, client retention, and staff productivity. Mobile apps for both staff and clients ensure everyone stays connected wherever they are. Inventory tracking monitors product usage and stock levels preventing shortages while reducing waste. Commission calculation supports multiple compensation structures accurately tracking earnings for your team. Multi-location management provides centralized oversight when you operate multiple Liverpool salons. Integration with popular payment processors, accounting software, and marketing platforms creates seamless workflows. VAT handling ensures compliance with UK tax requirements automatically.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Payment Processing Visual]
+                [Features Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Online Booking That Liverpool Clients Love</h3>
+              <h3>Pricing for Liverpool Salons</h3>
               <p>
-                Liverpool clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout Merseyside. BookB provides mobile-optimized online booking that works perfectly on Merseyrail, in Albert Dock cafes, and anywhere clients access their smartphones throughout the day and evening. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans for their week. Stylist profiles include photos, specialties, and reviews helping Liverpool clients choose the right professional for their specific needs whether everyday maintenance or special occasion styling. Service descriptions explain treatments clearly with duration estimates and pricing so Liverpool clients understand exactly what they're booking from express services to comprehensive transformation packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Liverpool salon for the first time after Instagram discovery or friend recommendation. Location information includes directions from Lime Street Station, local parking options at Liverpool ONE or NCP car parks, and bus routes helping clients plan their journey. Contactless deposit payments secure appointments reducing no-shows common in busy Liverpool market where clients juggle work schedules and social commitments. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Liverpool Saturdays. Package purchasing during online booking encourages prepayment and commitment. Gift card purchases online generate revenue and introduce new clients. Membership programs with recurring billing create predictable revenue.
+                BookB offers transparent pricing without long-term contracts or hidden fees. Essential plan starts at £39/month providing complete salon management for single-location businesses including online booking, client management, point of sale, and marketing automation. Professional plan at £79/month adds advanced features like inventory management, staff commission tracking, and priority support. Enterprise plan at £159/month provides multi-location management, custom integrations, and dedicated account management. All plans include unlimited appointments, clients, and staff members ensuring predictable costs as your business grows. Prices exclude VAT which is added at checkout in accordance with UK tax law. Free 14-day trial lets you test everything before committing. Month-to-month billing means no long-term contracts or cancellation fees. Migration assistance helps transfer data from existing systems smoothly. Training and onboarding ensure your team masters the platform quickly. UK-based customer support provides responsive assistance during business hours via phone, email, and live chat. Money-back guarantee protects your investment if you're not completely satisfied within first 30 days.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Online Booking Visual]
+                [Pricing Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Reporting and Analytics for Liverpool Business Owners</h3>
+              <h3>Success Stories from Liverpool</h3>
               <p>
-                Running a profitable salon in Liverpool requires understanding your numbers with competitive city centre rent, skilled staff wages, and pricing pressures from numerous beauty businesses throughout Merseyside. BookB provides comprehensive reporting helping Liverpool salon owners make data-driven decisions daily, weekly, and monthly. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your Liverpool team identifying top performers and underperformers needing coaching. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base. Service profitability calculations deduct product costs and staff time showing true margins helping optimize your service menu. Peak hour analysis identifies busiest times helping optimize staff scheduling. Marketing campaign tracking measures effectiveness of promotional efforts. Inventory turnover reports identify slow-moving products. No-show tracking quantifies revenue lost to appointment gaps. Year-over-year comparisons show business growth trends. VAT reporting generates data for HMRC submission. Payroll reports provide data for UK payroll processing. Custom report building analyzes specific business questions.
+                Salons across Liverpool report significant improvements after implementing BookB. Hair salons in Albert Dock increased revenue by 30% through better booking conversion and reduced no-shows. Day spas in Baltic Triangle improved staff productivity by eliminating manual appointment books and paperwork. Nail salons in Bold Street built stronger client relationships through personalized marketing and service history tracking. Multi-location operators streamlined management across their Liverpool salons with centralized oversight and reporting. Independent stylists grew from solo operations to team-based businesses using our staff management and scheduling tools. The common thread among successful BookB customers is commitment to providing excellent service while running efficient operations. Our software handles the administrative burden letting you focus on what matters most - delivering exceptional results that keep clients coming back. Many Liverpool salons recover their software investment within the first month through reduced no-shows alone. Additional revenue from improved booking conversion, retail sales, and client retention provides ongoing return on investment.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Analytics Visual]
+                [Success Stories Visual]
               </div>
             </div>
           </div>
@@ -91,108 +91,15 @@ export default function LiverpoolSalonSoftware() {
 
       <section className="comparison">
         <div className="container">
-          <h2>Why Liverpool Salons Choose BookB</h2>
-          <p className="section-subtitle">Join hundreds of Liverpool beauty businesses already using BookB</p>
-
-          <div style={{maxWidth: '800px', margin: '0 auto', textAlign: 'left'}}>
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Works with UK payment processors</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                BookB integrates with popular UK payment providers. Process chip and PIN, contactless, and mobile wallet payments. Accept pounds sterling without currency conversion fees.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Built for Liverpool's style culture</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Liverpool's fashion-forward community demands quality salon services. BookB helps you deliver exceptional experiences that match Liverpool's reputation for style and appearance.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Local support during UK business hours</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Support team available during Liverpool business hours. No waiting overnight for responses. Representatives understand UK salon operations.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Transparent pricing in pounds sterling</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Pricing displayed clearly in GBP. Payment processing in pounds through UK bank accounts.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pricing">
-        <div className="container">
-          <h2>Affordable Pricing for Liverpool Salons</h2>
-          <p className="section-subtitle">Professional software at prices that work for Liverpool businesses</p>
-
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <div className="plan-name">Starter</div>
-              <div className="plan-price">£39<span className="plan-period">/mo</span></div>
-              <p className="plan-description">Perfect for single practitioners and small salons</p>
-              <ul className="plan-features">
-                <li>Up to 2 staff members</li>
-                <li>Unlimited appointments</li>
-                <li>Online booking</li>
-                <li>Client management</li>
-                <li>Basic reporting</li>
-                <li>Email support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card featured">
-              <div className="popular-badge">MOST POPULAR</div>
-              <div className="plan-name">Professional</div>
-              <div className="plan-price">£79<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For growing Liverpool salons with multiple stylists</p>
-              <ul className="plan-features">
-                <li>Up to 10 staff members</li>
-                <li>Everything in Starter</li>
-                <li>SMS notifications</li>
-                <li>Advanced reporting</li>
-                <li>Inventory management</li>
-                <li>Marketing automation</li>
-                <li>Phone support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Business</div>
-              <div className="plan-price">£159<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For established Liverpool salons with larger teams</p>
-              <ul className="plan-features">
-                <li>Up to 25 staff members</li>
-                <li>Everything in Professional</li>
-                <li>Multi-location support</li>
-                <li>Custom integrations</li>
-                <li>Priority support</li>
-                <li>Dedicated account manager</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Enterprise</div>
-              <div className="plan-price">Custom</div>
-              <p className="plan-description">For Liverpool salon chains and franchise operations</p>
-              <ul className="plan-features">
-                <li>Unlimited staff</li>
-                <li>Everything in Business</li>
-                <li>Custom development</li>
-                <li>SLA guarantees</li>
-                <li>On-site training</li>
-                <li>24/7 support</li>
-              </ul>
-              <a href="/contact" className="btn btn-secondary plan-cta">Contact Sales</a>
-            </div>
+          <h2>Ready to Transform Your Liverpool Salon?</h2>
+          <p className="section-subtitle">Join Liverpool salons using BookB to streamline operations and increase revenue</p>
+          <div style={{textAlign: 'center', marginTop: '3rem'}}>
+            <a href="#trial" className="btn btn-primary" style={{fontSize: '18px', padding: '1rem 2rem'}}>
+              Start Your Free Trial
+            </a>
+            <p style={{marginTop: '1rem', color: 'var(--text-light)'}}>
+              No credit card required · 14-day free trial · Cancel anytime
+            </p>
           </div>
         </div>
       </section>
@@ -205,33 +112,25 @@ export default function LiverpoolSalonSoftware() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>UK Cities</h4>
-              <ul>
-                <li><a href="/uk/london">London</a></li>
-                <li><a href="/uk/liverpool">Liverpool</a></li>
-                <li><a href="/uk/manchester">Manchester</a></li>
-                <li><a href="/uk/birmingham">Birmingham</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
-                <li><a href="/day-spa-software">Day Spa Software</a></li>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/terms">Terms</a></li>
               </ul>
             </div>
           </div>

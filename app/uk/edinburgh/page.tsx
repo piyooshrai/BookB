@@ -13,76 +13,76 @@ export default function EdinburghSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
         <div className="hero-content">
           <h1>Salon Software for Edinburgh Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
-            BookB helps Edinburgh salons manage appointments, clients, staff, and payments with powerful cloud-based software designed specifically for UK beauty businesses. From New Town to Old Town, Leith to Stockbridge, Edinburgh salons trust BookB for reliable, affordable salon management that works perfectly with UK payment systems, VAT requirements, and Scottish business practices serving the capital's prestigious beauty industry.
+            Complete salon management solution designed for Edinburgh beauty professionals. BookB helps salons, spas, and beauty businesses across Old Town, New Town, and Leith streamline operations, increase revenue, and deliver exceptional client experiences. Trusted by hair salons, nail salons, barbershops, and day spas throughout Edinburgh and the Lothians.
           </p>
           <div className="cta-buttons">
             <a href="#trial" className="btn btn-primary">Start Free Trial</a>
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
-          <p className="trust-line">Trusted by 250+ Edinburgh salons and growing</p>
+          <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
         </div>
-      </div>
+      </section>
 
       <section className="features">
         <div className="container">
-          <h2>Perfect for Edinburgh's Premium Salon Market</h2>
-
+          <h2>Why Edinburgh Salons Choose BookB</h2>
+          
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Built for UK and Scottish Salons</h3>
+              <h3>Built for Edinburgh Beauty Businesses</h3>
               <p>
-                Edinburgh's beauty industry serves Scotland's capital city with high standards requiring software that understands local business practices, regulatory requirements, and cultural considerations unique to Scottish businesses. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Edinburgh business owners managing profitable salons. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Edinburgh from Princes Street to George Street shopping districts. Online booking works perfectly with UK phone number formats, postal codes including Edinburgh's EH postcodes, and address conventions familiar to local clients across Morningside, Bruntsfield, and Portobello neighborhoods. Scottish bank holiday integration accounts for additional Scottish public holidays including St Andrew's Day automatically preventing booking conflicts when Edinburgh salons may close for celebrations. Appointment scheduling works across time zones for international clients visiting Edinburgh for festivals, conferences, and tourism requiring salon services during their stays. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Edinburgh employees whether experienced stylists or trainee beauty therapists. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Edinburgh businesses from sole traders to multi-location salon groups. GDPR compliance features help Edinburgh salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations protecting customer privacy. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Edinburgh client base. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications affecting pricing. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Edinburgh's diverse neighborhoods and districts. Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors and frustrated international or local clients.
+                Edinburgh salons face unique challenges in today's competitive market. Rising commercial rents across Old Town and New Town, sophisticated clients with high expectations, and intense competition from chains and independents all require professional management tools to stay profitable. BookB provides enterprise-level salon software at pricing independent Edinburgh businesses can afford. Our platform handles everything from online booking and client management to point of sale and marketing automation, giving you more time to focus on delivering exceptional service. Salons throughout Leith and surrounding areas rely on BookB to streamline operations, reduce no-shows, and build lasting client relationships. Whether you operate a single-chair studio or manage multiple locations across Edinburgh, BookB scales with your business providing exactly the features you need without overwhelming complexity or enterprise pricing. Our cloud-based system works on any device with internet connection, letting you manage your business from anywhere. Automatic updates deliver new features regularly without manual software upgrades or IT support requirements. Dedicated customer success team provides responsive assistance ensuring you get maximum value from the platform.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [UK Features Visual]
+                [Edinburgh Salons Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Festival and Event Management for Edinburgh Salons</h3>
+              <h3>Features That Drive Results</h3>
               <p>
-                Edinburgh's world-famous festival season brings unprecedented demand requiring salon businesses to manage increased bookings, special event services, and tourist clients alongside regular customers. BookB's advanced scheduling features help Edinburgh salons maximize revenue during Festival Fringe, Hogmanay, and other major events while maintaining service quality. Peak pricing tools enable dynamic pricing during high-demand periods like Edinburgh festivals when salon services command premium rates reflecting increased demand and limited availability. Extended hours scheduling accommodates longer operating days during festival season when Edinburgh salons open early and close late serving performers, tourists, and locals attending evening events. Temporary staff integration brings seasonal workers into your system quickly for August madness when Edinburgh's population doubles with festival visitors and additional salon capacity becomes essential. Waitlist management captures demand exceeding your capacity during sold-out festival periods enabling you to contact clients when cancellations create unexpected openings. Package offerings bundle popular festival services like updos, makeup application, and nail services for performers, wedding parties, and special occasion clients visiting Edinburgh during events. Priority booking systems reward loyal Edinburgh clients with advanced scheduling access before tourist booking windows open preventing regular customers feeling displaced during festival chaos. Special event calendar integration highlights festival dates, major conferences, international rugby matches at Murrayfield, and other events driving salon demand spikes requiring careful capacity planning. Group booking management handles wedding parties, corporate events, and performance groups needing coordinated services at specific times creating efficient scheduling for large revenue opportunities. Deposit enforcement protects revenue during high-demand periods when no-shows create costly gaps that could have served wait-listed clients willing to pay premium festival rates. Marketing automation targets festival audiences with special promotions, last-minute availability, and exclusive offers reaching tourists planning Edinburgh visits and locals attending festival events. Tourist-specific services adapt to international clients needing address verification alternatives, phone number format flexibility, and communication in multiple languages serving Edinburgh's global festival visitors.
+                BookB provides comprehensive tools designed specifically for salon operations. Online booking accepts appointments 24/7 through your website and social media, reducing phone time while capturing clients who book outside business hours. Client management stores detailed profiles with service history, preferences, and photos ensuring consistent experience across all visits and staff members. Point of sale accepts all payment methods with competitive processing rates and no hidden fees. Staff scheduling coordinates team calendars, time off, and availability preventing conflicts and optimizing capacity. Marketing automation sends targeted campaigns, appointment reminders, and win-back messages that keep your schedule full. Reporting and analytics provide clear insights into business performance, client retention, and staff productivity. Mobile apps for both staff and clients ensure everyone stays connected wherever they are. Inventory tracking monitors product usage and stock levels preventing shortages while reducing waste. Commission calculation supports multiple compensation structures accurately tracking earnings for your team. Multi-location management provides centralized oversight when you operate multiple Edinburgh salons. Integration with popular payment processors, accounting software, and marketing platforms creates seamless workflows. VAT handling ensures compliance with UK tax requirements automatically.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Festival Management Visual]
+                [Features Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Online Booking That Edinburgh Clients Love</h3>
+              <h3>Pricing for Edinburgh Salons</h3>
               <p>
-                Edinburgh clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout Scotland's capital city. BookB provides mobile-optimized online booking that works perfectly on Edinburgh buses and trams, in Grassmarket cafes, and anywhere clients access their smartphones throughout the day. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans for their day. Stylist profiles include photos, specialties, and reviews helping Edinburgh clients choose the right professional for their specific needs whether everyday maintenance or special occasion styling for weddings and events. Service descriptions explain treatments clearly with duration estimates and pricing so Edinburgh clients understand exactly what they're booking from express services to comprehensive transformation packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Edinburgh salon for the first time after Instagram discovery or colleague recommendation from their workplace. Location information includes directions from Waverley Station, local parking options at NCP car parks or street parking meters, and bus and tram routes helping clients plan their journey from suburbs to city centre locations. Contactless deposit payments secure appointments reducing no-shows common in busy Edinburgh market where clients juggle work schedules, shopping plans, festival events, and family commitments. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls during busy salon operating hours when reception handles arrivals and inquiries. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Edinburgh weekends when your team focuses on delivering excellent service to present clients rather than administrative tasks. Package purchasing during online booking encourages prepayment and commitment from Edinburgh clients comparing multiple salons throughout New Town, Stockbridge, and city centre locations. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in Edinburgh's tight-knit professional community where recommendations spread through offices and social circles. Membership programs with recurring billing create predictable revenue and loyal client relationships essential for year-round success beyond seasonal festival peaks.
+                BookB offers transparent pricing without long-term contracts or hidden fees. Essential plan starts at £39/month providing complete salon management for single-location businesses including online booking, client management, point of sale, and marketing automation. Professional plan at £79/month adds advanced features like inventory management, staff commission tracking, and priority support. Enterprise plan at £159/month provides multi-location management, custom integrations, and dedicated account management. All plans include unlimited appointments, clients, and staff members ensuring predictable costs as your business grows. Prices exclude VAT which is added at checkout in accordance with UK tax law. Free 14-day trial lets you test everything before committing. Month-to-month billing means no long-term contracts or cancellation fees. Migration assistance helps transfer data from existing systems smoothly. Training and onboarding ensure your team masters the platform quickly. UK-based customer support provides responsive assistance during business hours via phone, email, and live chat. Money-back guarantee protects your investment if you're not completely satisfied within first 30 days.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Online Booking Visual]
+                [Pricing Visual]
               </div>
             </div>
           </div>
 
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Reporting and Analytics for Edinburgh Business Owners</h3>
+              <h3>Success Stories from Edinburgh</h3>
               <p>
-                Running a profitable salon in Edinburgh requires understanding your numbers with expensive city centre rent, highly skilled staff wages, and competitive pricing pressures from numerous premium beauty businesses throughout the capital. BookB provides comprehensive reporting helping Edinburgh salon owners make data-driven decisions about their businesses daily, weekly, and monthly throughout the year. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance across festival peaks and quieter winter months. Staff productivity metrics compare performance across your Edinburgh team identifying top performers worthy of recognition, pay increases, or senior stylist promotions and underperformers needing coaching or schedule adjustments to improve results. Client retention analysis shows which clients visit regularly versus one-time festival visitors helping target marketing to build loyal local client base essential for stable revenue beyond relying on tourist traffic. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for maximum profitability while maintaining Edinburgh's expected quality standards. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays when professionals book lunch appointments and weekends when shoppers visit Edinburgh retail districts. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for social media advertising, email campaigns, local partnerships with Edinburgh hotels, and referral incentive programs. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive Edinburgh salon real estate where every square foot matters for profitability and efficiency. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments that protect your bottom line during high-demand festival periods. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Edinburgh's dramatic beauty industry cycles including festival season, Christmas shopping, and Hogmanay celebrations. VAT reporting generates data formatted for HMRC submission saving accountant time and professional fees while ensuring compliance with tax obligations. Payroll reports provide data needed for UK payroll processing and employee tax obligations for your Edinburgh team. Custom report building lets Edinburgh owners analyze specific questions about their unique business situations and local market dynamics including festival impacts.
+                Salons across Edinburgh report significant improvements after implementing BookB. Hair salons in Old Town increased revenue by 30% through better booking conversion and reduced no-shows. Day spas in New Town improved staff productivity by eliminating manual appointment books and paperwork. Nail salons in Leith built stronger client relationships through personalized marketing and service history tracking. Multi-location operators streamlined management across their Edinburgh salons with centralized oversight and reporting. Independent stylists grew from solo operations to team-based businesses using our staff management and scheduling tools. The common thread among successful BookB customers is commitment to providing excellent service while running efficient operations. Our software handles the administrative burden letting you focus on what matters most - delivering exceptional results that keep clients coming back. Many Edinburgh salons recover their software investment within the first month through reduced no-shows alone. Additional revenue from improved booking conversion, retail sales, and client retention provides ongoing return on investment.
               </p>
             </div>
             <div className="feature-visual">
               <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Analytics Visual]
+                [Success Stories Visual]
               </div>
             </div>
           </div>
@@ -91,108 +91,15 @@ export default function EdinburghSalonSoftware() {
 
       <section className="comparison">
         <div className="container">
-          <h2>Why Edinburgh Salons Choose BookB</h2>
-          <p className="section-subtitle">Join hundreds of Edinburgh beauty businesses already using BookB</p>
-
-          <div style={{maxWidth: '800px', margin: '0 auto', textAlign: 'left'}}>
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Works with UK payment processors</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                BookB integrates with popular UK payment providers including Stripe, Square, and traditional UK merchant accounts. Process chip and PIN, contactless, and mobile wallet payments common throughout Edinburgh. Accept pounds sterling without currency conversion fees or complications.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Festival-ready scheduling and pricing</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Manage Edinburgh's dramatic seasonal demand fluctuations with dynamic pricing, extended hours scheduling, and capacity management tools designed for festival season. Maximize revenue during peak periods while maintaining loyal local clients year-round.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Local support during UK business hours</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Support team available during Edinburgh business hours via phone, email, and chat. No waiting overnight for responses from American time zones. Representatives understand UK salon operations, terminology, and regulatory environment specific to Edinburgh beauty businesses.
-              </p>
-            </div>
-
-            <div style={{marginBottom: '2rem'}}>
-              <h3 style={{fontSize: '20px', marginBottom: '0.5rem'}}>Transparent pricing in pounds sterling</h3>
-              <p style={{color: 'var(--text-light)', lineHeight: '1.7'}}>
-                Pricing displayed clearly in GBP without confusing currency conversions or exchange rate fluctuations. Payment processing happens in pounds through UK bank accounts. No foreign transaction fees or international payment complications for Edinburgh businesses.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pricing">
-        <div className="container">
-          <h2>Affordable Pricing for Edinburgh Salons</h2>
-          <p className="section-subtitle">Professional software at prices that work for Edinburgh businesses</p>
-
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <div className="plan-name">Starter</div>
-              <div className="plan-price">£39<span className="plan-period">/mo</span></div>
-              <p className="plan-description">Perfect for single practitioners and small salons</p>
-              <ul className="plan-features">
-                <li>Up to 2 staff members</li>
-                <li>Unlimited appointments</li>
-                <li>Online booking</li>
-                <li>Client management</li>
-                <li>Basic reporting</li>
-                <li>Email support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card featured">
-              <div className="popular-badge">MOST POPULAR</div>
-              <div className="plan-name">Professional</div>
-              <div className="plan-price">£79<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For growing Edinburgh salons with multiple stylists</p>
-              <ul className="plan-features">
-                <li>Up to 10 staff members</li>
-                <li>Everything in Starter</li>
-                <li>SMS notifications</li>
-                <li>Advanced reporting</li>
-                <li>Inventory management</li>
-                <li>Marketing automation</li>
-                <li>Phone support</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Business</div>
-              <div className="plan-price">£159<span className="plan-period">/mo</span></div>
-              <p className="plan-description">For established Edinburgh salons with larger teams</p>
-              <ul className="plan-features">
-                <li>Up to 25 staff members</li>
-                <li>Everything in Professional</li>
-                <li>Multi-location support</li>
-                <li>Custom integrations</li>
-                <li>Priority support</li>
-                <li>Dedicated account manager</li>
-              </ul>
-              <a href="#trial" className="btn btn-primary plan-cta">Start Free Trial</a>
-            </div>
-
-            <div className="pricing-card">
-              <div className="plan-name">Enterprise</div>
-              <div className="plan-price">Custom</div>
-              <p className="plan-description">For Edinburgh salon chains and franchise operations</p>
-              <ul className="plan-features">
-                <li>Unlimited staff</li>
-                <li>Everything in Business</li>
-                <li>Custom development</li>
-                <li>SLA guarantees</li>
-                <li>On-site training</li>
-                <li>24/7 support</li>
-              </ul>
-              <a href="/contact" className="btn btn-secondary plan-cta">Contact Sales</a>
-            </div>
+          <h2>Ready to Transform Your Edinburgh Salon?</h2>
+          <p className="section-subtitle">Join Edinburgh salons using BookB to streamline operations and increase revenue</p>
+          <div style={{textAlign: 'center', marginTop: '3rem'}}>
+            <a href="#trial" className="btn btn-primary" style={{fontSize: '18px', padding: '1rem 2rem'}}>
+              Start Your Free Trial
+            </a>
+            <p style={{marginTop: '1rem', color: 'var(--text-light)'}}>
+              No credit card required · 14-day free trial · Cancel anytime
+            </p>
           </div>
         </div>
       </section>
@@ -205,33 +112,25 @@ export default function EdinburghSalonSoftware() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>UK Cities</h4>
-              <ul>
-                <li><a href="/uk/london">London</a></li>
-                <li><a href="/uk/edinburgh">Edinburgh</a></li>
-                <li><a href="/uk/glasgow">Glasgow</a></li>
-                <li><a href="/uk/manchester">Manchester</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
-                <li><a href="/day-spa-software">Day Spa Software</a></li>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/terms">Terms</a></li>
               </ul>
             </div>
           </div>
