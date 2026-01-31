@@ -16,7 +16,8 @@ export default function LosAngelesSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>Salon Software for Los Angeles Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
@@ -28,7 +29,18 @@ export default function LosAngelesSalonSoftware() {
           </div>
           <p className="trust-line">Trusted by 300+ Los Angeles salons and growing</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.losAngeles.url}
+              alt={images.cities.losAngeles.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="features">
         <div className="container">

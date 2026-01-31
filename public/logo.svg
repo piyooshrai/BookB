@@ -1,0 +1,25 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <!-- Comb -->
+  <path d="M100 185C100 163.909 116.909 147 138 147H295C316.091 147 333 163.909 333 185V877H100V185Z" fill="black"/>
+  <rect x="158" y="267" width="117" height="40" fill="white"/>
+  <rect x="158" y="327" width="117" height="40" fill="white"/>
+  <rect x="158" y="387" width="117" height="40" fill="white"/>
+  <rect x="158" y="447" width="117" height="40" fill="white"/>
+  <rect x="158" y="507" width="117" height="40" fill="white"/>
+  <rect x="158" y="567" width="117" height="40" fill="white"/>
+  <rect x="158" y="627" width="117" height="40" fill="white"/>
+  <rect x="158" y="687" width="117" height="40" fill="white"/>
+  <rect x="158" y="747" width="117" height="40" fill="white"/>
+  
+  <!-- Scissors -->
+  <path d="M512 50L690 350C705 375 695 407 670 422L615 455C590 470 558 460 543 435L512 390L481 435C466 460 434 470 409 455L354 422C329 407 319 375 334 350L512 50Z" fill="black"/>
+  <circle cx="409" cy="520" r="80" fill="black"/>
+  <circle cx="409" cy="520" r="40" fill="white"/>
+  <circle cx="615" cy="520" r="80" fill="black"/>
+  <circle cx="615" cy="520" r="40" fill="white"/>
+  <rect x="489" y="430" width="46" height="46" fill="white"/>
+  
+  <!-- BookB Text -->
+  <text x="512" y="950" font-family="Arial, sans-serif" font-size="150" font-weight="bold" text-anchor="middle" fill="black">BookB</text>
+</svg>

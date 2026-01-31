@@ -1,0 +1,23 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified version for header use -->
+  <!-- Comb (left side) -->
+  <rect x="5" y="10" width="15" height="40" rx="2" fill="currentColor"/>
+  <rect x="7.5" y="18" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="22" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="26" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="30" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="34" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="38" width="10" height="2.5" fill="white"/>
+  <rect x="7.5" y="42" width="10" height="2.5" fill="white"/>
+
+  <!-- Scissors (right side of comb) -->
+  <path d="M30 5 L40 20 L37 22 L30 15 L23 22 L20 20 Z" fill="currentColor"/>
+  <circle cx="23" cy="30" r="5" fill="currentColor"/>
+  <circle cx="23" cy="30" r="2.5" fill="white"/>
+  <circle cx="37" cy="30" r="5" fill="currentColor"/>
+  <circle cx="37" cy="30" r="2.5" fill="white"/>
+  <rect x="28.5" y="23" width="3" height="3" fill="white"/>
+
+  <!-- BookB Text -->
+  <text x="55" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="currentColor">BookB</text>
+</svg>

@@ -16,7 +16,8 @@ export default function SydneySalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>Salon Software for Sydney Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
@@ -28,7 +29,18 @@ export default function SydneySalonSoftware() {
           </div>
           <p className="trust-line">Trusted by 150+ Sydney salons</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.sydney.url}
+              alt={images.cities.sydney.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="features">
         <div className="container">
