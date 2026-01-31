@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function Home() {
   return (
     <>
@@ -27,8 +30,14 @@ export default function Home() {
             <p className="trust-line">Trusted by salons in 15+ countries · No credit card required</p>
           </div>
           <div className="hero-image">
-            <p>Your Dashboard Screenshot Here</p>
-            <p style={{fontSize: '14px', color: '#6B7280', marginTop: '1rem'}}>Show: Queue management + Analytics + Modern UI<br/>(Blur sensitive data)</p>
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
           </div>
         </div>
       </section>
@@ -98,7 +107,14 @@ export default function Home() {
               <p>Smart queue system eliminates walk-in chaos. Real-time updates, estimated wait times, and SMS notifications keep customers informed and happy.</p>
             </div>
             <div className="feature-visual">
-              <p>[Queue Board Screenshot Placeholder]</p>
+              <Image
+                src={images.queueManagement.url}
+                alt={images.queueManagement.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -108,7 +124,14 @@ export default function Home() {
               <p>Professional booking with automated reminders. Reduce no-shows by 40% with SMS and email confirmations. Online booking integrates seamlessly.</p>
             </div>
             <div className="feature-visual">
-              <p>[Calendar Screenshot Placeholder]</p>
+              <Image
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -118,7 +141,14 @@ export default function Home() {
               <p>Fast payments with integrated processing. Accept cards, contactless, and digital payments. Track sales, tips, and inventory in one system.</p>
             </div>
             <div className="feature-visual">
-              <p>[POS Screenshot Placeholder]</p>
+              <Image
+                src={images.pos.url}
+                alt={images.pos.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -128,7 +158,14 @@ export default function Home() {
               <p>Customized app for your clients. They book appointments, check queue status, and receive notifications. Your salon name, your branding.</p>
             </div>
             <div className="feature-visual">
-              <p>[Mobile App Screenshot Placeholder]</p>
+              <Image
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -138,7 +175,14 @@ export default function Home() {
               <p>Comprehensive business intelligence. Track busiest hours, top services, stylist performance, and revenue trends. Make data-driven decisions.</p>
             </div>
             <div className="feature-visual">
-              <p>[Analytics Screenshot Placeholder]</p>
+              <Image
+                src={images.analytics.url}
+                alt={images.analytics.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
 
@@ -148,7 +192,14 @@ export default function Home() {
               <p>Schedule, track performance, and manage teams. Digital rota, shift swaps, and performance metrics. Keep your team organized and motivated.</p>
             </div>
             <div className="feature-visual">
-              <p>[Staff Rota Screenshot Placeholder]</p>
+              <Image
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>
@@ -237,25 +288,40 @@ export default function Home() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salons</a></li>
-                <li><a href="/barbershop-software">Barbershops</a></li>
+                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
+                <li><a href="/barbershop-software">Barbershop Software</a></li>
+                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
+                <li><a href="/beauty-therapist-software">Beauty Therapist Software</a></li>
+                <li><a href="/day-spa-software">Day Spa Software</a></li>
+                <li><a href="/mobile-hairdresser-software">Mobile Hairdresser Software</a></li>
               </ul>
             </div>
             <div className="footer-column">
-              <h4>Compare</h4>
+              <h4>Alternatives</h4>
               <ul>
-                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
+                <li><a href="/zenoti-alternative">Zenoti Alternative</a></li>
+                <li><a href="/fresha-alternative">Fresha Alternative</a></li>
+                <li><a href="/phorest-alternative">Phorest Alternative</a></li>
+                <li><a href="/vagaro-alternative">Vagaro Alternative</a></li>
+                <li><a href="/boulevard-alternative">Boulevard Alternative</a></li>
+                <li><a href="/square-appointments-alternative">Square Alternative</a></li>
               </ul>
             </div>
             <div className="footer-column">
-              <h4>Company</h4>
+              <h4>Popular Locations</h4>
               <ul>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/uk/london">London</a></li>
+                <li><a href="/uk/manchester">Manchester</a></li>
+                <li><a href="/us/new-york">New York</a></li>
+                <li><a href="/us/los-angeles">Los Angeles</a></li>
+                <li><a href="/us/chicago">Chicago</a></li>
+                <li><a href="/au/sydney">Sydney</a></li>
               </ul>
             </div>
           </div>
