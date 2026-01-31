@@ -6,7 +6,24 @@ export default function PhoenixSalonSoftware() {
     <>
       <nav>
         <div className="container">
-          <div className="logo">BookB</div>
+          <a href="/" className="logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="5" width="10" height="30" rx="1" fill="currentColor"/>
+              <rect x="4" y="10" width="6" height="2" fill="white"/>
+              <rect x="4" y="14" width="6" height="2" fill="white"/>
+              <rect x="4" y="18" width="6" height="2" fill="white"/>
+              <rect x="4" y="22" width="6" height="2" fill="white"/>
+              <rect x="4" y="26" width="6" height="2" fill="white"/>
+              <rect x="4" y="30" width="6" height="2" fill="white"/>
+              <path d="M18 2 L24 12 L22 13 L18 8 L14 13 L12 12 Z" fill="currentColor"/>
+              <circle cx="14" cy="18" r="4" fill="currentColor"/>
+              <circle cx="14" cy="18" r="2" fill="white"/>
+              <circle cx="22" cy="18" r="4" fill="currentColor"/>
+              <circle cx="22" cy="18" r="2" fill="white"/>
+              <rect x="17" y="13.5" width="2" height="2" fill="white"/>
+            </svg>
+            <span>BookB</span>
+          </a>
           <ul>
             <li><a href="/features">Features</a></li>
             <li><a href="/pricing">Pricing</a></li>
@@ -207,6 +224,9 @@ export default function PhoenixSalonSoftware() {
             </div>
           </div>
           <div className="footer-bottom">© 2026 BookB. All rights reserved.</div>
+          <div className="by-the-algorithm">
+            Built by <a href="https://www.the-algo.com" target="_blank" rel="noopener noreferrer">The Algorithm</a>
+          </div>
         </div>
       </footer>
     </>
