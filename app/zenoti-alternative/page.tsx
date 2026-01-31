@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function ZenotiAlternative() {
   return (
     <>
@@ -13,7 +16,8 @@ export default function ZenotiAlternative() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>The Smart Zenoti Alternative for Modern Salons</h1>
           <p className="hero-subtitle">
@@ -25,7 +29,18 @@ export default function ZenotiAlternative() {
           </div>
           <p className="trust-line">Join 10,000+ salons who switched from expensive alternatives</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="comparison">
         <div className="container">

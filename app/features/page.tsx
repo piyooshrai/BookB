@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import { images } from '@/lib/unsplash-images'
+
 export default function FeaturesPage() {
   return (
     <>
@@ -14,7 +17,8 @@ export default function FeaturesPage() {
       </nav>
 
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-grid">
+          <div className="hero-content">
           <h1>Complete Salon Management Features</h1>
           <p className="hero-subtitle">
             Everything you need to run a successful salon business. BookB provides enterprise-level features at independent pricing, helping you deliver exceptional client experiences while maximizing efficiency and profitability.
@@ -24,6 +28,17 @@ export default function FeaturesPage() {
             <a href="/pricing" className="btn btn-secondary">View Pricing</a>
           </div>
           <p className="trust-line">Trusted by 1,000+ salons · No credit card required</p>
+        </div>
+          <div className="hero-image">
+            <Image
+              src={images.hero.url}
+              alt={images.hero.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
         </div>
       </section>
 
