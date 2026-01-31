@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "zenoti",
+    "name": "Zenoti",
+    "monthlyPrice": 300,
+    "setupFee": 500,
+    "contract": "Annual contract required",
+    "focus": "Enterprise salons and spas",
+    "weaknesses": [
+      "Extremely expensive for small salons",
+      "Complex setup process",
+      "Locked into annual contracts",
+      "Overkill features for independent stylists"
+    ]
+  },
+  {
+    "slug": "fresha",
+    "name": "Fresha",
+    "monthlyPrice": 0,
+    "setupFee": 0,
+    "contract": "Pay per transaction (5-10%)",
+    "focus": "Free model with transaction fees",
+    "weaknesses": [
+      "Hidden transaction fees eat into profits",
+      "Limited customization",
+      "Aggressive marketplace pushes competitors",
+      "Expensive payment processing fees"
+    ]
+  },
+  {
+    "slug": "phorest",
+    "name": "Phorest",
+    "monthlyPrice": 150,
+    "setupFee": 350,
+    "contract": "12-month minimum",
+    "focus": "Marketing-focused salon software",
+    "weaknesses": [
+      "Expensive for basic features",
+      "Heavy focus on marketing over operations",
+      "Limited queue management",
+      "Ireland-focused support"
+    ]
+  },
+  {
+    "slug": "boulevard",
+    "name": "Boulevard",
+    "monthlyPrice": 200,
+    "setupFee": 400,
+    "contract": "Annual contract",
+    "focus": "High-end salons and spas",
+    "weaknesses": [
+      "Premium pricing without premium features",
+      "US-centric platform",
+      "Complex for small businesses",
+      "Poor international support"
+    ]
+  },
+  {
+    "slug": "vagaro",
+    "name": "Vagaro",
+    "monthlyPrice": 25,
+    "setupFee": 0,
+    "contract": "Month-to-month",
+    "focus": "Budget salon software",
+    "weaknesses": [
+      "Outdated user interface",
+      "Limited queue management features",
+      "Basic analytics",
+      "Transaction fees on top of subscription"
+    ]
+  },
+  {
+    "slug": "square-appointments",
+    "name": "Square Appointments",
+    "monthlyPrice": 50,
+    "setupFee": 0,
+    "contract": "Month-to-month",
+    "focus": "Square ecosystem integration",
+    "weaknesses": [
+      "Locked into Square payment processing",
+      "Higher payment processing fees",
+      "Limited salon-specific features",
+      "Generic booking system"
+    ]
+  },
+  {
+    "slug": "salon-iris",
+    "name": "Salon Iris",
+    "monthlyPrice": 29,
+    "setupFee": 0,
+    "contract": "Month-to-month",
+    "focus": "Desktop software for salons",
+    "weaknesses": [
+      "Desktop-only (no cloud)",
+      "Outdated technology",
+      "No mobile app",
+      "Limited online booking"
+    ]
+  },
+  {
+    "slug": "millennium",
+    "name": "Millennium",
+    "monthlyPrice": 199,
+    "setupFee": 600,
+    "contract": "24-month contract",
+    "focus": "Spa management software",
+    "weaknesses": [
+      "Extremely long contracts",
+      "High setup costs",
+      "Complex and overwhelming",
+      "Poor customer support reviews"
+    ]
+  },
+  {
+    "slug": "shortcuts",
+    "name": "Shortcuts Software",
+    "monthlyPrice": 120,
+    "setupFee": 250,
+    "contract": "12-month contract",
+    "focus": "Australian salon market",
+    "weaknesses": [
+      "Australia-only focus",
+      "Expensive for small salons",
+      "Limited international expansion",
+      "Annual contracts required"
+    ]
+  },
+  {
+    "slug": "timely",
+    "name": "Timely",
+    "monthlyPrice": 89,
+    "setupFee": 0,
+    "contract": "Month-to-month",
+    "focus": "UK & ANZ salon software",
+    "weaknesses": [
+      "Limited queue management",
+      "Basic POS features",
+      "Regional limitations",
+      "Higher tier pricing adds up quickly"
+    ]
+  }
+]
