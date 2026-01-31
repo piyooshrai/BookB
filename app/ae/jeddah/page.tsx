@@ -68,9 +68,14 @@ export default function JeddahSalonSoftware() {
               <p>Jeddah's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UAE salons including multi-currency support for AED and major international currencies. Payment processing integrates with regional payment providers popular in Jeddah. Online booking works with local phone formats and addresses. Appointment scheduling accounts for UAE holidays and cultural considerations. Staff scheduling respects UAE labor law requirements. Marketing communications comply with local regulations. Time and date displays match regional preferences.</p>
             </div>
             <div className="feature-visual">
-              <div style={{padding: '60px', background: '#f8fafc', borderRadius: '8px'}}>
-                [Features Visual]
-              </div>
+              <Image
+                src={images.hairSalon.url}
+                alt="Professional salon management software features"
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
           </div>
         </div>
