@@ -154,32 +154,25 @@ export default function DallasSalonSoftware() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>US Cities</h4>
-              <ul>
-                <li><a href="/us/new-york">New York</a></li>
-                <li><a href="/us/los-angeles">Los Angeles</a></li>
-                <li><a href="/us/miami">Miami</a></li>
-                <li><a href="/us/chicago">Chicago</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/terms">Terms</a></li>
               </ul>
             </div>
           </div>
