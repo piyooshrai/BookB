@@ -104,17 +104,16 @@ export default function SharjahSalonSoftware() {
               </ul>
             </div>
             <div className="footer-column">
-              <h4>UAE Cities</h4>
-              <ul>
-                <li><a href="/ae/dubai">Dubai</a></li>
-                <li><a href="/ae/abu-dhabi">Abu Dhabi</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
                 <li><a href="/hair-salon-software">Hair Salons</a></li>
                 <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">

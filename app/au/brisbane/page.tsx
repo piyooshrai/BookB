@@ -104,16 +104,16 @@ export default function BrisbaneSalonSoftware() {
               </ul>
             </div>
             <div className="footer-column">
-              <h4>AU Cities</h4>
-              <ul>
-                <li><a href="/au/sydney">Sydney</a></li>
-                <li><a href="/au/melbourne">Melbourne</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
                 <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">

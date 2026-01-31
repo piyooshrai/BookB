@@ -205,33 +205,25 @@ export default function LeicesterSalonSoftware() {
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>UK Cities</h4>
-              <ul>
-                <li><a href="/uk/london">London</a></li>
-                <li><a href="/uk/leicester">Leicester</a></li>
-                <li><a href="/uk/manchester">Manchester</a></li>
-                <li><a href="/uk/birmingham">Birmingham</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Solutions</h4>
               <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
-                <li><a href="/day-spa-software">Day Spa Software</a></li>
+                <li><a href="/hair-salon-software">Hair Salons</a></li>
+                <li><a href="/barbershop-software">Barbershops</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Compare</h4>
+              <ul>
+                <li><a href="/zenoti-alternative">vs Zenoti</a></li>
               </ul>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/terms">Terms</a></li>
               </ul>
             </div>
           </div>
