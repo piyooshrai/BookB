@@ -93,6 +93,111 @@ export default function Home() {
               <div className="bookb-value">$3,420</div>
             </div>
           </div>
+
+          <div className="comparison-table" style={{marginTop: '3rem'}}>
+            <div className="comparison-row comparison-header">
+              <div>Feature</div>
+              <div>Fresha</div>
+              <div>BookB</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Monthly Cost</div>
+              <div className="competitor-value">$0 + 8% Fee</div>
+              <div className="bookb-value">$15</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Hidden Commission</div>
+              <div className="competitor-value">8% of revenue</div>
+              <div className="bookb-value">ZERO</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Queue Management</div>
+              <div className="competitor-value">Basic</div>
+              <div className="bookb-value">Advanced</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Own Your Data</div>
+              <div className="competitor-value">Limited</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Client Ownership</div>
+              <div className="competitor-value">Platform owns</div>
+              <div className="bookb-value">You own</div>
+            </div>
+            <div className="comparison-row savings-row">
+              <div className="feature-name"><strong>Cost on $50k Revenue</strong></div>
+              <div className="competitor-value">$4,000/year</div>
+              <div className="bookb-value">$180/year</div>
+            </div>
+          </div>
+
+          <div className="comparison-table" style={{marginTop: '3rem'}}>
+            <div className="comparison-row comparison-header">
+              <div>Feature</div>
+              <div>Phorest</div>
+              <div>BookB</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Monthly Cost</div>
+              <div className="competitor-value">$150+</div>
+              <div className="bookb-value">$15</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Setup Fees</div>
+              <div className="competitor-value">$300+</div>
+              <div className="bookb-value">FREE</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Contract Length</div>
+              <div className="competitor-value">12-24 months</div>
+              <div className="bookb-value">Month-to-month</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">All Features Included</div>
+              <div className="competitor-value">Tiered</div>
+              <div className="bookb-value">✓</div>
+            </div>
+            <div className="comparison-row savings-row">
+              <div className="feature-name"><strong>Annual Savings</strong></div>
+              <div className="competitor-value">—</div>
+              <div className="bookb-value">$1,620</div>
+            </div>
+          </div>
+
+          <div className="comparison-table" style={{marginTop: '3rem'}}>
+            <div className="comparison-row comparison-header">
+              <div>Feature</div>
+              <div>Vagaro</div>
+              <div>BookB</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Monthly Cost</div>
+              <div className="competitor-value">$25 + fees</div>
+              <div className="bookb-value">$15</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Processing Fees</div>
+              <div className="competitor-value">3.5% + $0.30</div>
+              <div className="bookb-value">Standard rates</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">Booking Fees</div>
+              <div className="competitor-value">$0.99 per booking</div>
+              <div className="bookb-value">ZERO</div>
+            </div>
+            <div className="comparison-row">
+              <div className="feature-name">SMS Costs</div>
+              <div className="competitor-value">Extra fees</div>
+              <div className="bookb-value">Included</div>
+            </div>
+            <div className="comparison-row savings-row">
+              <div className="feature-name"><strong>Cost on 200 Bookings/mo</strong></div>
+              <div className="competitor-value">$498/month</div>
+              <div className="bookb-value">$15/month</div>
+            </div>
+          </div>
+
         </div>
       </section>
 

@@ -16,7 +16,8 @@ export default function ManchesterSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>Manchester Salon Management Software</h1>
           <p className="hero-subtitle">
@@ -28,7 +29,18 @@ export default function ManchesterSalonSoftware() {
           </div>
           <p className="trust-line">Trusted by 200+ Manchester salons and beauty businesses</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.manchester.url}
+              alt={images.cities.manchester.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="features">
         <div className="container">

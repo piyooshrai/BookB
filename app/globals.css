@@ -514,3 +514,45 @@ footer .container {
     padding: 5rem 0;
     background: white;
 }
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.logo svg {
+    height: 40px;
+    width: auto;
+    color: var(--primary);
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+/* By The Algorithm Attribution */
+.by-the-algorithm {
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.by-the-algorithm a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.by-the-algorithm a:hover {
+    color: #60A5FA;
+}

@@ -16,7 +16,8 @@ export default function GlasgowSalonSoftware() {
         </div>
       </nav>
 
-      <div className="hero">
+      <section className="hero">
+        <div className="hero-grid">
         <div className="hero-content">
           <h1>Salon Software for Glasgow Hair & Beauty Businesses</h1>
           <p className="hero-subtitle">
@@ -28,7 +29,18 @@ export default function GlasgowSalonSoftware() {
           </div>
           <p className="trust-line">Trusted by 300+ Glasgow salons and growing</p>
         </div>
-      </div>
+          <div className="hero-image">
+            <Image
+              src={images.cities.glasgow.url}
+              alt={images.cities.glasgow.alt}
+              width={600}
+              height={400}
+              priority
+              style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="features">
         <div className="container">
