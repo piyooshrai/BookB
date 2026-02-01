@@ -68,7 +68,7 @@ export const images = {
       alt: 'London skyline with iconic landmarks - salon software serving London businesses',
     },
     manchester: {
-      url: 'https://images.unsplash.com/photo-1602960499949-c97d92959e45?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1524420533980-90f839e16e45?w=1200&h=800&fit=crop',
       alt: 'Manchester city center - salon management software for Manchester salons',
     },
     birmingham: {
@@ -93,7 +93,7 @@ export const images = {
       alt: 'New York City skyline - professional salon software for NYC businesses',
     },
     losAngeles: {
-      url: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1200&h=800&fit=crop',
       alt: 'Los Angeles cityscape - salon booking system for LA beauty businesses',
     },
     chicago: {
