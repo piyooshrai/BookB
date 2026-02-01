@@ -1,4 +1,14 @@
 import { NextResponse } from 'next/server';
+import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+
+// Initialize AWS SES client
+const sesClient = new SESClient({
+  region: process.env.AWS_REGION || 'us-east-1',
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID || '',
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || '',
+  },
+});
 
 export async function POST(request: Request) {
   try {
@@ -23,11 +33,21 @@ export async function POST(request: Request) {
     }
 
     // Prepare email content
-    const emailContent = {
-      to: 'info@bookb.io',
-      from: 'noreply@bookb.io',
-      subject: `New Contact Form Submission from ${name}`,
-      text: `
+    const htmlBody = `
+      <h2>New Contact Form Submission</h2>
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Company:</strong> ${company || 'Not provided'}</p>
+      <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
+      <h3>Message:</h3>
+      <p>${message.replace(/\n/g, '<br>')}</p>
+      <hr>
+      <p style="color: #666; font-size: 12px;">Submitted from BookB website contact form</p>
+    `;
+
+    const textBody = `
+New Contact Form Submission
+
 Name: ${name}
 Email: ${email}
 Company: ${company || 'Not provided'}
@@ -38,37 +58,35 @@ ${message}
 
 ---
 Submitted from BookB website contact form
-      `,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Company:</strong> ${company || 'Not provided'}</p>
-        <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
-        <h3>Message:</h3>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-        <hr>
-        <p style="color: #666; font-size: 12px;">Submitted from BookB website contact form</p>
-      `
-    };
+    `;
 
-    // TODO: Connect to your email service (Resend, SendGrid, etc.)
-    // For now, we'll log the submission and return success
-    // In production, replace this with actual email sending:
-    //
-    // Example with Resend:
-    // const resend = new Resend(process.env.RESEND_API_KEY);
-    // await resend.emails.send(emailContent);
-    //
-    // Example with SendGrid:
-    // const sgMail = require('@sendgrid/mail');
-    // sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    // await sgMail.send(emailContent);
+    // Send email via Amazon SES
+    const command = new SendEmailCommand({
+      Source: process.env.SES_FROM_EMAIL || 'noreply@bookb.io',
+      Destination: {
+        ToAddresses: ['info@bookb.io'],
+      },
+      Message: {
+        Subject: {
+          Data: `New Contact Form Submission from ${name}`,
+          Charset: 'UTF-8',
+        },
+        Body: {
+          Html: {
+            Data: htmlBody,
+            Charset: 'UTF-8',
+          },
+          Text: {
+            Data: textBody,
+            Charset: 'UTF-8',
+          },
+        },
+      },
+      ReplyToAddresses: [email], // Allow direct reply to customer
+    });
 
-    console.log('Contact form submission:', emailContent);
+    await sesClient.send(command);
 
-    // Store submission in database or send to email service here
-    // For now, return success
     return NextResponse.json(
       {
         success: true,
