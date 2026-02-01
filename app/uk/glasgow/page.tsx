@@ -67,13 +67,51 @@ export default function GlasgowSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK and Scottish Salons</h3>
               <p>
-                Glasgow's beauty industry thrives with creativity and entrepreneurial spirit requiring software that understands local business practices, regulatory requirements, and cultural considerations unique to Scotland's largest city. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Glasgow business owners managing successful salons. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Glasgow from Style Mile to local neighborhood salons. Online booking works perfectly with UK phone number formats, postal codes including Glasgow's G postcodes covering Partick, Dennistoun, and Southside, and address conventions familiar to local clients. Scottish bank holiday integration accounts for additional Scottish public holidays including St Andrew's Day and Glasgow Fair automatically preventing booking conflicts when salons close for celebrations. Appointment scheduling works across Glasgow's diverse neighborhoods from affluent West End to regenerated East End requiring software understanding different market dynamics and client expectations. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Glasgow employees whether senior stylists or junior beauty therapists. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Glasgow businesses from independent stylists to growing salon chains. GDPR compliance features help Glasgow salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Glasgow client base. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Glasgow's neighborhoods. Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors.
+
+                Glasgow's beauty industry thrives with creativity and entrepreneurial spirit requiring software that understands local business practices, regulatory requirements, and cultural considerations unique to Scotland's largest city. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Glasgow business owners managing successful salons.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Glasgow from Style Mile to local neighborhood salons.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes including Glasgow's G postcodes covering Partick, Dennistoun, and Southside, and address conventions familiar to local clients. Scottish bank holiday integration accounts for additional Scottish public holidays including St Andrew's Day and Glasgow Fair automatically preventing booking conflicts when salons close for celebrations.
+
+              </p>
+
+              <p>
+
+                Appointment scheduling works across Glasgow's diverse neighborhoods from affluent West End to regenerated East End requiring software understanding different market dynamics and client expectations. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Glasgow employees whether senior stylists or junior beauty therapists.
+
+              </p>
+
+              <p>
+
+                Payroll reporting generates data formatted for UK accounting software and payroll providers serving Glasgow businesses from independent stylists to growing salon chains. GDPR compliance features help Glasgow salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations.
+
+              </p>
+
+              <p>
+
+                Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Glasgow client base. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications.
+
+              </p>
+
+              <p>
+
+                Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Glasgow's neighborhoods. Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function GlasgowSalonSoftware() {
             <div className="feature-content">
               <h3>Retail and Product Management for Glasgow Salons</h3>
               <p>
-                Glasgow salons increase revenue through retail product sales requiring comprehensive inventory and sales management integrated with appointment booking and client records. BookB's retail features help Glasgow salon owners maximize product sales while maintaining accurate stock levels and supplier relationships. Product catalog management maintains detailed information about every retail item from professional haircare to styling tools including wholesale costs, retail prices, and profit margins. Barcode scanning enables quick product lookup and sale processing during checkout speeding transactions and reducing errors when Glasgow clients purchase multiple items. Inventory tracking monitors stock levels in real-time alerting managers when products run low and need reordering from suppliers before running out completely. Purchase order management creates orders for suppliers tracking expected delivery dates and costs helping Glasgow salons maintain optimal inventory without tying up excessive cash in stock. Stock adjustments record breakage, theft, samples, and other inventory changes maintaining accurate counts matching physical stock to system records for financial accuracy. Multi-location inventory tracks stock separately at each Glasgow salon location while allowing transfers between locations when one runs short and another has excess. Retail sales reporting shows which products sell best helping Glasgow owners optimize shelf space and purchasing decisions to maximize revenue from limited display areas. Staff commission tracking calculates earnings from product sales incentivizing your Glasgow team to recommend appropriate products to clients during and after services. Package bundles combine services and products at attractive pricing encouraging Glasgow clients to purchase complete solutions rather than services alone. Supplier management maintains vendor contact information, pricing agreements, and order history helping Glasgow owners negotiate better terms and manage relationships effectively. Product recommendations in client profiles remind stylists which products clients use enabling personalized suggestions during appointments building trust and sales. Low stock alerts prevent disappointing Glasgow clients when popular products sell out unexpectedly creating negative experiences and lost revenue opportunities.
+
+                Glasgow salons increase revenue through retail product sales requiring comprehensive inventory and sales management integrated with appointment booking and client records. BookB's retail features help Glasgow salon owners maximize product sales while maintaining accurate stock levels and supplier relationships.
+
+              </p>
+
+              <p>
+
+                Product catalog management maintains detailed information about every retail item from professional haircare to styling tools including wholesale costs, retail prices, and profit margins. Barcode scanning enables quick product lookup and sale processing during checkout speeding transactions and reducing errors when Glasgow clients purchase multiple items.
+
+              </p>
+
+              <p>
+
+                Inventory tracking monitors stock levels in real-time alerting managers when products run low and need reordering from suppliers before running out completely. Purchase order management creates orders for suppliers tracking expected delivery dates and costs helping Glasgow salons maintain optimal inventory without tying up excessive cash in stock.
+
+              </p>
+
+              <p>
+
+                Stock adjustments record breakage, theft, samples, and other inventory changes maintaining accurate counts matching physical stock to system records for financial accuracy. Multi-location inventory tracks stock separately at each Glasgow salon location while allowing transfers between locations when one runs short and another has excess.
+
+              </p>
+
+              <p>
+
+                Retail sales reporting shows which products sell best helping Glasgow owners optimize shelf space and purchasing decisions to maximize revenue from limited display areas. Staff commission tracking calculates earnings from product sales incentivizing your Glasgow team to recommend appropriate products to clients during and after services.
+
+              </p>
+
+              <p>
+
+                Package bundles combine services and products at attractive pricing encouraging Glasgow clients to purchase complete solutions rather than services alone. Supplier management maintains vendor contact information, pricing agreements, and order history helping Glasgow owners negotiate better terms and manage relationships effectively.
+
+              </p>
+
+              <p>
+
+                Product recommendations in client profiles remind stylists which products clients use enabling personalized suggestions during appointments building trust and sales. Low stock alerts prevent disappointing Glasgow clients when popular products sell out unexpectedly creating negative experiences and lost revenue opportunities.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function GlasgowSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Glasgow Clients Love</h3>
               <p>
-                Glasgow clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout Scotland's largest city. BookB provides mobile-optimized online booking that works perfectly on Glasgow Subway, in Merchant City cafes, and anywhere clients access their smartphones throughout the day. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans. Stylist profiles include photos, specialties, and reviews helping Glasgow clients choose the right professional for their specific needs whether everyday cuts or creative color work. Service descriptions explain treatments clearly with duration estimates and pricing so Glasgow clients understand exactly what they're booking from express services to comprehensive packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Glasgow salon for the first time after Instagram discovery or friend recommendation. Location information includes directions from Central Station or Queen Street, local parking options at NCP car parks, and subway stations helping clients plan their journey from suburbs to city centre. Contactless deposit payments secure appointments reducing no-shows common in busy Glasgow market where clients juggle work schedules, shopping plans, and social commitments. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls during busy salon operating hours. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Glasgow Saturdays when your team focuses on delivering excellent service. Package purchasing during online booking encourages prepayment and commitment from Glasgow clients comparing multiple salons throughout West End, Merchant City, and Southside locations. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in Glasgow's tight-knit community. Membership programs with recurring billing create predictable revenue and loyal client relationships essential for long-term business success.
+
+                Glasgow clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout Scotland's largest city. BookB provides mobile-optimized online booking that works perfectly on Glasgow Subway, in Merchant City cafes, and anywhere clients access their smartphones throughout the day.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans. Stylist profiles include photos, specialties, and reviews helping Glasgow clients choose the right professional for their specific needs whether everyday cuts or creative color work.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so Glasgow clients understand exactly what they're booking from express services to comprehensive packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Glasgow salon for the first time after Instagram discovery or friend recommendation.
+
+              </p>
+
+              <p>
+
+                Location information includes directions from Central Station or Queen Street, local parking options at NCP car parks, and subway stations helping clients plan their journey from suburbs to city centre. Contactless deposit payments secure appointments reducing no-shows common in busy Glasgow market where clients juggle work schedules, shopping plans, and social commitments.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls during busy salon operating hours. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Glasgow Saturdays when your team focuses on delivering excellent service.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from Glasgow clients comparing multiple salons throughout West End, Merchant City, and Southside locations. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in Glasgow's tight-knit community.
+
+              </p>
+
+              <p>
+
+                Membership programs with recurring billing create predictable revenue and loyal client relationships essential for long-term business success.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function GlasgowSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Glasgow Business Owners</h3>
               <p>
-                Running a profitable salon in Glasgow requires understanding your numbers with competitive rent, skilled staff wages, and pricing pressures from numerous beauty businesses throughout Scotland's largest city. BookB provides comprehensive reporting helping Glasgow salon owners make data-driven decisions about their businesses daily, weekly, and monthly. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance across different seasons and economic conditions. Staff productivity metrics compare performance across your Glasgow team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential for stable revenue. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for maximum profitability. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays and busy Glasgow shopping Saturdays. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for social media advertising, email campaigns, and referral programs. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive Glasgow salon real estate. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Glasgow's beauty industry cycles including Christmas shopping and summer weddings. VAT reporting generates data formatted for HMRC submission saving accountant time and fees. Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets Glasgow owners analyze specific questions about their unique business situations.
+
+                Running a profitable salon in Glasgow requires understanding your numbers with competitive rent, skilled staff wages, and pricing pressures from numerous beauty businesses throughout Scotland's largest city. BookB provides comprehensive reporting helping Glasgow salon owners make data-driven decisions about their businesses daily, weekly, and monthly.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance across different seasons and economic conditions. Staff productivity metrics compare performance across your Glasgow team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential for stable revenue. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for maximum profitability.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays and busy Glasgow shopping Saturdays. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for social media advertising, email campaigns, and referral programs.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive Glasgow salon real estate. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Glasgow's beauty industry cycles including Christmas shopping and summer weddings. VAT reporting generates data formatted for HMRC submission saving accountant time and fees.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets Glasgow owners analyze specific questions about their unique business situations.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

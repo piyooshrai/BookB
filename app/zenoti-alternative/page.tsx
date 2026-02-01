@@ -112,13 +112,81 @@ export default function ZenotiAlternative() {
             <div className="feature-content">
               <h3>No More Overpaying for Basic Features</h3>
               <p>
-                Zenoti charges enterprise prices even for single-location salons. Their pricing model was built for massive spa chains, not independent salon owners. BookB believes every salon deserves professional software without the enterprise price tag. You get intelligent appointment scheduling that actually understands salon workflows, not generic booking software adapted from the hospitality industry. Our queue management system was built specifically for walk-in traffic patterns common in beauty businesses. Client profiles track preferences, allergies, and service history without requiring staff to dig through multiple screens. Payment processing integrates seamlessly with competitive rates, not inflated fees disguised as convenience. Resource allocation happens automatically based on staff skills and availability. Inventory tracking prevents stock-outs without requiring manual counts. Marketing automation sends reminders and promotions without additional monthly fees. Reporting provides actionable insights, not overwhelming data dumps. Staff management includes scheduling, commission tracking, and performance metrics. The mobile app works offline because we understand internet connectivity isn't always perfect. Client self-service booking reduces phone time and no-shows. Waitlist management fills cancellations automatically. Package and membership management encourages repeat business. Gift card tracking prevents revenue leakage. Multi-location support costs the same as single-location. API access lets you integrate with existing tools. Regular updates add features without upgrade fees. Your data remains yours, exportable anytime. Security includes encryption, backups, and compliance. Support responds in hours, not days.
+
+                Zenoti charges enterprise prices even for single-location salons. Their pricing model was built for massive spa chains, not independent salon owners.
+
+              </p>
+
+              <p>
+
+                BookB believes every salon deserves professional software without the enterprise price tag. You get intelligent appointment scheduling that actually understands salon workflows, not generic booking software adapted from the hospitality industry.
+
+              </p>
+
+              <p>
+
+                Our queue management system was built specifically for walk-in traffic patterns common in beauty businesses. Client profiles track preferences, allergies, and service history without requiring staff to dig through multiple screens.
+
+              </p>
+
+              <p>
+
+                Payment processing integrates seamlessly with competitive rates, not inflated fees disguised as convenience. Resource allocation happens automatically based on staff skills and availability.
+
+              </p>
+
+              <p>
+
+                Inventory tracking prevents stock-outs without requiring manual counts. <strong>Marketing Automation:</strong> Sends reminders and promotions without additional monthly fees.
+
+              </p>
+
+              <p>
+
+                Reporting provides actionable insights, not overwhelming data dumps. Staff management includes scheduling, commission tracking, and performance metrics.
+
+              </p>
+
+              <p>
+
+                The mobile app works offline because we understand internet connectivity isn't always perfect. Client self-service booking reduces phone time and no-shows.
+
+              </p>
+
+              <p>
+
+                Waitlist management fills cancellations automatically. Package and membership management encourages repeat business.
+
+              </p>
+
+              <p>
+
+                Gift card tracking prevents revenue leakage. Multi-location support costs the same as single-location.
+
+              </p>
+
+              <p>
+
+                API access lets you integrate with existing tools. Regular updates add features without upgrade fees.
+
+              </p>
+
+              <p>
+
+                Your data remains yours, exportable anytime. Security includes encryption, backups, and compliance.
+
+              </p>
+
+              <p>
+
+                Support responds in hours, not days.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +199,87 @@ export default function ZenotiAlternative() {
             <div className="feature-content">
               <h3>Built for Salons, Not Spas</h3>
               <p>
-                Zenoti started as spa software and still shows its origins. BookB was purpose-built for salons, barbershops, and beauty businesses from day one. The difference shows in every feature. Appointment durations adjust automatically based on service type and client hair characteristics. Color formulas save with each service for perfect consistency. Walk-in queue management prioritizes by service type and staff availability. Staff skill matching ensures clients get stylists qualified for their requested services. Product usage tracking per service helps manage inventory and cost of goods sold. Commission structures handle complex scenarios including retail, service percentages, and tiered performance bonuses. Retail product recommendations appear automatically during checkout based on services performed. Before and after photo galleries build your portfolio and social media content. Client communication templates understand salon terminology and booking patterns. Reports focus on metrics that matter to salon profitability, not generic retail analytics. The mobile app lets stylists manage their books and track their earnings. Client profiles include detailed service history with photos, formulas, and preferences. Membership and package management encourages clients to pre-pay for regular services. Equipment and station management prevents double-booking of specialized tools. Team scheduling accounts for overlapping services and setup time. Break management ensures staff compliance with labor regulations. Supply ordering integrates with beauty industry distributors. Continuing education tracking helps staff maintain certifications. Referral tracking rewards clients who bring friends. Damage waiver collection protects your business. Retail sales tracking separates from service revenue. The POS integrates with salon-specific payment scenarios.
+
+                Zenoti started as spa software and still shows its origins. BookB was purpose-built for salons, barbershops, and beauty businesses from day one.
+
+              </p>
+
+              <p>
+
+                The difference shows in every feature. Appointment durations adjust automatically based on service type and client hair characteristics.
+
+              </p>
+
+              <p>
+
+                Color formulas save with each service for perfect consistency. Walk-in queue management prioritizes by service type and staff availability.
+
+              </p>
+
+              <p>
+
+                Staff skill matching ensures clients get stylists qualified for their requested services. Product usage tracking per service helps manage inventory and cost of goods sold.
+
+              </p>
+
+              <p>
+
+                Commission structures handle complex scenarios including retail, service percentages, and tiered performance bonuses. Retail product recommendations appear automatically during checkout based on services performed.
+
+              </p>
+
+              <p>
+
+                Before and after photo galleries build your portfolio and social media content. Client communication templates understand salon terminology and booking patterns.
+
+              </p>
+
+              <p>
+
+                Reports focus on metrics that matter to salon profitability, not generic retail analytics. The mobile app lets stylists manage their books and track their earnings.
+
+              </p>
+
+              <p>
+
+                Client profiles include detailed service history with photos, formulas, and preferences. Membership and package management encourages clients to pre-pay for regular services.
+
+              </p>
+
+              <p>
+
+                Equipment and station management prevents double-booking of specialized tools. Team scheduling accounts for overlapping services and setup time.
+
+              </p>
+
+              <p>
+
+                Break management ensures staff compliance with labor regulations. Supply ordering integrates with beauty industry distributors.
+
+              </p>
+
+              <p>
+
+                Continuing education tracking helps staff maintain certifications. Referral tracking rewards clients who bring friends.
+
+              </p>
+
+              <p>
+
+                Damage waiver collection protects your business. Retail sales tracking separates from service revenue.
+
+              </p>
+
+              <p>
+
+                The POS integrates with salon-specific payment scenarios.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +292,93 @@ export default function ZenotiAlternative() {
             <div className="feature-content">
               <h3>No Contracts, No Commitments</h3>
               <p>
-                Zenoti locks you into multi-year contracts with hefty cancellation penalties. BookB operates month-to-month because we're confident you'll stay for the value, not the contract. Cancel anytime with zero penalties. Your data exports completely in standard formats. No surprise price increases mid-contract. Feature updates happen automatically for all customers. Support quality doesn't degrade for month-to-month customers. Implementation assistance helps you migrate smoothly. Training resources remain accessible after initial setup. The mobile app continues working during your notice period. Payment processing transitions smoothly to your new provider. Client data transfers to most major platforms. Historical reporting remains available during transition. Staff accounts stay active until your final day. Refunds are prorated if you cancel mid-month. No retention teams pressure you to stay. Exit interviews help us improve for future customers. Recommendations for alternative software if we're not the right fit. Reference calls connect you with similar salons using BookB. Trial periods let you test thoroughly before committing. Money-back guarantees remove financial risk. Transparent pricing means no hidden fees at renewal time. Volume discounts apply immediately, not after contract negotiations. Add locations without renegotiating your entire agreement. Seasonal businesses can pause service during slow months. Ownership changes don't trigger new contracts. Franchise expansion happens at consistent pricing.
+
+                Zenoti locks you into multi-year contracts with hefty cancellation penalties. BookB operates month-to-month because we're confident you'll stay for the value, not the contract.
+
+              </p>
+
+              <p>
+
+                Cancel anytime with zero penalties. Your data exports completely in standard formats.
+
+              </p>
+
+              <p>
+
+                No surprise price increases mid-contract. Feature updates happen automatically for all customers.
+
+              </p>
+
+              <p>
+
+                Support quality doesn't degrade for month-to-month customers. Implementation assistance helps you migrate smoothly.
+
+              </p>
+
+              <p>
+
+                Training resources remain accessible after initial setup. The mobile app continues working during your notice period.
+
+              </p>
+
+              <p>
+
+                Payment processing transitions smoothly to your new provider. Client data transfers to most major platforms.
+
+              </p>
+
+              <p>
+
+                Historical reporting remains available during transition. Staff accounts stay active until your final day.
+
+              </p>
+
+              <p>
+
+                Refunds are prorated if you cancel mid-month. No retention teams pressure you to stay.
+
+              </p>
+
+              <p>
+
+                Exit interviews help us improve for future customers. Recommendations for alternative software if we're not the right fit.
+
+              </p>
+
+              <p>
+
+                Reference calls connect you with similar salons using BookB. Trial periods let you test thoroughly before committing.
+
+              </p>
+
+              <p>
+
+                Money-back guarantees remove financial risk. Transparent pricing means no hidden fees at renewal time.
+
+              </p>
+
+              <p>
+
+                Volume discounts apply immediately, not after contract negotiations. Add locations without renegotiating your entire agreement.
+
+              </p>
+
+              <p>
+
+                Seasonal businesses can pause service during slow months. Ownership changes don't trigger new contracts.
+
+              </p>
+
+              <p>
+
+                Franchise expansion happens at consistent pricing.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +391,99 @@ export default function ZenotiAlternative() {
             <div className="feature-content">
               <h3>Actually Simple to Use</h3>
               <p>
-                Zenoti requires extensive training and often leaves staff confused. BookB is intuitive enough that new employees start using it productively within minutes. The interface follows salon workflows naturally, not computer logic. Common tasks require fewer clicks than competitors. Error messages explain what went wrong in plain language. The dashboard shows relevant information based on your role. Appointment booking flows match how receptionists think. Service menus organize by category and popularity. Client search finds people quickly by name, phone, or email. Calendar views switch between day, week, and month seamlessly. Drag and drop rescheduling happens in seconds. Color coding distinguishes service types at a glance. Staff photos help clients recognize their stylist. Real-time availability prevents double-booking automatically. Conflict warnings appear before problems occur. Mobile responsiveness means the system works on any device. Offline mode handles internet outages gracefully. Keyboard shortcuts speed up repetitive tasks. Customizable layouts adapt to your specific workflow. Print formats match your branded materials. Email templates maintain consistent communication. Text messages send automatically for reminders. Notification preferences prevent information overload. Bulk actions handle routine administrative tasks. Search filters find specific appointments or clients quickly. Archive features hide old data without deleting. Undo functions reverse accidental changes. Auto-save prevents data loss from crashes or connection issues. Browser compatibility works with Chrome, Safari, and Firefox. No special software installations required on workstations.
+
+                Zenoti requires extensive training and often leaves staff confused. BookB is intuitive enough that new employees start using it productively within minutes.
+
+              </p>
+
+              <p>
+
+                The interface follows salon workflows naturally, not computer logic. Common tasks require fewer clicks than competitors.
+
+              </p>
+
+              <p>
+
+                Error messages explain what went wrong in plain language. The dashboard shows relevant information based on your role.
+
+              </p>
+
+              <p>
+
+                Appointment booking flows match how receptionists think. Service menus organize by category and popularity.
+
+              </p>
+
+              <p>
+
+                Client search finds people quickly by name, phone, or email. Calendar views switch between day, week, and month seamlessly.
+
+              </p>
+
+              <p>
+
+                Drag and drop rescheduling happens in seconds. Color coding distinguishes service types at a glance.
+
+              </p>
+
+              <p>
+
+                Staff photos help clients recognize their stylist. Real-time availability prevents double-booking automatically.
+
+              </p>
+
+              <p>
+
+                Conflict warnings appear before problems occur. Mobile responsiveness means the system works on any device.
+
+              </p>
+
+              <p>
+
+                Offline mode handles internet outages gracefully. Keyboard shortcuts speed up repetitive tasks.
+
+              </p>
+
+              <p>
+
+                Customizable layouts adapt to your specific workflow. Print formats match your branded materials.
+
+              </p>
+
+              <p>
+
+                Email templates maintain consistent communication. Text messages send automatically for reminders.
+
+              </p>
+
+              <p>
+
+                Notification preferences prevent information overload. Bulk actions handle routine administrative tasks.
+
+              </p>
+
+              <p>
+
+                Search filters find specific appointments or clients quickly. Archive features hide old data without deleting.
+
+              </p>
+
+              <p>
+
+                Undo functions reverse accidental changes. Auto-save prevents data loss from crashes or connection issues.
+
+              </p>
+
+              <p>
+
+                Browser compatibility works with Chrome, Safari, and Firefox. No special software installations required on workstations.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

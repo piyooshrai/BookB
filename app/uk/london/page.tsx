@@ -67,13 +67,51 @@ export default function LondonSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                London's beauty industry is one of the most competitive and sophisticated in the world, requiring software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout London. Online booking works perfectly with UK phone number formats, postal codes, and address conventions familiar to London clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when salons may close. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for London employees. Payroll reporting generates data formatted for UK accounting software and payroll providers serving London businesses. GDPR compliance features help London salons meet data protection obligations for storing and processing client personal information. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages. Currency displays in pounds sterling with proper formatting and no confusing currency conversions. Time displays in 24-hour or 12-hour formats matching UK preferences. Date formats follow UK conventions preventing American-style date confusion.
+
+                London's beauty industry is one of the most competitive and sophisticated in the world, requiring software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout London.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes, and address conventions familiar to London clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when salons may close.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for London employees. Payroll reporting generates data formatted for UK accounting software and payroll providers serving London businesses.
+
+              </p>
+
+              <p>
+
+                GDPR compliance features help London salons meet data protection obligations for storing and processing client personal information. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages.
+
+              </p>
+
+              <p>
+
+                Currency displays in pounds sterling with proper formatting and no confusing currency conversions. Time displays in 24-hour or 12-hour formats matching UK preferences.
+
+              </p>
+
+              <p>
+
+                Date formats follow UK conventions preventing American-style date confusion.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,45 @@ export default function LondonSalonSoftware() {
             <div className="feature-content">
               <h3>Manage Multiple London Locations Effortlessly</h3>
               <p>
-                Many successful London salon businesses operate multiple locations across different neighborhoods and boroughs requiring centralized management with location-specific flexibility. BookB's multi-location features let you manage salons in Knightsbridge, Notting Hill, Canary Wharf, and other London areas from single admin dashboard. Client databases share across all your London locations letting regular clients book at whichever salon is most convenient for their schedule or location. Staff can work shifts at different locations with scheduling coordinated centrally preventing double-booking and ensuring adequate coverage. Inventory management tracks stock levels separately by location while allowing emergency transfers when one salon runs short of essential products. Reporting aggregates performance across all London locations or separates by individual salon for neighborhood-specific analysis and decision making. Pricing can vary by location reflecting different operating costs and market positioning in various London neighborhoods from budget-friendly areas to premium Mayfair locations. Online booking shows all your London locations on a map letting clients choose based on proximity to home, work, or transit connections. Marketing campaigns can target specific London postcodes and neighborhoods or broadcast to your entire client database across all locations. Staff training and certifications track centrally ensuring quality standards remain consistent whether clients visit your West End or East London locations. Franchise operations maintain brand consistency across London while allowing individual franchisee management and local marketing initiatives. Corporate accounts and large employers can direct staff to nearest location for convenience.
+
+                Many successful London salon businesses operate multiple locations across different neighborhoods and boroughs requiring centralized management with location-specific flexibility. BookB's multi-location features let you manage salons in Knightsbridge, Notting Hill, Canary Wharf, and other London areas from single admin dashboard.
+
+              </p>
+
+              <p>
+
+                Client databases share across all your London locations letting regular clients book at whichever salon is most convenient for their schedule or location. Staff can work shifts at different locations with scheduling coordinated centrally preventing double-booking and ensuring adequate coverage.
+
+              </p>
+
+              <p>
+
+                Inventory management tracks stock levels separately by location while allowing emergency transfers when one salon runs short of essential products. Reporting aggregates performance across all London locations or separates by individual salon for neighborhood-specific analysis and decision making.
+
+              </p>
+
+              <p>
+
+                Pricing can vary by location reflecting different operating costs and market positioning in various London neighborhoods from budget-friendly areas to premium Mayfair locations. Online booking shows all your London locations on a map letting clients choose based on proximity to home, work, or transit connections.
+
+              </p>
+
+              <p>
+
+                Marketing campaigns can target specific London postcodes and neighborhoods or broadcast to your entire client database across all locations. Staff training and certifications track centrally ensuring quality standards remain consistent whether clients visit your West End or East London locations.
+
+              </p>
+
+              <p>
+
+                Franchise operations maintain brand consistency across London while allowing individual franchisee management and local marketing initiatives. Corporate accounts and large employers can direct staff to nearest location for convenience.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +175,51 @@ export default function LondonSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That London Clients Love</h3>
               <p>
-                London clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city. BookB provides mobile-optimized online booking that works perfectly on the London Underground, in coffee shops, and anywhere clients access their smartphones. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later. Stylist profiles include photos, specialties, and reviews helping clients choose the right professional for their specific needs and preferences. Service descriptions explain treatments clearly with duration estimates and pricing so London clients understand exactly what they're booking. Before and after galleries showcase your salon's work building confidence in new clients considering your salon for the first time. Neighborhood and tube station information helps clients find your location and plan their journey across London's extensive transit network. Contactless deposit payments secure appointments reducing no-shows common in busy London market where clients juggle hectic schedules. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making phone confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy salon operating hours throughout the day. Package purchasing during online booking encourages prepayment and commitment from London clients comparing multiple salons. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in social London networks. Membership programs with recurring billing create predictable revenue and loyal client relationships.
+
+                London clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city. BookB provides mobile-optimized online booking that works perfectly on the London Underground, in coffee shops, and anywhere clients access their smartphones.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later. Stylist profiles include photos, specialties, and reviews helping clients choose the right professional for their specific needs and preferences.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so London clients understand exactly what they're booking. Before and after galleries showcase your salon's work building confidence in new clients considering your salon for the first time.
+
+              </p>
+
+              <p>
+
+                Neighborhood and tube station information helps clients find your location and plan their journey across London's extensive transit network. Contactless deposit payments secure appointments reducing no-shows common in busy London market where clients juggle hectic schedules.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making phone confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy salon operating hours throughout the day.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from London clients comparing multiple salons. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in social London networks.
+
+              </p>
+
+              <p>
+
+                Membership programs with recurring billing create predictable revenue and loyal client relationships.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +232,51 @@ export default function LondonSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for London Business Owners</h3>
               <p>
-                Running a profitable salon in London requires understanding your numbers with expensive rent, high staff costs, and competitive pricing pressures throughout the city. BookB provides comprehensive reporting helping London salon owners make data-driven decisions about their businesses. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential in competitive London market. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for London market. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays and weekends. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for various client acquisition and retention initiatives. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive London salon real estate. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for London's beauty industry cycles. VAT reporting generates data formatted for HMRC submission saving accountant time and fees. Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets London owners analyze specific questions about their unique business situations and local market dynamics.
+
+                Running a profitable salon in London requires understanding your numbers with expensive rent, high staff costs, and competitive pricing pressures throughout the city. BookB provides comprehensive reporting helping London salon owners make data-driven decisions about their businesses.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential in competitive London market. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for London market.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays and weekends. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for various client acquisition and retention initiatives.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive London salon real estate. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns helping plan for London's beauty industry cycles. VAT reporting generates data formatted for HMRC submission saving accountant time and fees.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets London owners analyze specific questions about their unique business situations and local market dynamics.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

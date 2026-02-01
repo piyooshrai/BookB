@@ -67,13 +67,51 @@ export default function NewYorkSalonSoftware() {
             <div className="feature-content">
               <h3>Built for US Salons and Beauty Businesses</h3>
               <p>
-                New York's beauty industry is the most competitive and demanding in America requiring software that understands local business practices, regulatory requirements, and the fast-paced nature of operating in the city that never sleeps. BookB provides features specifically designed for US salons including automatic sales tax calculation that handles New York's complex tax jurisdictions across all five boroughs with different rates and rules. Price display follows US conventions with tax-exclusive pricing shown to clients with tax calculated at checkout matching standard American retail practices. Payment processing integrates seamlessly with US banks and card processors including Square, Stripe, and traditional merchant accounts processing credit cards, debit cards, Apple Pay, Google Pay, and other payment methods ubiquitous throughout New York City. Online booking works perfectly with US phone number formats, ZIP codes covering all New York neighborhoods from 10001 Manhattan to 11201 Brooklyn, and address conventions familiar to American clients. Appointment scheduling accounts for US federal holidays and New York state holidays automatically preventing booking conflicts during major holidays when salons may close. Staff scheduling respects US employment law including Fair Labor Standards Act overtime rules, meal break requirements, and wage and hour regulations applicable to New York beauty businesses. Payroll reporting generates data formatted for US accounting software like QuickBooks and payroll providers like ADP serving New York businesses from independent stylists to multi-location salon chains. Tax compliance features help New York salons meet federal and state tax obligations including income tax withholding, unemployment insurance, and workers compensation insurance requirements. Marketing communications comply with CAN-SPAM regulations and US consumer protection laws ensuring your promotional campaigns stay compliant while building your New York client base. Currency displays in US dollars with proper formatting and no international currency complications. Time displays in 12-hour format with AM/PM matching American preferences. Date formats follow US conventions with month/day/year preventing confusion that could cause appointment booking errors.
+
+                New York's beauty industry is the most competitive and demanding in America requiring software that understands local business practices, regulatory requirements, and the fast-paced nature of operating in the city that never sleeps. BookB provides features specifically designed for US salons including automatic sales tax calculation that handles New York's complex tax jurisdictions across all five boroughs with different rates and rules.
+
+              </p>
+
+              <p>
+
+                Price display follows US conventions with tax-exclusive pricing shown to clients with tax calculated at checkout matching standard American retail practices. Payment processing integrates seamlessly with US banks and card processors including Square, Stripe, and traditional merchant accounts processing credit cards, debit cards, Apple Pay, Google Pay, and other payment methods ubiquitous throughout New York City.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with US phone number formats, ZIP codes covering all New York neighborhoods from 10001 Manhattan to 11201 Brooklyn, and address conventions familiar to American clients. Appointment scheduling accounts for US federal holidays and New York state holidays automatically preventing booking conflicts during major holidays when salons may close.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects US employment law including Fair Labor Standards Act overtime rules, meal break requirements, and wage and hour regulations applicable to New York beauty businesses. Payroll reporting generates data formatted for US accounting software like QuickBooks and payroll providers like ADP serving New York businesses from independent stylists to multi-location salon chains.
+
+              </p>
+
+              <p>
+
+                Tax compliance features help New York salons meet federal and state tax obligations including income tax withholding, unemployment insurance, and workers compensation insurance requirements. Marketing communications comply with CAN-SPAM regulations and US consumer protection laws ensuring your promotional campaigns stay compliant while building your New York client base.
+
+              </p>
+
+              <p>
+
+                Currency displays in US dollars with proper formatting and no international currency complications. Time displays in 12-hour format with AM/PM matching American preferences.
+
+              </p>
+
+              <p>
+
+                Date formats follow US conventions with month/day/year preventing confusion that could cause appointment booking errors.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function NewYorkSalonSoftware() {
             <div className="feature-content">
               <h3>High-Volume Scheduling for New York Salons</h3>
               <p>
-                New York salons operate at incredible pace serving hundreds of clients weekly in expensive real estate requiring maximum efficiency and revenue optimization. BookB's advanced scheduling features help New York salons maximize capacity while maintaining service quality in America's most demanding beauty market. Multi-stylist coordination manages complex schedules across large teams common in New York salons with 10, 20, or more professionals working simultaneously. Real-time updates ensure all staff see current schedule preventing double-bookings and communication errors that waste time and frustrate clients. Color-coded calendars distinguish appointment types, service categories, and client priority levels enabling quick visual scanning during hectic New York days. Drag-and-drop rescheduling makes adjusting appointments fast when clients run late, services run over, or last-minute changes occur constantly in fast-paced Manhattan environment. Overbooking controls allow strategic scheduling beyond theoretical capacity accounting for no-shows and cancellations that create revenue-destroying gaps in expensive New York salon chairs. Waitlist automation captures excess demand when popular stylists book solid enabling contact when cancellations create unexpected openings maximizing revenue from every available hour. Express service lanes dedicate specific appointment slots for quick services like blowouts and bang trims filling gaps between major appointments and serving time-pressed New York professionals. VIP client prioritization ensures your best customers get preferred appointment times even during peak demand protecting relationships with high-value regulars. Online booking integration shows real-time availability preventing double-bookings between phone, walk-in, and internet reservations common in high-volume New York operations. Mobile scheduling lets stylists and managers adjust calendars from smartphones whether commuting on subway, between locations, or working from home. Automated confirmations reduce no-shows by sending appointment reminders via email and text ensuring New York clients remember bookings despite hectic schedules. Cancellation policies enforce fees for late cancellations and no-shows protecting revenue in expensive New York real estate where every empty chair costs money.
+
+                New York salons operate at incredible pace serving hundreds of clients weekly in expensive real estate requiring maximum efficiency and revenue optimization. BookB's advanced scheduling features help New York salons maximize capacity while maintaining service quality in America's most demanding beauty market.
+
+              </p>
+
+              <p>
+
+                Multi-stylist coordination manages complex schedules across large teams common in New York salons with 10, 20, or more professionals working simultaneously. Real-time updates ensure all staff see current schedule preventing double-bookings and communication errors that waste time and frustrate clients.
+
+              </p>
+
+              <p>
+
+                Color-coded calendars distinguish appointment types, service categories, and client priority levels enabling quick visual scanning during hectic New York days. Drag-and-drop rescheduling makes adjusting appointments fast when clients run late, services run over, or last-minute changes occur constantly in fast-paced Manhattan environment.
+
+              </p>
+
+              <p>
+
+                Overbooking controls allow strategic scheduling beyond theoretical capacity accounting for no-shows and cancellations that create revenue-destroying gaps in expensive New York salon chairs. Waitlist automation captures excess demand when popular stylists book solid enabling contact when cancellations create unexpected openings maximizing revenue from every available hour.
+
+              </p>
+
+              <p>
+
+                Express service lanes dedicate specific appointment slots for quick services like blowouts and bang trims filling gaps between major appointments and serving time-pressed New York professionals. VIP client prioritization ensures your best customers get preferred appointment times even during peak demand protecting relationships with high-value regulars.
+
+              </p>
+
+              <p>
+
+                Online booking integration shows real-time availability preventing double-bookings between phone, walk-in, and internet reservations common in high-volume New York operations. Mobile scheduling lets stylists and managers adjust calendars from smartphones whether commuting on subway, between locations, or working from home.
+
+              </p>
+
+              <p>
+
+                Automated confirmations reduce no-shows by sending appointment reminders via email and text ensuring New York clients remember bookings despite hectic schedules. Cancellation policies enforce fees for late cancellations and no-shows protecting revenue in expensive New York real estate where every empty chair costs money.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function NewYorkSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That New York Clients Love</h3>
               <p>
-                New York clients demand sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city's tech-forward market. BookB provides mobile-optimized online booking that works perfectly on subway trains, in coffee shops, and anywhere clients access their smartphones 24/7. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans in competitive New York market with abundant salon options. Stylist profiles include photos, specialties, portfolios, and client reviews helping New York clients choose the right professional for their specific needs whether editorial-quality color work, precision cutting, or celebrity-inspired styling. Service descriptions explain treatments clearly with duration estimates and pricing so New York clients understand exactly what they're booking from express blowouts to full transformation packages spanning multiple hours. Before and after galleries showcase your salon's work building confidence in new clients considering your New York salon for the first time after Instagram discovery, influencer recommendation, or friend referral. Location information includes subway directions from nearest stations, parking garage options in congested Manhattan, and walking directions helping clients plan their journey across New York's extensive public transit network. Contactless deposit payments secure appointments reducing no-shows common in busy New York market where clients juggle demanding jobs, active social lives, and countless entertainment options competing for their time and attention. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls during busy salon operating hours when reception handles constant phone inquiries and walk-in traffic. Rescheduling and cancellation through client self-service reduces phone interruptions during busy New York weekends when your team focuses on delivering excellent service to present clients rather than administrative tasks. Package purchasing during online booking encourages prepayment and commitment from New York clients comparing multiple salons throughout Manhattan, Brooklyn, and other boroughs. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in New York's connected social networks where trends spread rapidly. Membership programs with recurring billing create predictable revenue and loyal client relationships essential for long-term success in transient New York market where residents frequently move neighborhoods or leave the city.
+
+                New York clients demand sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city's tech-forward market. BookB provides mobile-optimized online booking that works perfectly on subway trains, in coffee shops, and anywhere clients access their smartphones 24/7.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans in competitive New York market with abundant salon options. Stylist profiles include photos, specialties, portfolios, and client reviews helping New York clients choose the right professional for their specific needs whether editorial-quality color work, precision cutting, or celebrity-inspired styling.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so New York clients understand exactly what they're booking from express blowouts to full transformation packages spanning multiple hours. Before and after galleries showcase your salon's work building confidence in new clients considering your New York salon for the first time after Instagram discovery, influencer recommendation, or friend referral.
+
+              </p>
+
+              <p>
+
+                Location information includes subway directions from nearest stations, parking garage options in congested Manhattan, and walking directions helping clients plan their journey across New York's extensive public transit network. Contactless deposit payments secure appointments reducing no-shows common in busy New York market where clients juggle demanding jobs, active social lives, and countless entertainment options competing for their time and attention.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls during busy salon operating hours when reception handles constant phone inquiries and walk-in traffic. Rescheduling and cancellation through client self-service reduces phone interruptions during busy New York weekends when your team focuses on delivering excellent service to present clients rather than administrative tasks.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from New York clients comparing multiple salons throughout Manhattan, Brooklyn, and other boroughs. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in New York's connected social networks where trends spread rapidly.
+
+              </p>
+
+              <p>
+
+                Membership programs with recurring billing create predictable revenue and loyal client relationships essential for long-term success in transient New York market where residents frequently move neighborhoods or leave the city.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function NewYorkSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for New York Business Owners</h3>
               <p>
-                Running a profitable salon in New York requires understanding your numbers with astronomical rent prices, high staff wages, and intense pricing pressures from thousands of beauty businesses competing throughout the city. BookB provides comprehensive reporting helping New York salon owners make data-driven decisions about their businesses daily, weekly, and monthly in America's most expensive beauty market. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance across different seasons and economic conditions affecting New York market. Staff productivity metrics compare performance across your New York team identifying top performers worthy of recognition, pay increases, or promotion to senior positions and underperformers needing coaching or schedule adjustments to improve results and profitability. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential for stable revenue beyond relying on tourist traffic and transient New York population. Service profitability calculations deduct product costs, staff time, and overhead expenses showing true margins on different treatments helping optimize your service menu for maximum profitability while maintaining quality standards New York clients expect. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays when professionals book before work or during lunch and weekends when clients enjoy leisurely Saturday appointments. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for Instagram advertising, email campaigns, influencer partnerships, and referral incentive programs competing for attention in crowded New York market. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive New York salon real estate where every square foot matters for profitability and revenue generation. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify strict deposit policies or reminder system investments that protect your bottom line in expensive real estate. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for New York's beauty industry cycles including Fashion Week surges, holiday shopping season, summer wedding peaks, and January slowdowns. Sales tax reporting generates data for New York State and local tax submissions ensuring compliance with complex multi-jurisdiction tax requirements. Payroll reports provide data needed for US payroll processing and employee tax obligations for your New York team. Custom report building lets New York owners analyze specific questions about their unique business situations and competitive dynamics in world's most challenging beauty market.
+
+                Running a profitable salon in New York requires understanding your numbers with astronomical rent prices, high staff wages, and intense pricing pressures from thousands of beauty businesses competing throughout the city. BookB provides comprehensive reporting helping New York salon owners make data-driven decisions about their businesses daily, weekly, and monthly in America's most expensive beauty market.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance across different seasons and economic conditions affecting New York market. Staff productivity metrics compare performance across your New York team identifying top performers worthy of recognition, pay increases, or promotion to senior positions and underperformers needing coaching or schedule adjustments to improve results and profitability.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base essential for stable revenue beyond relying on tourist traffic and transient New York population. Service profitability calculations deduct product costs, staff time, and overhead expenses showing true margins on different treatments helping optimize your service menu for maximum profitability while maintaining quality standards New York clients expect.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays when professionals book before work or during lunch and weekends when clients enjoy leisurely Saturday appointments. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for Instagram advertising, email campaigns, influencer partnerships, and referral incentive programs competing for attention in crowded New York market.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive New York salon real estate where every square foot matters for profitability and revenue generation. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify strict deposit policies or reminder system investments that protect your bottom line in expensive real estate.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns helping plan for New York's beauty industry cycles including Fashion Week surges, holiday shopping season, summer wedding peaks, and January slowdowns. Sales tax reporting generates data for New York State and local tax submissions ensuring compliance with complex multi-jurisdiction tax requirements.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data needed for US payroll processing and employee tax obligations for your New York team. Custom report building lets New York owners analyze specific questions about their unique business situations and competitive dynamics in world's most challenging beauty market.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

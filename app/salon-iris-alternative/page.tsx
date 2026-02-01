@@ -112,13 +112,75 @@ export default function SalonIrisAlternative() {
             <div className="feature-content">
               <h3>Cloud-Based Freedom and Flexibility</h3>
               <p>
-                Salon Iris ties you to specific computers in your salon, making remote access complicated and limiting staff to on-premise work. BookB's cloud-based architecture provides access from anywhere on any device with internet connectivity. Check schedules from home when planning your week without driving to the salon. Review daily reports from your phone while on vacation without VPN configuration. Staff access their schedules from home to check tomorrow's appointments and prepare mentally. Stylists update client notes immediately after appointments from their personal phones while details are fresh. Managers approve time-off requests from mobile devices without returning to the office computer. Multi-location owners view consolidated reporting across all salons from anywhere. Accountants access financial data remotely without needing salon computer access or scheduled visits. New locations go live immediately without purchasing expensive server equipment or networking infrastructure. Seasonal locations close down without worrying about computer security or data backup. Popup events and trunk shows take bookings that sync automatically with salon schedules. Mobile stylists manage their entire business from smartphones and tablets. Home-based businesses avoid unnecessary computer infrastructure investments. Data backup happens automatically to multiple geographic locations preventing catastrophic loss. Disaster recovery means new devices can access data immediately after fire, theft, or flooding. Computer crashes don't shut down your entire business operations. Operating system updates don't risk software compatibility breaking. Browser updates deploy automatically ensuring security and performance. Staff use personal devices through secure browser access without expensive business computers. New hires start working immediately on any available device. Temporary staff during busy seasons work without dedicated computer purchases.
+
+                Salon Iris ties you to specific computers in your salon, making remote access complicated and limiting staff to on-premise work. BookB's cloud-based architecture provides access from anywhere on any device with internet connectivity.
+
+              </p>
+
+              <p>
+
+                Check schedules from home when planning your week without driving to the salon. Review daily reports from your phone while on vacation without VPN configuration.
+
+              </p>
+
+              <p>
+
+                Staff access their schedules from home to check tomorrow's appointments and prepare mentally. Stylists update client notes immediately after appointments from their personal phones while details are fresh.
+
+              </p>
+
+              <p>
+
+                Managers approve time-off requests from mobile devices without returning to the office computer. Multi-location owners view consolidated reporting across all salons from anywhere.
+
+              </p>
+
+              <p>
+
+                Accountants access financial data remotely without needing salon computer access or scheduled visits. New locations go live immediately without purchasing expensive server equipment or networking infrastructure.
+
+              </p>
+
+              <p>
+
+                Seasonal locations close down without worrying about computer security or data backup. Popup events and trunk shows take bookings that sync automatically with salon schedules.
+
+              </p>
+
+              <p>
+
+                Mobile stylists manage their entire business from smartphones and tablets. Home-based businesses avoid unnecessary computer infrastructure investments.
+
+              </p>
+
+              <p>
+
+                Data backup happens automatically to multiple geographic locations preventing catastrophic loss. Disaster recovery means new devices can access data immediately after fire, theft, or flooding.
+
+              </p>
+
+              <p>
+
+                Computer crashes don't shut down your entire business operations. Operating system updates don't risk software compatibility breaking.
+
+              </p>
+
+              <p>
+
+                Browser updates deploy automatically ensuring security and performance. Staff use personal devices through secure browser access without expensive business computers.
+
+              </p>
+
+              <p>
+
+                New hires start working immediately on any available device. Temporary staff during busy seasons work without dedicated computer purchases.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +193,63 @@ export default function SalonIrisAlternative() {
             <div className="feature-content">
               <h3>Modern Interface That Staff Actually Enjoy</h3>
               <p>
-                Salon Iris's interface dates back decades with dense screens, cryptic codes, and workflows designed for different era of computing. BookB provides modern, intuitive interfaces that new staff learn in minutes rather than hours of training. Visual calendar layouts show appointments at a glance with color coding by service type and stylist assignment. Drag and drop rescheduling happens in seconds rather than navigating multiple dialogs and confirmation screens. Client search finds people instantly by typing any part of their name, phone number, or email address. Service menus organize logically by category with clear descriptions and current pricing displayed prominently. Point of sale checkout flows naturally from service completion through payment in guided steps. Mobile-responsive design works perfectly whether staff use large desktop monitors or small smartphone screens. Touch-friendly buttons and controls work equally well with mouse clicks, touchpad gestures, or finger taps. Keyboard shortcuts speed repetitive tasks for power users while remaining optional for casual users. Contextual help appears inline explaining features right where needed without searching documentation. Error messages explain what went wrong in plain language and suggest how to fix issues. Auto-complete suggests clients, services, and products as you type reducing entry errors. Recently viewed clients and common actions provide quick access to frequent tasks. Customizable dashboards show each role the information they need without overwhelming them with irrelevant data. Print formats generate clean professional invoices, appointment cards, and reports without graphic design skills. Email templates look professional and mobile-friendly without HTML coding knowledge. Dark mode reduces eye strain for staff working long shifts in dimly lit salon environments.
+
+                Salon Iris's interface dates back decades with dense screens, cryptic codes, and workflows designed for different era of computing. BookB provides modern, intuitive interfaces that new staff learn in minutes rather than hours of training.
+
+              </p>
+
+              <p>
+
+                Visual calendar layouts show appointments at a glance with color coding by service type and stylist assignment. Drag and drop rescheduling happens in seconds rather than navigating multiple dialogs and confirmation screens.
+
+              </p>
+
+              <p>
+
+                Client search finds people instantly by typing any part of their name, phone number, or email address. Service menus organize logically by category with clear descriptions and current pricing displayed prominently.
+
+              </p>
+
+              <p>
+
+                Point of sale checkout flows naturally from service completion through payment in guided steps. Mobile-responsive design works perfectly whether staff use large desktop monitors or small smartphone screens.
+
+              </p>
+
+              <p>
+
+                Touch-friendly buttons and controls work equally well with mouse clicks, touchpad gestures, or finger taps. Keyboard shortcuts speed repetitive tasks for power users while remaining optional for casual users.
+
+              </p>
+
+              <p>
+
+                Contextual help appears inline explaining features right where needed without searching documentation. Error messages explain what went wrong in plain language and suggest how to fix issues.
+
+              </p>
+
+              <p>
+
+                Auto-complete suggests clients, services, and products as you type reducing entry errors. Recently viewed clients and common actions provide quick access to frequent tasks.
+
+              </p>
+
+              <p>
+
+                Customizable dashboards show each role the information they need without overwhelming them with irrelevant data. Print formats generate clean professional invoices, appointment cards, and reports without graphic design skills.
+
+              </p>
+
+              <p>
+
+                Email templates look professional and mobile-friendly without HTML coding knowledge. Dark mode reduces eye strain for staff working long shifts in dimly lit salon environments.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +262,63 @@ export default function SalonIrisAlternative() {
             <div className="feature-content">
               <h3>Mobile Apps for Staff and Clients</h3>
               <p>
-                Salon Iris has no meaningful mobile presence, forcing everyone to use desktop computers during an increasingly mobile era. BookB provides full-featured mobile applications for both staff members and clients accessing all essential functionality from smartphones and tablets. Stylists view their complete schedules including client names, services booked, appointment notes, and color formulas from their phones between appointments. Staff check earnings in real-time seeing service revenue, retail commissions, tips received, and projected pay for the current period. Availability management lets stylists block personal time, indicate preferred shifts, and respond to scheduling requests remotely. Client notes update immediately after appointments while details remain fresh in stylist memory. Before and after photos upload directly from phone cameras organizing automatically in client profiles. Push notifications alert staff to schedule changes, shift assignments, and important announcements. Managers approve or deny time-off requests from mobile devices with full schedule visibility to assess staffing impact. Client mobile apps allow self-service booking with real-time availability showing exactly which time slots remain open. Appointment reminders send push notifications in addition to SMS and email reaching clients through their preferred channel. Clients reschedule or cancel appointments following your policies without phone calls during busy reception times. Service history displays previous appointments with services performed, products used, and outcomes achieved. Favorite stylists save for quick rebooking with the professionals clients trust most. Package and membership balances show remaining services and expiration dates encouraging rebooking. Gift card balances check before salon visits preventing awkward payment situations. Profile management updates contact information, service preferences, and allergy alerts maintaining accurate records.
+
+                Salon Iris has no meaningful mobile presence, forcing everyone to use desktop computers during an increasingly mobile era. BookB provides full-featured mobile applications for both staff members and clients accessing all essential functionality from smartphones and tablets.
+
+              </p>
+
+              <p>
+
+                Stylists view their complete schedules including client names, services booked, appointment notes, and color formulas from their phones between appointments. Staff check earnings in real-time seeing service revenue, retail commissions, tips received, and projected pay for the current period.
+
+              </p>
+
+              <p>
+
+                Availability management lets stylists block personal time, indicate preferred shifts, and respond to scheduling requests remotely. Client notes update immediately after appointments while details remain fresh in stylist memory.
+
+              </p>
+
+              <p>
+
+                Before and after photos upload directly from phone cameras organizing automatically in client profiles. Push notifications alert staff to schedule changes, shift assignments, and important announcements.
+
+              </p>
+
+              <p>
+
+                Managers approve or deny time-off requests from mobile devices with full schedule visibility to assess staffing impact. Client mobile apps allow self-service booking with real-time availability showing exactly which time slots remain open.
+
+              </p>
+
+              <p>
+
+                Appointment reminders send push notifications in addition to SMS and email reaching clients through their preferred channel. Clients reschedule or cancel appointments following your policies without phone calls during busy reception times.
+
+              </p>
+
+              <p>
+
+                Service history displays previous appointments with services performed, products used, and outcomes achieved. Favorite stylists save for quick rebooking with the professionals clients trust most.
+
+              </p>
+
+              <p>
+
+                Package and membership balances show remaining services and expiration dates encouraging rebooking. Gift card balances check before salon visits preventing awkward payment situations.
+
+              </p>
+
+              <p>
+
+                Profile management updates contact information, service preferences, and allergy alerts maintaining accurate records.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +331,57 @@ export default function SalonIrisAlternative() {
             <div className="feature-content">
               <h3>Automatic Updates and Zero IT Maintenance</h3>
               <p>
-                Salon Iris requires manual software updates, database maintenance, and ongoing IT attention that most salon owners aren't equipped to handle. BookB handles all technical maintenance automatically letting you focus on running your salon business. Software updates deploy automatically during off-peak hours adding new features without interrupting your workday or requiring IT coordination. Security patches apply immediately protecting against emerging threats without administrator intervention or vulnerability windows. Database optimization happens continuously maintaining peak performance as your client base and history grows over years. Backup verification tests restore procedures regularly ensuring recovery actually works when needed rather than discovering backup failures during emergencies. Capacity scaling increases automatically as your business grows without manual server upgrades or performance degradation. Browser compatibility testing ensures the interface works across Chrome, Safari, Firefox, and Edge without users encountering broken features. Mobile app updates deploy through standard app stores with automated testing ensuring new releases don't break existing functionality. Payment processor integrations update automatically as providers change APIs and security requirements evolve. Accounting software connectors maintain compatibility as QuickBooks, Xero, and others release new versions and change data formats. Email delivery monitoring ensures reminder and marketing messages reach clients rather than landing in spam folders. SMS carrier relationships maintain message delivery rates and handle changing regulations around marketing messages. Performance monitoring detects slowdowns proactively and scales resources before users experience degraded service. Error tracking identifies and fixes bugs automatically in many cases before users even notice issues. Compliance updates deploy automatically as privacy regulations, payment card standards, and labor laws evolve.
+
+                Salon Iris requires manual software updates, database maintenance, and ongoing IT attention that most salon owners aren't equipped to handle. BookB handles all technical maintenance automatically letting you focus on running your salon business.
+
+              </p>
+
+              <p>
+
+                Software updates deploy automatically during off-peak hours adding new features without interrupting your workday or requiring IT coordination. Security patches apply immediately protecting against emerging threats without administrator intervention or vulnerability windows.
+
+              </p>
+
+              <p>
+
+                Database optimization happens continuously maintaining peak performance as your client base and history grows over years. Backup verification tests restore procedures regularly ensuring recovery actually works when needed rather than discovering backup failures during emergencies.
+
+              </p>
+
+              <p>
+
+                Capacity scaling increases automatically as your business grows without manual server upgrades or performance degradation. Browser compatibility testing ensures the interface works across Chrome, Safari, Firefox, and Edge without users encountering broken features.
+
+              </p>
+
+              <p>
+
+                Mobile app updates deploy through standard app stores with automated testing ensuring new releases don't break existing functionality. Payment processor integrations update automatically as providers change APIs and security requirements evolve.
+
+              </p>
+
+              <p>
+
+                Accounting software connectors maintain compatibility as QuickBooks, Xero, and others release new versions and change data formats. Email delivery monitoring ensures reminder and marketing messages reach clients rather than landing in spam folders.
+
+              </p>
+
+              <p>
+
+                SMS carrier relationships maintain message delivery rates and handle changing regulations around marketing messages. Performance monitoring detects slowdowns proactively and scales resources before users experience degraded service.
+
+              </p>
+
+              <p>
+
+                Error tracking identifies and fixes bugs automatically in many cases before users even notice issues. Compliance updates deploy automatically as privacy regulations, payment card standards, and labor laws evolve.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

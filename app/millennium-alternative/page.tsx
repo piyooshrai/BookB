@@ -112,13 +112,69 @@ export default function MillenniumAlternative() {
             <div className="feature-content">
               <h3>Escape Desktop Software Limitations</h3>
               <p>
-                Millennium ties your business to specific computers in your salon creating accessibility limitations and single points of failure. BookB's cloud architecture liberates your data and operations from desktop constraints providing universal access from any device anywhere. Check tomorrow's schedule from your phone at home without driving to the salon late night. Review financial reports from tablets while traveling without VPN configuration or remote desktop complications. Staff view their schedules from personal devices preparing mentally for next day appointments. Stylists access client color formulas and service history from smartphones between appointments while details matter. Managers approve time-off requests from mobile devices without returning to office computers. Multi-location owners view consolidated reporting across all salons from anywhere internet connectivity exists. Accountants access financial data remotely without scheduling on-site visits or requesting exports manually. New locations launch immediately without purchasing expensive servers or configuring complex networks. Seasonal locations close without worrying about computer security, environmental controls, or backup procedures. Popup events and satellite locations take appointments that sync automatically with main salon schedules. Mobile stylists and home-based professionals manage complete businesses from smartphones and tablets. Computer crashes don't halt salon operations since data lives securely in cloud infrastructure. Hardware theft or damage doesn't cause business disruption beyond replacing consumer-grade devices. Operating system updates don't risk software compatibility or require IT coordination. Staff use personal devices through secure browser access without expensive business computer purchases. New employees start productively immediately on any available device without software installation. Temporary seasonal staff work without dedicated hardware investments that sit idle most of the year.
+
+                Millennium ties your business to specific computers in your salon creating accessibility limitations and single points of failure. BookB's cloud architecture liberates your data and operations from desktop constraints providing universal access from any device anywhere.
+
+              </p>
+
+              <p>
+
+                Check tomorrow's schedule from your phone at home without driving to the salon late night. Review financial reports from tablets while traveling without VPN configuration or remote desktop complications.
+
+              </p>
+
+              <p>
+
+                Staff view their schedules from personal devices preparing mentally for next day appointments. Stylists access client color formulas and service history from smartphones between appointments while details matter.
+
+              </p>
+
+              <p>
+
+                Managers approve time-off requests from mobile devices without returning to office computers. Multi-location owners view consolidated reporting across all salons from anywhere internet connectivity exists.
+
+              </p>
+
+              <p>
+
+                Accountants access financial data remotely without scheduling on-site visits or requesting exports manually. New locations launch immediately without purchasing expensive servers or configuring complex networks.
+
+              </p>
+
+              <p>
+
+                Seasonal locations close without worrying about computer security, environmental controls, or backup procedures. Popup events and satellite locations take appointments that sync automatically with main salon schedules.
+
+              </p>
+
+              <p>
+
+                Mobile stylists and home-based professionals manage complete businesses from smartphones and tablets. Computer crashes don't halt salon operations since data lives securely in cloud infrastructure.
+
+              </p>
+
+              <p>
+
+                Hardware theft or damage doesn't cause business disruption beyond replacing consumer-grade devices. Operating system updates don't risk software compatibility or require IT coordination.
+
+              </p>
+
+              <p>
+
+                Staff use personal devices through secure browser access without expensive business computer purchases. New employees start productively immediately on any available device without software installation.
+
+              </p>
+
+              <p>
+
+                Temporary seasonal staff work without dedicated hardware investments that sit idle most of the year.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +187,63 @@ export default function MillenniumAlternative() {
             <div className="feature-content">
               <h3>Contemporary Interface Design</h3>
               <p>
-                Millennium's interface reflects 1990s desktop software design creating steep learning curves and frustrating user experiences. BookB provides contemporary interfaces that new staff learn intuitively in minutes matching expectations from modern consumer applications. Visual appointment calendars display schedules at glance with color coding by service type, stylist assignment, and appointment status. Drag and drop rescheduling moves appointments effortlessly rather than navigating multiple dialog boxes and confirmation screens. Client search finds people instantly typing any fragment of name, phone number, or email address. Service menus organize logically by category with clear descriptions, current pricing, and duration estimates displayed prominently. Point of sale flows naturally from service completion through product sales to payment in guided conversational steps. Mobile-responsive design adapts perfectly whether staff use large desktop monitors or small smartphone screens. Touch-friendly controls work equally well with mouse clicks, touchpad gestures, or direct finger taps on screens. Keyboard shortcuts accelerate repetitive tasks for power users while remaining completely optional for occasional users. Contextual help appears inline exactly where needed without searching through dense documentation manuals. Error messages explain problems in plain language and suggest specific remediation steps rather than cryptic codes. Auto-complete suggests clients, services, and products as typing occurs reducing data entry errors and time. Recently accessed information provides quick shortcuts to frequent tasks without navigating deep menu hierarchies. Customizable dashboards show role-appropriate information without overwhelming users with irrelevant data meant for other positions. Print templates generate professional invoices, appointment cards, and reports without graphic design skills or software knowledge. Email templates appear professional and mobile-friendly without HTML coding or technical expertise required.
+
+                Millennium's interface reflects 1990s desktop software design creating steep learning curves and frustrating user experiences. BookB provides contemporary interfaces that new staff learn intuitively in minutes matching expectations from modern consumer applications.
+
+              </p>
+
+              <p>
+
+                Visual appointment calendars display schedules at glance with color coding by service type, stylist assignment, and appointment status. Drag and drop rescheduling moves appointments effortlessly rather than navigating multiple dialog boxes and confirmation screens.
+
+              </p>
+
+              <p>
+
+                Client search finds people instantly typing any fragment of name, phone number, or email address. Service menus organize logically by category with clear descriptions, current pricing, and duration estimates displayed prominently.
+
+              </p>
+
+              <p>
+
+                Point of sale flows naturally from service completion through product sales to payment in guided conversational steps. Mobile-responsive design adapts perfectly whether staff use large desktop monitors or small smartphone screens.
+
+              </p>
+
+              <p>
+
+                Touch-friendly controls work equally well with mouse clicks, touchpad gestures, or direct finger taps on screens. Keyboard shortcuts accelerate repetitive tasks for power users while remaining completely optional for occasional users.
+
+              </p>
+
+              <p>
+
+                Contextual help appears inline exactly where needed without searching through dense documentation manuals. Error messages explain problems in plain language and suggest specific remediation steps rather than cryptic codes.
+
+              </p>
+
+              <p>
+
+                Auto-complete suggests clients, services, and products as typing occurs reducing data entry errors and time. Recently accessed information provides quick shortcuts to frequent tasks without navigating deep menu hierarchies.
+
+              </p>
+
+              <p>
+
+                Customizable dashboards show role-appropriate information without overwhelming users with irrelevant data meant for other positions. Print templates generate professional invoices, appointment cards, and reports without graphic design skills or software knowledge.
+
+              </p>
+
+              <p>
+
+                Email templates appear professional and mobile-friendly without HTML coding or technical expertise required.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +256,57 @@ export default function MillenniumAlternative() {
             <div className="feature-content">
               <h3>Simple Transparent Pricing</h3>
               <p>
-                Millennium's complex licensing model includes perpetual licenses, annual maintenance fees, per-station charges, and module-based feature access creating confusing total cost calculations. BookB uses straightforward subscription pricing where monthly fee includes everything you need to run your salon successfully. Software access for appropriate staff count at your tier level includes all core functionality without artificial feature restrictions. Automatic updates deploy new features and security patches without upgrade fees or migration projects requiring consultant involvement. Cloud hosting provides reliable infrastructure without purchasing servers, networking equipment, or backup systems separately. Technical support via phone, email, and chat comes standard without premium support contract add-ons or per-incident fees. Mobile applications for staff and clients download free without in-app purchases or additional licensing requirements. Payment processing integrates at competitive transparent rates without hidden markup or monthly gateway fees beyond actual costs. SMS notifications charge actual carrier rates without profit margins or message bundle requirements creating waste. Email marketing sends unlimited messages to your client database without per-email charges or contact list size restrictions. Data storage scales automatically as your business grows without quota limits or overage charges appearing unexpectedly. API access for custom integrations and third-party tools works without developer licensing or connection fees. Training resources including videos, documentation, and webinars remain accessible permanently without expiring access. Customer community forums and peer networking function for all customers regardless of plan tier or account age. Feature requests and product roadmap voting influence development priorities for all users equally without enterprise-only consideration. Security updates and compliance maintenance deploy universally protecting all customers not just premium tiers.
+
+                Millennium's complex licensing model includes perpetual licenses, annual maintenance fees, per-station charges, and module-based feature access creating confusing total cost calculations. BookB uses straightforward subscription pricing where monthly fee includes everything you need to run your salon successfully.
+
+              </p>
+
+              <p>
+
+                Software access for appropriate staff count at your tier level includes all core functionality without artificial feature restrictions. Automatic updates deploy new features and security patches without upgrade fees or migration projects requiring consultant involvement.
+
+              </p>
+
+              <p>
+
+                Cloud hosting provides reliable infrastructure without purchasing servers, networking equipment, or backup systems separately. Technical support via phone, email, and chat comes standard without premium support contract add-ons or per-incident fees.
+
+              </p>
+
+              <p>
+
+                Mobile applications for staff and clients download free without in-app purchases or additional licensing requirements. Payment processing integrates at competitive transparent rates without hidden markup or monthly gateway fees beyond actual costs.
+
+              </p>
+
+              <p>
+
+                SMS notifications charge actual carrier rates without profit margins or message bundle requirements creating waste. Email marketing sends unlimited messages to your client database without per-email charges or contact list size restrictions.
+
+              </p>
+
+              <p>
+
+                Data storage scales automatically as your business grows without quota limits or overage charges appearing unexpectedly. API access for custom integrations and third-party tools works without developer licensing or connection fees.
+
+              </p>
+
+              <p>
+
+                Training resources including videos, documentation, and webinars remain accessible permanently without expiring access. Customer community forums and peer networking function for all customers regardless of plan tier or account age.
+
+              </p>
+
+              <p>
+
+                Feature requests and product roadmap voting influence development priorities for all users equally without enterprise-only consideration. Security updates and compliance maintenance deploy universally protecting all customers not just premium tiers.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +319,57 @@ export default function MillenniumAlternative() {
             <div className="feature-content">
               <h3>No IT Maintenance Burden</h3>
               <p>
-                Millennium requires ongoing IT maintenance including software updates, database optimization, backup management, and hardware maintenance that most salon owners lack expertise to handle properly. BookB eliminates IT burden through fully managed cloud service where technical maintenance happens automatically behind the scenes. Software updates deploy during off-peak hours adding new features and security improvements without requiring your involvement or coordination. Security patches apply immediately protecting against emerging threats without creating vulnerability windows waiting for manual updates. Database optimization runs continuously maintaining peak performance as your client records and transaction history accumulates over years of operation. Backup procedures execute automatically throughout the day storing data redundantly across multiple geographic locations preventing single failure catastrophes. Disaster recovery testing verifies backups actually restore successfully rather than discovering backup failures during actual emergencies when data recovery urgently matters. Capacity scaling adds computing resources automatically as your business grows avoiding performance degradation from increased usage. Browser compatibility testing ensures interface works correctly across Chrome, Safari, Firefox, and Edge without users encountering broken features. Mobile app updates deploy through standard app stores with thorough testing ensuring new releases don't break existing functionality users depend upon. Payment processor integrations maintain compatibility as providers change APIs and evolve security requirements over time. Accounting software connectors update automatically as QuickBooks, Xero, and competitors release new versions with changed data format expectations. Email delivery monitoring ensures appointment reminders and marketing messages reach clients rather than getting trapped in spam filters. Performance monitoring detects slowdowns proactively scaling resources before users experience degraded response times during busy periods. Error tracking identifies and often fixes bugs automatically before users even notice issues occurred.
+
+                Millennium requires ongoing IT maintenance including software updates, database optimization, backup management, and hardware maintenance that most salon owners lack expertise to handle properly. BookB eliminates IT burden through fully managed cloud service where technical maintenance happens automatically behind the scenes.
+
+              </p>
+
+              <p>
+
+                Software updates deploy during off-peak hours adding new features and security improvements without requiring your involvement or coordination. Security patches apply immediately protecting against emerging threats without creating vulnerability windows waiting for manual updates.
+
+              </p>
+
+              <p>
+
+                Database optimization runs continuously maintaining peak performance as your client records and transaction history accumulates over years of operation. Backup procedures execute automatically throughout the day storing data redundantly across multiple geographic locations preventing single failure catastrophes.
+
+              </p>
+
+              <p>
+
+                Disaster recovery testing verifies backups actually restore successfully rather than discovering backup failures during actual emergencies when data recovery urgently matters. Capacity scaling adds computing resources automatically as your business grows avoiding performance degradation from increased usage.
+
+              </p>
+
+              <p>
+
+                Browser compatibility testing ensures interface works correctly across Chrome, Safari, Firefox, and Edge without users encountering broken features. Mobile app updates deploy through standard app stores with thorough testing ensuring new releases don't break existing functionality users depend upon.
+
+              </p>
+
+              <p>
+
+                Payment processor integrations maintain compatibility as providers change APIs and evolve security requirements over time. Accounting software connectors update automatically as QuickBooks, Xero, and competitors release new versions with changed data format expectations.
+
+              </p>
+
+              <p>
+
+                Email delivery monitoring ensures appointment reminders and marketing messages reach clients rather than getting trapped in spam filters. Performance monitoring detects slowdowns proactively scaling resources before users experience degraded response times during busy periods.
+
+              </p>
+
+              <p>
+
+                Error tracking identifies and often fixes bugs automatically before users even notice issues occurred.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

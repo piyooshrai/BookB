@@ -67,13 +67,51 @@ export default function LeicesterSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Leicester's beauty industry serves one of Britain's most diverse cities requiring software that understands local business practices and regulatory requirements while supporting multicultural clientele. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Leicester business owners managing successful salons. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Leicester from Highcross Shopping Centre to local neighborhood salons. Online booking works perfectly with UK phone number formats, postal codes including Leicester's LE postcodes, and address conventions familiar to local clients across Belgrave, Evington, and city centre. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Leicester salons may close. Multi-language support helps Leicester salons serve diverse communities with booking and communication options beyond English reflecting the city's multicultural population. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Leicester employees whether experienced stylists or trainee beauty therapists. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Leicester businesses from independent operators to growing salon groups. GDPR compliance features help Leicester salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant. Currency displays in pounds sterling with proper formatting and no confusing currency conversions. Time displays in 24-hour or 12-hour formats matching UK preferences. Date formats follow UK conventions preventing American-style date confusion.
+
+                Leicester's beauty industry serves one of Britain's most diverse cities requiring software that understands local business practices and regulatory requirements while supporting multicultural clientele. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Leicester business owners managing successful salons.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Leicester from Highcross Shopping Centre to local neighborhood salons.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes including Leicester's LE postcodes, and address conventions familiar to local clients across Belgrave, Evington, and city centre. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Leicester salons may close.
+
+              </p>
+
+              <p>
+
+                Multi-language support helps Leicester salons serve diverse communities with booking and communication options beyond English reflecting the city's multicultural population. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Leicester employees whether experienced stylists or trainee beauty therapists.
+
+              </p>
+
+              <p>
+
+                Payroll reporting generates data formatted for UK accounting software and payroll providers serving Leicester businesses from independent operators to growing salon groups. GDPR compliance features help Leicester salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations.
+
+              </p>
+
+              <p>
+
+                Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant. Currency displays in pounds sterling with proper formatting and no confusing currency conversions.
+
+              </p>
+
+              <p>
+
+                Time displays in 24-hour or 12-hour formats matching UK preferences. Date formats follow UK conventions preventing American-style date confusion.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function LeicesterSalonSoftware() {
             <div className="feature-content">
               <h3>Appointment Management for Leicester Salons</h3>
               <p>
-                Leicester salons manage hundreds of appointments weekly requiring efficient scheduling that prevents conflicts, maximizes revenue, and provides excellent client experiences. BookB's appointment management features help Leicester salons optimize scheduling and improve operations. Calendar views display daily, weekly, and monthly schedules showing all appointments at glance helping reception staff and managers understand capacity and workload. Color coding distinguishes appointment types, stylists, and service categories making visual scanning quick and preventing errors during busy Leicester shopping days. Drag and drop rescheduling makes adjusting appointments easy when clients need different times or stylists have unexpected availability changes. Recurring appointments automate rebooking for clients visiting regularly every few weeks creating reliable revenue streams and ensuring clients maintain their beauty routines. Group appointments coordinate multiple clients receiving services simultaneously for wedding parties, special events, or friends booking together. Appointment notes record important information about client preferences, previous service details, and special requirements ensuring consistent quality across visits and stylists. Service duration estimates prevent overbooking by calculating realistic time requirements based on historical data and stylist experience levels. Buffer time adds padding between appointments for cleanup, preparation, or running over preventing cascading delays affecting subsequent Leicester clients. Waitlist management captures interested clients when preferred times unavailable enabling contact when cancellations create unexpected openings in your Leicester salon schedule. Double booking prevention alerts staff when attempting to schedule conflicting appointments protecting against costly errors and disappointed clients. Mobile access lets Leicester salon staff view and manage appointments from smartphones whether on breaks, commuting, or working remotely. Calendar synchronization integrates with personal calendars helping stylists coordinate salon work with personal commitments and availability.
+
+                Leicester salons manage hundreds of appointments weekly requiring efficient scheduling that prevents conflicts, maximizes revenue, and provides excellent client experiences. BookB's appointment management features help Leicester salons optimize scheduling and improve operations.
+
+              </p>
+
+              <p>
+
+                Calendar views display daily, weekly, and monthly schedules showing all appointments at glance helping reception staff and managers understand capacity and workload. Color coding distinguishes appointment types, stylists, and service categories making visual scanning quick and preventing errors during busy Leicester shopping days.
+
+              </p>
+
+              <p>
+
+                Drag and drop rescheduling makes adjusting appointments easy when clients need different times or stylists have unexpected availability changes. Recurring appointments automate rebooking for clients visiting regularly every few weeks creating reliable revenue streams and ensuring clients maintain their beauty routines.
+
+              </p>
+
+              <p>
+
+                Group appointments coordinate multiple clients receiving services simultaneously for wedding parties, special events, or friends booking together. Appointment notes record important information about client preferences, previous service details, and special requirements ensuring consistent quality across visits and stylists.
+
+              </p>
+
+              <p>
+
+                Service duration estimates prevent overbooking by calculating realistic time requirements based on historical data and stylist experience levels. Buffer time adds padding between appointments for cleanup, preparation, or running over preventing cascading delays affecting subsequent Leicester clients.
+
+              </p>
+
+              <p>
+
+                Waitlist management captures interested clients when preferred times unavailable enabling contact when cancellations create unexpected openings in your Leicester salon schedule. Double booking prevention alerts staff when attempting to schedule conflicting appointments protecting against costly errors and disappointed clients.
+
+              </p>
+
+              <p>
+
+                Mobile access lets Leicester salon staff view and manage appointments from smartphones whether on breaks, commuting, or working remotely. Calendar synchronization integrates with personal calendars helping stylists coordinate salon work with personal commitments and availability.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function LeicesterSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Leicester Clients Love</h3>
               <p>
-                Leicester clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the East Midlands. BookB provides mobile-optimized online booking that works perfectly on Leicester buses, in Highcross cafes, and anywhere clients access their smartphones throughout the day. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans. Stylist profiles include photos, specialties, and reviews helping Leicester clients choose the right professional for their specific needs whether working with diverse hair types or specialist beauty treatments. Service descriptions explain treatments clearly with duration estimates and pricing so Leicester clients understand exactly what they're booking from quick services to comprehensive packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Leicester salon for the first time after social media discovery or friend recommendation. Location information includes directions from Leicester station, local parking options, and bus routes helping clients plan their journey from suburbs to city centre. Contactless deposit payments secure appointments reducing no-shows common in busy Leicester market where clients juggle work schedules and family commitments. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Leicester Saturdays. Package purchasing during online booking encourages prepayment and commitment from Leicester clients. Gift card purchases online generate revenue and introduce new clients. Membership programs with recurring billing create predictable revenue.
+
+                Leicester clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the East Midlands. BookB provides mobile-optimized online booking that works perfectly on Leicester buses, in Highcross cafes, and anywhere clients access their smartphones throughout the day.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made alternative plans. Stylist profiles include photos, specialties, and reviews helping Leicester clients choose the right professional for their specific needs whether working with diverse hair types or specialist beauty treatments.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so Leicester clients understand exactly what they're booking from quick services to comprehensive packages. Before and after galleries showcase your salon's work building confidence in new clients considering your Leicester salon for the first time after social media discovery or friend recommendation.
+
+              </p>
+
+              <p>
+
+                Location information includes directions from Leicester station, local parking options, and bus routes helping clients plan their journey from suburbs to city centre. Contactless deposit payments secure appointments reducing no-shows common in busy Leicester market where clients juggle work schedules and family commitments.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Leicester Saturdays.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from Leicester clients. Gift card purchases online generate revenue and introduce new clients.
+
+              </p>
+
+              <p>
+
+                Membership programs with recurring billing create predictable revenue.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function LeicesterSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Leicester Business Owners</h3>
               <p>
-                Running a profitable salon in Leicester requires understanding your numbers with competitive rent, staff wages, and pricing pressures from numerous beauty businesses throughout the city. BookB provides comprehensive reporting helping Leicester salon owners make data-driven decisions about their businesses daily, weekly, and monthly. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your Leicester team identifying top performers and those needing coaching. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base. Service profitability calculations deduct product costs and staff time showing true margins helping optimize your service menu. Peak hour analysis identifies busiest times helping optimize staff scheduling to match demand. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment. Inventory turnover reports identify slow-moving products occupying valuable shelf space. No-show and cancellation tracking quantifies revenue lost to appointment gaps. Year-over-year comparisons show business growth trends and seasonal patterns. VAT reporting generates data formatted for HMRC submission. Payroll reports provide data for UK payroll processing. Custom report building lets Leicester owners analyze specific questions.
+
+                Running a profitable salon in Leicester requires understanding your numbers with competitive rent, staff wages, and pricing pressures from numerous beauty businesses throughout the city. BookB provides comprehensive reporting helping Leicester salon owners make data-driven decisions about their businesses daily, weekly, and monthly.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of business performance. Staff productivity metrics compare performance across your Leicester team identifying top performers and those needing coaching.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal client base. Service profitability calculations deduct product costs and staff time showing true margins helping optimize your service menu.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times helping optimize staff scheduling to match demand. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving products occupying valuable shelf space. No-show and cancellation tracking quantifies revenue lost to appointment gaps.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns. VAT reporting generates data formatted for HMRC submission.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data for UK payroll processing. Custom report building lets Leicester owners analyze specific questions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

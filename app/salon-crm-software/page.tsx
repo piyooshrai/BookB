@@ -56,13 +56,39 @@ export default function salon_crm_softwarePage() {
             <div className="feature-content">
               <h3>Complete Salon CRM Software Solution</h3>
               <p>
-                BookB delivers comprehensive client relationship management tools designed specifically for salon operations. Our software understands the unique needs of beauty businesses providing features that streamline daily operations, improve client satisfaction, and increase revenue. Whether you run a single-chair operation or manage multiple locations, BookB scales with your business providing enterprise-level capabilities at affordable pricing. Modern salons require modern software, and BookB delivers everything you need to compete in today's market. From appointment booking to staff scheduling, client management to financial reporting, BookB handles every aspect of salon operations. Our intuitive interface ensures your team can learn the system quickly without extensive training or complicated manuals. Cloud-based access means you can manage your salon from anywhere using any device with internet connection. Automatic updates ensure you always have the latest features and security improvements without manual software upgrades or IT support. Integration with popular payment processors, marketing tools, and accounting software creates seamless workflows eliminating duplicate data entry and reducing errors. Mobile apps for both staff and clients provide convenient access to scheduling, client records, and business information on the go.
+
+                BookB delivers comprehensive client relationship management tools designed specifically for salon operations. Our software understands the unique needs of beauty businesses providing features that streamline daily operations, improve client satisfaction, and increase revenue.
+
+              </p>
+
+              <p>
+
+                Whether you run a single-chair operation or manage multiple locations, BookB scales with your business providing enterprise-level capabilities at affordable pricing. Modern salons require modern software, and BookB delivers everything you need to compete in today's market.
+
+              </p>
+
+              <p>
+
+                From appointment booking to staff scheduling, client management to financial reporting, BookB handles every aspect of salon operations. Our intuitive interface ensures your team can learn the system quickly without extensive training or complicated manuals.
+
+              </p>
+
+              <p>
+
+                Cloud-based access means you can manage your salon from anywhere using any device with internet connection. Automatic updates ensure you always have the latest features and security improvements without manual software upgrades or IT support.
+
+              </p>
+
+              <p>
+
+                Integration with popular payment processors, marketing tools, and accounting software creates seamless workflows eliminating duplicate data entry and reducing errors. Mobile apps for both staff and clients provide convenient access to scheduling, client records, and business information on the go.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -75,13 +101,33 @@ export default function salon_crm_softwarePage() {
             <div className="feature-content">
               <h3>Easy to Use, Powerful Results</h3>
               <p>
-                Our software combines powerful functionality with intuitive design making it easy for your team to adopt and use daily. Simple navigation ensures staff can find features quickly without searching through complicated menus or consulting documentation. Customizable dashboards display the information most relevant to each user role from receptionists to stylists to managers. Real-time synchronization across all devices ensures everyone sees current information preventing double-bookings and communication errors. Automated workflows handle routine tasks like appointment reminders, follow-up messages, and birthday greetings freeing your team to focus on delivering excellent service. Comprehensive reporting provides insights into business performance helping you make informed decisions about pricing, staffing, marketing, and growth strategies. Our support team provides responsive assistance via phone, email, and chat ensuring you get help when you need it without long wait times or complicated ticket systems.
+
+                Our software combines powerful functionality with intuitive design making it easy for your team to adopt and use daily. Simple navigation ensures staff can find features quickly without searching through complicated menus or consulting documentation.
+
+              </p>
+
+              <p>
+
+                <strong>Customizable Dashboards:</strong> Display the information most relevant to each user role from receptionists to stylists to managers. Real-time synchronization across all devices ensures everyone sees current information preventing double-bookings and communication errors.
+
+              </p>
+
+              <p>
+
+                <strong>Automated Workflows:</strong> Handle routine tasks like appointment reminders, follow-up messages, and birthday greetings freeing your team to focus on delivering excellent service. <strong>Comprehensive Reporting:</strong> Provides insights into business performance helping you make informed decisions about pricing, staffing, marketing, and growth strategies.
+
+              </p>
+
+              <p>
+
+                Our support team provides responsive assistance via phone, email, and chat ensuring you get help when you need it without long wait times or complicated ticket systems.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -94,13 +140,39 @@ export default function salon_crm_softwarePage() {
             <div className="feature-content">
               <h3>Affordable Professional Software</h3>
               <p>
-                BookB delivers enterprise-level capabilities at pricing designed for independent salons and small businesses. No expensive setup fees, no long-term contracts, no hidden charges. Simple monthly pricing based on your team size with all features included at every tier. Start with a basic plan and upgrade as your business grows without losing any data or reconfiguring your system. Free data migration from your existing software ensures smooth transition without disruption to your operations. Training and onboarding included with every plan helping your team get productive quickly. Regular feature updates and improvements included at no additional cost. Security and data backup included ensuring your client information and business data stays protected. Payment processing at competitive rates with no additional fees beyond standard processor charges. Money-back guarantee if you're not satisfied within first 30 days.
+
+                BookB delivers enterprise-level capabilities at pricing designed for independent salons and small businesses. No expensive setup fees, no long-term contracts, no hidden charges.
+
+              </p>
+
+              <p>
+
+                <strong>Transparent Pricing:</strong> Simple monthly pricing based on your team size with all features included at every tier. Start with a basic plan and upgrade as your business grows without losing any data or reconfiguring your system.
+
+              </p>
+
+              <p>
+
+                <strong>Smooth Transition:</strong> Free data migration from your existing software ensures smooth transition without disruption to your operations. <strong>Training Included:</strong> Training and onboarding included with every plan helping your team get productive quickly.
+
+              </p>
+
+              <p>
+
+                <strong>Ongoing Support:</strong> Regular feature updates and improvements included at no additional cost. Security and data backup included ensuring your client information and business data stays protected.
+
+              </p>
+
+              <p>
+
+                <strong>Payment Processing:</strong> At competitive rates with no additional fees beyond standard processor charges. Money-back guarantee if you're not satisfied within first 30 days.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"

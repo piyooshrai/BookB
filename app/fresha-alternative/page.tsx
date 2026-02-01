@@ -112,13 +112,93 @@ export default function FreshaAlternative() {
             <div className="feature-content">
               <h3>Own Your Clients, Control Your Business</h3>
               <p>
-                Fresha's "free" model comes with a catch: they own the client relationship and monetize your customer base through marketplace fees and competitor advertising. BookB believes your clients should be yours alone. When clients book through BookB, their data belongs to you exclusively. We never market competing salons to your customers. Your client list remains confidential business property, not a shared marketplace resource. Email addresses, phone numbers, and booking history stay in your control. Export your complete client database anytime without restrictions. Marketing campaigns reach your clients without platform interference. Loyalty programs reward your customers, not marketplace browsers. Pricing remains under your control without platform-suggested discounts. Client reviews appear on your website, not a marketplace that promotes competitors. Appointment reminders come from your salon name, not a third-party platform. Gift card programs build your brand, not marketplace dependency. Membership packages create recurring revenue you control completely. Package sales generate prepaid income without revenue sharing. Referral programs reward clients for recommending your specific salon. Birthday promotions strengthen individual client relationships. Re-engagement campaigns target your inactive clients, not generic offers to marketplace users. Client preferences and service history inform personalized recommendations. Treatment plans track progress toward client beauty goals. Before and after photos showcase your specific work. Color formulas remain proprietary to your stylists. Product recommendations align with your retail inventory. Service packages reflect your salon's unique methodology. Pricing strategies match your market positioning. Promotional timing follows your business calendar. Client communication maintains your brand voice. The booking experience reinforces your salon identity.
+
+                Fresha's "free" model comes with a catch: they own the client relationship and monetize your customer base through marketplace fees and competitor advertising. BookB believes your clients should be yours alone.
+
+              </p>
+
+              <p>
+
+                When clients book through BookB, their data belongs to you exclusively. We never market competing salons to your customers.
+
+              </p>
+
+              <p>
+
+                Your client list remains confidential business property, not a shared marketplace resource. Email addresses, phone numbers, and booking history stay in your control.
+
+              </p>
+
+              <p>
+
+                Export your complete client database anytime without restrictions. Marketing campaigns reach your clients without platform interference.
+
+              </p>
+
+              <p>
+
+                Loyalty programs reward your customers, not marketplace browsers. Pricing remains under your control without platform-suggested discounts.
+
+              </p>
+
+              <p>
+
+                Client reviews appear on your website, not a marketplace that promotes competitors. Appointment reminders come from your salon name, not a third-party platform.
+
+              </p>
+
+              <p>
+
+                Gift card programs build your brand, not marketplace dependency. Membership packages create recurring revenue you control completely.
+
+              </p>
+
+              <p>
+
+                Package sales generate prepaid income without revenue sharing. Referral programs reward clients for recommending your specific salon.
+
+              </p>
+
+              <p>
+
+                Birthday promotions strengthen individual client relationships. Re-engagement campaigns target your inactive clients, not generic offers to marketplace users.
+
+              </p>
+
+              <p>
+
+                Client preferences and service history inform personalized recommendations. Treatment plans track progress toward client beauty goals.
+
+              </p>
+
+              <p>
+
+                Before and after photos showcase your specific work. Color formulas remain proprietary to your stylists.
+
+              </p>
+
+              <p>
+
+                Product recommendations align with your retail inventory. Service packages reflect your salon's unique methodology.
+
+              </p>
+
+              <p>
+
+                Pricing strategies match your market positioning. Promotional timing follows your business calendar.
+
+              </p>
+
+              <p>
+
+                Client communication maintains your brand voice. The booking experience reinforces your salon identity.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +211,105 @@ export default function FreshaAlternative() {
             <div className="feature-content">
               <h3>Transparent Pricing Without Hidden Fees</h3>
               <p>
-                Fresha advertises free software but generates revenue through marketplace fees, premium placement charges, and payment processing markups. BookB pricing is completely transparent with zero hidden costs. Your monthly subscription includes everything: unlimited appointments, client profiles, online booking, automated reminders, marketing tools, reporting, inventory management, staff scheduling, and commission tracking. No surprise charges appear at month-end. Payment processing fees are clearly disclosed with competitive rates. Adding staff members follows published pricing tiers. Multi-location expansion costs are predetermined. Feature access doesn't require premium upgrades. Support quality remains consistent regardless of plan level. Training resources stay available after initial onboarding. Software updates deploy automatically without upgrade fees. Data storage scales without additional charges. API access for integrations comes standard. Export capabilities work without export fees. Cancellation happens without penalties. Refunds process for unused service periods. Volume discounts apply automatically at qualifying thresholds. Seasonal promotions appear clearly on pricing pages. Enterprise pricing gets quoted upfront. Contract terms are published, not negotiated. Renewal rates match new customer pricing. Legacy customers receive new features automatically. Beta features are available to all tiers. The mobile app downloads free without in-app purchases. Client self-service booking doesn't incur per-booking fees. SMS notifications charge actual carrier rates without markup. Email marketing sends unlimited messages. Social media integrations work without additional costs. Review management tools come included. Analytics and reporting don't require business intelligence add-ons. Inventory management handles unlimited products and suppliers. Employee management scales with published pricing.
+
+                Fresha advertises free software but generates revenue through marketplace fees, premium placement charges, and payment processing markups. BookB pricing is completely transparent with zero hidden costs.
+
+              </p>
+
+              <p>
+
+                Your monthly subscription includes everything: unlimited appointments, client profiles, online booking, automated reminders, marketing tools, reporting, inventory management, staff scheduling, and commission tracking. No surprise charges appear at month-end.
+
+              </p>
+
+              <p>
+
+                Payment processing fees are clearly disclosed with competitive rates. Adding staff members follows published pricing tiers.
+
+              </p>
+
+              <p>
+
+                Multi-location expansion costs are predetermined. Feature access doesn't require premium upgrades.
+
+              </p>
+
+              <p>
+
+                Support quality remains consistent regardless of plan level. Training resources stay available after initial onboarding.
+
+              </p>
+
+              <p>
+
+                Software updates deploy automatically without upgrade fees. Data storage scales without additional charges.
+
+              </p>
+
+              <p>
+
+                API access for integrations comes standard. Export capabilities work without export fees.
+
+              </p>
+
+              <p>
+
+                Cancellation happens without penalties. Refunds process for unused service periods.
+
+              </p>
+
+              <p>
+
+                Volume discounts apply automatically at qualifying thresholds. Seasonal promotions appear clearly on pricing pages.
+
+              </p>
+
+              <p>
+
+                Enterprise pricing gets quoted upfront. Contract terms are published, not negotiated.
+
+              </p>
+
+              <p>
+
+                Renewal rates match new customer pricing. Legacy customers receive new features automatically.
+
+              </p>
+
+              <p>
+
+                Beta features are available to all tiers. The mobile app downloads free without in-app purchases.
+
+              </p>
+
+              <p>
+
+                Client self-service booking doesn't incur per-booking fees. SMS notifications charge actual carrier rates without markup.
+
+              </p>
+
+              <p>
+
+                Email marketing sends unlimited messages. Social media integrations work without additional costs.
+
+              </p>
+
+              <p>
+
+                Review management tools come included. Analytics and reporting don't require business intelligence add-ons.
+
+              </p>
+
+              <p>
+
+                Inventory management handles unlimited products and suppliers. Employee management scales with published pricing.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +322,87 @@ export default function FreshaAlternative() {
             <div className="feature-content">
               <h3>Professional Features Without Compromises</h3>
               <p>
-                Fresha's free model means feature development prioritizes marketplace growth over salon-specific functionality. BookB focuses exclusively on making salon management more efficient and profitable. Advanced appointment scheduling handles complex scenarios including overlapping services, preparation time, and equipment conflicts. Walk-in queue management integrates seamlessly with scheduled appointments. Client profiles track detailed service history, product preferences, and stylist relationships. Color formula documentation ensures consistency across visits and stylists. Before and after photo galleries organize by client and service type. Treatment plan tracking monitors progress toward long-term beauty goals. Product usage per service helps control costs and inventory. Retail recommendations appear automatically during checkout based on services performed. Commission structures accommodate complex scenarios including splits, overrides, and performance bonuses. Payroll reports generate ready for accounting software import. Staff scheduling prevents overtime violations and ensures labor law compliance. Time clock integration tracks actual hours for accurate wage calculation. Tip distribution follows your specific policies including credit card tip allocation. Service menu management handles seasonal offerings and limited-time promotions. Pricing rules automate discounts for packages, memberships, and loyalty rewards. Package management tracks remaining services and expiration dates. Membership billing handles recurring charges and pro-rated adjustments. Gift card sales, redemptions, and balance tracking prevent revenue leakage. Supplier management organizes vendor contacts and ordering history. Purchase order generation streamlines inventory replenishment. Stock level alerts prevent running out of essential products. Waste tracking identifies shrinkage and training opportunities. Equipment maintenance schedules prevent unexpected breakdowns. Cleaning checklists ensure health code compliance.
+
+                Fresha's free model means feature development prioritizes marketplace growth over salon-specific functionality. BookB focuses exclusively on making salon management more efficient and profitable.
+
+              </p>
+
+              <p>
+
+                Advanced appointment scheduling handles complex scenarios including overlapping services, preparation time, and equipment conflicts. Walk-in queue management integrates seamlessly with scheduled appointments.
+
+              </p>
+
+              <p>
+
+                Client profiles track detailed service history, product preferences, and stylist relationships. Color formula documentation ensures consistency across visits and stylists.
+
+              </p>
+
+              <p>
+
+                Before and after photo galleries organize by client and service type. Treatment plan tracking monitors progress toward long-term beauty goals.
+
+              </p>
+
+              <p>
+
+                Product usage per service helps control costs and inventory. Retail recommendations appear automatically during checkout based on services performed.
+
+              </p>
+
+              <p>
+
+                Commission structures accommodate complex scenarios including splits, overrides, and performance bonuses. Payroll reports generate ready for accounting software import.
+
+              </p>
+
+              <p>
+
+                Staff scheduling prevents overtime violations and ensures labor law compliance. Time clock integration tracks actual hours for accurate wage calculation.
+
+              </p>
+
+              <p>
+
+                Tip distribution follows your specific policies including credit card tip allocation. Service menu management handles seasonal offerings and limited-time promotions.
+
+              </p>
+
+              <p>
+
+                Pricing rules automate discounts for packages, memberships, and loyalty rewards. Package management tracks remaining services and expiration dates.
+
+              </p>
+
+              <p>
+
+                Membership billing handles recurring charges and pro-rated adjustments. Gift card sales, redemptions, and balance tracking prevent revenue leakage.
+
+              </p>
+
+              <p>
+
+                Supplier management organizes vendor contacts and ordering history. Purchase order generation streamlines inventory replenishment.
+
+              </p>
+
+              <p>
+
+                Stock level alerts prevent running out of essential products. Waste tracking identifies shrinkage and training opportunities.
+
+              </p>
+
+              <p>
+
+                Equipment maintenance schedules prevent unexpected breakdowns. Cleaning checklists ensure health code compliance.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +415,99 @@ export default function FreshaAlternative() {
             <div className="feature-content">
               <h3>Marketing That Builds Your Brand</h3>
               <p>
-                Fresha's marketplace model means they market to your clients, often promoting competitors. BookB's marketing tools work exclusively for your salon brand. Email campaigns send from your salon name with your branding. Automated reminders reduce no-shows without third-party interference. Birthday promotions celebrate clients with personalized offers. Re-engagement campaigns target clients who haven't booked recently. New service announcements reach interested clients based on service history. Seasonal promotions align with your business calendar and inventory. Last-minute availability fills cancellations through targeted outreach. Package promotions encourage prepayment and loyalty. Membership drives create recurring revenue streams. Referral programs reward clients for specific recommendations. Social media scheduling maintains consistent brand presence. Review request automation generates testimonials for your platforms. Before and after galleries showcase your work on your website. Client success stories highlight transformation results. Stylist spotlights build individual brand recognition within your team. Educational content positions your salon as beauty experts. Event promotion drives traffic for special occasions and trunk shows. Charity partnerships enhance community reputation. Local SEO optimization improves search visibility in your market. Listing management ensures accurate information across directories. Reputation monitoring alerts you to new reviews. Response templates maintain professional review engagement. Competitive analysis tracks local market positioning. Service demand forecasting informs inventory and staffing decisions. Client lifetime value analysis identifies your most profitable relationships. Retention metrics highlight at-risk clients before they leave. Acquisition cost tracking measures marketing effectiveness. Campaign performance reporting shows ROI on promotional spending.
+
+                Fresha's marketplace model means they market to your clients, often promoting competitors. BookB's marketing tools work exclusively for your salon brand.
+
+              </p>
+
+              <p>
+
+                Email campaigns send from your salon name with your branding. <strong>Automated Reminders:</strong> Reduce no-shows without third-party interference.
+
+              </p>
+
+              <p>
+
+                Birthday promotions celebrate clients with personalized offers. Re-engagement campaigns target clients who haven't booked recently.
+
+              </p>
+
+              <p>
+
+                New service announcements reach interested clients based on service history. Seasonal promotions align with your business calendar and inventory.
+
+              </p>
+
+              <p>
+
+                Last-minute availability fills cancellations through targeted outreach. Package promotions encourage prepayment and loyalty.
+
+              </p>
+
+              <p>
+
+                Membership drives create recurring revenue streams. Referral programs reward clients for specific recommendations.
+
+              </p>
+
+              <p>
+
+                Social media scheduling maintains consistent brand presence. Review request automation generates testimonials for your platforms.
+
+              </p>
+
+              <p>
+
+                Before and after galleries showcase your work on your website. Client success stories highlight transformation results.
+
+              </p>
+
+              <p>
+
+                Stylist spotlights build individual brand recognition within your team. Educational content positions your salon as beauty experts.
+
+              </p>
+
+              <p>
+
+                Event promotion drives traffic for special occasions and trunk shows. Charity partnerships enhance community reputation.
+
+              </p>
+
+              <p>
+
+                Local SEO optimization improves search visibility in your market. Listing management ensures accurate information across directories.
+
+              </p>
+
+              <p>
+
+                Reputation monitoring alerts you to new reviews. Response templates maintain professional review engagement.
+
+              </p>
+
+              <p>
+
+                Competitive analysis tracks local market positioning. Service demand forecasting informs inventory and staffing decisions.
+
+              </p>
+
+              <p>
+
+                Client lifetime value analysis identifies your most profitable relationships. Retention metrics highlight at-risk clients before they leave.
+
+              </p>
+
+              <p>
+
+                Acquisition cost tracking measures marketing effectiveness. Campaign performance reporting shows ROI on promotional spending.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"
