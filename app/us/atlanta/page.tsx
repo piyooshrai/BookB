@@ -34,8 +34,8 @@ export default function AtlantaSalonSoftware() {
         </div>
           <div className="hero-image">
             <Image
-              src={images.cities.generic.url}
-              alt={images.cities.generic.alt}
+              src={images.cities.atlanta.url}
+              alt={images.cities.atlanta.alt}
               width={600}
               height={400}
               priority

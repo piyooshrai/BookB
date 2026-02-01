@@ -34,8 +34,8 @@ export default function JeddahSalonSoftware() {
         </div>
           <div className="hero-image">
             <Image
-              src={images.cities.generic.url}
-              alt={images.cities.generic.alt}
+              src={images.cities.jeddah.url}
+              alt={images.cities.jeddah.alt}
               width={600}
               height={400}
               priority

@@ -34,8 +34,8 @@ export default function RiyadhSalonSoftware() {
         </div>
           <div className="hero-image">
             <Image
-              src={images.cities.generic.url}
-              alt={images.cities.generic.alt}
+              src={images.cities.riyadh.url}
+              alt={images.cities.riyadh.alt}
               width={600}
               height={400}
               priority

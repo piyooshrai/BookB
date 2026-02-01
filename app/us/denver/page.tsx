@@ -34,8 +34,8 @@ export default function DenverSalonSoftware() {
         </div>
           <div className="hero-image">
             <Image
-              src={images.cities.generic.url}
-              alt={images.cities.generic.alt}
+              src={images.cities.denver.url}
+              alt={images.cities.denver.alt}
               width={600}
               height={400}
               priority
