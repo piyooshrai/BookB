@@ -288,6 +288,11 @@ h2 {
     font-size: 17px;
     color: var(--text-light);
     line-height: 1.7;
+    margin-bottom: 1.25rem;
+}
+
+.feature-content p:last-child {
+    margin-bottom: 0;
 }
 
 .feature-visual {
