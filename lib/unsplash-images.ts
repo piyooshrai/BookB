@@ -68,7 +68,7 @@ export const images = {
       alt: 'London skyline with iconic landmarks - salon software serving London businesses',
     },
     manchester: {
-      url: 'https://images.unsplash.com/photo-1524420533980-90f839e16e45?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1605399952734-1e0eb9836b1d?w=1200&h=800&fit=crop',
       alt: 'Manchester city center - salon management software for Manchester salons',
     },
     birmingham: {
