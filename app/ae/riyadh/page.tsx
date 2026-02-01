@@ -7,21 +7,7 @@ export default function RiyadhSalonSoftware() {
       <nav>
         <div className="container">
           <a href="/" className="logo">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="2" y="5" width="10" height="30" rx="1" fill="currentColor"/>
-              <rect x="4" y="10" width="6" height="2" fill="white"/>
-              <rect x="4" y="14" width="6" height="2" fill="white"/>
-              <rect x="4" y="18" width="6" height="2" fill="white"/>
-              <rect x="4" y="22" width="6" height="2" fill="white"/>
-              <rect x="4" y="26" width="6" height="2" fill="white"/>
-              <rect x="4" y="30" width="6" height="2" fill="white"/>
-              <path d="M18 2 L24 12 L22 13 L18 8 L14 13 L12 12 Z" fill="currentColor"/>
-              <circle cx="14" cy="18" r="4" fill="currentColor"/>
-              <circle cx="14" cy="18" r="2" fill="white"/>
-              <circle cx="22" cy="18" r="4" fill="currentColor"/>
-              <circle cx="22" cy="18" r="2" fill="white"/>
-              <rect x="17" y="13.5" width="2" height="2" fill="white"/>
-            </svg>
+            <img src="/bookb-logo.svg" alt="BookB Logo" width="40" height="40" style={{ display: 'block' }} />
             <span>BookB</span>
           </a>
           <ul>
@@ -64,13 +50,152 @@ export default function RiyadhSalonSoftware() {
           <h2>Perfect for Riyadh's Beauty Market</h2>
           <div className="feature-item">
             <div className="feature-content">
-              <h3>Built for UAE Salons</h3>
-              <p>Riyadh's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UAE salons including multi-currency support for AED and major international currencies. Payment processing integrates with regional payment providers popular in Riyadh. Online booking works with local phone formats and addresses. Appointment scheduling accounts for UAE holidays and cultural considerations. Staff scheduling respects UAE labor law requirements. Marketing communications comply with local regulations. Time and date displays match regional preferences.</p>
+              <h3>Built for Riyadh's Expanding Beauty Market</h3>
+              <p>
+                Riyadh's beauty industry serves the capital's growing population from Kingdom Centre to Boulevard City, requiring software that handles premium appointments and luxury treatments, family-oriented services and ladies-only facilities. BookB adapts perfectly to Riyadh's dynamic market with flexible scheduling handling pre-booked appointments and walk-in traffic common in shopping destinations like Riyadh Park and Granada Centre.
+              </p>
+
+              <p>
+                Online booking works seamlessly for Riyadh's tech-savvy professional women and affluent families while mobile-friendly interfaces serve diverse communities. Pricing flexibility accommodates luxury services in premium areas like Diplomatic Quarter and Olaya, established salons in Al Malqa and Al Hamra, and accessible options in growing residential neighborhoods across north and east Riyadh.
+              </p>
+
+              <p>
+                Staff scheduling coordinates teams across morning openings through evening appointments serving Riyadh's professional population and extended shopping hours. Multi-location management helps salon groups operating across different districts maintaining consistent service standards while respecting cultural preferences and ladies-only facility requirements.
+              </p>
+
+              <p>
+                Saudi-specific features include VAT calculation and Zakat compliance reporting, public holiday scheduling for Saudi national holidays and religious observances, and payment processing supporting SAR and international currencies. Marketing tools target Riyadh's diverse neighborhoods effectively reaching Saudi families, expatriate communities, and professional women.
+              </p>
+
+              <p>
+                Review management builds reputation through word-of-mouth and digital platforms while respecting cultural preferences for privacy and discretion. Gift cards and packages sell well in Riyadh's celebration-focused culture for weddings, Eid festivities, and special family occasions.
+              </p>
+
+              <p>
+                Commission structures handle varied compensation models respecting Saudi labor law and cultural norms while motivating staff performance. Inventory management tracks premium international beauty brands and luxury products expected by Riyadh's sophisticated, well-traveled clientele with high quality expectations.
+              </p>
             </div>
             <div className="feature-visual">
               <Image
                 src={images.staffManagement.url}
                 alt={images.staffManagement.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Client Management for Riyadh Salons</h3>
+              <p>
+                Riyadh clients expect premium personalized service and modern digital convenience matching the capital's rapid development and high standards. BookB provides comprehensive client management helping Riyadh salons build loyal relationships with discerning customers who value traditional hospitality combined with contemporary service excellence.
+              </p>
+
+              <p>
+                Detailed client profiles track service history, treatment preferences, product selections, and cultural considerations ensuring privacy and consistency across visits. Multilingual support accommodates Arabic-speaking Saudi clients and international residents, with culturally appropriate communication respecting local customs and preferences.
+              </p>
+
+              <p>
+                Treatment plans track progress toward long-term beauty goals accounting for Riyadh's climate challenges and lifestyle preferences. Appointment history shows patterns helping identify loyal clients deserving VIP recognition and new clients needing welcoming experiences to build lasting relationships in Riyadh's word-of-mouth driven market.
+              </p>
+
+              <p>
+                Service preferences guide recommendations for premium treatments and luxury products aligned with each client's specific needs and sophisticated expectations. Special occasion tracking enables celebration promotions for weddings, Ramadan, Eid, and family events building emotional connections in Riyadh's family-centered culture.
+              </p>
+
+              <p>
+                Referral tracking rewards clients who recommend your salon to friends and family throughout Riyadh's close-knit social networks where personal recommendations carry significant weight. Client communication preferences respect cultural norms for appropriate contact methods via SMS, WhatsApp, or direct calls.
+              </p>
+
+              <p>
+                Spending history identifies premium clients deserving exclusive treatment and personalized attention. Family account linking manages household bookings common among Riyadh's extended family structures living in compounds and villas across the capital's expanding neighborhoods.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <Image
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Staff Management for Riyadh Teams</h3>
+              <p>
+                Managing salon staff in Riyadh requires balancing service excellence with cultural considerations, coordinating teams in ladies-only environments, and ensuring compliance with Saudi labor law and Saudization requirements. BookB provides comprehensive staff management tools designed for Riyadh's unique employment landscape and cultural context.
+              </p>
+
+              <p>
+                Intelligent scheduling prevents understaffing during peak hours and weekend rushes while optimizing coverage during quieter periods based on historical patterns. Staff availability management accommodates prayer times, religious observances, and cultural preferences through flexible scheduling interfaces respecting local customs.
+              </p>
+
+              <p>
+                Skill-based assignment ensures clients receive qualified stylist expertise matching premium service expectations with appropriate certifications and experience levels. Commission tracking handles compensation structures while ensuring compliance with Saudi labor law requirements including Saudization ratios and benefit structures.
+              </p>
+
+              <p>
+                Payroll reports generate data supporting Saudi labor law compliance including end-of-service benefits calculations, visa costs tracking for expatriate staff, and GOSI contributions. Time clock integration tracks hours worked for accurate wage calculations respecting maximum working hours and overtime regulations.
+              </p>
+
+              <p>
+                Leave management tracks annual leave entitlements, Ramadan working hour adjustments, Hajj leave for Saudi staff, and religious holiday observances. Performance metrics compare productivity across team members helping identify top performers deserving recognition and development opportunities.
+              </p>
+
+              <p>
+                Staff retention analytics identify turnover patterns important in Riyadh's evolving employment market with increasing Saudization. Documentation management helps track visa expiries, Iqama renewals, certification requirements, and compliance for diverse workforce combining Saudi and international staff.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <Image
+                src={images.analytics.url}
+                alt={images.analytics.alt}
+                width={500}
+                height={375}
+                loading="lazy"
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
+            </div>
+          </div>
+
+          <div className="feature-item">
+            <div className="feature-content">
+              <h3>Marketing Automation for Riyadh Growth</h3>
+              <p>
+                Growing salon business in Riyadh's expanding market requires culturally appropriate marketing reaching the right clients with compelling messages at optimal times. BookB provides marketing automation helping Riyadh salon owners maintain client engagement while respecting cultural preferences and building reputation through quality service.
+              </p>
+
+              <p>
+                Appointment reminder sequences reduce no-shows through SMS and WhatsApp sent at culturally appropriate times respecting prayer schedules and daily routines. Special occasion campaigns celebrate weddings, Eid festivities, and family events automatically with personalized offers encouraging celebratory salon visits.
+              </p>
+
+              <p>
+                Re-engagement workflows target clients who haven't booked within typical intervals with compelling incentives delivered through preferred channels. New service announcements reach interested clients based on past behavior ensuring relevant targeting for premium services and seasonal treatments popular during different times of year.
+              </p>
+
+              <p>
+                Package promotions encourage commitment through luxury bundles and membership programs appealing to Riyadh's quality-seeking residents who value long-term relationships with trusted service providers. Seasonal campaigns align with Ramadan preparation, Eid celebrations, wedding seasons, and school holiday patterns.
+              </p>
+
+              <p>
+                Review and referral management builds reputation through satisfied clients sharing positive experiences within their social networks, the most effective marketing channel in Riyadh's relationship-driven culture. Social media presence maintains professional brand image on platforms popular with Riyadh demographics including Instagram and Snapchat.
+              </p>
+
+              <p>
+                Client segmentation delivers relevant messages to different groups including Saudi families, expatriate residents, young professionals, and established clients ensuring culturally appropriate and effective targeting. Marketing campaigns respect cultural sensitivities while promoting premium services during high-demand periods.
+              </p>
+            </div>
+            <div className="feature-visual">
+              <Image
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
