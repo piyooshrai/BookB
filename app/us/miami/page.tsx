@@ -67,13 +67,51 @@ export default function MiamiSalonSoftware() {
             <div className="feature-content">
               <h3>Built for US Salons and Beauty Businesses</h3>
               <p>
-                Miami's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides features specifically designed for US salons including automatic sales tax calculation and reporting that handles Miami's tax requirements. Price display follows US conventions with tax-exclusive pricing shown to clients with tax calculated at checkout matching standard American retail practices. Payment processing integrates seamlessly with US banks and card processors including Square, Stripe, and traditional merchant accounts processing credit cards, debit cards, Apple Pay, Google Pay, and other payment methods. Online booking works perfectly with US phone number formats, ZIP codes, and address conventions familiar to American clients throughout Miami. Appointment scheduling accounts for US federal holidays and state holidays automatically preventing booking conflicts during major holidays when salons may close. Staff scheduling respects US employment law including Fair Labor Standards Act overtime rules, meal break requirements, and wage and hour regulations applicable to Miami beauty businesses operating across the metro area. Payroll reporting generates data formatted for US accounting software like QuickBooks and payroll providers like ADP serving Miami businesses from independent stylists to multi-location salon chains throughout the region. Tax compliance features help Miami salons meet federal and state tax obligations including income tax withholding, unemployment insurance, and workers compensation requirements specific to operations in the area. Marketing communications comply with CAN-SPAM regulations and US consumer protection laws ensuring your promotional campaigns stay compliant while building your Miami client base through email, text, and social media outreach. Currency displays in US dollars with proper formatting and no international currency complications for straightforward American business operations. Time displays in 12-hour format with AM/PM matching American preferences familiar to all Miami residents. Date formats follow US conventions with month/day/year preventing confusion that could cause appointment booking errors in your busy Miami salon schedule.
+
+                Miami's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides features specifically designed for US salons including automatic sales tax calculation and reporting that handles Miami's tax requirements.
+
+              </p>
+
+              <p>
+
+                Price display follows US conventions with tax-exclusive pricing shown to clients with tax calculated at checkout matching standard American retail practices. Payment processing integrates seamlessly with US banks and card processors including Square, Stripe, and traditional merchant accounts processing credit cards, debit cards, Apple Pay, Google Pay, and other payment methods.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with US phone number formats, ZIP codes, and address conventions familiar to American clients throughout Miami. Appointment scheduling accounts for US federal holidays and state holidays automatically preventing booking conflicts during major holidays when salons may close.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects US employment law including Fair Labor Standards Act overtime rules, meal break requirements, and wage and hour regulations applicable to Miami beauty businesses operating across the metro area. Payroll reporting generates data formatted for US accounting software like QuickBooks and payroll providers like ADP serving Miami businesses from independent stylists to multi-location salon chains throughout the region.
+
+              </p>
+
+              <p>
+
+                Tax compliance features help Miami salons meet federal and state tax obligations including income tax withholding, unemployment insurance, and workers compensation requirements specific to operations in the area. Marketing communications comply with CAN-SPAM regulations and US consumer protection laws ensuring your promotional campaigns stay compliant while building your Miami client base through email, text, and social media outreach.
+
+              </p>
+
+              <p>
+
+                Currency displays in US dollars with proper formatting and no international currency complications for straightforward American business operations. Time displays in 12-hour format with AM/PM matching American preferences familiar to all Miami residents.
+
+              </p>
+
+              <p>
+
+                Date formats follow US conventions with month/day/year preventing confusion that could cause appointment booking errors in your busy Miami salon schedule.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,45 @@ export default function MiamiSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Miami Clients Love</h3>
               <p>
-                Miami clients demand sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers. BookB provides mobile-optimized online booking that works perfectly on smartphones wherever clients access their devices 24/7. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later. Stylist profiles include photos, specialties, portfolios, and client reviews helping Miami clients choose the right professional for their specific needs. Service descriptions explain treatments clearly with duration estimates and pricing so clients understand exactly what they're booking. Before and after galleries showcase your salon's work building confidence in new clients considering your Miami salon for the first time. Location information helps clients plan their journey and find your salon easily whether driving or using public transportation. Contactless deposit payments secure appointments reducing no-shows common in busy markets where clients juggle demanding schedules. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy salon operating hours. Package purchasing during online booking encourages prepayment and commitment from Miami clients. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals.
+
+                Miami clients demand sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers. BookB provides mobile-optimized online booking that works perfectly on smartphones wherever clients access their devices 24/7.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later. Stylist profiles include photos, specialties, portfolios, and client reviews helping Miami clients choose the right professional for their specific needs.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so clients understand exactly what they're booking. Before and after galleries showcase your salon's work building confidence in new clients considering your Miami salon for the first time.
+
+              </p>
+
+              <p>
+
+                Location information helps clients plan their journey and find your salon easily whether driving or using public transportation. Contactless deposit payments secure appointments reducing no-shows common in busy markets where clients juggle demanding schedules.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making confirmation calls. Rescheduling and cancellation through client self-service reduces phone interruptions during busy salon operating hours.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from Miami clients. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +175,51 @@ export default function MiamiSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting for Miami Business Owners</h3>
               <p>
-                Running a profitable salon in Miami requires understanding your numbers with competitive pressures throughout the area. BookB provides comprehensive reporting helping Miami salon owners make data-driven decisions. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods. Staff productivity metrics compare performance across your team. Client retention analysis helps target marketing to build loyal client base. Service profitability calculations show true margins on different treatments. Peak hour analysis identifies busiest times for optimal staff scheduling. Marketing campaign tracking measures effectiveness of promotional efforts. Inventory turnover reports identify slow-moving retail products. No-show and cancellation tracking quantifies revenue lost to appointment gaps. Year-over-year comparisons show business growth trends and seasonal patterns. Sales tax reporting generates data for state tax submissions. Payroll reports provide data for US payroll processing. Custom report building lets owners analyze specific questions about their business.
+
+                Running a profitable salon in Miami requires understanding your numbers with competitive pressures throughout the area. BookB provides comprehensive reporting helping Miami salon owners make data-driven decisions.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods. Staff productivity metrics compare performance across your team.
+
+              </p>
+
+              <p>
+
+                Client retention analysis helps target marketing to build loyal client base. Service profitability calculations show true margins on different treatments.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times for optimal staff scheduling. Marketing campaign tracking measures effectiveness of promotional efforts.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving retail products. No-show and cancellation tracking quantifies revenue lost to appointment gaps.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns. Sales tax reporting generates data for state tax submissions.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data for US payroll processing. Custom report building lets owners analyze specific questions about their business.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"

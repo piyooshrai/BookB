@@ -112,13 +112,87 @@ export default function VagaroAlternative() {
             <div className="feature-content">
               <h3>Your Clients Belong to You, Not a Marketplace</h3>
               <p>
-                Vagaro's marketplace model means they control client relationships and monetize your customer base through competitor advertising and booking fees. BookB believes your clients are your business asset. Client contact information stays exclusively yours without sharing with marketplace systems. Marketing campaigns reach your clients without platform interference or competitor ads. Loyalty programs reward your customers, not marketplace browsers shopping around. Email addresses export anytime without restrictions or complications. Phone numbers remain confidential business property, not shared resources. Booking history belongs to you for business analysis and marketing. Service preferences inform your personalized recommendations, not algorithm-driven suggestions. Treatment plans track progress toward beauty goals you define together. Color formulas remain proprietary intellectual property of your stylists. Product recommendations align with your retail inventory and philosophies. Pricing strategies match your market positioning without platform pressure. Client reviews appear on your properties, not marketplace comparison pages. Gift cards build your brand equity, not marketplace dependency. Membership programs create recurring revenue you control completely. Referral incentives reward clients for recommending your specific salon. Birthday promotions strengthen individual relationships without marketplace interference. Re-engagement campaigns target your inactive clients with your messaging. Package sales generate prepaid income without revenue sharing obligations. Payment methods stay on file in systems you control. Appointment preferences help you serve clients better without data sharing. Family account linking works for your business intelligence, not marketplace analytics. Client communication maintains your brand voice and relationship dynamics. The booking experience reinforces your salon identity and value proposition.
+
+                Vagaro's marketplace model means they control client relationships and monetize your customer base through competitor advertising and booking fees. BookB believes your clients are your business asset.
+
+              </p>
+
+              <p>
+
+                Client contact information stays exclusively yours without sharing with marketplace systems. Marketing campaigns reach your clients without platform interference or competitor ads.
+
+              </p>
+
+              <p>
+
+                Loyalty programs reward your customers, not marketplace browsers shopping around. Email addresses export anytime without restrictions or complications.
+
+              </p>
+
+              <p>
+
+                Phone numbers remain confidential business property, not shared resources. Booking history belongs to you for business analysis and marketing.
+
+              </p>
+
+              <p>
+
+                Service preferences inform your personalized recommendations, not algorithm-driven suggestions. Treatment plans track progress toward beauty goals you define together.
+
+              </p>
+
+              <p>
+
+                Color formulas remain proprietary intellectual property of your stylists. Product recommendations align with your retail inventory and philosophies.
+
+              </p>
+
+              <p>
+
+                Pricing strategies match your market positioning without platform pressure. Client reviews appear on your properties, not marketplace comparison pages.
+
+              </p>
+
+              <p>
+
+                Gift cards build your brand equity, not marketplace dependency. Membership programs create recurring revenue you control completely.
+
+              </p>
+
+              <p>
+
+                Referral incentives reward clients for recommending your specific salon. Birthday promotions strengthen individual relationships without marketplace interference.
+
+              </p>
+
+              <p>
+
+                Re-engagement campaigns target your inactive clients with your messaging. Package sales generate prepaid income without revenue sharing obligations.
+
+              </p>
+
+              <p>
+
+                Payment methods stay on file in systems you control. Appointment preferences help you serve clients better without data sharing.
+
+              </p>
+
+              <p>
+
+                Family account linking works for your business intelligence, not marketplace analytics. Client communication maintains your brand voice and relationship dynamics.
+
+              </p>
+
+              <p>
+
+                The booking experience reinforces your salon identity and value proposition.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +205,87 @@ export default function VagaroAlternative() {
             <div className="feature-content">
               <h3>Professional Features Without Consumer-App Limitations</h3>
               <p>
-                Vagaro targets individual service providers and small businesses, creating feature gaps for professional salons. BookB serves serious salon operations with appropriate sophistication. Advanced scheduling handles overlapping services, equipment conflicts, and preparation time. Walk-in queue management integrates seamlessly with scheduled appointment flow. Multi-stylist coordination prevents resource conflicts and optimizes utilization. Service duration estimates adjust based on client characteristics and service complexity. Break scheduling ensures labor law compliance and staff wellbeing. Shift swapping happens with manager approval workflows built in. Commission structures accommodate complex scenarios including splits, overrides, and bonuses. Retail integration treats product sales as important revenue with proper inventory. Package management tracks remaining services and expiration dates precisely. Membership billing handles recurring charges with pro-rated adjustments. Treatment plan tracking monitors long-term client relationships and goals. Color formula documentation ensures consistency across visits and stylists. Before and after galleries organize by client and showcase your work. Product usage per service controls costs and informs inventory decisions. Supplier management organizes vendor relationships and ordering history. Purchase order generation streamlines replenishment without manual paperwork. Stock level alerts prevent running out of essential supplies and products. Waste tracking identifies shrinkage patterns and training opportunities. Equipment maintenance schedules prevent unexpected breakdowns and downtime. Multi-location support centralizes client data while localizing operations. Reporting focuses on salon-specific metrics, not generic small business analytics. Staff performance tracking helps identify coaching opportunities and stars. Client retention analysis highlights at-risk relationships before they leave. Revenue forecasting informs staffing and inventory decisions proactively.
+
+                Vagaro targets individual service providers and small businesses, creating feature gaps for professional salons. BookB serves serious salon operations with appropriate sophistication.
+
+              </p>
+
+              <p>
+
+                Advanced scheduling handles overlapping services, equipment conflicts, and preparation time. Walk-in queue management integrates seamlessly with scheduled appointment flow.
+
+              </p>
+
+              <p>
+
+                Multi-stylist coordination prevents resource conflicts and optimizes utilization. Service duration estimates adjust based on client characteristics and service complexity.
+
+              </p>
+
+              <p>
+
+                Break scheduling ensures labor law compliance and staff wellbeing. Shift swapping happens with manager approval workflows built in.
+
+              </p>
+
+              <p>
+
+                Commission structures accommodate complex scenarios including splits, overrides, and bonuses. Retail integration treats product sales as important revenue with proper inventory.
+
+              </p>
+
+              <p>
+
+                Package management tracks remaining services and expiration dates precisely. Membership billing handles recurring charges with pro-rated adjustments.
+
+              </p>
+
+              <p>
+
+                Treatment plan tracking monitors long-term client relationships and goals. Color formula documentation ensures consistency across visits and stylists.
+
+              </p>
+
+              <p>
+
+                Before and after galleries organize by client and showcase your work. Product usage per service controls costs and informs inventory decisions.
+
+              </p>
+
+              <p>
+
+                Supplier management organizes vendor relationships and ordering history. Purchase order generation streamlines replenishment without manual paperwork.
+
+              </p>
+
+              <p>
+
+                Stock level alerts prevent running out of essential supplies and products. Waste tracking identifies shrinkage patterns and training opportunities.
+
+              </p>
+
+              <p>
+
+                Equipment maintenance schedules prevent unexpected breakdowns and downtime. Multi-location support centralizes client data while localizing operations.
+
+              </p>
+
+              <p>
+
+                Reporting focuses on salon-specific metrics, not generic small business analytics. Staff performance tracking helps identify coaching opportunities and stars.
+
+              </p>
+
+              <p>
+
+                Client retention analysis highlights at-risk relationships before they leave. Revenue forecasting informs staffing and inventory decisions proactively.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +298,87 @@ export default function VagaroAlternative() {
             <div className="feature-content">
               <h3>Marketing That Builds Your Brand, Not Theirs</h3>
               <p>
-                Vagaro's marketplace model means they market to your clients, often promoting competitors who pay for better placement. BookB marketing tools work exclusively for your salon success. Email campaigns send from your salon name with your branding and messaging. Automated appointment reminders reduce no-shows without third-party interference. Birthday promotions celebrate clients with personalized offers based on their history. Re-engagement workflows target clients who haven't booked recently with compelling reasons. New service announcements reach interested clients based on past service patterns. Seasonal promotions align with your business calendar and inventory availability. Last-minute availability fills cancellations through targeted client outreach. Package promotions encourage prepayment and commitment through limited offers. Membership drives create recurring revenue with automated enrollment campaigns. Referral programs reward clients for specific recommendations to friends and family. Review request automation generates testimonials for platforms you choose. Social media scheduling maintains consistent brand presence without daily manual work. Content calendars organize educational posts and promotional campaigns. Before and after galleries showcase your specific work and transformation results. Client success stories highlight relationships and outcomes you've achieved. Stylist spotlights build individual brands within your salon team. Educational content positions your salon as beauty experts in your market. Event promotion drives traffic for special occasions, trunk shows, and launches. Local SEO optimization improves search visibility for people in your area. Google My Business management ensures accurate information and reviews. Reputation monitoring alerts you to new reviews across platforms. Competitive analysis tracks positioning relative to other local salons. Service demand forecasting informs inventory and staffing proactively.
+
+                Vagaro's marketplace model means they market to your clients, often promoting competitors who pay for better placement. BookB marketing tools work exclusively for your salon success.
+
+              </p>
+
+              <p>
+
+                Email campaigns send from your salon name with your branding and messaging. Automated appointment reminders reduce no-shows without third-party interference.
+
+              </p>
+
+              <p>
+
+                Birthday promotions celebrate clients with personalized offers based on their history. Re-engagement workflows target clients who haven't booked recently with compelling reasons.
+
+              </p>
+
+              <p>
+
+                New service announcements reach interested clients based on past service patterns. Seasonal promotions align with your business calendar and inventory availability.
+
+              </p>
+
+              <p>
+
+                Last-minute availability fills cancellations through targeted client outreach. Package promotions encourage prepayment and commitment through limited offers.
+
+              </p>
+
+              <p>
+
+                Membership drives create recurring revenue with automated enrollment campaigns. Referral programs reward clients for specific recommendations to friends and family.
+
+              </p>
+
+              <p>
+
+                Review request automation generates testimonials for platforms you choose. Social media scheduling maintains consistent brand presence without daily manual work.
+
+              </p>
+
+              <p>
+
+                Content calendars organize educational posts and promotional campaigns. Before and after galleries showcase your specific work and transformation results.
+
+              </p>
+
+              <p>
+
+                Client success stories highlight relationships and outcomes you've achieved. Stylist spotlights build individual brands within your salon team.
+
+              </p>
+
+              <p>
+
+                Educational content positions your salon as beauty experts in your market. Event promotion drives traffic for special occasions, trunk shows, and launches.
+
+              </p>
+
+              <p>
+
+                Local SEO optimization improves search visibility for people in your area. Google My Business management ensures accurate information and reviews.
+
+              </p>
+
+              <p>
+
+                Reputation monitoring alerts you to new reviews across platforms. Competitive analysis tracks positioning relative to other local salons.
+
+              </p>
+
+              <p>
+
+                Service demand forecasting informs inventory and staffing proactively.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +391,81 @@ export default function VagaroAlternative() {
             <div className="feature-content">
               <h3>Support That Understands Salon Operations</h3>
               <p>
-                Vagaro support handles thousands of diverse service businesses, diluting salon-specific expertise. BookB focuses exclusively on beauty businesses with specialized understanding. Phone support connects to representatives who understand salon terminology and operations. Chat support resolves questions from people familiar with appointment booking patterns. Email responses come from support staff who have worked with similar salons. Screen sharing sessions troubleshoot with context about typical salon workflows. Training materials cover salon-specific scenarios like color formula documentation. Knowledge bases organize by salon roles including receptionist, stylist, and manager. Video tutorials demonstrate features using beauty business examples throughout. Implementation guides reference typical salon service menus and pricing structures. Migration specialists understand common data structures from competitor platforms. Integration support connects salon-specific tools like color mixing apps. Community forums facilitate discussions among salon owners facing similar challenges. Feature requests get evaluated by product managers with beauty industry experience. Beta testing programs recruit salons for feedback on new capabilities. Account managers visit salons to understand operations firsthand when possible. Business reviews analyze metrics that matter to salon profitability specifically. Industry updates cover regulatory changes affecting beauty businesses particularly. Best practices sharing includes proven approaches from successful salons. Seasonal planning assistance helps prepare for busy and slow periods. Expansion support guides multi-location growth common in salon businesses. Franchise programs provide consistent systems and training for salon groups. Acquisition integration merges salon operations smoothly during ownership changes. Retirement planning helps transition salon ownership and preserve business value.
+
+                Vagaro support handles thousands of diverse service businesses, diluting salon-specific expertise. BookB focuses exclusively on beauty businesses with specialized understanding.
+
+              </p>
+
+              <p>
+
+                Phone support connects to representatives who understand salon terminology and operations. Chat support resolves questions from people familiar with appointment booking patterns.
+
+              </p>
+
+              <p>
+
+                Email responses come from support staff who have worked with similar salons. Screen sharing sessions troubleshoot with context about typical salon workflows.
+
+              </p>
+
+              <p>
+
+                Training materials cover salon-specific scenarios like color formula documentation. Knowledge bases organize by salon roles including receptionist, stylist, and manager.
+
+              </p>
+
+              <p>
+
+                Video tutorials demonstrate features using beauty business examples throughout. Implementation guides reference typical salon service menus and pricing structures.
+
+              </p>
+
+              <p>
+
+                Migration specialists understand common data structures from competitor platforms. Integration support connects salon-specific tools like color mixing apps.
+
+              </p>
+
+              <p>
+
+                Community forums facilitate discussions among salon owners facing similar challenges. Feature requests get evaluated by product managers with beauty industry experience.
+
+              </p>
+
+              <p>
+
+                Beta testing programs recruit salons for feedback on new capabilities. Account managers visit salons to understand operations firsthand when possible.
+
+              </p>
+
+              <p>
+
+                Business reviews analyze metrics that matter to salon profitability specifically. Industry updates cover regulatory changes affecting beauty businesses particularly.
+
+              </p>
+
+              <p>
+
+                Best practices sharing includes proven approaches from successful salons. Seasonal planning assistance helps prepare for busy and slow periods.
+
+              </p>
+
+              <p>
+
+                Expansion support guides multi-location growth common in salon businesses. Franchise programs provide consistent systems and training for salon groups.
+
+              </p>
+
+              <p>
+
+                Acquisition integration merges salon operations smoothly during ownership changes. Retirement planning helps transition salon ownership and preserve business value.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

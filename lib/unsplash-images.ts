@@ -93,7 +93,7 @@ export const images = {
       alt: 'New York City skyline - professional salon software for NYC businesses',
     },
     losAngeles: {
-      url: 'https://images.unsplash.com/photo-1534190239940-9ba8944ea261?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&h=800&fit=crop',
       alt: 'Los Angeles cityscape - salon booking system for LA beauty businesses',
     },
     chicago: {

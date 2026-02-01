@@ -67,13 +67,45 @@ export default function SouthamptonSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Southampton's beauty industry serves this major port city requiring software understanding UK business practices. BookB provides features for UK salons including automatic VAT calculation. Price display follows UK conventions. Payment processing integrates with UK banks. Online booking works with UK formats and Southampton's SO postcodes. Appointment scheduling accounts for UK holidays. Staff scheduling respects UK employment law. Payroll reporting generates UK data. GDPR compliance meets obligations. Marketing respects UK regulations. Currency in pounds sterling. UK time and date formats.
+
+                Southampton's beauty industry serves this major port city requiring software understanding UK business practices. BookB provides features for UK salons including automatic VAT calculation.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions. Payment processing integrates with UK banks.
+
+              </p>
+
+              <p>
+
+                Online booking works with UK formats and Southampton's SO postcodes. Appointment scheduling accounts for UK holidays.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects UK employment law. Payroll reporting generates UK data.
+
+              </p>
+
+              <p>
+
+                GDPR compliance meets obligations. Marketing respects UK regulations.
+
+              </p>
+
+              <p>
+
+                Currency in pounds sterling. UK time and date formats.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +118,51 @@ export default function SouthamptonSalonSoftware() {
             <div className="feature-content">
               <h3>Multi-Service Salon Management</h3>
               <p>
-                Southampton salons offer diverse services from hair to nails to beauty requiring flexible service management. BookB organizes service menus, pricing, and delivery. Service catalog maintains comprehensive listings with descriptions, durations, and pricing. Category organization groups services logically for easy browsing. Add-on services enable upselling complementary treatments. Package bundles combine services attractively. Variable pricing accommodates different stylists and experience levels. Seasonal services promote timely treatments. Service dependencies ensure prerequisite treatments. Duration estimates prevent overbooking. Product requirements track supplies needed. Staff assignments restrict services to qualified professionals. Online visibility controls which services appear in booking.
+
+                Southampton salons offer diverse services from hair to nails to beauty requiring flexible service management. BookB organizes service menus, pricing, and delivery.
+
+              </p>
+
+              <p>
+
+                Service catalog maintains comprehensive listings with descriptions, durations, and pricing. Category organization groups services logically for easy browsing.
+
+              </p>
+
+              <p>
+
+                Add-on services enable upselling complementary treatments. Package bundles combine services attractively.
+
+              </p>
+
+              <p>
+
+                Variable pricing accommodates different stylists and experience levels. Seasonal services promote timely treatments.
+
+              </p>
+
+              <p>
+
+                Service dependencies ensure prerequisite treatments. Duration estimates prevent overbooking.
+
+              </p>
+
+              <p>
+
+                Product requirements track supplies needed. Staff assignments restrict services to qualified professionals.
+
+              </p>
+
+              <p>
+
+                Online visibility controls which services appear in booking.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +175,51 @@ export default function SouthamptonSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Southampton Clients Love</h3>
               <p>
-                Southampton clients expect convenient booking. BookB provides mobile-optimized access. Real-time availability shows slots. Stylist profiles help selection. Service descriptions explain options. Galleries showcase results. Location includes directions. Deposits secure appointments. Reminders reduce no-shows. Self-service rescheduling reduces admin. Packages encourage prepayment. Gift cards generate revenue. Memberships create income.
+
+                Southampton clients expect convenient booking. BookB provides mobile-optimized access.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows slots. Stylist profiles help selection.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain options. Galleries showcase results.
+
+              </p>
+
+              <p>
+
+                Location includes directions. Deposits secure appointments.
+
+              </p>
+
+              <p>
+
+                Reminders reduce no-shows. Self-service rescheduling reduces admin.
+
+              </p>
+
+              <p>
+
+                Packages encourage prepayment. Gift cards generate revenue.
+
+              </p>
+
+              <p>
+
+                Memberships create income.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -129,8 +237,8 @@ export default function SouthamptonSalonSoftware() {
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

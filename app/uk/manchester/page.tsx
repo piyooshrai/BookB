@@ -67,13 +67,45 @@ export default function ManchesterSalonSoftware() {
             <div className="feature-content">
               <h3>Perfect for Manchester's Beauty Market</h3>
               <p>
-                Manchester's beauty industry serves diverse clientele from students to professionals, requiring software that handles walk-ins and appointments, budget services and premium treatments, individual stylists and large teams. BookB adapts perfectly to Manchester market conditions with flexible scheduling handling both pre-booked appointments and walk-in traffic common in city center locations and shopping districts like Trafford Centre. Online booking works seamlessly for busy Manchester professionals booking between meetings while walk-in queue management serves spontaneous clients shopping in Arndale Centre or exploring trendy neighborhoods. Pricing flexibility accommodates student discounts popular in Manchester's university areas, corporate packages for MediaCityUK businesses, and premium services in upscale Didsbury and Altrincham neighborhoods. Staff scheduling coordinates teams across morning openings through late evening appointments serving Manchester's varied work schedules and nightlife culture. Multi-location management helps Manchester salon groups operating in city center, Spinningfields, Salford Quays, and suburban locations like Chorlton and Sale. UK-specific features include automatic VAT calculation for HMRC reporting, bank holiday scheduling for English public holidays, and payment processing through UK providers serving Manchester businesses. Marketing tools target Manchester postcodes and neighborhoods effectively reaching potential clients in specific areas. Review management builds reputation on platforms popular with Manchester consumers researching beauty services. Gift cards and packages sell well to Manchester clients looking for birthday presents, Christmas gifts, and special occasion treats. Commission structures handle varied compensation models from booth rental common in Manchester to traditional employment with performance bonuses. Inventory management tracks retail products from professional beauty brands to local artisan product lines popular with Manchester's independent salon culture.
+
+                Manchester's beauty industry serves diverse clientele from students to professionals, requiring software that handles walk-ins and appointments, budget services and premium treatments, individual stylists and large teams. BookB adapts perfectly to Manchester market conditions with flexible scheduling handling both pre-booked appointments and walk-in traffic common in city center locations and shopping districts like Trafford Centre.
+
+              </p>
+
+              <p>
+
+                Online booking works seamlessly for busy Manchester professionals booking between meetings while walk-in queue management serves spontaneous clients shopping in Arndale Centre or exploring trendy neighborhoods. Pricing flexibility accommodates student discounts popular in Manchester's university areas, corporate packages for MediaCityUK businesses, and premium services in upscale Didsbury and Altrincham neighborhoods.
+
+              </p>
+
+              <p>
+
+                Staff scheduling coordinates teams across morning openings through late evening appointments serving Manchester's varied work schedules and nightlife culture. Multi-location management helps Manchester salon groups operating in city center, Spinningfields, Salford Quays, and suburban locations like Chorlton and Sale.
+
+              </p>
+
+              <p>
+
+                UK-specific features include automatic VAT calculation for HMRC reporting, bank holiday scheduling for English public holidays, and payment processing through UK providers serving Manchester businesses. Marketing tools target Manchester postcodes and neighborhoods effectively reaching potential clients in specific areas.
+
+              </p>
+
+              <p>
+
+                Review management builds reputation on platforms popular with Manchester consumers researching beauty services. Gift cards and packages sell well to Manchester clients looking for birthday presents, Christmas gifts, and special occasion treats.
+
+              </p>
+
+              <p>
+
+                Commission structures handle varied compensation models from booth rental common in Manchester to traditional employment with performance bonuses. Inventory management tracks retail products from professional beauty brands to local artisan product lines popular with Manchester's independent salon culture.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +118,51 @@ export default function ManchesterSalonSoftware() {
             <div className="feature-content">
               <h3>Client Management Manchester Salons Need</h3>
               <p>
-                Manchester clients expect personalized service and digital convenience matching experiences from other Manchester service providers and national brands. BookB provides comprehensive client management helping Manchester salons build loyal relationships in competitive market. Detailed client profiles track service history, color formulas, product preferences, and personal notes ensuring consistency whether clients see their regular stylist or try someone new during busy periods. Before and after photo galleries document transformations building portfolio for attracting new Manchester clients through social media and website marketing. Treatment plans track progress toward long-term goals like growing out color, improving hair health, or achieving specific style objectives over multiple visits. Allergy alerts and sensitivity notes protect client safety and demonstrate professional care important to Manchester's health-conscious consumers. Appointment history shows patterns helping identify loyal clients worthy of VIP treatment and occasional visitors needing re-engagement campaigns. Service preferences guide recommendations for additional treatments and retail products aligned with each client's specific needs and interests. Birthday tracking enables celebration promotions and special offers building emotional connections beyond transactional service delivery. Family account linking manages household bookings common in Manchester's suburban family neighborhoods and multi-generational immigrant communities. Referral tracking rewards clients who recommend your salon to friends, family, and colleagues throughout Manchester's social networks. Client communication preferences respect how people want to receive appointment reminders, marketing messages, and service updates via SMS, email, or app notifications. Spending history identifies high-value clients deserving special attention and price-sensitive clients needing budget-friendly options during economic pressures. Retention analysis shows which Manchester clients visit regularly versus one-time visitors helping target marketing effectively.
+
+                Manchester clients expect personalized service and digital convenience matching experiences from other Manchester service providers and national brands. BookB provides comprehensive client management helping Manchester salons build loyal relationships in competitive market.
+
+              </p>
+
+              <p>
+
+                Detailed client profiles track service history, color formulas, product preferences, and personal notes ensuring consistency whether clients see their regular stylist or try someone new during busy periods. Before and after photo galleries document transformations building portfolio for attracting new Manchester clients through social media and website marketing.
+
+              </p>
+
+              <p>
+
+                Treatment plans track progress toward long-term goals like growing out color, improving hair health, or achieving specific style objectives over multiple visits. Allergy alerts and sensitivity notes protect client safety and demonstrate professional care important to Manchester's health-conscious consumers.
+
+              </p>
+
+              <p>
+
+                Appointment history shows patterns helping identify loyal clients worthy of VIP treatment and occasional visitors needing re-engagement campaigns. Service preferences guide recommendations for additional treatments and retail products aligned with each client's specific needs and interests.
+
+              </p>
+
+              <p>
+
+                Birthday tracking enables celebration promotions and special offers building emotional connections beyond transactional service delivery. Family account linking manages household bookings common in Manchester's suburban family neighborhoods and multi-generational immigrant communities.
+
+              </p>
+
+              <p>
+
+                Referral tracking rewards clients who recommend your salon to friends, family, and colleagues throughout Manchester's social networks. Client communication preferences respect how people want to receive appointment reminders, marketing messages, and service updates via SMS, email, or app notifications.
+
+              </p>
+
+              <p>
+
+                Spending history identifies high-value clients deserving special attention and price-sensitive clients needing budget-friendly options during economic pressures. Retention analysis shows which Manchester clients visit regularly versus one-time visitors helping target marketing effectively.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +175,51 @@ export default function ManchesterSalonSoftware() {
             <div className="feature-content">
               <h3>Staff Management for Manchester Teams</h3>
               <p>
-                Managing salon staff in Manchester requires balancing labor costs with service quality, coordinating schedules across diverse team needs, and tracking performance fairly across experienced professionals and junior stylists building careers. BookB provides comprehensive staff management tools designed for real Manchester salon operations. Intelligent scheduling prevents understaffing during busy Saturday rushes and overstaffing during quiet Monday mornings based on historical booking patterns specific to your Manchester location and neighborhood. Staff availability management lets team members block personal appointments, indicate preferred shifts, and request time off through self-service mobile app reducing administrative burden on managers. Skill-based assignment ensures clients receive appropriate stylist expertise matching requested services with staff certifications, training, and demonstrated competency levels. Commission tracking handles complex compensation structures including service percentages, retail bonuses, product usage deductions, and tiered performance incentives motivating Manchester stylists toward business goals. Payroll reports generate data formatted for UK payroll providers serving Manchester businesses including PAYE tax, National Insurance, pension contributions, and holiday pay calculations. Time clock integration tracks actual hours worked compared to scheduled shifts for accurate wage calculations and productivity analysis identifying training needs. Break management ensures compliance with UK Working Time Regulations requiring rest breaks during shifts and time off between working days protecting staff wellbeing. Holiday entitlement tracking manages statutory minimums and additional company benefits ensuring fair allocation and preventing scheduling conflicts during popular vacation periods. Performance metrics compare productivity across team members including clients served, average ticket values, retail attachment rates, and client rebooking percentages. Training records document continuing education, advanced certifications, and skill development helping Manchester stylists progress careers while building your salon's service capabilities. Staff retention analytics identify turnover patterns and at-risk team members worth retention efforts in Manchester's competitive employment market.
+
+                Managing salon staff in Manchester requires balancing labor costs with service quality, coordinating schedules across diverse team needs, and tracking performance fairly across experienced professionals and junior stylists building careers. BookB provides comprehensive staff management tools designed for real Manchester salon operations.
+
+              </p>
+
+              <p>
+
+                Intelligent scheduling prevents understaffing during busy Saturday rushes and overstaffing during quiet Monday mornings based on historical booking patterns specific to your Manchester location and neighborhood. Staff availability management lets team members block personal appointments, indicate preferred shifts, and request time off through self-service mobile app reducing administrative burden on managers.
+
+              </p>
+
+              <p>
+
+                Skill-based assignment ensures clients receive appropriate stylist expertise matching requested services with staff certifications, training, and demonstrated competency levels. Commission tracking handles complex compensation structures including service percentages, retail bonuses, product usage deductions, and tiered performance incentives motivating Manchester stylists toward business goals.
+
+              </p>
+
+              <p>
+
+                Payroll reports generate data formatted for UK payroll providers serving Manchester businesses including PAYE tax, National Insurance, pension contributions, and holiday pay calculations. Time clock integration tracks actual hours worked compared to scheduled shifts for accurate wage calculations and productivity analysis identifying training needs.
+
+              </p>
+
+              <p>
+
+                Break management ensures compliance with UK Working Time Regulations requiring rest breaks during shifts and time off between working days protecting staff wellbeing. Holiday entitlement tracking manages statutory minimums and additional company benefits ensuring fair allocation and preventing scheduling conflicts during popular vacation periods.
+
+              </p>
+
+              <p>
+
+                Performance metrics compare productivity across team members including clients served, average ticket values, retail attachment rates, and client rebooking percentages. Training records document continuing education, advanced certifications, and skill development helping Manchester stylists progress careers while building your salon's service capabilities.
+
+              </p>
+
+              <p>
+
+                Staff retention analytics identify turnover patterns and at-risk team members worth retention efforts in Manchester's competitive employment market.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +232,57 @@ export default function ManchesterSalonSoftware() {
             <div className="feature-content">
               <h3>Marketing Automation for Manchester Growth</h3>
               <p>
-                Growing salon business in competitive Manchester market requires consistent marketing reaching right people with compelling messages at optimal times. BookB provides marketing automation helping busy Manchester salon owners maintain client engagement without consuming hours daily on promotional activities. Appointment reminder sequences reduce no-shows through SMS and email sent at timing proven to maximize attendance without annoying clients with excessive communication. Birthday campaigns celebrate clients automatically with personalized offers based on their service history and preferences encouraging celebratory salon visits. Re-engagement workflows target Manchester clients who haven't booked within typical intervals with compelling incentives to return before they become permanently inactive. New service announcements reach interested clients based on past behavior and stated preferences ensuring relevant targeting and high conversion rates. Last-minute availability notifications fill same-day cancellations by reaching clients who previously indicated interest in short-notice discounted appointments. Package promotions encourage prepayment and commitment through limited-time offers and bundle pricing improving cash flow during slower periods. Membership enrollment campaigns create recurring revenue streams highlighting convenience and savings of monthly subscription programs. Referral incentive programs reward existing clients for bringing friends with tracked credits applied automatically when referrals complete first appointments. Review request automation generates testimonials for Google, Facebook, and beauty-specific platforms building online reputation crucial for attracting new Manchester clients. Social media scheduling maintains consistent brand presence across platforms popular with Manchester demographics without daily manual posting requirements. Email segmentation delivers relevant messages based on client characteristics, behaviors, and preferences rather than generic blasts everyone ignores. Seasonal promotion campaigns align with Manchester weather, cultural events, and shopping patterns when demand for specific services naturally increases. Client win-back campaigns target inactive clients with aggressive offers acknowledging absence and incentivizing return before relationships end permanently.
+
+                Growing salon business in competitive Manchester market requires consistent marketing reaching right people with compelling messages at optimal times. BookB provides marketing automation helping busy Manchester salon owners maintain client engagement without consuming hours daily on promotional activities.
+
+              </p>
+
+              <p>
+
+                Appointment reminder sequences reduce no-shows through SMS and email sent at timing proven to maximize attendance without annoying clients with excessive communication. Birthday campaigns celebrate clients automatically with personalized offers based on their service history and preferences encouraging celebratory salon visits.
+
+              </p>
+
+              <p>
+
+                Re-engagement workflows target Manchester clients who haven't booked within typical intervals with compelling incentives to return before they become permanently inactive. New service announcements reach interested clients based on past behavior and stated preferences ensuring relevant targeting and high conversion rates.
+
+              </p>
+
+              <p>
+
+                Last-minute availability notifications fill same-day cancellations by reaching clients who previously indicated interest in short-notice discounted appointments. Package promotions encourage prepayment and commitment through limited-time offers and bundle pricing improving cash flow during slower periods.
+
+              </p>
+
+              <p>
+
+                Membership enrollment campaigns create recurring revenue streams highlighting convenience and savings of monthly subscription programs. Referral incentive programs reward existing clients for bringing friends with tracked credits applied automatically when referrals complete first appointments.
+
+              </p>
+
+              <p>
+
+                Review request automation generates testimonials for Google, Facebook, and beauty-specific platforms building online reputation crucial for attracting new Manchester clients. Social media scheduling maintains consistent brand presence across platforms popular with Manchester demographics without daily manual posting requirements.
+
+              </p>
+
+              <p>
+
+                Email segmentation delivers relevant messages based on client characteristics, behaviors, and preferences rather than generic blasts everyone ignores. Seasonal promotion campaigns align with Manchester weather, cultural events, and shopping patterns when demand for specific services naturally increases.
+
+              </p>
+
+              <p>
+
+                Client win-back campaigns target inactive clients with aggressive offers acknowledging absence and incentivizing return before relationships end permanently.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

@@ -112,13 +112,57 @@ export default function SquareAppointmentsAlternative() {
             <div className="feature-content">
               <h3>Built for Beauty, Not Generic Services</h3>
               <p>
-                Square Appointments serves dog groomers, tutors, consultants, and hundreds of other service businesses with one-size-fits-all features. BookB focuses exclusively on salons, barbershops, and beauty businesses with purpose-built functionality. Appointment scheduling understands overlapping services like cuts with color where different phases require different attention levels. Service duration estimates adjust automatically based on client hair type, length, and density documented in their profile. Color formula documentation saves mixing ratios, processing times, developer strengths, and application techniques with photos showing results. Before and after galleries organize by client for portfolio building and consultation reference during future appointments. Treatment plan tracking monitors progress toward long-term goals like growing out color or repairing damage from previous services. Product usage per service tracks cost of goods sold for accurate profitability analysis by service type and stylist performance. Retail product recommendations appear automatically during checkout based on services performed and client hair characteristics. Walk-in queue management integrates with scheduled appointments showing realistic wait times based on service complexity and current stylist workload. Staff skill matching ensures clients get assigned to stylists qualified for requested services based on training certifications and experience levels. Commission structures accommodate complex salon scenarios including service splits between assistants and stylists, retail versus service percentages, and performance bonuses. Package and membership programs encourage client prepayment and loyalty with automatic remaining service tracking and expiration management. Gift card programs build brand equity and prepaid revenue with balance tracking preventing fraud. Equipment and station management prevents double-booking of specialized tools like hooded dryers or specialized color processing equipment. Supply ordering integrates with beauty industry distributors using product codes and case quantities common to professional beauty supplies.
+
+                Square Appointments serves dog groomers, tutors, consultants, and hundreds of other service businesses with one-size-fits-all features. BookB focuses exclusively on salons, barbershops, and beauty businesses with purpose-built functionality.
+
+              </p>
+
+              <p>
+
+                Appointment scheduling understands overlapping services like cuts with color where different phases require different attention levels. Service duration estimates adjust automatically based on client hair type, length, and density documented in their profile.
+
+              </p>
+
+              <p>
+
+                Color formula documentation saves mixing ratios, processing times, developer strengths, and application techniques with photos showing results. Before and after galleries organize by client for portfolio building and consultation reference during future appointments.
+
+              </p>
+
+              <p>
+
+                Treatment plan tracking monitors progress toward long-term goals like growing out color or repairing damage from previous services. Product usage per service tracks cost of goods sold for accurate profitability analysis by service type and stylist performance.
+
+              </p>
+
+              <p>
+
+                Retail product recommendations appear automatically during checkout based on services performed and client hair characteristics. Walk-in queue management integrates with scheduled appointments showing realistic wait times based on service complexity and current stylist workload.
+
+              </p>
+
+              <p>
+
+                Staff skill matching ensures clients get assigned to stylists qualified for requested services based on training certifications and experience levels. Commission structures accommodate complex salon scenarios including service splits between assistants and stylists, retail versus service percentages, and performance bonuses.
+
+              </p>
+
+              <p>
+
+                Package and membership programs encourage client prepayment and loyalty with automatic remaining service tracking and expiration management. Gift card programs build brand equity and prepaid revenue with balance tracking preventing fraud.
+
+              </p>
+
+              <p>
+
+                Equipment and station management prevents double-booking of specialized tools like hooded dryers or specialized color processing equipment. Supply ordering integrates with beauty industry distributors using product codes and case quantities common to professional beauty supplies.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +175,51 @@ export default function SquareAppointmentsAlternative() {
             <div className="feature-content">
               <h3>Advanced Staff Management for Salon Teams</h3>
               <p>
-                Square Appointments handles basic staff scheduling but lacks salon-specific workforce features. BookB provides comprehensive team management designed for beauty business operations. Commission calculation handles tiered structures where percentages increase with performance targets, different rates for service categories versus retail sales, and split commissions for assistants helping with shampooing or color application. Payroll reporting generates detailed breakdowns of service revenue, retail commissions, tips received, and hours worked in formats that accounting software and payroll providers can import directly. Staff performance tracking compares productivity metrics including clients served, average ticket values, retail attachment rates, and rebooking percentages to identify top performers and coaching opportunities. Continuing education tracking maintains records of certifications, technique training, and product knowledge courses ensuring compliance with insurance requirements and manufacturer warranties. Staff scheduling prevents overtime violations by alerting managers when approaching threshold hours and suggests optimal shift patterns. Break management ensures compliance with labor regulations by enforcing minimum rest periods and meal breaks based on shift length. Time clock integration tracks actual hours worked compared to scheduled hours for accurate wage calculation and productivity analysis. Shift swap requests flow through manager approval workflows preventing unauthorized schedule changes while giving staff flexibility. Availability management lets stylists block personal time, set preferred working hours, and indicate willingness for on-call shifts during busy periods. Skill certification tracking maintains records of advanced techniques each stylist can perform ensuring proper service assignment and pricing authority. Personal service menus let stylists customize which services they offer and their individual pricing within salon parameters.
+
+                Square Appointments handles basic staff scheduling but lacks salon-specific workforce features. BookB provides comprehensive team management designed for beauty business operations.
+
+              </p>
+
+              <p>
+
+                Commission calculation handles tiered structures where percentages increase with performance targets, different rates for service categories versus retail sales, and split commissions for assistants helping with shampooing or color application. Payroll reporting generates detailed breakdowns of service revenue, retail commissions, tips received, and hours worked in formats that accounting software and payroll providers can import directly.
+
+              </p>
+
+              <p>
+
+                Staff performance tracking compares productivity metrics including clients served, average ticket values, retail attachment rates, and rebooking percentages to identify top performers and coaching opportunities. Continuing education tracking maintains records of certifications, technique training, and product knowledge courses ensuring compliance with insurance requirements and manufacturer warranties.
+
+              </p>
+
+              <p>
+
+                Staff scheduling prevents overtime violations by alerting managers when approaching threshold hours and suggests optimal shift patterns. Break management ensures compliance with labor regulations by enforcing minimum rest periods and meal breaks based on shift length.
+
+              </p>
+
+              <p>
+
+                Time clock integration tracks actual hours worked compared to scheduled hours for accurate wage calculation and productivity analysis. Shift swap requests flow through manager approval workflows preventing unauthorized schedule changes while giving staff flexibility.
+
+              </p>
+
+              <p>
+
+                Availability management lets stylists block personal time, set preferred working hours, and indicate willingness for on-call shifts during busy periods. Skill certification tracking maintains records of advanced techniques each stylist can perform ensuring proper service assignment and pricing authority.
+
+              </p>
+
+              <p>
+
+                Personal service menus let stylists customize which services they offer and their individual pricing within salon parameters.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +232,57 @@ export default function SquareAppointmentsAlternative() {
             <div className="feature-content">
               <h3>Inventory Management for Salon Products</h3>
               <p>
-                Square's inventory system was designed for retail stores, not service businesses that consume products during service delivery. BookB tracks both retail sales and service consumption accurately. Product usage per service automatically deducts color, developer, styling products, and other consumables based on service formulas and typical usage rates. Cost of goods sold calculation provides accurate profitability analysis by deducting product costs from service revenue showing true margins by service category and individual stylist. Stock level alerts notify managers when essential products approach reorder points preventing stockouts of critical supplies during busy periods. Supplier management organizes vendor contacts, ordering history, pricing tiers, and delivery schedules for streamlined replenishment. Purchase order generation creates properly formatted orders with product codes, case quantities, and pricing that professional beauty suppliers expect. Receiving workflows verify delivered quantities match orders and update stock levels automatically preventing inventory discrepancies. Waste tracking records expired products, damaged inventory, and excess mixing that helps identify training opportunities and portion control issues. Multi-location inventory management tracks stock at each location while allowing emergency transfers between sites when one runs short. Product expiration monitoring alerts staff to products approaching expiration dates preventing use of oxidized color or expired treatments. Barcode scanning speeds retail checkout and receiving processes using standard UPC codes printed on professional beauty products. Retail pricing rules automate markups from wholesale costs with category-specific margins and promotional pricing periods. Manufacturer rebate tracking captures eligible purchases for volume rebates and promotional credits offered by beauty brands. Backbar versus retail inventory separation tracks usage of professional versus retail versions of the same product.
+
+                Square's inventory system was designed for retail stores, not service businesses that consume products during service delivery. BookB tracks both retail sales and service consumption accurately.
+
+              </p>
+
+              <p>
+
+                Product usage per service automatically deducts color, developer, styling products, and other consumables based on service formulas and typical usage rates. Cost of goods sold calculation provides accurate profitability analysis by deducting product costs from service revenue showing true margins by service category and individual stylist.
+
+              </p>
+
+              <p>
+
+                Stock level alerts notify managers when essential products approach reorder points preventing stockouts of critical supplies during busy periods. Supplier management organizes vendor contacts, ordering history, pricing tiers, and delivery schedules for streamlined replenishment.
+
+              </p>
+
+              <p>
+
+                Purchase order generation creates properly formatted orders with product codes, case quantities, and pricing that professional beauty suppliers expect. Receiving workflows verify delivered quantities match orders and update stock levels automatically preventing inventory discrepancies.
+
+              </p>
+
+              <p>
+
+                Waste tracking records expired products, damaged inventory, and excess mixing that helps identify training opportunities and portion control issues. Multi-location inventory management tracks stock at each location while allowing emergency transfers between sites when one runs short.
+
+              </p>
+
+              <p>
+
+                Product expiration monitoring alerts staff to products approaching expiration dates preventing use of oxidized color or expired treatments. Barcode scanning speeds retail checkout and receiving processes using standard UPC codes printed on professional beauty products.
+
+              </p>
+
+              <p>
+
+                Retail pricing rules automate markups from wholesale costs with category-specific margins and promotional pricing periods. Manufacturer rebate tracking captures eligible purchases for volume rebates and promotional credits offered by beauty brands.
+
+              </p>
+
+              <p>
+
+                Backbar versus retail inventory separation tracks usage of professional versus retail versions of the same product.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +295,51 @@ export default function SquareAppointmentsAlternative() {
             <div className="feature-content">
               <h3>Marketing Automation for Client Retention</h3>
               <p>
-                Square provides basic appointment reminders but lacks sophisticated marketing tools salons need for client retention and revenue growth. BookB includes comprehensive marketing automation designed specifically for beauty business customer lifecycles. Appointment reminder sequences send optimized messages via SMS and email at timing intervals that minimize no-shows without annoying clients with excessive communication. Birthday campaigns celebrate clients with personalized offers based on their service preferences and historical spending patterns encouraging them to book celebratory services. Re-engagement workflows automatically target clients who haven't booked within their typical interval with compelling incentives to return before they become inactive permanently. New service launch announcements reach interested clients based on their service history and stated preferences ensuring relevant targeting and high conversion rates. Last-minute availability notifications fill same-day cancellations by reaching clients who previously indicated interest in short-notice appointments at discounted rates. Package promotion campaigns encourage clients to prepay for series of services with bundled pricing that improves cash flow and commitment. Membership enrollment campaigns create recurring revenue streams by highlighting convenience and savings of monthly membership programs. Referral incentive programs reward existing clients for bringing friends with tracked credits applied automatically when referrals complete first appointments. Review request automation sends timing-optimized requests after successful appointments generating authentic testimonials for Google, Facebook, and beauty-specific platforms. Seasonal promotion campaigns align with holidays, weather changes, and cultural events when demand for specific services naturally increases. Client win-back campaigns target clients who have become inactive with aggressive offers acknowledging their absence and incentivizing return. Retail product promotions reach clients who use specific products regularly with manufacturer specials and loyalty discounts.
+
+                Square provides basic appointment reminders but lacks sophisticated marketing tools salons need for client retention and revenue growth. BookB includes comprehensive marketing automation designed specifically for beauty business customer lifecycles.
+
+              </p>
+
+              <p>
+
+                Appointment reminder sequences send optimized messages via SMS and email at timing intervals that minimize no-shows without annoying clients with excessive communication. Birthday campaigns celebrate clients with personalized offers based on their service preferences and historical spending patterns encouraging them to book celebratory services.
+
+              </p>
+
+              <p>
+
+                Re-engagement workflows automatically target clients who haven't booked within their typical interval with compelling incentives to return before they become inactive permanently. New service launch announcements reach interested clients based on their service history and stated preferences ensuring relevant targeting and high conversion rates.
+
+              </p>
+
+              <p>
+
+                Last-minute availability notifications fill same-day cancellations by reaching clients who previously indicated interest in short-notice appointments at discounted rates. Package promotion campaigns encourage clients to prepay for series of services with bundled pricing that improves cash flow and commitment.
+
+              </p>
+
+              <p>
+
+                Membership enrollment campaigns create recurring revenue streams by highlighting convenience and savings of monthly membership programs. Referral incentive programs reward existing clients for bringing friends with tracked credits applied automatically when referrals complete first appointments.
+
+              </p>
+
+              <p>
+
+                Review request automation sends timing-optimized requests after successful appointments generating authentic testimonials for Google, Facebook, and beauty-specific platforms. Seasonal promotion campaigns align with holidays, weather changes, and cultural events when demand for specific services naturally increases.
+
+              </p>
+
+              <p>
+
+                Client win-back campaigns target clients who have become inactive with aggressive offers acknowledging their absence and incentivizing return. Retail product promotions reach clients who use specific products regularly with manufacturer specials and loyalty discounts.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

@@ -55,13 +55,45 @@ export default function salon_receptionist_softwarePage() {
             <div className="feature-content">
               <h3>Why This Matters for Your Salon</h3>
               <p>
-                Understanding front desk management is essential for salon success in today's competitive market. Modern clients expect professional service, convenient booking options, and seamless experiences from first contact through checkout and beyond. Salons that master front desk management see significant improvements in client satisfaction, staff productivity, and overall profitability. The challenge many salon owners face is implementing effective systems without expensive enterprise software or complicated processes that overwhelm their teams. BookB solves this problem by providing professional tools designed specifically for salons at pricing independent businesses can afford. Our software handles front desk management automatically using proven best practices developed through working with thousands of salons worldwide. You get enterprise-level capabilities without enterprise-level costs or complexity. Whether you run a single-chair operation or manage multiple locations, BookB provides the features you need to implement effective front desk management strategies starting day one. Our intuitive interface ensures your team can use the system productively without extensive training or technical expertise. Cloud-based access means you can manage operations from anywhere using any device with internet connection. Automatic updates deliver new features and improvements regularly without manual software upgrades or IT support requirements.
+
+                Understanding front desk management is essential for salon success in today's competitive market. Modern clients expect professional service, convenient booking options, and seamless experiences from first contact through checkout and beyond.
+
+              </p>
+
+              <p>
+
+                Salons that master front desk management see significant improvements in client satisfaction, staff productivity, and overall profitability. The challenge many salon owners face is implementing effective systems without expensive enterprise software or complicated processes that overwhelm their teams.
+
+              </p>
+
+              <p>
+
+                BookB solves this problem by providing professional tools designed specifically for salons at pricing independent businesses can afford. Our software handles front desk management automatically using proven best practices developed through working with thousands of salons worldwide.
+
+              </p>
+
+              <p>
+
+                You get enterprise-level capabilities without enterprise-level costs or complexity. Whether you run a single-chair operation or manage multiple locations, BookB provides the features you need to implement effective front desk management strategies starting day one.
+
+              </p>
+
+              <p>
+
+                Our intuitive interface ensures your team can use the system productively without extensive training or technical expertise. Cloud-based access means you can manage operations from anywhere using any device with internet connection.
+
+              </p>
+
+              <p>
+
+                Automatic updates deliver new features and improvements regularly without manual software upgrades or IT support requirements.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -74,13 +106,51 @@ export default function salon_receptionist_softwarePage() {
             <div className="feature-content">
               <h3>How BookB Helps</h3>
               <p>
-                BookB provides comprehensive tools for front desk management built specifically for salon operations. Our software automates routine tasks, streamlines workflows, and provides insights that help you make better business decisions. Appointment scheduling handles bookings from multiple channels preventing double-bookings and scheduling conflicts. Client management stores detailed information about preferences, service history, and contact details enabling personalized service. Staff management coordinates schedules, tracks performance, and manages payroll information efficiently. Point of sale processing accepts all payment methods with competitive rates and no hidden fees. Marketing automation sends targeted campaigns to specific client segments increasing repeat visits and referrals. Reporting and analytics provide clear insights into business performance identifying opportunities for improvement. Mobile apps for staff and clients ensure everyone stays connected and informed wherever they are. Integration with popular payment processors, accounting software, and marketing tools creates seamless workflows. Security features protect sensitive client and business information meeting industry standards for data protection. Our support team provides responsive assistance ensuring you get help when you need it without long wait times. Training resources include video tutorials, documentation, and live onboarding sessions helping your team master the system quickly.
+
+                BookB provides comprehensive tools for front desk management built specifically for salon operations. Our software automates routine tasks, streamlines workflows, and provides insights that help you make better business decisions.
+
+              </p>
+
+              <p>
+
+                <strong>Appointment Scheduling:</strong> Handles bookings from multiple channels preventing double-bookings and scheduling conflicts. <strong>Client Management:</strong> Stores detailed information about preferences, service history, and contact details enabling personalized service.
+
+              </p>
+
+              <p>
+
+                <strong>Staff Management:</strong> Coordinates schedules, tracks performance, and manages payroll information efficiently. <strong>Point of Sale:</strong> Processing accepts all payment methods with competitive rates and no hidden fees.
+
+              </p>
+
+              <p>
+
+                <strong>Marketing Automation:</strong> Sends targeted campaigns to specific client segments increasing repeat visits and referrals. <strong>Reporting and Analytics:</strong> Provide clear insights into business performance identifying opportunities for improvement.
+
+              </p>
+
+              <p>
+
+                Mobile apps for staff and clients ensure everyone stays connected and informed wherever they are. Integration with popular payment processors, accounting software, and marketing tools creates seamless workflows.
+
+              </p>
+
+              <p>
+
+                Security features protect sensitive client and business information meeting industry standards for data protection. Our support team provides responsive assistance ensuring you get help when you need it without long wait times.
+
+              </p>
+
+              <p>
+
+                Training resources include video tutorials, documentation, and live onboarding sessions helping your team master the system quickly.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -93,13 +163,60 @@ export default function salon_receptionist_softwarePage() {
             <div className="feature-content">
               <h3>Implementation and ROI</h3>
               <p>
-                Implementing effective front desk management delivers measurable returns through increased revenue, reduced costs, and improved efficiency. Salons using BookB report significant improvements in key performance metrics within first 90 days. Appointment booking becomes more efficient reducing phone time and administrative overhead. Client retention improves through better service and automated follow-up communications. Staff productivity increases when freed from manual tasks and paperwork. No-shows decrease dramatically with automated reminders and confirmation requests. Marketing effectiveness improves through targeted campaigns based on client data and behavior. Inventory management reduces waste and ensures products are always in stock. Financial reporting provides clear visibility into profitability by service, stylist, and location. The best part is implementing BookB requires minimal disruption to your operations. We handle data migration from your existing systems ensuring smooth transition. Training takes hours not weeks thanks to intuitive design and comprehensive resources. Support during transition ensures any questions get answered quickly. Month-to-month pricing means no long-term commitment or expensive contracts. Free trial lets you test everything before committing. Money-back guarantee protects your investment if you're not satisfied.
+
+                Implementing effective front desk management delivers measurable returns through increased revenue, reduced costs, and improved efficiency. Salons using BookB report significant improvements in key performance metrics within first 90 days.
+
+              </p>
+
+              <p>
+
+                <strong>Operational Improvements:</strong> Appointment booking becomes more efficient reducing phone time and administrative overhead. <strong>Revenue Growth:</strong> No-shows decrease dramatically with automated reminders and confirmation requests. <strong>Marketing:</strong> Effectiveness improves through targeted campaigns based on client data and behavior. <strong>Financial Reporting:</strong> Provides clear visibility into profitability by service, stylist, and location.
+              </p>
+              <p>
+                Client retention improves through better service and automated follow-up communications.
+
+              </p>
+
+              <p>
+
+                <strong>Staff Productivity:</strong> Increases when freed from manual tasks and paperwork. No-shows decrease dramatically with automated reminders and confirmation requests.
+
+              </p>
+
+              <p>
+
+                <strong>Marketing:</strong> Effectiveness improves through targeted campaigns based on client data and behavior. Inventory management reduces waste and ensures products are always in stock.
+
+              </p>
+
+              <p>
+
+                <strong>Financial Reporting:</strong> Provides clear visibility into profitability by service, stylist, and location. The best part is implementing BookB requires minimal disruption to your operations.
+
+              </p>
+
+              <p>
+
+                We handle data migration from your existing systems ensuring smooth transition. Training takes hours not weeks thanks to intuitive design and comprehensive resources.
+
+              </p>
+
+              <p>
+
+                Support during transition ensures any questions get answered quickly. Month-to-month pricing means no long-term commitment or expensive contracts.
+
+              </p>
+
+              <p>
+
+                Free trial lets you test everything before committing. Money-back guarantee protects your investment if you're not satisfied.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"

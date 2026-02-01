@@ -67,13 +67,51 @@ export default function BrightonSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Brighton's beauty industry thrives on creativity and innovation, requiring software that understands local business practices and regulatory requirements while supporting the city's unique artistic culture. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax season straightforward for Brighton business owners. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and compliance. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Brighton's tech-savvy market. Online booking works perfectly with UK phone number formats, postal codes including Brighton's BN postcodes, and address conventions familiar to local clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Brighton salons may close. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Brighton employees whether full-time stylists or part-time beauty therapists. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Brighton businesses from small independents to larger salon groups. GDPR compliance features help Brighton salons meet data protection obligations for storing and processing client personal information in accordance with UK and EU regulations. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations. Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors and client frustration.
+
+                Brighton's beauty industry thrives on creativity and innovation, requiring software that understands local business practices and regulatory requirements while supporting the city's unique artistic culture. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax season straightforward for Brighton business owners.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and compliance. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Brighton's tech-savvy market.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes including Brighton's BN postcodes, and address conventions familiar to local clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Brighton salons may close.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Brighton employees whether full-time stylists or part-time beauty therapists. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Brighton businesses from small independents to larger salon groups.
+
+              </p>
+
+              <p>
+
+                GDPR compliance features help Brighton salons meet data protection obligations for storing and processing client personal information in accordance with UK and EU regulations. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant.
+
+              </p>
+
+              <p>
+
+                Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations.
+
+              </p>
+
+              <p>
+
+                Date formats follow UK conventions preventing American-style date confusion that could cause appointment booking errors and client frustration.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function BrightonSalonSoftware() {
             <div className="feature-content">
               <h3>Manage Walk-Ins and Bookings in Busy Brighton Market</h3>
               <p>
-                Brighton's seafront location and tourist traffic creates unique challenges for salon businesses balancing regular clients with walk-in customers throughout the year. BookB's queue management features help Brighton salons handle walk-in clients efficiently during busy summer weekends when tourists flock to the beach and pier. Digital waitlist management lets reception staff add walk-in clients to queue with estimated wait times displayed clearly preventing frustration. SMS notifications alert waiting clients when their turn approaches allowing them to browse Brighton shops or enjoy coffee rather than crowding your reception area. Appointment scheduling prioritizes pre-booked clients while intelligently fitting walk-ins into gaps and cancellations maximizing revenue from both visitor traffic and loyal regulars. Staff allocation balances workload across your team ensuring no stylist becomes overwhelmed during peak Brighton tourist season while others sit idle. Real-time scheduling updates reflect cancellations and no-shows immediately making those slots available for walk-in clients or online bookings. Service time estimates based on historical data help receptionists provide accurate wait time predictions for walk-in clients choosing between waiting or booking future appointments. Mobile app check-in for appointments reduces reception desk congestion during busy periods letting clients confirm arrival independently. Queue analytics identify peak walk-in times helping Brighton salon owners optimize staff scheduling for seasonal patterns and weekend rushes. VIP client prioritization ensures your best Brighton customers receive premium service even during hectic summer days when the seafront brings massive foot traffic. Flexible deposit policies let you require prepayment for tourists less likely to return while waiving fees for trusted local clients. Cancellation windows adjust by season or client history protecting revenue during peak Brighton events and festivals.
+
+                Brighton's seafront location and tourist traffic creates unique challenges for salon businesses balancing regular clients with walk-in customers throughout the year. BookB's queue management features help Brighton salons handle walk-in clients efficiently during busy summer weekends when tourists flock to the beach and pier.
+
+              </p>
+
+              <p>
+
+                Digital waitlist management lets reception staff add walk-in clients to queue with estimated wait times displayed clearly preventing frustration. SMS notifications alert waiting clients when their turn approaches allowing them to browse Brighton shops or enjoy coffee rather than crowding your reception area.
+
+              </p>
+
+              <p>
+
+                Appointment scheduling prioritizes pre-booked clients while intelligently fitting walk-ins into gaps and cancellations maximizing revenue from both visitor traffic and loyal regulars. Staff allocation balances workload across your team ensuring no stylist becomes overwhelmed during peak Brighton tourist season while others sit idle.
+
+              </p>
+
+              <p>
+
+                Real-time scheduling updates reflect cancellations and no-shows immediately making those slots available for walk-in clients or online bookings. Service time estimates based on historical data help receptionists provide accurate wait time predictions for walk-in clients choosing between waiting or booking future appointments.
+
+              </p>
+
+              <p>
+
+                Mobile app check-in for appointments reduces reception desk congestion during busy periods letting clients confirm arrival independently. Queue analytics identify peak walk-in times helping Brighton salon owners optimize staff scheduling for seasonal patterns and weekend rushes.
+
+              </p>
+
+              <p>
+
+                VIP client prioritization ensures your best Brighton customers receive premium service even during hectic summer days when the seafront brings massive foot traffic. Flexible deposit policies let you require prepayment for tourists less likely to return while waiving fees for trusted local clients.
+
+              </p>
+
+              <p>
+
+                Cancellation windows adjust by season or client history protecting revenue during peak Brighton events and festivals.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function BrightonSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Brighton Clients Love</h3>
               <p>
-                Brighton clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city's creative and tech-forward community. BookB provides mobile-optimized online booking that works perfectly on Brighton buses, in seafront cafes, and anywhere clients access their smartphones throughout the day. Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made plans. Stylist profiles include photos, specialties, and reviews helping Brighton clients choose the right professional for their specific needs whether color correction, creative cuts, or specialist treatments. Service descriptions explain treatments clearly with duration estimates and pricing so Brighton clients understand exactly what they're booking from balayage to Brazilian blowouts. Before and after galleries showcase your salon's work building confidence in new clients considering your Brighton salon for the first time or visitors searching for reliable service. Location information includes directions from Brighton station, local parking options, and bus routes helping clients plan their journey whether traveling from Hove, Rottingdean, or visiting from out of town. Contactless deposit payments secure appointments reducing no-shows common in busy Brighton market where clients juggle work, social activities, and seaside recreation. Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making phone confirmation calls during busy salon operating hours. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Brighton weekends when your team focuses on delivering excellent service. Package purchasing during online booking encourages prepayment and commitment from Brighton clients comparing multiple salons throughout the city and seafront. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in Brighton's tight-knit creative community. Membership programs with recurring billing create predictable revenue and loyal client relationships essential for year-round success beyond summer tourism peaks.
+
+                Brighton clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city's creative and tech-forward community. BookB provides mobile-optimized online booking that works perfectly on Brighton buses, in seafront cafes, and anywhere clients access their smartphones throughout the day.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing the frustration of booking requests that get declined hours later when clients have already made plans. Stylist profiles include photos, specialties, and reviews helping Brighton clients choose the right professional for their specific needs whether color correction, creative cuts, or specialist treatments.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration estimates and pricing so Brighton clients understand exactly what they're booking from balayage to Brazilian blowouts. Before and after galleries showcase your salon's work building confidence in new clients considering your Brighton salon for the first time or visitors searching for reliable service.
+
+              </p>
+
+              <p>
+
+                Location information includes directions from Brighton station, local parking options, and bus routes helping clients plan their journey whether traveling from Hove, Rottingdean, or visiting from out of town. Contactless deposit payments secure appointments reducing no-shows common in busy Brighton market where clients juggle work, social activities, and seaside recreation.
+
+              </p>
+
+              <p>
+
+                Automatic appointment reminders via SMS and email reduce no-shows without requiring staff time making phone confirmation calls during busy salon operating hours. Rescheduling and cancellation through client self-service reduces phone interruptions during busy Brighton weekends when your team focuses on delivering excellent service.
+
+              </p>
+
+              <p>
+
+                Package purchasing during online booking encourages prepayment and commitment from Brighton clients comparing multiple salons throughout the city and seafront. Gift card purchases online generate revenue and introduce new clients through word-of-mouth referrals in Brighton's tight-knit creative community.
+
+              </p>
+
+              <p>
+
+                Membership programs with recurring billing create predictable revenue and loyal client relationships essential for year-round success beyond summer tourism peaks.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function BrightonSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Brighton Business Owners</h3>
               <p>
-                Running a profitable salon in Brighton requires understanding your numbers with seasonal fluctuations, tourist traffic patterns, and competitive pricing pressures from numerous beauty businesses throughout the city. BookB provides comprehensive reporting helping Brighton salon owners make data-driven decisions about their businesses year-round. Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of performance across summer peaks and winter quieter months. Staff productivity metrics compare performance across your team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments to improve results. Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal local client base essential for winter months when tourist traffic decreases. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for Brighton's diverse market from students to affluent professionals. Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays, weekends, and seasonal variations unique to Brighton's tourism calendar. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for various client acquisition and retention initiatives from social media to local partnerships. Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive Brighton salon real estate near the seafront or in prime North Laine locations. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments that protect your bottom line. Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Brighton's beauty industry cycles including Pride Festival, student term times, and summer tourist season. VAT reporting generates data formatted for HMRC submission saving accountant time and fees while ensuring compliance. Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets Brighton owners analyze specific questions about their unique business situations and local market dynamics including competition from London day-trippers.
+
+                Running a profitable salon in Brighton requires understanding your numbers with seasonal fluctuations, tourist traffic patterns, and competitive pricing pressures from numerous beauty businesses throughout the city. BookB provides comprehensive reporting helping Brighton salon owners make data-driven decisions about their businesses year-round.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by service category, retail products, individual stylists, and time periods for deep understanding of performance across summer peaks and winter quieter months. Staff productivity metrics compare performance across your team identifying top performers worthy of recognition and underperformers needing coaching or schedule adjustments to improve results.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows which clients visit regularly versus one-time visitors helping target marketing to build loyal local client base essential for winter months when tourist traffic decreases. Service profitability calculations deduct product costs and staff time showing true margins on different treatments helping optimize your service menu for Brighton's diverse market from students to affluent professionals.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busiest times helping optimize staff scheduling to match client demand patterns throughout weekdays, weekends, and seasonal variations unique to Brighton's tourism calendar. Marketing campaign tracking measures effectiveness of different promotional efforts showing return on investment for various client acquisition and retention initiatives from social media to local partnerships.
+
+              </p>
+
+              <p>
+
+                Inventory turnover reports identify slow-moving retail products occupying valuable shelf space in expensive Brighton salon real estate near the seafront or in prime North Laine locations. No-show and cancellation tracking quantifies revenue lost to appointment gaps helping justify deposit policies or reminder system investments that protect your bottom line.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show business growth trends and seasonal patterns helping plan for Brighton's beauty industry cycles including Pride Festival, student term times, and summer tourist season. VAT reporting generates data formatted for HMRC submission saving accountant time and fees while ensuring compliance.
+
+              </p>
+
+              <p>
+
+                Payroll reports provide data needed for UK payroll processing and employee tax obligations. Custom report building lets Brighton owners analyze specific questions about their unique business situations and local market dynamics including competition from London day-trippers.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

@@ -112,13 +112,81 @@ export default function BoulevardAlternative() {
             <div className="feature-content">
               <h3>Built for Salons, Not Just High-End Spas</h3>
               <p>
-                Boulevard targets luxury spas and high-end establishments, making it overbuilt for typical salons and barbershops. BookB serves the full spectrum of beauty businesses with appropriate sophistication for each. Appointment scheduling handles both scheduled appointments and walk-in traffic equally well. Service duration estimates adjust based on client hair type and service complexity. Color formulas save with photos and application notes for perfect consistency. Client profiles track preferences without requiring extensive intake forms. Treatment plans work for ongoing relationships, not just single visits. Stylist skill matching ensures appropriate service assignments. Commission structures handle salon-typical scenarios including service splits and retail. Package sales encourage prepayment without complex membership hierarchies. Gift card programs build revenue without accounting complexity. Retail integration treats product sales as important revenue, not an afterthought. Inventory management prevents stockouts of essential supplies and retail products. Staff scheduling accommodates typical salon hours and part-time workers. Time tracking integrates with common payroll providers. Marketing automation understands salon customer lifecycles and rebooking patterns. Online booking works for walk-in friendly businesses, not just appointment-only establishments. Queue management handles busy Saturday mornings when appointments and walk-ins overlap. Mobile apps serve stylists who need schedule access, not just administrators. Reporting focuses on metrics that matter to salon profitability. The interface works on budget tablets and computers, not just premium hardware. Training takes hours, not weeks. Support understands salon operations and terminology. Pricing fits salon budgets, not spa chain budgets.
+
+                Boulevard targets luxury spas and high-end establishments, making it overbuilt for typical salons and barbershops. BookB serves the full spectrum of beauty businesses with appropriate sophistication for each.
+
+              </p>
+
+              <p>
+
+                <strong>Appointment Scheduling:</strong> Handles both scheduled appointments and walk-in traffic equally well. Service duration estimates adjust based on client hair type and service complexity.
+
+              </p>
+
+              <p>
+
+                Color formulas save with photos and application notes for perfect consistency. Client profiles track preferences without requiring extensive intake forms.
+
+              </p>
+
+              <p>
+
+                Treatment plans work for ongoing relationships, not just single visits. Stylist skill matching ensures appropriate service assignments.
+
+              </p>
+
+              <p>
+
+                Commission structures handle salon-typical scenarios including service splits and retail. Package sales encourage prepayment without complex membership hierarchies.
+
+              </p>
+
+              <p>
+
+                Gift card programs build revenue without accounting complexity. Retail integration treats product sales as important revenue, not an afterthought.
+
+              </p>
+
+              <p>
+
+                Inventory management prevents stockouts of essential supplies and retail products. Staff scheduling accommodates typical salon hours and part-time workers.
+
+              </p>
+
+              <p>
+
+                Time tracking integrates with common payroll providers. Marketing automation understands salon customer lifecycles and rebooking patterns.
+
+              </p>
+
+              <p>
+
+                Online booking works for walk-in friendly businesses, not just appointment-only establishments. Queue management handles busy Saturday mornings when appointments and walk-ins overlap.
+
+              </p>
+
+              <p>
+
+                Mobile apps serve stylists who need schedule access, not just administrators. Reporting focuses on metrics that matter to salon profitability.
+
+              </p>
+
+              <p>
+
+                The interface works on budget tablets and computers, not just premium hardware. Training takes hours, not weeks.
+
+              </p>
+
+              <p>
+
+                Support understands salon operations and terminology. Pricing fits salon budgets, not spa chain budgets.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +199,87 @@ export default function BoulevardAlternative() {
             <div className="feature-content">
               <h3>Faster Implementation, Less Disruption</h3>
               <p>
-                Boulevard's implementation drags over 4-6 weeks with extensive consultant involvement and staff training requirements. BookB gets you operational in 2-3 days with self-service tools and expert assistance only when needed. Migration specialists import your existing client database, service menu, and staff information automatically. Template libraries provide starting points for service descriptions, pricing, and policies. Setup wizards guide configuration without requiring consultant billable hours. Video tutorials cover common tasks in role-specific tracks. Live training sessions accommodate your schedule, not consultant availability. One-on-one coaching helps with unique business requirements. Documentation includes screenshots and step-by-step instructions. Knowledge bases offer searchable answers to common questions. Community forums connect you with other salon owners. Your existing website integrates booking widgets without developer involvement. Social media booking links work immediately after setup. Email signatures can include booking links from day one. Staff start using the system productively within hours, not weeks. Client communication templates work with minimal customization. Appointment reminders send automatically once configured. Marketing campaigns launch from proven templates. Reports generate immediately with sensible defaults. Payment processing activates through simple processor connection. Receipt templates print professional invoices without graphic design. End-of-day procedures happen through guided workflows. Multi-location setup replicates successful configurations. Franchisees deploy consistent systems without reinventing processes. Seasonal businesses activate quickly after off-season closures. New hires learn the system during their first shifts.
+
+                Boulevard's implementation drags over 4-6 weeks with extensive consultant involvement and staff training requirements. BookB gets you operational in 2-3 days with self-service tools and expert assistance only when needed.
+
+              </p>
+
+              <p>
+
+                Migration specialists import your existing client database, service menu, and staff information automatically. Template libraries provide starting points for service descriptions, pricing, and policies.
+
+              </p>
+
+              <p>
+
+                Setup wizards guide configuration without requiring consultant billable hours. Video tutorials cover common tasks in role-specific tracks.
+
+              </p>
+
+              <p>
+
+                Live training sessions accommodate your schedule, not consultant availability. One-on-one coaching helps with unique business requirements.
+
+              </p>
+
+              <p>
+
+                Documentation includes screenshots and step-by-step instructions. Knowledge bases offer searchable answers to common questions.
+
+              </p>
+
+              <p>
+
+                Community forums connect you with other salon owners. Your existing website integrates booking widgets without developer involvement.
+
+              </p>
+
+              <p>
+
+                Social media booking links work immediately after setup. Email signatures can include booking links from day one.
+
+              </p>
+
+              <p>
+
+                Staff start using the system productively within hours, not weeks. Client communication templates work with minimal customization.
+
+              </p>
+
+              <p>
+
+                Appointment reminders send automatically once configured. Marketing campaigns launch from proven templates.
+
+              </p>
+
+              <p>
+
+                Reports generate immediately with sensible defaults. Payment processing activates through simple processor connection.
+
+              </p>
+
+              <p>
+
+                Receipt templates print professional invoices without graphic design. End-of-day procedures happen through guided workflows.
+
+              </p>
+
+              <p>
+
+                Multi-location setup replicates successful configurations. Franchisees deploy consistent systems without reinventing processes.
+
+              </p>
+
+              <p>
+
+                Seasonal businesses activate quickly after off-season closures. New hires learn the system during their first shifts.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +292,99 @@ export default function BoulevardAlternative() {
             <div className="feature-content">
               <h3>Pricing That Scales With Your Business</h3>
               <p>
-                Boulevard pricing starts high and increases as you grow, penalizing success. BookB pricing starts affordably and scales reasonably as your team expands. Starter plans serve single practitioners and small salons at prices that make sense. Professional tiers accommodate growing salons without requiring enterprise budgets. Business plans support established salons with larger teams and multiple locations. Enterprise options serve salon groups and franchises with custom requirements. Adding staff follows clear published pricing without negotiation. Seasonal staff additions don't trigger permanent price increases. Part-time staff count fractionally, not as full licenses. Location additions happen at transparent incremental costs. Feature access doesn't tier between plans unfairly. Support quality remains consistent regardless of plan level. Payment processing rates stay competitive across all volumes. Transaction fees don't include hidden markups. SMS costs charge actual carrier rates without profit margins. Email marketing sends unlimited messages at all plan levels. Storage capacity scales automatically without quota overages. API rate limits accommodate reasonable integration needs. Data exports work without additional charges. Historical reporting reaches back indefinitely. Backup and disaster recovery come standard. Security and compliance updates deploy universally. Mobile apps download free for all users. Training resources remain accessible permanently. Community support works for all customers. Priority support costs less than Boulevard basic support. Volume discounts apply automatically at thresholds. Loyalty discounts reward long-term customers. Referral credits reduce costs for customer advocacy.
+
+                Boulevard pricing starts high and increases as you grow, penalizing success. BookB pricing starts affordably and scales reasonably as your team expands.
+
+              </p>
+
+              <p>
+
+                Starter plans serve single practitioners and small salons at prices that make sense. Professional tiers accommodate growing salons without requiring enterprise budgets.
+
+              </p>
+
+              <p>
+
+                Business plans support established salons with larger teams and multiple locations. Enterprise options serve salon groups and franchises with custom requirements.
+
+              </p>
+
+              <p>
+
+                Adding staff follows clear published pricing without negotiation. Seasonal staff additions don't trigger permanent price increases.
+
+              </p>
+
+              <p>
+
+                Part-time staff count fractionally, not as full licenses. Location additions happen at transparent incremental costs.
+
+              </p>
+
+              <p>
+
+                Feature access doesn't tier between plans unfairly. Support quality remains consistent regardless of plan level.
+
+              </p>
+
+              <p>
+
+                Payment processing rates stay competitive across all volumes. Transaction fees don't include hidden markups.
+
+              </p>
+
+              <p>
+
+                SMS costs charge actual carrier rates without profit margins. Email marketing sends unlimited messages at all plan levels.
+
+              </p>
+
+              <p>
+
+                Storage capacity scales automatically without quota overages. API rate limits accommodate reasonable integration needs.
+
+              </p>
+
+              <p>
+
+                Data exports work without additional charges. Historical reporting reaches back indefinitely.
+
+              </p>
+
+              <p>
+
+                Backup and disaster recovery come standard. Security and compliance updates deploy universally.
+
+              </p>
+
+              <p>
+
+                Mobile apps download free for all users. Training resources remain accessible permanently.
+
+              </p>
+
+              <p>
+
+                Community support works for all customers. Priority support costs less than Boulevard basic support.
+
+              </p>
+
+              <p>
+
+                Volume discounts apply automatically at thresholds. Loyalty discounts reward long-term customers.
+
+              </p>
+
+              <p>
+
+                Referral credits reduce costs for customer advocacy.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +397,105 @@ export default function BoulevardAlternative() {
             <div className="feature-content">
               <h3>Support That Responds, Not Deflects</h3>
               <p>
-                Boulevard support prioritizes large enterprise customers while small salons wait. BookB treats every customer as important with consistent response times and solution quality. Phone support answers quickly without automated mazes. Chat support connects to real people who understand salon operations. Email support responds within hours, not days. Screen sharing resolves complex issues faster than email exchanges. Video tutorials cover common scenarios in searchable libraries. Knowledge bases organize information logically by role and task. Community forums provide peer support and best practices. Feature request voting influences product roadmap. Beta programs offer early access to new capabilities. Account managers check in proactively with all business tier customers. Business reviews analyze usage and suggest optimizations. Implementation specialists remain available beyond initial setup. Training refreshers help onboard new hires. Seasonal businesses get reactivation assistance after closures. Ownership transitions receive special attention. Franchise expansion gets documented playbooks. Industry changes trigger proactive guidance. Software updates include release notes explaining changes. Deprecation notices provide migration paths. Security incidents receive immediate transparent communication. Downtime notifications include estimated resolution times. Performance issues get investigated proactively. Integration problems receive priority attention. Payment processing issues escalate automatically. Data integrity concerns trigger immediate investigation. Privacy inquiries get legal team review. Compliance questions receive documented answers. Custom development requests get feasibility assessment. Partner integrations receive technical liaison support. API changes include backwards compatibility support.
+
+                Boulevard support prioritizes large enterprise customers while small salons wait. BookB treats every customer as important with consistent response times and solution quality.
+
+              </p>
+
+              <p>
+
+                Phone support answers quickly without automated mazes. Chat support connects to real people who understand salon operations.
+
+              </p>
+
+              <p>
+
+                Email support responds within hours, not days. Screen sharing resolves complex issues faster than email exchanges.
+
+              </p>
+
+              <p>
+
+                Video tutorials cover common scenarios in searchable libraries. Knowledge bases organize information logically by role and task.
+
+              </p>
+
+              <p>
+
+                Community forums provide peer support and best practices. Feature request voting influences product roadmap.
+
+              </p>
+
+              <p>
+
+                Beta programs offer early access to new capabilities. Account managers check in proactively with all business tier customers.
+
+              </p>
+
+              <p>
+
+                Business reviews analyze usage and suggest optimizations. Implementation specialists remain available beyond initial setup.
+
+              </p>
+
+              <p>
+
+                Training refreshers help onboard new hires. Seasonal businesses get reactivation assistance after closures.
+
+              </p>
+
+              <p>
+
+                Ownership transitions receive special attention. Franchise expansion gets documented playbooks.
+
+              </p>
+
+              <p>
+
+                Industry changes trigger proactive guidance. Software updates include release notes explaining changes.
+
+              </p>
+
+              <p>
+
+                Deprecation notices provide migration paths. Security incidents receive immediate transparent communication.
+
+              </p>
+
+              <p>
+
+                Downtime notifications include estimated resolution times. Performance issues get investigated proactively.
+
+              </p>
+
+              <p>
+
+                Integration problems receive priority attention. Payment processing issues escalate automatically.
+
+              </p>
+
+              <p>
+
+                Data integrity concerns trigger immediate investigation. Privacy inquiries get legal team review.
+
+              </p>
+
+              <p>
+
+                Compliance questions receive documented answers. Custom development requests get feasibility assessment.
+
+              </p>
+
+              <p>
+
+                Partner integrations receive technical liaison support. API changes include backwards compatibility support.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

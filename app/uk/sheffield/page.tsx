@@ -67,13 +67,45 @@ export default function SheffieldSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Sheffield's beauty industry serves South Yorkshire requiring software understanding local business practices and regulatory requirements. BookB provides features for UK salons including automatic VAT calculation aligning with HMRC requirements. Price display follows UK conventions with VAT-inclusive pricing. Payment processing integrates with UK banks including contactless payments throughout Sheffield. Online booking works with UK phone formats, Sheffield's S postcodes, and familiar address conventions. Appointment scheduling accounts for UK bank holidays. Staff scheduling respects UK employment law. Payroll reporting generates UK-formatted data. GDPR compliance meets data protection obligations. Marketing communications respect UK regulations. Currency displays in pounds sterling. Time and date formats follow UK conventions.
+
+                Sheffield's beauty industry serves South Yorkshire requiring software understanding local business practices and regulatory requirements. BookB provides features for UK salons including automatic VAT calculation aligning with HMRC requirements.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing. Payment processing integrates with UK banks including contactless payments throughout Sheffield.
+
+              </p>
+
+              <p>
+
+                Online booking works with UK phone formats, Sheffield's S postcodes, and familiar address conventions. Appointment scheduling accounts for UK bank holidays.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects UK employment law. Payroll reporting generates UK-formatted data.
+
+              </p>
+
+              <p>
+
+                GDPR compliance meets data protection obligations. Marketing communications respect UK regulations.
+
+              </p>
+
+              <p>
+
+                Currency displays in pounds sterling. Time and date formats follow UK conventions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +118,51 @@ export default function SheffieldSalonSoftware() {
             <div className="feature-content">
               <h3>Staff Scheduling and Management</h3>
               <p>
-                Sheffield salons optimize team productivity through intelligent scheduling matching staff availability with client demand. BookB's scheduling features help manage rotas, shifts, and time-off. Weekly scheduling creates rotas accounting for availability and preferences. Shift patterns accommodate full-time and part-time staff. Calendar views show appointments and blocked time. Break management ensures compliance with UK regulations. Time-off tracking manages holiday requests and sick leave. Shift swapping lets staff trade shifts with manager approval. Mobile access lets team view schedules anywhere. Notifications alert staff to schedule changes. Commission tracking calculates earnings by services performed. Performance metrics compare productivity across team. Skills tracking ensures qualified staff perform specialist services.
+
+                Sheffield salons optimize team productivity through intelligent scheduling matching staff availability with client demand. BookB's scheduling features help manage rotas, shifts, and time-off.
+
+              </p>
+
+              <p>
+
+                Weekly scheduling creates rotas accounting for availability and preferences. Shift patterns accommodate full-time and part-time staff.
+
+              </p>
+
+              <p>
+
+                Calendar views show appointments and blocked time. Break management ensures compliance with UK regulations.
+
+              </p>
+
+              <p>
+
+                Time-off tracking manages holiday requests and sick leave. Shift swapping lets staff trade shifts with manager approval.
+
+              </p>
+
+              <p>
+
+                Mobile access lets team view schedules anywhere. Notifications alert staff to schedule changes.
+
+              </p>
+
+              <p>
+
+                Commission tracking calculates earnings by services performed. Performance metrics compare productivity across team.
+
+              </p>
+
+              <p>
+
+                Skills tracking ensures qualified staff perform specialist services.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +175,51 @@ export default function SheffieldSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Sheffield Clients Love</h3>
               <p>
-                Sheffield clients expect convenient online booking. BookB provides mobile-optimized booking. Real-time availability shows open slots. Stylist profiles help choose professionals. Service descriptions explain treatments. Galleries showcase work. Location information includes directions. Deposit payments secure appointments. Automatic reminders reduce no-shows. Self-service rescheduling reduces calls. Package purchasing encourages prepayment. Gift cards generate revenue. Membership programs create income.
+
+                Sheffield clients expect convenient online booking. BookB provides mobile-optimized booking.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows open slots. Stylist profiles help choose professionals.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments. Galleries showcase work.
+
+              </p>
+
+              <p>
+
+                Location information includes directions. Deposit payments secure appointments.
+
+              </p>
+
+              <p>
+
+                Automatic reminders reduce no-shows. Self-service rescheduling reduces calls.
+
+              </p>
+
+              <p>
+
+                Package purchasing encourages prepayment. Gift cards generate revenue.
+
+              </p>
+
+              <p>
+
+                Membership programs create income.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +232,51 @@ export default function SheffieldSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Sheffield Business Owners</h3>
               <p>
-                Running profitable Sheffield salons requires understanding numbers. BookB provides comprehensive reporting for decisions. Revenue reporting breaks down income. Staff productivity compares performance. Client retention shows patterns. Service profitability shows margins. Peak analysis identifies busy times. Marketing tracking measures effectiveness. Inventory reports identify slow products. No-show tracking quantifies lost revenue. Year comparisons show trends. VAT reporting provides HMRC data. Payroll reports support processing. Custom reporting analyzes questions.
+
+                Running profitable Sheffield salons requires understanding numbers. BookB provides comprehensive reporting for decisions.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income. Staff productivity compares performance.
+
+              </p>
+
+              <p>
+
+                Client retention shows patterns. Service profitability shows margins.
+
+              </p>
+
+              <p>
+
+                Peak analysis identifies busy times. Marketing tracking measures effectiveness.
+
+              </p>
+
+              <p>
+
+                Inventory reports identify slow products. No-show tracking quantifies lost revenue.
+
+              </p>
+
+              <p>
+
+                Year comparisons show trends. VAT reporting provides HMRC data.
+
+              </p>
+
+              <p>
+
+                Payroll reports support processing. Custom reporting analyzes questions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

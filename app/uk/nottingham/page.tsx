@@ -67,13 +67,51 @@ export default function NottinghamSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Nottingham's beauty industry serves this East Midlands city requiring software that understands local business practices and regulatory requirements while supporting the city's student population and professional workforce driving diverse beauty service demand. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Nottingham business owners managing successful salons. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Nottingham from Victoria Centre to independent boutiques. Online booking works perfectly with UK phone number formats, postal codes including Nottingham's NG postcodes, and address conventions familiar to local clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts. Student pricing enables discounted services for university students common in Nottingham market. Staff scheduling respects UK employment law including Working Time Regulations and holiday entitlements. Payroll reporting generates data formatted for UK accounting software. GDPR compliance helps Nottingham salons meet data protection obligations. Marketing communications respect UK regulations ensuring compliant campaigns. Currency displays in pounds sterling with proper formatting. Time displays match UK preferences. Date formats follow UK conventions.
+
+                Nottingham's beauty industry serves this East Midlands city requiring software that understands local business practices and regulatory requirements while supporting the city's student population and professional workforce driving diverse beauty service demand. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Nottingham business owners managing successful salons.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Nottingham from Victoria Centre to independent boutiques.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes including Nottingham's NG postcodes, and address conventions familiar to local clients. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts.
+
+              </p>
+
+              <p>
+
+                Student pricing enables discounted services for university students common in Nottingham market. Staff scheduling respects UK employment law including Working Time Regulations and holiday entitlements.
+
+              </p>
+
+              <p>
+
+                Payroll reporting generates data formatted for UK accounting software. GDPR compliance helps Nottingham salons meet data protection obligations.
+
+              </p>
+
+              <p>
+
+                Marketing communications respect UK regulations ensuring compliant campaigns. Currency displays in pounds sterling with proper formatting.
+
+              </p>
+
+              <p>
+
+                Time displays match UK preferences. Date formats follow UK conventions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function NottinghamSalonSoftware() {
             <div className="feature-content">
               <h3>Student and Discount Management</h3>
               <p>
-                Nottingham's large student population requires flexible pricing accommodating student discounts while maintaining profitability serving professional clients paying full prices. BookB's pricing features help Nottingham salons implement complex pricing strategies maximizing revenue across diverse clientele. Student verification validates university enrollment through email verification or ID checking before applying discounted pricing protecting profit margins from discount abuse. Tiered pricing offers different rates for students, professionals, and seniors enabling targeted pricing strategies matching client demographics and willingness to pay. Off-peak discounts incentivize appointments during quiet periods filling schedule gaps while maintaining premium pricing during busy Nottingham shopping Saturdays. First-time client promotions attract new customers with introductory offers building client base and encouraging repeat business through excellent service experiences. Referral discounts reward clients who recommend your Nottingham salon to friends and colleagues generating word-of-mouth marketing and new client acquisition. Package bundles combine multiple services at attractive pricing encouraging larger transactions and prepayment creating predictable revenue and client commitment. Loyalty program discounts reward repeat visits building long-term relationships with best Nottingham clients who provide stable recurring revenue throughout university terms and year-round. Birthday promotions offer special discounts during birth months encouraging celebratory salon visits and bringing friends for group bookings. Seasonal promotions create limited-time offers for Christmas, Valentine's Day, and other occasions generating urgency and increased booking volume. Promo codes enable trackable discount campaigns measuring effectiveness of different marketing channels and promotional strategies. Group booking discounts incentivize wedding parties and friends booking together creating efficient scheduling and larger total transaction values. Corporate discounts serve local Nottingham businesses offering employee benefits programs and building bulk business relationships.
+
+                Nottingham's large student population requires flexible pricing accommodating student discounts while maintaining profitability serving professional clients paying full prices. BookB's pricing features help Nottingham salons implement complex pricing strategies maximizing revenue across diverse clientele.
+
+              </p>
+
+              <p>
+
+                Student verification validates university enrollment through email verification or ID checking before applying discounted pricing protecting profit margins from discount abuse. Tiered pricing offers different rates for students, professionals, and seniors enabling targeted pricing strategies matching client demographics and willingness to pay.
+
+              </p>
+
+              <p>
+
+                Off-peak discounts incentivize appointments during quiet periods filling schedule gaps while maintaining premium pricing during busy Nottingham shopping Saturdays. First-time client promotions attract new customers with introductory offers building client base and encouraging repeat business through excellent service experiences.
+
+              </p>
+
+              <p>
+
+                Referral discounts reward clients who recommend your Nottingham salon to friends and colleagues generating word-of-mouth marketing and new client acquisition. Package bundles combine multiple services at attractive pricing encouraging larger transactions and prepayment creating predictable revenue and client commitment.
+
+              </p>
+
+              <p>
+
+                Loyalty program discounts reward repeat visits building long-term relationships with best Nottingham clients who provide stable recurring revenue throughout university terms and year-round. Birthday promotions offer special discounts during birth months encouraging celebratory salon visits and bringing friends for group bookings.
+
+              </p>
+
+              <p>
+
+                Seasonal promotions create limited-time offers for Christmas, Valentine's Day, and other occasions generating urgency and increased booking volume. Promo codes enable trackable discount campaigns measuring effectiveness of different marketing channels and promotional strategies.
+
+              </p>
+
+              <p>
+
+                Group booking discounts incentivize wedding parties and friends booking together creating efficient scheduling and larger total transaction values. Corporate discounts serve local Nottingham businesses offering employee benefits programs and building bulk business relationships.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function NottinghamSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Nottingham Clients Love</h3>
               <p>
-                Nottingham clients expect convenient online booking matching digital experiences from other services. BookB provides mobile-optimized booking working on trams, in cafes, anywhere. Real-time availability shows open slots. Stylist profiles help choose professionals. Service descriptions explain treatments. Galleries showcase work. Location information includes directions from Nottingham Station. Deposit payments secure appointments. Automatic reminders reduce no-shows. Self-service rescheduling reduces phone calls. Package purchasing encourages prepayment. Gift cards generate revenue. Membership programs create predictable income.
+
+                Nottingham clients expect convenient online booking matching digital experiences from other services. BookB provides mobile-optimized booking working on trams, in cafes, anywhere.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows open slots. Stylist profiles help choose professionals.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments. Galleries showcase work.
+
+              </p>
+
+              <p>
+
+                Location information includes directions from Nottingham Station. Deposit payments secure appointments.
+
+              </p>
+
+              <p>
+
+                Automatic reminders reduce no-shows. Self-service rescheduling reduces phone calls.
+
+              </p>
+
+              <p>
+
+                Package purchasing encourages prepayment. Gift cards generate revenue.
+
+              </p>
+
+              <p>
+
+                Membership programs create predictable income.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function NottinghamSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Nottingham Business Owners</h3>
               <p>
-                Running profitable Nottingham salons requires understanding numbers with competitive rent and pricing pressures. BookB provides comprehensive reporting for data-driven decisions. Revenue reporting breaks down income by categories, products, stylists, and periods. Staff productivity compares team performance. Client retention shows visit patterns. Service profitability shows true margins. Peak hour analysis identifies busy times. Marketing tracking measures campaign effectiveness. Inventory reports identify slow products. No-show tracking quantifies lost revenue. Year comparisons show growth trends. VAT reporting provides HMRC data. Payroll reports support UK processing. Custom reporting analyzes specific questions.
+
+                Running profitable Nottingham salons requires understanding numbers with competitive rent and pricing pressures. BookB provides comprehensive reporting for data-driven decisions.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by categories, products, stylists, and periods. Staff productivity compares team performance.
+
+              </p>
+
+              <p>
+
+                Client retention shows visit patterns. Service profitability shows true margins.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies busy times. Marketing tracking measures campaign effectiveness.
+
+              </p>
+
+              <p>
+
+                Inventory reports identify slow products. No-show tracking quantifies lost revenue.
+
+              </p>
+
+              <p>
+
+                Year comparisons show growth trends. VAT reporting provides HMRC data.
+
+              </p>
+
+              <p>
+
+                Payroll reports support UK processing. Custom reporting analyzes specific questions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

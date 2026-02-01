@@ -112,13 +112,81 @@ export default function PhorestAlternative() {
             <div className="feature-content">
               <h3>Simpler Without Being Limited</h3>
               <p>
-                Phorest's complexity stems from trying to serve international salon chains, making it overwhelming for independent salons and small groups. BookB delivers professional capabilities through intuitive interfaces that staff actually enjoy using. Appointment scheduling works the way salon receptionists think, not how software engineers design databases. Service menus organize naturally by category and popularity rather than requiring complex hierarchies. Client profiles show relevant information prominently instead of burying details across multiple tabs. Color formula documentation integrates seamlessly into service notes without separate modules. Staff scheduling handles shift swaps and time-off requests without administrator intervention. Commission tracking accommodates complex splits and overrides through simple configuration. Inventory management prevents stockouts without requiring dedicated inventory specialists. Marketing automation runs sophisticated campaigns through straightforward setup wizards. Reporting provides actionable insights without overwhelming users with every possible metric. The mobile app gives stylists schedule access and earnings visibility without desktop complexity. Client self-service booking works flawlessly without requiring IT support for widget installation. Walk-in queue management integrates with scheduled appointments through unified interfaces. Package and membership sales happen naturally during checkout without separate transaction workflows. Gift card activation and redemption require no special training. Retail product scanning integrates with service checkout seamlessly. Payment processing handles tips, splits, and refunds through intuitive prompts. End-of-day closeout reconciles automatically without manual cash drawer counting. Multi-location visibility happens through simple location switching, not complex navigation. API integrations with accounting software work through pre-built connectors. Data exports generate in standard formats without custom report builders. User permissions control access appropriately without elaborate role engineering.
+
+                Phorest's complexity stems from trying to serve international salon chains, making it overwhelming for independent salons and small groups. BookB delivers professional capabilities through intuitive interfaces that staff actually enjoy using.
+
+              </p>
+
+              <p>
+
+                Appointment scheduling works the way salon receptionists think, not how software engineers design databases. Service menus organize naturally by category and popularity rather than requiring complex hierarchies.
+
+              </p>
+
+              <p>
+
+                Client profiles show relevant information prominently instead of burying details across multiple tabs. Color formula documentation integrates seamlessly into service notes without separate modules.
+
+              </p>
+
+              <p>
+
+                Staff scheduling handles shift swaps and time-off requests without administrator intervention. Commission tracking accommodates complex splits and overrides through simple configuration.
+
+              </p>
+
+              <p>
+
+                Inventory management prevents stockouts without requiring dedicated inventory specialists. Marketing automation runs sophisticated campaigns through straightforward setup wizards.
+
+              </p>
+
+              <p>
+
+                Reporting provides actionable insights without overwhelming users with every possible metric. The mobile app gives stylists schedule access and earnings visibility without desktop complexity.
+
+              </p>
+
+              <p>
+
+                Client self-service booking works flawlessly without requiring IT support for widget installation. Walk-in queue management integrates with scheduled appointments through unified interfaces.
+
+              </p>
+
+              <p>
+
+                Package and membership sales happen naturally during checkout without separate transaction workflows. Gift card activation and redemption require no special training.
+
+              </p>
+
+              <p>
+
+                Retail product scanning integrates with service checkout seamlessly. Payment processing handles tips, splits, and refunds through intuitive prompts.
+
+              </p>
+
+              <p>
+
+                End-of-day closeout reconciles automatically without manual cash drawer counting. Multi-location visibility happens through simple location switching, not complex navigation.
+
+              </p>
+
+              <p>
+
+                API integrations with accounting software work through pre-built connectors. Data exports generate in standard formats without custom report builders.
+
+              </p>
+
+              <p>
+
+                User permissions control access appropriately without elaborate role engineering.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +199,93 @@ export default function PhorestAlternative() {
             <div className="feature-content">
               <h3>No Hardware Lock-In</h3>
               <p>
-                Phorest requires specific iPad models and proprietary hardware, creating vendor lock-in and ongoing replacement costs. BookB works on any modern device with a web browser. Use existing computers, tablets, or smartphones without purchasing proprietary hardware. Android tablets cost less than iPads while working identically. Staff can use personal devices through secure browser access. Payment terminals integrate with major processors without brand restrictions. Receipt printers work via standard protocols, not proprietary connections. Barcode scanners for retail products use industry-standard formats. Cash drawers connect through common interfaces. Customer-facing displays work with standard monitors or tablets. Digital signature pads integrate through standard drivers. Scale hardware for weight-based product sales connects via USB. Card readers support EMV chip, contactless, and magnetic stripe universally. Existing point-of-sale hardware often works with simple configuration. No special maintenance contracts for proprietary equipment. Hardware failures don't shut down your entire operation. Backup devices activate immediately without licensing issues. Remote locations use whatever hardware makes sense locally. Franchisees choose cost-effective hardware within their budgets. Seasonal locations avoid hardware sitting idle during closed periods. Mobile stylists use smartphones and inexpensive card readers. Home-based businesses avoid unnecessary hardware investments. Popup locations and events use portable consumer devices. Hardware upgrades happen on your timeline, not forced by vendor compatibility matrices. Trade show demos run on rental equipment without custom provisioning. Training environments use existing equipment without duplicating expensive hardware. Development and staging environments work on standard computers.
+
+                Phorest requires specific iPad models and proprietary hardware, creating vendor lock-in and ongoing replacement costs. BookB works on any modern device with a web browser.
+
+              </p>
+
+              <p>
+
+                Use existing computers, tablets, or smartphones without purchasing proprietary hardware. Android tablets cost less than iPads while working identically.
+
+              </p>
+
+              <p>
+
+                Staff can use personal devices through secure browser access. Payment terminals integrate with major processors without brand restrictions.
+
+              </p>
+
+              <p>
+
+                Receipt printers work via standard protocols, not proprietary connections. Barcode scanners for retail products use industry-standard formats.
+
+              </p>
+
+              <p>
+
+                Cash drawers connect through common interfaces. Customer-facing displays work with standard monitors or tablets.
+
+              </p>
+
+              <p>
+
+                Digital signature pads integrate through standard drivers. Scale hardware for weight-based product sales connects via USB.
+
+              </p>
+
+              <p>
+
+                Card readers support EMV chip, contactless, and magnetic stripe universally. Existing point-of-sale hardware often works with simple configuration.
+
+              </p>
+
+              <p>
+
+                No special maintenance contracts for proprietary equipment. Hardware failures don't shut down your entire operation.
+
+              </p>
+
+              <p>
+
+                Backup devices activate immediately without licensing issues. Remote locations use whatever hardware makes sense locally.
+
+              </p>
+
+              <p>
+
+                Franchisees choose cost-effective hardware within their budgets. Seasonal locations avoid hardware sitting idle during closed periods.
+
+              </p>
+
+              <p>
+
+                Mobile stylists use smartphones and inexpensive card readers. Home-based businesses avoid unnecessary hardware investments.
+
+              </p>
+
+              <p>
+
+                Popup locations and events use portable consumer devices. Hardware upgrades happen on your timeline, not forced by vendor compatibility matrices.
+
+              </p>
+
+              <p>
+
+                Trade show demos run on rental equipment without custom provisioning. Training environments use existing equipment without duplicating expensive hardware.
+
+              </p>
+
+              <p>
+
+                Development and staging environments work on standard computers.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +298,81 @@ export default function PhorestAlternative() {
             <div className="feature-content">
               <h3>Faster Implementation, Better Support</h3>
               <p>
-                Phorest implementation drags over weeks with expensive training requirements and consultant dependencies. BookB gets you operational in days with hands-on support that continues long after go-live. Migration specialists import your client database, service menu, and historical appointments within 48 hours. Training happens through role-specific video tutorials, live group sessions, and one-on-one coaching calls. Setup wizards guide configuration of services, staff, and business rules without consultant billable hours. Template libraries provide starting points for email campaigns, service descriptions, and client communications. Pre-built reports cover common salon metrics without custom development. Integration connectors work through simple authentication without API programming. Test environments let you experiment safely before committing changes to production. Staging areas preview updates before deploying to staff-facing systems. Sandbox accounts provide unlimited practice without affecting live data. Documentation includes screenshots, videos, and searchable knowledge bases. Community forums connect you with other salon owners solving similar challenges. Feature request voting influences product roadmap prioritization. Beta programs offer early access to new capabilities with dedicated support channels. Support tickets receive responses within hours, not days. Phone support connects quickly without automated phone tree mazes. Screen sharing helps resolve complex issues faster than email exchanges. Emergency support handles critical issues 24/7 without premium charges. Account managers check in proactively, not just when contracts renew. Business reviews analyze your usage patterns and suggest optimization opportunities. Industry best practices get shared through webinars and newsletters. Regulatory compliance updates deploy automatically without manual intervention. Payment processor changes integrate smoothly through guided workflows.
+
+                Phorest implementation drags over weeks with expensive training requirements and consultant dependencies. BookB gets you operational in days with hands-on support that continues long after go-live.
+
+              </p>
+
+              <p>
+
+                Migration specialists import your client database, service menu, and historical appointments within 48 hours. Training happens through role-specific video tutorials, live group sessions, and one-on-one coaching calls.
+
+              </p>
+
+              <p>
+
+                Setup wizards guide configuration of services, staff, and business rules without consultant billable hours. Template libraries provide starting points for email campaigns, service descriptions, and client communications.
+
+              </p>
+
+              <p>
+
+                Pre-built reports cover common salon metrics without custom development. Integration connectors work through simple authentication without API programming.
+
+              </p>
+
+              <p>
+
+                Test environments let you experiment safely before committing changes to production. Staging areas preview updates before deploying to staff-facing systems.
+
+              </p>
+
+              <p>
+
+                Sandbox accounts provide unlimited practice without affecting live data. Documentation includes screenshots, videos, and searchable knowledge bases.
+
+              </p>
+
+              <p>
+
+                Community forums connect you with other salon owners solving similar challenges. Feature request voting influences product roadmap prioritization.
+
+              </p>
+
+              <p>
+
+                Beta programs offer early access to new capabilities with dedicated support channels. Support tickets receive responses within hours, not days.
+
+              </p>
+
+              <p>
+
+                Phone support connects quickly without automated phone tree mazes. Screen sharing helps resolve complex issues faster than email exchanges.
+
+              </p>
+
+              <p>
+
+                Emergency support handles critical issues 24/7 without premium charges. Account managers check in proactively, not just when contracts renew.
+
+              </p>
+
+              <p>
+
+                Business reviews analyze your usage patterns and suggest optimization opportunities. Industry best practices get shared through webinars and newsletters.
+
+              </p>
+
+              <p>
+
+                Regulatory compliance updates deploy automatically without manual intervention. Payment processor changes integrate smoothly through guided workflows.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +385,87 @@ export default function PhorestAlternative() {
             <div className="feature-content">
               <h3>Marketing That Actually Drives Revenue</h3>
               <p>
-                Phorest's marketing tools require separate subscriptions and complex setup. BookB includes sophisticated marketing automation in every plan at no extra cost. Automated appointment reminders reduce no-shows through SMS and email sent at optimal times. Birthday campaigns celebrate clients with personalized offers based on their service preferences. Re-engagement workflows target inactive clients with compelling incentives to return. New service announcements reach interested clients based on historical booking patterns. Last-minute availability notifications fill cancellations through targeted outreach. Package promotions encourage prepayment through limited-time offers and bundle discounts. Membership drives create recurring revenue through automated enrollment campaigns. Referral programs reward existing clients for bringing friends with tracked incentive delivery. Review request automation sends timing-optimized requests after successful appointments. Before and after galleries showcase your work across social media and website properties. Client success stories highlight transformations with permission-based sharing. Seasonal promotions align with holidays, weather changes, and cultural events. Event marketing drives traffic for trunk shows, product launches, and special guests. Educational content positions your salon as beauty experts through blog posts and videos. Social media scheduling maintains consistent presence without daily manual posting. Email segmentation delivers relevant messages based on client characteristics and behaviors. A/B testing optimizes subject lines, offers, and call-to-action effectiveness. Conversion tracking measures which campaigns drive actual bookings and revenue. Customer lifetime value analysis identifies your most profitable client segments. Retention metrics highlight at-risk clients before they churn to competitors. Acquisition cost tracking measures marketing efficiency across channels. Campaign attribution connects marketing spend to revenue generation. ROI dashboards prove marketing effectiveness to justify budgets.
+
+                Phorest's marketing tools require separate subscriptions and complex setup. BookB includes sophisticated marketing automation in every plan at no extra cost.
+
+              </p>
+
+              <p>
+
+                Automated appointment reminders reduce no-shows through SMS and email sent at optimal times. Birthday campaigns celebrate clients with personalized offers based on their service preferences.
+
+              </p>
+
+              <p>
+
+                Re-engagement workflows target inactive clients with compelling incentives to return. New service announcements reach interested clients based on historical booking patterns.
+
+              </p>
+
+              <p>
+
+                Last-minute availability notifications fill cancellations through targeted outreach. Package promotions encourage prepayment through limited-time offers and bundle discounts.
+
+              </p>
+
+              <p>
+
+                Membership drives create recurring revenue through automated enrollment campaigns. Referral programs reward existing clients for bringing friends with tracked incentive delivery.
+
+              </p>
+
+              <p>
+
+                Review request automation sends timing-optimized requests after successful appointments. Before and after galleries showcase your work across social media and website properties.
+
+              </p>
+
+              <p>
+
+                Client success stories highlight transformations with permission-based sharing. Seasonal promotions align with holidays, weather changes, and cultural events.
+
+              </p>
+
+              <p>
+
+                Event marketing drives traffic for trunk shows, product launches, and special guests. Educational content positions your salon as beauty experts through blog posts and videos.
+
+              </p>
+
+              <p>
+
+                Social media scheduling maintains consistent presence without daily manual posting. Email segmentation delivers relevant messages based on client characteristics and behaviors.
+
+              </p>
+
+              <p>
+
+                A/B testing optimizes subject lines, offers, and call-to-action effectiveness. Conversion tracking measures which campaigns drive actual bookings and revenue.
+
+              </p>
+
+              <p>
+
+                Customer lifetime value analysis identifies your most profitable client segments. Retention metrics highlight at-risk clients before they churn to competitors.
+
+              </p>
+
+              <p>
+
+                Acquisition cost tracking measures marketing efficiency across channels. Campaign attribution connects marketing spend to revenue generation.
+
+              </p>
+
+              <p>
+
+                ROI dashboards prove marketing effectiveness to justify budgets.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

@@ -112,13 +112,57 @@ export default function TimelyAlternative() {
             <div className="feature-content">
               <h3>No Commission Ever Means More Profit</h3>
               <p>
-                Timely's commission-based pricing model takes a percentage of every online booking creating a hidden tax on your growth and success. BookB operates on transparent subscription pricing where your monthly cost stays predictable regardless of booking volume or revenue growth. Book 100 appointments or 1,000 appointments monthly and pay the same flat subscription fee without percentage calculations. Successful busy months don't trigger higher software costs penalizing efficient operations and popular stylists. Revenue growth stays in your business rather than flowing to software vendors taking commission slices. Online booking adoption by clients reduces phone interruptions without increasing software expenses through commission charges. Marketing campaigns that drive appointment volume improve profitability without corresponding software cost increases eating margins. Seasonal peak periods generate maximum profit without commission percentages reducing take-home during your busiest most profitable months. New client acquisition through online booking builds your business without perpetual commission obligations on those relationships. Loyal clients booking repeatedly don't generate ongoing commission charges on transactions that should be pure profit. Price increases to match market rates and rising costs flow to your bottom line without sharing with software vendors. Package sales and prepaid services generate cash flow without commission calculations reducing the benefit of prepayment programs. Multi-location expansion scales at predictable incremental costs rather than percentage-based pricing that penalizes growing salon groups. Franchise operations maintain consistent unit economics without commission variability affecting profitability projections and business planning. High-ticket services and premium pricing strategies reward your positioning without sharing premium revenue with software platforms. Successful stylists with loyal followings keep earnings without commission on appointments booked through their personal online booking links.
+
+                Timely's commission-based pricing model takes a percentage of every online booking creating a hidden tax on your growth and success. BookB operates on transparent subscription pricing where your monthly cost stays predictable regardless of booking volume or revenue growth.
+
+              </p>
+
+              <p>
+
+                Book 100 appointments or 1,000 appointments monthly and pay the same flat subscription fee without percentage calculations. Successful busy months don't trigger higher software costs penalizing efficient operations and popular stylists.
+
+              </p>
+
+              <p>
+
+                Revenue growth stays in your business rather than flowing to software vendors taking commission slices. Online booking adoption by clients reduces phone interruptions without increasing software expenses through commission charges.
+
+              </p>
+
+              <p>
+
+                Marketing campaigns that drive appointment volume improve profitability without corresponding software cost increases eating margins. Seasonal peak periods generate maximum profit without commission percentages reducing take-home during your busiest most profitable months.
+
+              </p>
+
+              <p>
+
+                New client acquisition through online booking builds your business without perpetual commission obligations on those relationships. Loyal clients booking repeatedly don't generate ongoing commission charges on transactions that should be pure profit.
+
+              </p>
+
+              <p>
+
+                Price increases to match market rates and rising costs flow to your bottom line without sharing with software vendors. Package sales and prepaid services generate cash flow without commission calculations reducing the benefit of prepayment programs.
+
+              </p>
+
+              <p>
+
+                Multi-location expansion scales at predictable incremental costs rather than percentage-based pricing that penalizes growing salon groups. Franchise operations maintain consistent unit economics without commission variability affecting profitability projections and business planning.
+
+              </p>
+
+              <p>
+
+                High-ticket services and premium pricing strategies reward your positioning without sharing premium revenue with software platforms. Successful stylists with loyal followings keep earnings without commission on appointments booked through their personal online booking links.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -131,13 +175,57 @@ export default function TimelyAlternative() {
             <div className="feature-content">
               <h3>Complete Client Data Ownership</h3>
               <p>
-                Timely's business model depends on controlling client relationships creating conflicts of interest between your business goals and their platform objectives. BookB believes your clients are your business assets that you should own and control completely without platform interference. Client contact information including email addresses and phone numbers belongs exclusively to you without sharing with marketplace systems. Marketing campaigns reach your clients directly without platform algorithms filtering or competitors advertising in your communication channels. Loyalty programs reward your specific salon and stylists rather than teaching clients to shop around through marketplace browsing. Booking history and service preferences inform your personalized recommendations not platform-driven suggestions promoting highest-commission services. Treatment plans track progress toward beauty goals you define together building long-term relationships with your salon specifically. Color formulas remain proprietary intellectual property of your stylists not shared across platform provider databases. Product recommendations align with your retail inventory and philosophies not affiliate relationships benefiting the platform financially. Pricing strategies match your market positioning without platform pressure toward standardized pricing that benefits marketplace comparison shopping. Client reviews and ratings appear on your owned properties not marketplace pages that promote competitors alongside your salon. Gift card programs build your brand equity and customer commitment not platform dependency that makes switching software costly. Membership programs create recurring revenue streams you control completely including billing, benefits, and communication with members. Referral incentives reward clients for recommending your specific salon not generic platform referrals that may go to competitors. Birthday promotions and client celebrations strengthen individual relationships without platform interference or data mining for other vendors.
+
+                Timely's business model depends on controlling client relationships creating conflicts of interest between your business goals and their platform objectives. BookB believes your clients are your business assets that you should own and control completely without platform interference.
+
+              </p>
+
+              <p>
+
+                Client contact information including email addresses and phone numbers belongs exclusively to you without sharing with marketplace systems. Marketing campaigns reach your clients directly without platform algorithms filtering or competitors advertising in your communication channels.
+
+              </p>
+
+              <p>
+
+                Loyalty programs reward your specific salon and stylists rather than teaching clients to shop around through marketplace browsing. Booking history and service preferences inform your personalized recommendations not platform-driven suggestions promoting highest-commission services.
+
+              </p>
+
+              <p>
+
+                Treatment plans track progress toward beauty goals you define together building long-term relationships with your salon specifically. Color formulas remain proprietary intellectual property of your stylists not shared across platform provider databases.
+
+              </p>
+
+              <p>
+
+                Product recommendations align with your retail inventory and philosophies not affiliate relationships benefiting the platform financially. Pricing strategies match your market positioning without platform pressure toward standardized pricing that benefits marketplace comparison shopping.
+
+              </p>
+
+              <p>
+
+                Client reviews and ratings appear on your owned properties not marketplace pages that promote competitors alongside your salon. Gift card programs build your brand equity and customer commitment not platform dependency that makes switching software costly.
+
+              </p>
+
+              <p>
+
+                Membership programs create recurring revenue streams you control completely including billing, benefits, and communication with members. Referral incentives reward clients for recommending your specific salon not generic platform referrals that may go to competitors.
+
+              </p>
+
+              <p>
+
+                Birthday promotions and client celebrations strengthen individual relationships without platform interference or data mining for other vendors.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -150,13 +238,51 @@ export default function TimelyAlternative() {
             <div className="feature-content">
               <h3>Salon-Specific Features Without Compromises</h3>
               <p>
-                Timely serves diverse appointment-based businesses from yoga studios to medical clinics diluting focus on salon-specific functionality needs. BookB concentrates exclusively on beauty business operations with purpose-built features matching how salons actually work daily. Advanced appointment scheduling handles overlapping services like cuts with color where different service phases require varying stylist attention levels. Service duration estimates adjust automatically based on client hair characteristics documented in profiles including length, density, and texture factors. Color formula documentation saves precise mixing ratios, processing times, developer strengths, and application techniques with reference photos. Before and after photo galleries organize by client creating visual service history for consultations and portfolio building purposes. Treatment plan tracking monitors progress toward long-term beauty goals like growing out color or repairing damage from previous services elsewhere. Product usage per service automatically tracks cost of goods sold for accurate profitability analysis by service category and individual stylist. Retail product recommendations appear contextually during checkout based on services just performed and documented client hair characteristics. Walk-in queue management integrates seamlessly with scheduled appointments showing realistic wait times based on current workload and service complexity. Staff skill matching ensures proper service assignment based on training certifications, experience levels, and demonstrated competency with specific techniques. Commission structures accommodate complex salon scenarios including service splits between assistants and lead stylists, different retail versus service percentages, and tiered performance bonuses. Package and membership management encourages client prepayment and loyalty with automatic remaining service tracking and expiration date management. Gift card programs build brand equity and generate prepaid revenue with balance tracking and redemption management preventing fraud or errors.
+
+                Timely serves diverse appointment-based businesses from yoga studios to medical clinics diluting focus on salon-specific functionality needs. BookB concentrates exclusively on beauty business operations with purpose-built features matching how salons actually work daily.
+
+              </p>
+
+              <p>
+
+                Advanced appointment scheduling handles overlapping services like cuts with color where different service phases require varying stylist attention levels. Service duration estimates adjust automatically based on client hair characteristics documented in profiles including length, density, and texture factors.
+
+              </p>
+
+              <p>
+
+                Color formula documentation saves precise mixing ratios, processing times, developer strengths, and application techniques with reference photos. Before and after photo galleries organize by client creating visual service history for consultations and portfolio building purposes.
+
+              </p>
+
+              <p>
+
+                Treatment plan tracking monitors progress toward long-term beauty goals like growing out color or repairing damage from previous services elsewhere. Product usage per service automatically tracks cost of goods sold for accurate profitability analysis by service category and individual stylist.
+
+              </p>
+
+              <p>
+
+                Retail product recommendations appear contextually during checkout based on services just performed and documented client hair characteristics. Walk-in queue management integrates seamlessly with scheduled appointments showing realistic wait times based on current workload and service complexity.
+
+              </p>
+
+              <p>
+
+                Staff skill matching ensures proper service assignment based on training certifications, experience levels, and demonstrated competency with specific techniques. Commission structures accommodate complex salon scenarios including service splits between assistants and lead stylists, different retail versus service percentages, and tiered performance bonuses.
+
+              </p>
+
+              <p>
+
+                Package and membership management encourages client prepayment and loyalty with automatic remaining service tracking and expiration date management. Gift card programs build brand equity and generate prepaid revenue with balance tracking and redemption management preventing fraud or errors.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -169,13 +295,51 @@ export default function TimelyAlternative() {
             <div className="feature-content">
               <h3>Support That Understands Your Business</h3>
               <p>
-                Timely supports diverse appointment-based businesses reducing salon-specific expertise and contextual understanding of beauty industry operations. BookB focuses exclusively on salons, barbershops, and beauty businesses with specialized knowledge and relevant experience to provide meaningful assistance. Phone support connects to representatives who understand salon terminology, common workflows, and industry-standard practices without requiring education during support calls. Chat support resolves questions quickly from people familiar with appointment booking patterns, walk-in traffic management, and commission calculation scenarios typical in salons. Email responses come from support staff who have worked extensively with beauty businesses understanding context behind questions and appropriate solutions. Screen sharing troubleshooting sessions proceed efficiently with support understanding typical salon software usage patterns and common configuration scenarios. Training materials cover salon-specific scenarios like color formula documentation, treatment plan tracking, and retail product recommendation workflows throughout examples. Knowledge bases organize information by salon roles including receptionist tasks, stylist functions, and manager responsibilities for targeted relevant assistance. Video tutorials demonstrate features using beauty business examples with realistic service menus, client scenarios, and operational workflows throughout demonstrations. Implementation guides reference typical salon service structures, pricing strategies, and staffing patterns making setup faster and more relevant to actual operations. Migration specialists understand common data structures from competitor salon software platforms enabling smoother transitions with less data loss or corruption. Integration support connects salon-specific third-party tools like color formula apps, continuing education tracking, and beauty industry suppliers seamlessly. Community forums facilitate peer discussions among salon owners facing similar operational challenges, marketing questions, and growth planning decisions. Feature requests get evaluated by product managers with beauty industry experience who understand which capabilities actually matter versus nice-to-have features.
+
+                Timely supports diverse appointment-based businesses reducing salon-specific expertise and contextual understanding of beauty industry operations. BookB focuses exclusively on salons, barbershops, and beauty businesses with specialized knowledge and relevant experience to provide meaningful assistance.
+
+              </p>
+
+              <p>
+
+                Phone support connects to representatives who understand salon terminology, common workflows, and industry-standard practices without requiring education during support calls. Chat support resolves questions quickly from people familiar with appointment booking patterns, walk-in traffic management, and commission calculation scenarios typical in salons.
+
+              </p>
+
+              <p>
+
+                Email responses come from support staff who have worked extensively with beauty businesses understanding context behind questions and appropriate solutions. Screen sharing troubleshooting sessions proceed efficiently with support understanding typical salon software usage patterns and common configuration scenarios.
+
+              </p>
+
+              <p>
+
+                Training materials cover salon-specific scenarios like color formula documentation, treatment plan tracking, and retail product recommendation workflows throughout examples. Knowledge bases organize information by salon roles including receptionist tasks, stylist functions, and manager responsibilities for targeted relevant assistance.
+
+              </p>
+
+              <p>
+
+                Video tutorials demonstrate features using beauty business examples with realistic service menus, client scenarios, and operational workflows throughout demonstrations. Implementation guides reference typical salon service structures, pricing strategies, and staffing patterns making setup faster and more relevant to actual operations.
+
+              </p>
+
+              <p>
+
+                Migration specialists understand common data structures from competitor salon software platforms enabling smoother transitions with less data loss or corruption. Integration support connects salon-specific third-party tools like color formula apps, continuing education tracking, and beauty industry suppliers seamlessly.
+
+              </p>
+
+              <p>
+
+                Community forums facilitate peer discussions among salon owners facing similar operational challenges, marketing questions, and growth planning decisions. Feature requests get evaluated by product managers with beauty industry experience who understand which capabilities actually matter versus nice-to-have features.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"

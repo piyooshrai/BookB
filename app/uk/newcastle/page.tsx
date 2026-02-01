@@ -67,13 +67,51 @@ export default function NewcastleSalonSoftware() {
             <div className="feature-content">
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
-                Newcastle's beauty industry serves the North East's regional capital requiring software that understands local business practices and regulatory requirements while supporting the city's entrepreneurial culture and famous nightlife scene driving demand for beauty services. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Newcastle business owners managing successful salons across Tyneside. Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities ensuring compliance with UK regulations. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Newcastle from Eldon Square to Grey Street boutiques. Online booking works perfectly with UK phone number formats, postal codes including Newcastle's NE postcodes covering Heaton, Fenham, and city centre, and address conventions familiar to local clients across Tyneside. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Newcastle salons may close for celebrations. Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Newcastle employees whether experienced senior stylists or apprentice beauty therapists learning their trade in the North East. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Newcastle businesses from sole traders to multi-location salon chains expanding across the region. GDPR compliance features help Newcastle salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations protecting customer privacy and data rights. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Newcastle client base throughout Tyneside and the North East. Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications affecting pricing transparency for Newcastle clients. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Newcastle's diverse neighborhoods. Date formats follow UK conventions preventing American-style date confusion.
+
+                Newcastle's beauty industry serves the North East's regional capital requiring software that understands local business practices and regulatory requirements while supporting the city's entrepreneurial culture and famous nightlife scene driving demand for beauty services. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements making tax compliance straightforward for Newcastle business owners managing successful salons across Tyneside.
+
+              </p>
+
+              <p>
+
+                Price display follows UK conventions with VAT-inclusive pricing visible to clients while tracking VAT separately for business accounting and quarterly submissions to tax authorities ensuring compliance with UK regulations. Payment processing integrates seamlessly with UK banks and card processors including contactless payments ubiquitous throughout Newcastle from Eldon Square to Grey Street boutiques.
+
+              </p>
+
+              <p>
+
+                Online booking works perfectly with UK phone number formats, postal codes including Newcastle's NE postcodes covering Heaton, Fenham, and city centre, and address conventions familiar to local clients across Tyneside. Appointment scheduling accounts for UK bank holidays automatically preventing booking conflicts during Easter, Christmas, and other public holidays when Newcastle salons may close for celebrations.
+
+              </p>
+
+              <p>
+
+                Staff scheduling respects UK employment law including Working Time Regulations, break requirements, and holiday entitlements mandatory for Newcastle employees whether experienced senior stylists or apprentice beauty therapists learning their trade in the North East. Payroll reporting generates data formatted for UK accounting software and payroll providers serving Newcastle businesses from sole traders to multi-location salon chains expanding across the region.
+
+              </p>
+
+              <p>
+
+                GDPR compliance features help Newcastle salons meet data protection obligations for storing and processing client personal information in accordance with UK regulations protecting customer privacy and data rights. Marketing communications respect UK regulations around consent, opt-outs, and commercial electronic messages ensuring your promotional campaigns stay compliant while building your Newcastle client base throughout Tyneside and the North East.
+
+              </p>
+
+              <p>
+
+                Currency displays in pounds sterling with proper formatting and no confusing currency conversions or international complications affecting pricing transparency for Newcastle clients. Time displays in 24-hour or 12-hour formats matching UK preferences and client expectations throughout Newcastle's diverse neighborhoods.
+
+              </p>
+
+              <p>
+
+                Date formats follow UK conventions preventing American-style date confusion.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.staffManagement.url}
+                alt={images.staffManagement.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -86,13 +124,51 @@ export default function NewcastleSalonSoftware() {
             <div className="feature-content">
               <h3>Client Management for Newcastle Salons</h3>
               <p>
-                Newcastle salons build success through loyal client relationships requiring comprehensive client management tracking service history, preferences, and communication across years of regular visits. BookB's client management features help Newcastle salons deliver personalized service that keeps clients returning month after month creating stable recurring revenue. Client profiles store complete information including contact details, service history, product preferences, and personal notes helping Newcastle stylists remember details and provide consistent excellent service. Appointment history tracks every visit showing dates, services performed, products used, and amounts spent building comprehensive picture of client relationships over time. Color formulas record exact product mixtures and techniques used for color services ensuring consistent results when clients return for root touch-ups and full color applications. Style preferences document client preferences for blow-dry techniques, parting placement, and finishing products helping Newcastle stylists deliver results clients love every visit. Allergy tracking records product sensitivities and contraindications preventing adverse reactions and protecting client safety during chemical treatments and services. Birthday notifications alert staff to upcoming client birthdays enabling personalized greeting messages and special birthday promotions encouraging celebratory salon visits. Visit frequency analysis identifies clients who visit regularly versus those becoming less frequent enabling targeted reengagement campaigns before losing clients completely. Lifetime value calculations show total revenue generated by each client helping Newcastle salons identify their most valuable customers worthy of VIP treatment and exclusive offers. Family linking connects related clients showing household relationships and enabling family-focused promotions and referral tracking between family members. Photo galleries store before and after images documenting transformation results and building portfolio showcasing Newcastle salon capabilities to prospective clients. Communication history logs all emails, text messages, and marketing contacts maintaining complete record of client interactions and preferences for contact frequency and methods.
+
+                Newcastle salons build success through loyal client relationships requiring comprehensive client management tracking service history, preferences, and communication across years of regular visits. BookB's client management features help Newcastle salons deliver personalized service that keeps clients returning month after month creating stable recurring revenue.
+
+              </p>
+
+              <p>
+
+                Client profiles store complete information including contact details, service history, product preferences, and personal notes helping Newcastle stylists remember details and provide consistent excellent service. Appointment history tracks every visit showing dates, services performed, products used, and amounts spent building comprehensive picture of client relationships over time.
+
+              </p>
+
+              <p>
+
+                Color formulas record exact product mixtures and techniques used for color services ensuring consistent results when clients return for root touch-ups and full color applications. Style preferences document client preferences for blow-dry techniques, parting placement, and finishing products helping Newcastle stylists deliver results clients love every visit.
+
+              </p>
+
+              <p>
+
+                Allergy tracking records product sensitivities and contraindications preventing adverse reactions and protecting client safety during chemical treatments and services. Birthday notifications alert staff to upcoming client birthdays enabling personalized greeting messages and special birthday promotions encouraging celebratory salon visits.
+
+              </p>
+
+              <p>
+
+                Visit frequency analysis identifies clients who visit regularly versus those becoming less frequent enabling targeted reengagement campaigns before losing clients completely. Lifetime value calculations show total revenue generated by each client helping Newcastle salons identify their most valuable customers worthy of VIP treatment and exclusive offers.
+
+              </p>
+
+              <p>
+
+                Family linking connects related clients showing household relationships and enabling family-focused promotions and referral tracking between family members. Photo galleries store before and after images documenting transformation results and building portfolio showcasing Newcastle salon capabilities to prospective clients.
+
+              </p>
+
+              <p>
+
+                Communication history logs all emails, text messages, and marketing contacts maintaining complete record of client interactions and preferences for contact frequency and methods.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.scheduling.url}
+                alt={images.scheduling.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -105,13 +181,51 @@ export default function NewcastleSalonSoftware() {
             <div className="feature-content">
               <h3>Online Booking That Newcastle Clients Love</h3>
               <p>
-                Newcastle clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the North East. BookB provides mobile-optimized online booking that works perfectly on Metro trains, in Quayside cafes, and anywhere clients access their smartphones throughout the day. Real-time availability shows exactly which appointment slots remain open preventing booking frustration. Stylist profiles include photos, specialties, and reviews helping Newcastle clients choose the right professional. Service descriptions explain treatments clearly with duration and pricing. Before and after galleries showcase work building confidence. Location information includes directions from Central Station, parking options, and Metro stops. Contactless deposit payments secure appointments reducing no-shows. Automatic reminders reduce no-shows without staff phone calls. Rescheduling through client self-service reduces phone interruptions. Package purchasing encourages prepayment. Gift cards generate revenue and introduce new clients. Membership programs create predictable revenue.
+
+                Newcastle clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the North East. BookB provides mobile-optimized online booking that works perfectly on Metro trains, in Quayside cafes, and anywhere clients access their smartphones throughout the day.
+
+              </p>
+
+              <p>
+
+                Real-time availability shows exactly which appointment slots remain open preventing booking frustration. Stylist profiles include photos, specialties, and reviews helping Newcastle clients choose the right professional.
+
+              </p>
+
+              <p>
+
+                Service descriptions explain treatments clearly with duration and pricing. Before and after galleries showcase work building confidence.
+
+              </p>
+
+              <p>
+
+                Location information includes directions from Central Station, parking options, and Metro stops. Contactless deposit payments secure appointments reducing no-shows.
+
+              </p>
+
+              <p>
+
+                Automatic reminders reduce no-shows without staff phone calls. Rescheduling through client self-service reduces phone interruptions.
+
+              </p>
+
+              <p>
+
+                Package purchasing encourages prepayment. Gift cards generate revenue and introduce new clients.
+
+              </p>
+
+              <p>
+
+                Membership programs create predictable revenue.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.analytics.url}
+                alt={images.analytics.alt}
                 width={500}
                 height={375}
                 loading="lazy"
@@ -124,13 +238,51 @@ export default function NewcastleSalonSoftware() {
             <div className="feature-content">
               <h3>Reporting and Analytics for Newcastle Business Owners</h3>
               <p>
-                Running a profitable salon in Newcastle requires understanding numbers with competitive rent, skilled staff wages, and pricing pressures from numerous beauty businesses throughout Tyneside. BookB provides comprehensive reporting helping Newcastle salon owners make data-driven decisions daily, weekly, and monthly. Revenue reporting breaks down income by category, products, stylists, and time periods. Staff productivity metrics compare team performance. Client retention analysis shows visit frequency patterns. Service profitability calculations show true margins after costs. Peak hour analysis identifies optimal staffing times. Marketing tracking measures campaign effectiveness. Inventory turnover identifies slow-moving products. No-show tracking quantifies lost revenue. Year-over-year comparisons show growth trends. VAT reporting provides HMRC submission data. Payroll reports support UK payroll processing. Custom reporting analyzes specific questions.
+
+                Running a profitable salon in Newcastle requires understanding numbers with competitive rent, skilled staff wages, and pricing pressures from numerous beauty businesses throughout Tyneside. BookB provides comprehensive reporting helping Newcastle salon owners make data-driven decisions daily, weekly, and monthly.
+
+              </p>
+
+              <p>
+
+                Revenue reporting breaks down income by category, products, stylists, and time periods. Staff productivity metrics compare team performance.
+
+              </p>
+
+              <p>
+
+                Client retention analysis shows visit frequency patterns. Service profitability calculations show true margins after costs.
+
+              </p>
+
+              <p>
+
+                Peak hour analysis identifies optimal staffing times. Marketing tracking measures campaign effectiveness.
+
+              </p>
+
+              <p>
+
+                Inventory turnover identifies slow-moving products. No-show tracking quantifies lost revenue.
+
+              </p>
+
+              <p>
+
+                Year-over-year comparisons show growth trends. VAT reporting provides HMRC submission data.
+
+              </p>
+
+              <p>
+
+                Payroll reports support UK payroll processing. Custom reporting analyzes specific questions.
+
               </p>
             </div>
             <div className="feature-visual">
               <Image
-                src={images.hairSalon.url}
-                alt="Professional salon management software features"
+                src={images.mobileApp.url}
+                alt={images.mobileApp.alt}
                 width={500}
                 height={375}
                 loading="lazy"
