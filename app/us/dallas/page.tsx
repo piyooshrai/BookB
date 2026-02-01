@@ -34,8 +34,8 @@ export default function DallasSalonSoftware() {
         </div>
           <div className="hero-image">
             <Image
-              src={images.cities.generic.url}
-              alt={images.cities.generic.alt}
+              src={images.cities.dallas.url}
+              alt={images.cities.dallas.alt}
               width={600}
               height={400}
               priority
