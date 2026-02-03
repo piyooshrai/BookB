@@ -54,7 +54,7 @@ export default function LondonSalonSoftware() {
               <h3>Built for UK Salons and Beauty Businesses</h3>
               <p>
 
-                London's beauty industry is one of the most competitive and sophisticated in the world, requiring software that understands local business practices and regulatory requirements. BookB provides features specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements.
+                London's beauty industry is one of the most competitive and sophisticated in the world, requiring software that understands local business practices and regulatory requirements. BookB provides <a href="/features">features</a> specifically designed for UK salons including automatic VAT calculation and reporting that aligns with HMRC requirements. Salons in <a href="/uk/manchester">Manchester</a>, <a href="/uk/birmingham">Birmingham</a>, and <a href="/uk/edinburgh">Edinburgh</a> also benefit from our UK-optimized platform.
 
               </p>
 
@@ -111,7 +111,7 @@ export default function LondonSalonSoftware() {
               <h3>Manage Multiple London Locations Effortlessly</h3>
               <p>
 
-                Many successful London salon businesses operate multiple locations across different neighborhoods and boroughs requiring centralized management with location-specific flexibility. BookB's multi-location features let you manage salons in Knightsbridge, Notting Hill, Canary Wharf, and other London areas from single admin dashboard.
+                Many successful London salon businesses operate multiple locations across different neighborhoods and boroughs requiring centralized management with location-specific flexibility. BookB's <a href="/features">multi-location features</a> let you manage salons in Knightsbridge, Notting Hill, Canary Wharf, and other London areas from single admin dashboard. Whether you run a <a href="/hair-salon-software">hair salon</a> or <a href="/day-spa-software">day spa</a>, our platform scales with your business.
 
               </p>
 
@@ -162,7 +162,7 @@ export default function LondonSalonSoftware() {
               <h3>Online Booking That London Clients Love</h3>
               <p>
 
-                London clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city. BookB provides mobile-optimized online booking that works perfectly on the London Underground, in coffee shops, and anywhere clients access their smartphones.
+                London clients expect sophisticated online booking capabilities matching the digital experiences they enjoy from other service providers throughout the city. BookB provides mobile-optimized <a href="/features">online booking</a> that works perfectly on the London Underground, in coffee shops, and anywhere clients access their smartphones. Learn more in our <a href="/blog/salon-online-booking-guide">online booking guide</a>.
 
               </p>
 

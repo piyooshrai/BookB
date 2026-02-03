@@ -54,7 +54,7 @@ export default function NewYorkSalonSoftware() {
               <h3>Built for US Salons and Beauty Businesses</h3>
               <p>
 
-                New York's beauty industry is the most competitive and demanding in America requiring software that understands local business practices, regulatory requirements, and the fast-paced nature of operating in the city that never sleeps. BookB provides features specifically designed for US salons including automatic sales tax calculation that handles New York's complex tax jurisdictions across all five boroughs with different rates and rules.
+                New York's beauty industry is the most competitive and demanding in America requiring software that understands local business practices, regulatory requirements, and the fast-paced nature of operating in the city that never sleeps. BookB provides <a href="/features">features</a> specifically designed for US salons including automatic sales tax calculation that handles New York's complex tax jurisdictions across all five boroughs with different rates and rules. Salons in <a href="/us/los-angeles">Los Angeles</a>, <a href="/us/chicago">Chicago</a>, and <a href="/us/miami">Miami</a> also trust our US-optimized platform.
 
               </p>
 
@@ -66,7 +66,7 @@ export default function NewYorkSalonSoftware() {
 
               <p>
 
-                Online booking works perfectly with US phone number formats, ZIP codes covering all New York neighborhoods from 10001 Manhattan to 11201 Brooklyn, and address conventions familiar to American clients. Appointment scheduling accounts for US federal holidays and New York state holidays automatically preventing booking conflicts during major holidays when salons may close.
+                <a href="/features">Online booking</a> works perfectly with US phone number formats, ZIP codes covering all New York neighborhoods from 10001 Manhattan to 11201 Brooklyn, and address conventions familiar to American clients. Appointment scheduling accounts for US federal holidays and New York state holidays automatically preventing booking conflicts during major holidays when salons may close. Whether you run a <a href="/nail-salon-software">nail salon</a> or <a href="/beauty-therapist-software">beauty business</a>, our platform adapts to your needs.
 
               </p>
 

@@ -48,7 +48,7 @@ export default function FreshaAlternative() {
       <section className="comparison">
         <div className="container">
           <h2>BookB vs Fresha: The Complete Cost Comparison</h2>
-          <p className="section-subtitle">See the real cost of "free" software with hidden marketplace fees</p>
+          <p className="section-subtitle">See the real cost of "free" software with hidden marketplace fees. Compare other <a href="/zenoti-alternative">Zenoti</a>, <a href="/phorest-alternative">Phorest</a>, and <a href="/vagaro-alternative">Vagaro alternatives</a>. View our <a href="/pricing">transparent pricing</a>.</p>
 
           <div className="comparison-table">
             <div className="comparison-row comparison-header">

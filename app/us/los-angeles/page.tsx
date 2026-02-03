@@ -54,7 +54,7 @@ export default function LosAngelesSalonSoftware() {
               <h3>Built for US Salons and Beauty Businesses</h3>
               <p>
 
-                Los Angeles's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides features specifically designed for US salons including automatic sales tax calculation and reporting that handles Los Angeles's tax requirements.
+                Los Angeles's beauty industry requires software that understands local business practices and regulatory requirements. BookB provides <a href="/features">features</a> specifically designed for US salons including automatic sales tax calculation and reporting that handles Los Angeles's tax requirements. Salons in <a href="/us/san-francisco">San Francisco</a>, <a href="/us/san-diego">San Diego</a>, and <a href="/us/new-york">New York</a> trust our platform for their business needs.
 
               </p>
 
@@ -66,7 +66,7 @@ export default function LosAngelesSalonSoftware() {
 
               <p>
 
-                Online booking works perfectly with US phone number formats, ZIP codes, and address conventions familiar to American clients throughout Los Angeles. Appointment scheduling accounts for US federal holidays and state holidays automatically preventing booking conflicts during major holidays when salons may close.
+                <a href="/features">Online booking</a> works perfectly with US phone number formats, ZIP codes, and address conventions familiar to American clients throughout Los Angeles. <a href="/blog/salon-online-booking-guide">Appointment scheduling</a> accounts for US federal holidays and state holidays automatically preventing booking conflicts during major holidays when salons may close. Perfect for <a href="/hair-salon-software">hair salons</a> and <a href="/day-spa-software">day spas</a> across LA.
 
               </p>
 

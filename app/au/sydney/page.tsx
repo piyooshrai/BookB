@@ -52,7 +52,7 @@ export default function SydneySalonSoftware() {
             <div className="feature-content">
               <h3>Built for Sydney's Competitive Beauty Market</h3>
               <p>
-                Sydney's beauty industry serves diverse clientele from Bondi beachgoers to CBD professionals, requiring software that handles walk-ins and appointments, budget services and luxury treatments, individual stylists and large salon teams. BookB adapts perfectly to Sydney market conditions with flexible scheduling handling both pre-booked appointments and walk-in traffic common in shopping districts like Pitt Street Mall and Westfield Bondi Junction.
+                Sydney's beauty industry serves diverse clientele from Bondi beachgoers to CBD professionals, requiring software that handles walk-ins and appointments, budget services and luxury treatments, individual stylists and large salon teams. BookB adapts perfectly to Sydney market conditions with <a href="/features">flexible scheduling</a> handling both pre-booked appointments and walk-in traffic common in shopping districts like Pitt Street Mall and Westfield Bondi Junction. Salons in <a href="/au/melbourne">Melbourne</a> and <a href="/au/brisbane">Brisbane</a> use the same Australian-optimized platform.
               </p>
 
               <p>
@@ -64,7 +64,7 @@ export default function SydneySalonSoftware() {
               </p>
 
               <p>
-                Australian-specific features include automatic GST calculation and BAS reporting for ATO compliance, public holiday scheduling for NSW holidays, and payment processing through Australian providers including EFTPOS, bank transfers, and popular mobile payment systems. Marketing tools target Sydney postcodes and suburbs effectively reaching potential clients in specific neighborhoods.
+                Australian-specific features include automatic GST calculation and BAS reporting for ATO compliance, public holiday scheduling for NSW holidays, and payment processing through Australian providers including EFTPOS, bank transfers, and popular mobile payment systems. <a href="/features">Marketing tools</a> target Sydney postcodes and suburbs effectively reaching potential clients in specific neighborhoods. Whether you run a <a href="/barbershop-software">barbershop</a> or <a href="/nail-salon-software">nail salon</a>, our platform supports your growth.
               </p>
 
               <p>
