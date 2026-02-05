@@ -56,7 +56,7 @@ export default function VerticalPage() {
                 Barbershops face unique challenges in today's competitive market. Modern clients expect professional service, convenient booking options, and seamless experiences from first contact through checkout and beyond.
               </p>
               <p>
-                Successful barbershops need robust management tools that handle appointments, payments, client relationships, and marketing without overwhelming complexity or enterprise pricing. BookB solves this problem by providing professional software designed specifically for beauty industry operations at pricing independent businesses can afford.
+                Successful barbershops need robust management tools that handle appointments, payments, client relationships, and marketing without overwhelming complexity or enterprise pricing. BookB solves this problem by providing professional <a href="/features">software designed specifically for beauty industry operations</a> at <a href="/pricing">pricing independent businesses can afford</a>. Barbershops in <a href="/uk/glasgow">Glasgow</a>, <a href="/us/chicago">Chicago</a>, and <a href="/au/brisbane">Brisbane</a> trust our platform.
               </p>
               <p>
                 Our platform understands the specific workflow requirements of barbershops including service timing, product usage, client preferences, and barber schedules. You get enterprise-level capabilities without enterprise-level costs or complexity enabling you to compete effectively against larger chains while maintaining your independent identity.
@@ -84,7 +84,7 @@ export default function VerticalPage() {
                 BookB provides comprehensive tools designed specifically for barbershop operations:
               </p>
               <p>
-                <strong>Online Booking:</strong> Accept appointments 24/7 through your website, social media, and Google eliminating phone tag and capturing clients who book outside business hours. Your booking widget integrates seamlessly with existing website using simple embed code. Real-time availability prevents double-bookings and scheduling conflicts automatically.
+                <strong>Online Booking:</strong> Accept appointments 24/7 through your website, social media, and Google eliminating phone tag and capturing clients who book outside business hours. Your booking widget integrates seamlessly with existing website using simple embed code. Real-time availability prevents double-bookings and scheduling conflicts automatically. Learn more in our <a href="/blog/salon-online-booking-guide">online booking guide</a>. Also see our <a href="/hair-salon-software">hair salon software</a> solution.
               </p>
               <p>
                 <strong>Client Management:</strong> Store detailed profiles with service history, preferences, photos, and notes ensuring consistent experience across all visits and team members. Color formulas, product preferences, allergies, and special requests get documented systematically. Automated client tagging segments your database for targeted marketing campaigns.

@@ -54,7 +54,7 @@ export default function ManchesterSalonSoftware() {
               <h3>Perfect for Manchester's Beauty Market</h3>
               <p>
 
-                Manchester's beauty industry serves diverse clientele from students to professionals, requiring software that handles walk-ins and appointments, budget services and premium treatments, individual stylists and large teams. BookB adapts perfectly to Manchester market conditions with flexible scheduling handling both pre-booked appointments and walk-in traffic common in city center locations and shopping districts like Trafford Centre.
+                Manchester's beauty industry serves diverse clientele from students to professionals, requiring software that handles walk-ins and appointments, budget services and premium treatments, individual stylists and large teams. BookB adapts perfectly to Manchester market conditions with <a href="/features">flexible scheduling</a> handling both pre-booked appointments and walk-in traffic common in city center locations and shopping districts like Trafford Centre. Perfect for <a href="/barbershop-software">barbershops</a> and <a href="/hair-salon-software">hair salons</a> across Greater Manchester.
 
               </p>
 
@@ -72,7 +72,7 @@ export default function ManchesterSalonSoftware() {
 
               <p>
 
-                UK-specific features include automatic VAT calculation for HMRC reporting, bank holiday scheduling for English public holidays, and payment processing through UK providers serving Manchester businesses. Marketing tools target Manchester postcodes and neighborhoods effectively reaching potential clients in specific areas.
+                UK-specific features include automatic VAT calculation for HMRC reporting, bank holiday scheduling for English public holidays, and payment processing through UK providers serving Manchester businesses. <a href="/features">Marketing tools</a> target Manchester postcodes and neighborhoods effectively reaching potential clients in specific areas. Salons in <a href="/uk/london">London</a>, <a href="/uk/liverpool">Liverpool</a>, and <a href="/uk/leeds">Leeds</a> use the same UK-optimized platform.
 
               </p>
 

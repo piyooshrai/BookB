@@ -72,7 +72,7 @@ export default function VerticalPage() {
 
               <p>
 
-                Whether you operate solo or manage a team of stylists, BookB scales with your business providing exactly the features you need without overwhelming you with unnecessary complexity. Our intuitive interface ensures your team can use the system productively without extensive training or technical expertise.
+                Whether you operate solo or manage a team of stylists, BookB scales with your business providing exactly the <a href="/features">features</a> you need without overwhelming you with unnecessary complexity. Our intuitive interface ensures your team can use the system productively without extensive training or technical expertise. Also explore our solutions for <a href="/barbershop-software">barbershops</a> and <a href="/mobile-hairdresser-software">mobile hairdressers</a>.
 
               </p>
 
@@ -105,7 +105,7 @@ export default function VerticalPage() {
               <h3>Complete Feature Set</h3>
               <p>
 
-                BookB provides comprehensive tools designed specifically for hair salons operations. Online booking accepts appointments 24/7 through your website, social media, and Google eliminating phone tag and capturing clients who book outside business hours.
+                BookB provides comprehensive <a href="/features">tools designed specifically for hair salons</a> operations. Online booking accepts appointments 24/7 through your website, social media, and Google eliminating phone tag and capturing clients who book outside business hours. Whether you're in <a href="/uk/manchester">Manchester</a>, <a href="/us/los-angeles">Los Angeles</a>, or <a href="/au/melbourne">Melbourne</a>, our platform adapts to your local market.
 
               </p>
 

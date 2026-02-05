@@ -54,7 +54,7 @@ export default function FeaturesPage() {
               <h3>Online Booking</h3>
               <p>
 
-                Accept appointments 24/7 through your website, social media, and Google. Clients can book instantly without phone calls or waiting for business hours.
+                Accept appointments 24/7 through your website, social media, and Google. Clients can book instantly without phone calls or waiting for business hours. Perfect for <a href="/hair-salon-software">hair salons</a>, <a href="/barbershop-software">barbershops</a>, <a href="/nail-salon-software">nail salons</a>, and more. Learn more in our <a href="/blog/salon-online-booking-guide">online booking guide</a>.
 
               </p>
 
@@ -84,7 +84,7 @@ export default function FeaturesPage() {
 
               <p>
 
-                Multi-location support lets clients book at any of your locations from single booking page. Deposit collection during booking reduces no-shows significantly while securing revenue in advance.
+                Multi-location support lets clients book at any of your locations from single booking page. Deposit collection during booking reduces no-shows significantly while securing revenue in advance. Read our guide on <a href="/blog/reduce-salon-no-shows">reducing salon no-shows</a> for more strategies. Trusted by salons in <a href="/uk/london">London</a>, <a href="/us/new-york">New York</a>, and <a href="/au/sydney">Sydney</a>.
 
               </p>
             </div>
