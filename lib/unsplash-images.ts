@@ -72,59 +72,59 @@ export const images = {
       alt: 'Manchester city center - salon management software for Manchester salons',
     },
     birmingham: {
-      url: 'https://images.unsplash.com/photo-1529667021450-2ac0d93b0d00?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-zwdkxQZu0Ko?w=1200&h=800&fit=crop',
       alt: 'Birmingham cityscape - professional salon software for Birmingham salons',
     },
     edinburgh: {
-      url: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-S56zN8cV5fk?w=1200&h=800&fit=crop',
       alt: 'Edinburgh castle and city - salon management software for Edinburgh salons',
     },
     glasgow: {
-      url: 'https://images.unsplash.com/photo-1616865803049-ce1af7c0c2dc?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-xppFv5BuPLE?w=1200&h=800&fit=crop',
       alt: 'Glasgow city center - salon booking system for Glasgow beauty businesses',
     },
     liverpool: {
-      url: 'https://images.unsplash.com/photo-1522747712797-b4e8bb6b5fa5?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-nFo5hbJTM8A?w=1200&h=800&fit=crop',
       alt: 'Liverpool waterfront - salon management software for Liverpool salons',
     },
     leeds: {
-      url: 'https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-uZPwdVsbONI?w=1200&h=800&fit=crop',
       alt: 'Leeds city center - professional salon software for Leeds salons',
     },
     bristol: {
-      url: 'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-iOMkcADNoq8?w=1200&h=800&fit=crop',
       alt: 'Bristol harbor - salon booking system for Bristol beauty businesses',
     },
     brighton: {
-      url: 'https://images.unsplash.com/photo-1599946347371-68eb71b16afc?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-eKcYTT9mgMI?w=1200&h=800&fit=crop',
       alt: 'Brighton seafront - salon management software for Brighton salons',
     },
     newcastle: {
-      url: 'https://images.unsplash.com/photo-1593883616217-36b9b3c39e8e?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-HWpXC49BLlw?w=1200&h=800&fit=crop',
       alt: 'Newcastle bridges and quayside - salon software for Newcastle salons',
     },
     nottingham: {
-      url: 'https://images.unsplash.com/photo-1560080555-1e32e37310f5?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-5islVITCBNE?w=1200&h=800&fit=crop',
       alt: 'Nottingham city center - professional salon software for Nottingham',
     },
     sheffield: {
-      url: 'https://images.unsplash.com/photo-1590759668628-05b0fc34580d?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-y8bDgamkg1k?w=1200&h=800&fit=crop',
       alt: 'Sheffield cityscape - salon booking system for Sheffield salons',
     },
     leicester: {
-      url: 'https://images.unsplash.com/photo-1584801096254-7e246c80f046?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1UNaoNmQTJI?w=1200&h=800&fit=crop',
       alt: 'Leicester city center - salon management software for Leicester salons',
     },
     cardiff: {
-      url: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-IDU1v-rDmQ4?w=1200&h=800&fit=crop',
       alt: 'Cardiff Bay and city - professional salon software for Cardiff salons',
     },
     southampton: {
-      url: 'https://images.unsplash.com/photo-1611415049872-4cf1f88fa0b7?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo--bOFEhMDLxA?w=1200&h=800&fit=crop',
       alt: 'Southampton waterfront - salon booking system for Southampton salons',
     },
     belfast: {
-      url: 'https://images.unsplash.com/photo-159065519893-4f14cd5e04b1?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-3eI6e4pdVio?w=1200&h=800&fit=crop',
       alt: 'Belfast City Hall and center - salon management software for Belfast salons',
     },
     generic: {
@@ -149,39 +149,39 @@ export const images = {
       alt: 'Miami beach and skyline - salon management software for Miami salons',
     },
     atlanta: {
-      url: 'https://images.unsplash.com/photo-1565024805504-e1c0a5d6c4b7?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-23AWcqvOBPg?w=1200&h=800&fit=crop',
       alt: 'Atlanta city skyline - salon software for Atlanta beauty businesses',
     },
     boston: {
-      url: 'https://images.unsplash.com/photo-1619929193704-90f9bc5def3c?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-8nA_iHrxHIo?w=1200&h=800&fit=crop',
       alt: 'Boston cityscape - professional salon software for Boston salons',
     },
     dallas: {
-      url: 'https://images.unsplash.com/photo-1601696364664-8c3195e1c1e7?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-mYfyZ1KbNho?w=1200&h=800&fit=crop',
       alt: 'Dallas skyline - salon management software for Dallas salons',
     },
     denver: {
-      url: 'https://images.unsplash.com/photo-1619856699906-09e1f58c98b1?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-OVE2SA0TVJE?w=1200&h=800&fit=crop',
       alt: 'Denver city and mountains - salon booking system for Denver salons',
     },
     houston: {
-      url: 'https://images.unsplash.com/photo-1621863543000-1679ef6e7c6c?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-AlBgcDfDG_s?w=1200&h=800&fit=crop',
       alt: 'Houston downtown skyline - salon software for Houston beauty businesses',
     },
     phoenix: {
-      url: 'https://images.unsplash.com/photo-1565502905661-ff07df8ff697?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-fdrykjZSoyU?w=1200&h=800&fit=crop',
       alt: 'Phoenix Arizona skyline - salon management for Phoenix salons',
     },
     sanDiego: {
-      url: 'https://images.unsplash.com/photo-1583762637028-ead598a0c45e?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-RQF6bbS4shw?w=1200&h=800&fit=crop',
       alt: 'San Diego waterfront - professional salon software for San Diego',
     },
     sanFrancisco: {
-      url: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1MnkSfwtxRI?w=1200&h=800&fit=crop',
       alt: 'San Francisco Golden Gate - salon software for SF beauty businesses',
     },
     seattle: {
-      url: 'https://images.unsplash.com/photo-1580982172477-7478604f6a6c?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-skUTVJi8-jc?w=1200&h=800&fit=crop',
       alt: 'Seattle Space Needle and skyline - salon management for Seattle salons',
     },
     // Australia
@@ -194,7 +194,7 @@ export const images = {
       alt: 'Melbourne city skyline - professional salon software for Melbourne businesses',
     },
     brisbane: {
-      url: 'https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-RJII3O7CTeo?w=1200&h=800&fit=crop',
       alt: 'Brisbane river and city - salon booking system for Brisbane salons',
     },
     // UAE/Middle East
@@ -207,15 +207,15 @@ export const images = {
       alt: 'Abu Dhabi Sheikh Zayed Mosque - salon management for Abu Dhabi salons',
     },
     riyadh: {
-      url: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-_UxsPARhtOg?w=1200&h=800&fit=crop',
       alt: 'Riyadh city - salon software for Saudi Arabia beauty businesses',
     },
     jeddah: {
-      url: 'https://images.unsplash.com/photo-1578895101408-1a36b834405b?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-dBgLXxob7NQ?w=1200&h=800&fit=crop',
       alt: 'Jeddah waterfront - professional salon management for Jeddah salons',
     },
     sharjah: {
-      url: 'https://images.unsplash.com/photo-1583060988968-c61e7dd4c958?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-g_p85WJIhng?w=1200&h=800&fit=crop',
       alt: 'Sharjah city - salon booking system for Sharjah UAE salons',
     },
   },
