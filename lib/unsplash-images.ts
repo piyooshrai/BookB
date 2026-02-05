@@ -181,7 +181,7 @@ export const images = {
       alt: 'San Francisco Golden Gate - salon software for SF beauty businesses',
     },
     seattle: {
-      url: 'https://images.unsplash.com/photo-1580982172477-7478604f6a6c?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1609984990860-1d1e4e5a5a5b?w=1200&h=800&fit=crop',
       alt: 'Seattle Space Needle and skyline - salon management for Seattle salons',
     },
     // Australia
@@ -207,7 +207,7 @@ export const images = {
       alt: 'Abu Dhabi Sheikh Zayed Mosque - salon management for Abu Dhabi salons',
     },
     riyadh: {
-      url: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=1200&h=800&fit=crop',
+      url: 'https://images.unsplash.com/photo-1591269776145-61c0e5e92065?w=1200&h=800&fit=crop',
       alt: 'Riyadh city - salon software for Saudi Arabia beauty businesses',
     },
     jeddah: {
