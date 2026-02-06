@@ -215,7 +215,7 @@ export const images = {
       alt: 'Jeddah waterfront - professional salon management for Jeddah salons',
     },
     sharjah: {
-      url: 'https://plus.unsplash.com/premium_photo-1697730012360-d49e7ca1a776?w=1200&h=800&fit=crop',
+      url: 'https://plus.unsplash.com/premium_photo-1697730012360-d49e7ca1a776?q=80&w=1200&h=800&auto=format&fit=crop&ixlib=rb-4.1.0',
       alt: 'Sharjah city - salon booking system for Sharjah UAE salons',
     },
   },
