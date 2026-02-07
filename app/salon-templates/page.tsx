@@ -95,10 +95,22 @@ export default function SalonTemplatesPage() {
         }),
       });
 
-      // Trigger actual download
-      // In production, this would download the actual PDF file
-      // For now, we'll show a success message
-      alert(`Thank you! Your ${templates.find(t => t.id === selectedTemplate)?.title} is downloading now. Check your email for additional resources.`);
+      // Trigger actual PDF download
+      const downloadLinks: Record<string, string> = {
+        'client-intake-form': '/templates/client-intake-form.pdf',
+        'sanitization-checklist': '/templates/sanitization-checklist.pdf',
+        'service-menu-template': '/templates/service-menu-template.pdf',
+      };
+
+      const link = document.createElement('a');
+      link.href = downloadLinks[selectedTemplate];
+      link.download = `${selectedTemplate}.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      // Show success message
+      alert(`Thank you! Your ${templates.find(t => t.id === selectedTemplate)?.title} is downloading now. Check your email for additional resources from BookB.`);
 
       setShowDownloadModal(false);
       setFormData({ name: '', email: '', salonName: '' });
