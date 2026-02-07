@@ -7,11 +7,6 @@ import { REGIONAL_PRICING } from '@/lib/pricing';
 import { detectLocation } from '@/lib/geo';
 import type { Region } from '@/lib/pricing';
 
-export const metadata = {
-  title: 'Salon Software ROI Calculator: Calculate Your Savings (2026)',
-  description: 'Free salon software ROI calculator shows exactly how much you save with BookB vs competitors. Calculate cost savings, no-show recovery, and setup fees. Most salons save $3,000+ annually.',
-};
-
 export default function ROICalculatorPage() {
   const [region, setRegion] = useState<Region>('US');
   const [staffCount, setStaffCount] = useState<number>(3);
