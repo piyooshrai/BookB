@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import { blogPosts } from '../posts';
 import type { Metadata } from 'next';
+import Navigation from '@/app/components/Navigation'
+import Footer from '@/app/components/Footer'
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -51,21 +53,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <nav>
-        <div className="container">
-          <a href="/" className="logo">
-            <img src="/bookb-logo.svg" alt="BookB Logo" width="40" height="40" style={{ display: 'block' }} />
-            <span>BookB</span>
-          </a>
-          <ul>
-            <li><a href="/features">Features</a></li>
-            <li><a href="/pricing">Pricing</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="#trial" className="nav-cta">Start Free Trial</a></li>
-          </ul>
-        </div>
-      </nav>
+      <Navigation />
 
       <article className="blog-post">
         <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 20px' }}>
@@ -219,48 +207,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         </div>
       </article>
 
-      <footer>
-        <div className="container">
-          <div className="footer-grid">
-            <div className="footer-column">
-              <h4>Product</h4>
-              <ul>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Solutions</h4>
-              <ul>
-                <li><a href="/hair-salon-software">Hair Salon Software</a></li>
-                <li><a href="/barbershop-software">Barbershop Software</a></li>
-                <li><a href="/nail-salon-software">Nail Salon Software</a></li>
-                <li><a href="/beauty-therapist-software">Beauty Therapist Software</a></li>
-                <li><a href="/day-spa-software">Day Spa Software</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Resources</h4>
-              <ul>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/case-studies">Case Studies</a></li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Company</h4>
-              <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="footer-bottom">© 2026 BookB. All rights reserved.</div>
-          <div className="by-the-algorithm">
-            Built by <a href="https://www.the-algo.com" target="_blank" rel="noopener noreferrer">The Algorithm</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
