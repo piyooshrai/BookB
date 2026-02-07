@@ -425,14 +425,55 @@ export default function Home() {
               </ul>
             </div>
             <div className="footer-column">
-              <h4>Popular Locations</h4>
+              <h4>United Kingdom</h4>
               <ul>
                 <li><a href="/uk/london">London</a></li>
                 <li><a href="/uk/manchester">Manchester</a></li>
+                <li><a href="/uk/birmingham">Birmingham</a></li>
+                <li><a href="/uk/edinburgh">Edinburgh</a></li>
+                <li><a href="/uk/glasgow">Glasgow</a></li>
+                <li><a href="/uk/liverpool">Liverpool</a></li>
+                <li><a href="/uk/leeds">Leeds</a></li>
+                <li><a href="/uk/bristol">Bristol</a></li>
+                <li><a href="/uk/brighton">Brighton</a></li>
+                <li><a href="/uk/newcastle">Newcastle</a></li>
+                <li><a href="/uk/nottingham">Nottingham</a></li>
+                <li><a href="/uk/sheffield">Sheffield</a></li>
+                <li><a href="/uk/leicester">Leicester</a></li>
+                <li><a href="/uk/cardiff">Cardiff</a></li>
+                <li><a href="/uk/southampton">Southampton</a></li>
+                <li><a href="/uk/belfast">Belfast</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>United States</h4>
+              <ul>
                 <li><a href="/us/new-york">New York</a></li>
                 <li><a href="/us/los-angeles">Los Angeles</a></li>
                 <li><a href="/us/chicago">Chicago</a></li>
+                <li><a href="/us/miami">Miami</a></li>
+                <li><a href="/us/atlanta">Atlanta</a></li>
+                <li><a href="/us/boston">Boston</a></li>
+                <li><a href="/us/dallas">Dallas</a></li>
+                <li><a href="/us/denver">Denver</a></li>
+                <li><a href="/us/houston">Houston</a></li>
+                <li><a href="/us/phoenix">Phoenix</a></li>
+                <li><a href="/us/san-diego">San Diego</a></li>
+                <li><a href="/us/san-francisco">San Francisco</a></li>
+                <li><a href="/us/seattle">Seattle</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h4>Australia & Middle East</h4>
+              <ul>
                 <li><a href="/au/sydney">Sydney</a></li>
+                <li><a href="/au/melbourne">Melbourne</a></li>
+                <li><a href="/au/brisbane">Brisbane</a></li>
+                <li><a href="/ae/dubai">Dubai</a></li>
+                <li><a href="/ae/abu-dhabi">Abu Dhabi</a></li>
+                <li><a href="/ae/riyadh">Riyadh</a></li>
+                <li><a href="/ae/jeddah">Jeddah</a></li>
+                <li><a href="/ae/sharjah">Sharjah</a></li>
               </ul>
             </div>
           </div>
