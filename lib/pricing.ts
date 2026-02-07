@@ -6,8 +6,7 @@ export interface RegionalPricing {
   symbol: Currency
   starter: number
   professional: number
-  business: number
-  enterprise: number
+  enterprise: number | string
   competitorPrice: number
 }
 
@@ -16,36 +15,32 @@ export const REGIONAL_PRICING: Record<Region, RegionalPricing> = {
     currency: '£',
     symbol: '£',
     starter: 15,
-    professional: 45,
-    business: 75,
-    enterprise: 125,
+    professional: 65,
+    enterprise: 'Custom',
     competitorPrice: 300,
   },
   US: {
     currency: '$',
     symbol: '$',
     starter: 20,
-    professional: 60,
-    business: 100,
-    enterprise: 165,
+    professional: 85,
+    enterprise: 'Custom',
     competitorPrice: 400,
   },
   UAE: {
     currency: 'AED',
     symbol: 'AED',
     starter: 70,
-    professional: 220,
-    business: 365,
-    enterprise: 600,
+    professional: 300,
+    enterprise: 'Custom',
     competitorPrice: 1460,
   },
   AU: {
     currency: 'AUD',
     symbol: 'AUD',
     starter: 25,
-    professional: 75,
-    business: 125,
-    enterprise: 210,
+    professional: 110,
+    enterprise: 'Custom',
     competitorPrice: 500,
   },
 }
@@ -58,13 +53,13 @@ export function formatPrice(amount: number, region: Region): string {
   return `${pricing.symbol}${amount.toLocaleString()}`
 }
 
-export function calculateSavings(region: Region, tier: 'starter' | 'professional' | 'business' | 'enterprise'): {
+export function calculateSavings(region: Region, tier: 'starter' | 'professional' | 'enterprise'): {
   monthly: number
   annually: number
   percentage: number
 } {
   const pricing = REGIONAL_PRICING[region]
-  const bookbPrice = pricing[tier]
+  const bookbPrice = typeof pricing[tier] === 'number' ? pricing[tier] : 0
   const competitorPrice = pricing.competitorPrice
 
   return {
