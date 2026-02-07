@@ -5,7 +5,7 @@ import { REGIONAL_PRICING, formatPrice } from '@/lib/pricing'
 import { trackPricingView } from '@/lib/analytics'
 
 interface PricingCardProps {
-  tier: 'starter' | 'professional' | 'business' | 'enterprise'
+  tier: 'starter' | 'professional' | 'enterprise'
   features: string[]
   featured?: boolean
 }
@@ -13,15 +13,13 @@ interface PricingCardProps {
 const tierNames = {
   starter: 'Starter',
   professional: 'Professional',
-  business: 'Business',
   enterprise: 'Enterprise',
 }
 
 const tierDescriptions = {
   starter: 'Perfect for solo stylists',
-  professional: 'For growing salons',
-  business: 'For established salons',
-  enterprise: 'For salon chains',
+  professional: 'Best for most salons',
+  enterprise: 'For large salon groups',
 }
 
 export function PricingCard({ tier, features, featured = false }: PricingCardProps) {
@@ -62,9 +60,11 @@ export function PricingCard({ tier, features, featured = false }: PricingCardPro
         ) : (
           <div className="mb-2">
             <span className="text-5xl font-bold font-mono text-primary">
-              {formatPrice(price, region)}
+              {typeof price === 'string' ? price : formatPrice(price, region)}
             </span>
-            <span className="text-gray-600 text-lg">/month</span>
+            <span className="text-gray-600 text-lg">
+              {typeof price === 'string' ? '' : '/month'}
+            </span>
           </div>
         )}
 
