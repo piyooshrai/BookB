@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import TrialModal from './TrialModal';
 
@@ -11,6 +11,39 @@ export default function Navigation() {
     e.preventDefault();
     setIsTrialModalOpen(true);
   };
+
+  // Global listener for #trial links across the entire site
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const link = target.closest('a');
+
+      if (link && (link.getAttribute('href') === '#trial' || link.hash === '#trial')) {
+        e.preventDefault();
+        setIsTrialModalOpen(true);
+      }
+    };
+
+    // Also handle direct hash navigation
+    const handleHashChange = () => {
+      if (window.location.hash === '#trial') {
+        setIsTrialModalOpen(true);
+        // Remove the hash from URL
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    };
+
+    document.addEventListener('click', handleClick);
+    window.addEventListener('hashchange', handleHashChange);
+
+    // Check on mount if URL already has #trial
+    handleHashChange();
+
+    return () => {
+      document.removeEventListener('click', handleClick);
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
 
   return (
     <>
