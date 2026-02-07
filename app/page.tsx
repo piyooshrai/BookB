@@ -13,9 +13,9 @@ export default function Home() {
       <section className="hero">
         <div className="hero-grid">
           <div className="hero-content">
-            <h1>Why pay $300 when BookB delivers same results for $15?</h1>
+            <h1>Why pay $300 when BookB delivers same results for $20?</h1>
             <p className="hero-subtitle">
-              Professional salon management for independent pricing. Queue management, scheduling, POS, and mobile apps. Save $3,420 annually vs enterprise software.
+              Professional salon management for independent pricing. Queue management, scheduling, POS, and mobile apps. Save $3,360 annually vs enterprise software.
             </p>
             <div className="cta-buttons">
               <a href="#trial" className="btn btn-primary">Start 14-Day Free Trial</a>
@@ -38,8 +38,8 @@ export default function Home() {
 
       <section className="comparison">
         <div className="container">
-          <h2>The $3,420 Question</h2>
-          <p className="section-subtitle">Same enterprise features. 95% lower cost. No contracts.</p>
+          <h2>The $3,360 Question</h2>
+          <p className="section-subtitle">Same enterprise features. 93% lower cost. No contracts.</p>
           <div className="comparison-table">
             <div className="comparison-row comparison-header">
               <div>Feature</div>
@@ -49,7 +49,7 @@ export default function Home() {
             <div className="comparison-row">
               <div className="feature-name">Monthly Cost</div>
               <div className="competitor-value">$300+</div>
-              <div className="bookb-value">$15</div>
+              <div className="bookb-value">$20</div>
             </div>
             <div className="comparison-row">
               <div className="feature-name">Setup Fees</div>
@@ -84,7 +84,7 @@ export default function Home() {
             <div className="comparison-row savings-row">
               <div className="feature-name"><strong>Annual Savings</strong></div>
               <div className="competitor-value">—</div>
-              <div className="bookb-value">$3,420</div>
+              <div className="bookb-value">$3,360</div>
             </div>
           </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
             <div className="comparison-row">
               <div className="feature-name">Monthly Cost</div>
               <div className="competitor-value">$0 + 8% Fee</div>
-              <div className="bookb-value">$15</div>
+              <div className="bookb-value">$20</div>
             </div>
             <div className="comparison-row">
               <div className="feature-name">Hidden Commission</div>
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="comparison-row">
               <div className="feature-name">Monthly Cost</div>
               <div className="competitor-value">$150+</div>
-              <div className="bookb-value">$15</div>
+              <div className="bookb-value">$20</div>
             </div>
             <div className="comparison-row">
               <div className="feature-name">Setup Fees</div>
@@ -168,7 +168,7 @@ export default function Home() {
             <div className="comparison-row">
               <div className="feature-name">Monthly Cost</div>
               <div className="competitor-value">$25 + fees</div>
-              <div className="bookb-value">$15</div>
+              <div className="bookb-value">$20</div>
             </div>
             <div className="comparison-row">
               <div className="feature-name">Processing Fees</div>
@@ -312,7 +312,7 @@ export default function Home() {
 
             <div className="pricing-card">
               <div className="plan-name">Starter</div>
-              <div className="plan-price">$15</div>
+              <div className="plan-price">$20</div>
               <div className="plan-period">/month</div>
               <div className="plan-description">Perfect for solo stylists</div>
               <ul className="plan-features">
@@ -329,7 +329,7 @@ export default function Home() {
             <div className="pricing-card featured">
               <div className="popular-badge">Most Popular</div>
               <div className="plan-name">Professional</div>
-              <div className="plan-price">$45</div>
+              <div className="plan-price">$60</div>
               <div className="plan-period">/month</div>
               <div className="plan-description">For growing salons</div>
               <ul className="plan-features">
@@ -345,7 +345,7 @@ export default function Home() {
 
             <div className="pricing-card">
               <div className="plan-name">Business</div>
-              <div className="plan-price">$75</div>
+              <div className="plan-price">$100</div>
               <div className="plan-period">/month</div>
               <div className="plan-description">For established salons</div>
               <ul className="plan-features">
@@ -361,7 +361,7 @@ export default function Home() {
 
             <div className="pricing-card">
               <div className="plan-name">Enterprise</div>
-              <div className="plan-price">$125</div>
+              <div className="plan-price">$165</div>
               <div className="plan-period">/month</div>
               <div className="plan-description">For large chains</div>
               <ul className="plan-features">

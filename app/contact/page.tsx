@@ -28,7 +28,10 @@ export default function ContactPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          formType: 'contact'
+        }),
       });
 
       const data = await response.json();

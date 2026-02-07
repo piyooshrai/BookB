@@ -1,105 +1,70 @@
-import { NextResponse } from 'next/server';
-import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+import { NextRequest, NextResponse } from 'next/server';
+import { sendEmail, EmailData } from '@/lib/ses';
 
-// Initialize AWS SES client
-const sesClient = new SESClient({
-  region: process.env.AWS_REGION || 'us-east-1',
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID || '',
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || '',
-  },
-});
-
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, company, phone, message } = body;
 
     // Validate required fields
-    if (!name || !email || !message) {
+    if (!body.name || !body.email) {
       return NextResponse.json(
-        { error: 'Name, email, and message are required' },
+        { success: false, error: 'Name and email are required' },
         { status: 400 }
       );
     }
 
-    // Email validation
+    // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!emailRegex.test(body.email)) {
       return NextResponse.json(
-        { error: 'Invalid email address' },
+        { success: false, error: 'Invalid email format' },
         { status: 400 }
       );
     }
 
-    // Prepare email content
-    const htmlBody = `
-      <h2>New Contact Form Submission</h2>
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Company:</strong> ${company || 'Not provided'}</p>
-      <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
-      <h3>Message:</h3>
-      <p>${message.replace(/\n/g, '<br>')}</p>
-      <hr>
-      <p style="color: #666; font-size: 12px;">Submitted from BookB website contact form</p>
-    `;
+    // Prepare email data
+    const emailData: EmailData = {
+      name: body.name,
+      email: body.email,
+      phone: body.phone || undefined,
+      company: body.company || undefined,
+      message: body.message || undefined,
+      formType: body.formType || 'contact',
+    };
 
-    const textBody = `
-New Contact Form Submission
+    // Send email via SES
+    const result = await sendEmail(emailData);
 
-Name: ${name}
-Email: ${email}
-Company: ${company || 'Not provided'}
-Phone: ${phone || 'Not provided'}
-
-Message:
-${message}
-
----
-Submitted from BookB website contact form
-    `;
-
-    // Send email via Amazon SES
-    const command = new SendEmailCommand({
-      Source: process.env.SES_FROM_EMAIL || 'noreply@bookb.io',
-      Destination: {
-        ToAddresses: ['info@bookb.io'],
-      },
-      Message: {
-        Subject: {
-          Data: `New Contact Form Submission from ${name}`,
-          Charset: 'UTF-8',
-        },
-        Body: {
-          Html: {
-            Data: htmlBody,
-            Charset: 'UTF-8',
-          },
-          Text: {
-            Data: textBody,
-            Charset: 'UTF-8',
-          },
-        },
-      },
-      ReplyToAddresses: [email], // Allow direct reply to customer
-    });
-
-    await sesClient.send(command);
-
-    return NextResponse.json(
-      {
+    if (result.success) {
+      return NextResponse.json({
         success: true,
-        message: 'Thank you for contacting us. We will get back to you within 24 hours.'
-      },
-      { status: 200 }
-    );
-
+        message: 'Your message has been sent successfully. We will get back to you soon!',
+        messageId: result.messageId,
+      });
+    } else {
+      console.error('Email sending failed:', result.error);
+      return NextResponse.json(
+        { success: false, error: 'Failed to send email. Please try again later.' },
+        { status: 500 }
+      );
+    }
   } catch (error) {
-    console.error('Contact form error:', error);
+    console.error('API Error:', error);
     return NextResponse.json(
-      { error: 'Failed to send message. Please try again later.' },
+      { success: false, error: 'An unexpected error occurred. Please try again later.' },
       { status: 500 }
     );
   }
+}
+
+// Handle OPTIONS for CORS
+export async function OPTIONS(request: NextRequest) {
+  return new NextResponse(null, {
+    status: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    },
+  });
 }
