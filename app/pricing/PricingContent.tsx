@@ -48,86 +48,294 @@ export default function PricingContent() {
           <h2>Choose Your Plan</h2>
           <p className="section-subtitle">All plans include unlimited appointments, clients, and bookings</p>
 
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <div className="pricing-tier">Starter</div>
-              <div className="pricing-price">
-                <span className="currency">{pricing.symbol}</span>
-                <span className="amount">{pricing.starter}</span>
-                <span className="period">/month</span>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '2rem',
+            maxWidth: '1400px',
+            margin: '3rem auto 0'
+          }}>
+            {/* Starter Plan */}
+            <div style={{
+              background: 'white',
+              border: '2px solid #E5E7EB',
+              borderRadius: '16px',
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              transition: 'all 0.3s ease'
+            }}>
+              <div style={{ marginBottom: '1.5rem' }}>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 700,
+                  color: 'var(--text)',
+                  marginBottom: '0.5rem'
+                }}>Starter</h3>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
+                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text)' }}>
+                    {pricing.symbol}{pricing.starter}
+                  </span>
+                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>/month</span>
+                </div>
+                <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', margin: 0 }}>
+                  Perfect for solo stylists
+                </p>
               </div>
-              <div className="pricing-features">
-                <div className="feature-item">✓ 1 staff member</div>
-                <div className="feature-item">✓ Unlimited appointments</div>
-                <div className="feature-item">✓ Online booking widget</div>
-                <div className="feature-item">✓ Client management</div>
-                <div className="feature-item">✓ Basic POS system</div>
-                <div className="feature-item">✓ SMS reminders</div>
-                <div className="feature-item">✓ Mobile app access</div>
-                <div className="feature-item">✓ Email support</div>
+
+              <div style={{ flex: 1, marginBottom: '1.5rem' }}>
+                {[
+                  '1 staff member',
+                  'Unlimited appointments',
+                  'Online booking widget',
+                  'Client management',
+                  'Basic POS system',
+                  'SMS reminders',
+                  'Mobile app access',
+                  'Email support'
+                ].map((feature, idx) => (
+                  <div key={idx} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.75rem',
+                    marginBottom: '0.875rem'
+                  }}>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
+                      <circle cx="10" cy="10" r="10" fill="#10B981"/>
+                      <path d="M14 7L8.5 12.5L6 10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span style={{ fontSize: '0.9375rem', color: 'var(--text)' }}>{feature}</span>
+                  </div>
+                ))}
               </div>
-              <a href="#trial" className="btn btn-secondary" onClick={handleTrialClick}>Start Free Trial</a>
+
+              <a href="#trial" className="btn btn-secondary" style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0.875rem',
+                fontSize: '1rem',
+                fontWeight: 600
+              }} onClick={handleTrialClick}>
+                Start Free Trial
+              </a>
             </div>
 
-            <div className="pricing-card featured">
-              <div className="badge">Most Popular</div>
-              <div className="pricing-tier">Professional</div>
-              <div className="pricing-price">
-                <span className="currency">{pricing.symbol}</span>
-                <span className="amount">{pricing.professional}</span>
-                <span className="period">/month</span>
+            {/* Professional Plan - Featured */}
+            <div style={{
+              background: 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)',
+              border: 'none',
+              borderRadius: '16px',
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              position: 'relative',
+              transform: 'scale(1.05)',
+              boxShadow: '0 20px 40px rgba(102, 126, 234, 0.3)'
+            }}>
+              <div style={{
+                position: 'absolute',
+                top: '-12px',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                background: '#FFD700',
+                color: '#0F172A',
+                padding: '0.375rem 1rem',
+                borderRadius: '20px',
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px'
+              }}>
+                Most Popular
               </div>
-              <div className="pricing-features">
-                <div className="feature-item">✓ Up to 5 staff members</div>
-                <div className="feature-item">✓ All Starter features</div>
-                <div className="feature-item">✓ Advanced analytics</div>
-                <div className="feature-item">✓ Inventory management</div>
-                <div className="feature-item">✓ Email marketing (1,000/month)</div>
-                <div className="feature-item">✓ Custom branding</div>
-                <div className="feature-item">✓ Staff performance reports</div>
-                <div className="feature-item">✓ Priority support</div>
+
+              <div style={{ marginBottom: '1.5rem' }}>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 700,
+                  color: 'white',
+                  marginBottom: '0.5rem'
+                }}>Professional</h3>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
+                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'white' }}>
+                    {pricing.symbol}{pricing.professional}
+                  </span>
+                  <span style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.8)' }}>/month</span>
+                </div>
+                <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                  Best for growing salons
+                </p>
               </div>
-              <a href="#trial" className="btn btn-primary" onClick={handleTrialClick}>Start Free Trial</a>
+
+              <div style={{ flex: 1, marginBottom: '1.5rem' }}>
+                {[
+                  'Up to 5 staff members',
+                  'All Starter features',
+                  'Advanced analytics',
+                  'Inventory management',
+                  'Email marketing (1,000/mo)',
+                  'Custom branding',
+                  'Staff performance reports',
+                  'Priority support'
+                ].map((feature, idx) => (
+                  <div key={idx} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.75rem',
+                    marginBottom: '0.875rem'
+                  }}>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
+                      <circle cx="10" cy="10" r="10" fill="white"/>
+                      <path d="M14 7L8.5 12.5L6 10" stroke="#667EEA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span style={{ fontSize: '0.9375rem', color: 'white' }}>{feature}</span>
+                  </div>
+                ))}
+              </div>
+
+              <a href="#trial" style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0.875rem',
+                fontSize: '1rem',
+                fontWeight: 700,
+                background: 'white',
+                color: '#667EEA',
+                borderRadius: '8px',
+                textDecoration: 'none',
+                display: 'block',
+                transition: 'all 0.2s ease'
+              }} onClick={handleTrialClick}>
+                Start Free Trial
+              </a>
             </div>
 
-            <div className="pricing-card">
-              <div className="pricing-tier">Business</div>
-              <div className="pricing-price">
-                <span className="currency">{pricing.symbol}</span>
-                <span className="amount">{pricing.business}</span>
-                <span className="period">/month</span>
+            {/* Business Plan */}
+            <div style={{
+              background: 'white',
+              border: '2px solid #E5E7EB',
+              borderRadius: '16px',
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <div style={{ marginBottom: '1.5rem' }}>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 700,
+                  color: 'var(--text)',
+                  marginBottom: '0.5rem'
+                }}>Business</h3>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
+                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text)' }}>
+                    {pricing.symbol}{pricing.business}
+                  </span>
+                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>/month</span>
+                </div>
+                <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', margin: 0 }}>
+                  For established businesses
+                </p>
               </div>
-              <div className="pricing-features">
-                <div className="feature-item">✓ Up to 15 staff members</div>
-                <div className="feature-item">✓ All Professional features</div>
-                <div className="feature-item">✓ Multi-location support</div>
-                <div className="feature-item">✓ Advanced reporting</div>
-                <div className="feature-item">✓ Email marketing (5,000/month)</div>
-                <div className="feature-item">✓ API access</div>
-                <div className="feature-item">✓ Loyalty programs</div>
-                <div className="feature-item">✓ Dedicated account manager</div>
+
+              <div style={{ flex: 1, marginBottom: '1.5rem' }}>
+                {[
+                  'Up to 15 staff members',
+                  'All Professional features',
+                  'Multi-location support',
+                  'Advanced reporting',
+                  'Email marketing (5,000/mo)',
+                  'API access',
+                  'Loyalty programs',
+                  'Dedicated account manager'
+                ].map((feature, idx) => (
+                  <div key={idx} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.75rem',
+                    marginBottom: '0.875rem'
+                  }}>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
+                      <circle cx="10" cy="10" r="10" fill="#10B981"/>
+                      <path d="M14 7L8.5 12.5L6 10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span style={{ fontSize: '0.9375rem', color: 'var(--text)' }}>{feature}</span>
+                  </div>
+                ))}
               </div>
-              <a href="#trial" className="btn btn-secondary" onClick={handleTrialClick}>Start Free Trial</a>
+
+              <a href="#trial" className="btn btn-secondary" style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0.875rem',
+                fontSize: '1rem',
+                fontWeight: 600
+              }} onClick={handleTrialClick}>
+                Start Free Trial
+              </a>
             </div>
 
-            <div className="pricing-card">
-              <div className="pricing-tier">Enterprise</div>
-              <div className="pricing-price">
-                <span className="currency">{pricing.symbol}</span>
-                <span className="amount">{pricing.enterprise}</span>
-                <span className="period">/month</span>
+            {/* Enterprise Plan */}
+            <div style={{
+              background: 'white',
+              border: '2px solid #E5E7EB',
+              borderRadius: '16px',
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column'
+            }}>
+              <div style={{ marginBottom: '1.5rem' }}>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 700,
+                  color: 'var(--text)',
+                  marginBottom: '0.5rem'
+                }}>Enterprise</h3>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
+                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text)' }}>
+                    {pricing.symbol}{pricing.enterprise}
+                  </span>
+                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>/month</span>
+                </div>
+                <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', margin: 0 }}>
+                  For large operations
+                </p>
               </div>
-              <div className="pricing-features">
-                <div className="feature-item">✓ Unlimited staff members</div>
-                <div className="feature-item">✓ All Business features</div>
-                <div className="feature-item">✓ Custom integrations</div>
-                <div className="feature-item">✓ White-label option</div>
-                <div className="feature-item">✓ Unlimited email marketing</div>
-                <div className="feature-item">✓ 99.9% uptime SLA</div>
-                <div className="feature-item">✓ Custom contracts</div>
-                <div className="feature-item">✓ 24/7 phone support</div>
+
+              <div style={{ flex: 1, marginBottom: '1.5rem' }}>
+                {[
+                  'Unlimited staff members',
+                  'All Business features',
+                  'Custom integrations',
+                  'White-label option',
+                  'Unlimited email marketing',
+                  '99.9% uptime SLA',
+                  'Custom contracts',
+                  '24/7 phone support'
+                ].map((feature, idx) => (
+                  <div key={idx} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    gap: '0.75rem',
+                    marginBottom: '0.875rem'
+                  }}>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
+                      <circle cx="10" cy="10" r="10" fill="#10B981"/>
+                      <path d="M14 7L8.5 12.5L6 10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    <span style={{ fontSize: '0.9375rem', color: 'var(--text)' }}>{feature}</span>
+                  </div>
+                ))}
               </div>
-              <a href="/contact" className="btn btn-secondary">Contact Sales</a>
+
+              <a href="/contact" className="btn btn-secondary" style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0.875rem',
+                fontSize: '1rem',
+                fontWeight: 600
+              }}>
+                Contact Sales
+              </a>
             </div>
           </div>
         </div>
