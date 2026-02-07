@@ -354,7 +354,7 @@ export default function SalonGlossaryPage() {
     <>
       <Navigation />
 
-      <div style={{ minHeight: '100vh', background: 'linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%)' }}>
+      <div style={{ minHeight: '100vh', background: '#ffffff' }}>
         {/* Hero Section */}
         <section style={{
           padding: '6rem 2rem 3rem',
@@ -366,9 +366,7 @@ export default function SalonGlossaryPage() {
             fontSize: 'clamp(2rem, 5vw, 3.5rem)',
             fontWeight: '800',
             marginBottom: '1.5rem',
-            background: 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
+            color: '#1a202c',
             lineHeight: '1.2',
           }}>
             Salon Management Glossary
@@ -397,12 +395,12 @@ export default function SalonGlossaryPage() {
                 width: '100%',
                 padding: '1rem 1.5rem',
                 fontSize: '1.1rem',
-                border: '2px solid #e2e8f0',
-                borderRadius: '12px',
+                border: '1px solid #e2e8f0',
+                borderRadius: '8px',
                 outline: 'none',
                 transition: 'all 0.3s ease',
               }}
-              onFocus={(e) => e.currentTarget.style.borderColor = '#667EEA'}
+              onFocus={(e) => e.currentTarget.style.borderColor = '#cbd5e0'}
               onBlur={(e) => e.currentTarget.style.borderColor = '#e2e8f0'}
             />
           </div>
@@ -425,11 +423,11 @@ export default function SalonGlossaryPage() {
               onClick={() => setSelectedLetter('All')}
               style={{
                 padding: '0.5rem 1rem',
-                background: selectedLetter === 'All' ? 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)' : 'white',
+                background: selectedLetter === 'All' ? '#1a202c' : 'white',
                 color: selectedLetter === 'All' ? 'white' : '#4a5568',
-                border: '2px solid',
-                borderColor: selectedLetter === 'All' ? 'transparent' : '#e2e8f0',
-                borderRadius: '8px',
+                border: '1px solid',
+                borderColor: selectedLetter === 'All' ? '#1a202c' : '#e2e8f0',
+                borderRadius: '4px',
                 cursor: 'pointer',
                 fontWeight: '600',
                 fontSize: '0.95rem',
@@ -445,11 +443,11 @@ export default function SalonGlossaryPage() {
                 disabled={count === 0}
                 style={{
                   padding: '0.5rem 0.75rem',
-                  background: selectedLetter === letter ? 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)' : 'white',
+                  background: selectedLetter === letter ? '#1a202c' : 'white',
                   color: selectedLetter === letter ? 'white' : count === 0 ? '#cbd5e0' : '#4a5568',
-                  border: '2px solid',
-                  borderColor: selectedLetter === letter ? 'transparent' : '#e2e8f0',
-                  borderRadius: '8px',
+                  border: '1px solid',
+                  borderColor: selectedLetter === letter ? '#1a202c' : '#e2e8f0',
+                  borderRadius: '4px',
                   cursor: count === 0 ? 'not-allowed' : 'pointer',
                   fontWeight: '600',
                   fontSize: '0.9rem',
@@ -494,9 +492,11 @@ export default function SalonGlossaryPage() {
                 textAlign: 'center',
                 padding: '3rem',
                 color: '#718096',
+                background: '#fafafa',
+                borderRadius: '8px',
+                border: '1px solid #e2e8f0',
               }}>
-                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔍</div>
-                <div style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem' }}>
+                <div style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem', color: '#1a202c' }}>
                   No terms found
                 </div>
                 <div>Try a different search term or browse by letter</div>
@@ -568,7 +568,7 @@ export default function SalonGlossaryPage() {
                             Related:
                           </span>{' '}
                           <span style={{
-                            color: '#667EEA',
+                            color: '#718096',
                             fontSize: '0.9rem',
                           }}>
                             {item.relatedTerms.join(', ')}
@@ -588,8 +588,8 @@ export default function SalonGlossaryPage() {
           maxWidth: '1200px',
           margin: '0 auto',
           padding: '4rem 2rem',
-          background: 'white',
-          borderRadius: '16px',
+          borderTop: '1px solid #e2e8f0',
+          borderBottom: '1px solid #e2e8f0',
           marginBottom: '4rem',
         }}>
           <h2 style={{
@@ -597,6 +597,7 @@ export default function SalonGlossaryPage() {
             fontWeight: '700',
             marginBottom: '2rem',
             textAlign: 'center',
+            color: '#1a202c',
           }}>
             Browse by Category
           </h2>
@@ -607,35 +608,34 @@ export default function SalonGlossaryPage() {
             gap: '1.5rem',
           }}>
             {[
-              { name: 'Software', icon: '💻', count: glossaryTerms.filter(t => t.category === 'Software').length },
-              { name: 'Services', icon: '💇', count: glossaryTerms.filter(t => t.category === 'Services').length },
-              { name: 'Operations', icon: '⚙️', count: glossaryTerms.filter(t => t.category === 'Operations').length },
-              { name: 'Business Model', icon: '💼', count: glossaryTerms.filter(t => t.category === 'Business Model').length },
-              { name: 'Marketing', icon: '📱', count: glossaryTerms.filter(t => t.category === 'Marketing').length },
-              { name: 'Health & Safety', icon: '✨', count: glossaryTerms.filter(t => t.category === 'Health & Safety').length },
+              { name: 'Software', count: glossaryTerms.filter(t => t.category === 'Software').length },
+              { name: 'Services', count: glossaryTerms.filter(t => t.category === 'Services').length },
+              { name: 'Operations', count: glossaryTerms.filter(t => t.category === 'Operations').length },
+              { name: 'Business Model', count: glossaryTerms.filter(t => t.category === 'Business Model').length },
+              { name: 'Marketing', count: glossaryTerms.filter(t => t.category === 'Marketing').length },
+              { name: 'Health & Safety', count: glossaryTerms.filter(t => t.category === 'Health & Safety').length },
             ].map((category, idx) => (
               <div
                 key={idx}
                 style={{
                   padding: '1.5rem',
-                  background: '#f8f9ff',
-                  borderRadius: '12px',
-                  textAlign: 'center',
+                  background: '#fafafa',
+                  borderRadius: '8px',
+                  border: '1px solid #e2e8f0',
                   cursor: 'pointer',
                   transition: 'all 0.3s ease',
                 }}
                 onClick={() => setSearchTerm(category.name)}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.background = '#EDF2F7';
-                  e.currentTarget.style.transform = 'translateY(-4px)';
+                  e.currentTarget.style.background = '#ffffff';
+                  e.currentTarget.style.borderColor = '#cbd5e0';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.background = '#f8f9ff';
-                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.background = '#fafafa';
+                  e.currentTarget.style.borderColor = '#e2e8f0';
                 }}
               >
-                <div style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>{category.icon}</div>
-                <div style={{ fontWeight: '600', fontSize: '1.1rem', marginBottom: '0.25rem' }}>
+                <div style={{ fontWeight: '600', fontSize: '1.1rem', marginBottom: '0.5rem', color: '#1a202c' }}>
                   {category.name}
                 </div>
                 <div style={{ color: '#718096', fontSize: '0.9rem' }}>
@@ -652,8 +652,8 @@ export default function SalonGlossaryPage() {
           margin: '0 auto 4rem',
           padding: '3rem 2rem',
           textAlign: 'center',
-          background: 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)',
-          borderRadius: '16px',
+          background: '#1a202c',
+          borderRadius: '8px',
           color: 'white',
         }}>
           <h2 style={{
@@ -666,7 +666,7 @@ export default function SalonGlossaryPage() {
           <p style={{
             fontSize: '1.1rem',
             marginBottom: '2rem',
-            opacity: 0.95,
+            opacity: 0.9,
           }}>
             Understanding salon terminology is the first step. BookB puts these concepts into action with software built for modern salon management.
           </p>
@@ -676,10 +676,10 @@ export default function SalonGlossaryPage() {
               display: 'inline-block',
               padding: '1rem 2.5rem',
               background: 'white',
-              color: '#667EEA',
-              borderRadius: '12px',
+              color: '#1a202c',
+              borderRadius: '4px',
               textDecoration: 'none',
-              fontWeight: '700',
+              fontWeight: '600',
               fontSize: '1.1rem',
               transition: 'all 0.3s ease',
             }}
