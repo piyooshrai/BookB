@@ -14,6 +14,7 @@ export default function Home() {
           </a>
           <ul>
             <li><a href="/features">Features</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="/pricing">Pricing</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="#trial" className="nav-cta">Start Free Trial</a></li>
