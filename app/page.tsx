@@ -1,10 +1,21 @@
+'use client';
+
+import { useState } from 'react'
 import Image from 'next/image'
 import { images } from '@/lib/unsplash-images'
 import { OrganizationSchema } from './components/Schema'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import TrialModal from './components/TrialModal'
 
 export default function Home() {
+  const [isTrialModalOpen, setIsTrialModalOpen] = useState(false);
+
+  const handleTrialClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsTrialModalOpen(true);
+  };
+
   return (
     <>
       <OrganizationSchema />
@@ -18,7 +29,7 @@ export default function Home() {
               Professional salon management for independent pricing. Queue management, scheduling, POS, and mobile apps. Save $3,360 annually vs enterprise software.
             </p>
             <div className="cta-buttons">
-              <a href="#trial" className="btn btn-primary">Start 14-Day Free Trial</a>
+              <a href="#trial" className="btn btn-primary" onClick={handleTrialClick}>Start 14-Day Free Trial</a>
               <a href="/pricing" className="btn btn-secondary">See Pricing</a>
             </div>
             <p className="trust-line">Trusted by salons in 15+ countries · No credit card required</p>
@@ -380,6 +391,8 @@ export default function Home() {
       </section>
 
       <Footer />
+
+      <TrialModal isOpen={isTrialModalOpen} onClose={() => setIsTrialModalOpen(false)} />
     </>
   );
 }
