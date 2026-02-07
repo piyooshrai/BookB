@@ -176,11 +176,8 @@ export default function PricingContent() {
                   'Advanced analytics & reporting',
                   'Inventory management',
                   'Multi-location support',
-                  'Email marketing (5,000/mo)',
                   'Custom branding',
-                  'API access',
-                  'Loyalty programs',
-                  'Dedicated account manager'
+                  'Priority support'
                 ].map((feature, idx) => (
                   <div key={idx} style={{
                     display: 'flex',
@@ -247,14 +244,9 @@ export default function PricingContent() {
                 {[
                   'Unlimited staff & locations',
                   'All Professional features',
-                  'Custom integrations',
-                  'White-label option',
-                  'Unlimited email marketing',
                   '99.9% uptime SLA',
                   'Custom contracts & pricing',
-                  '24/7 priority phone support',
-                  'Onboarding & training',
-                  'Dedicated success team'
+                  '24/7 priority phone support'
                 ].map((feature, idx) => (
                   <div key={idx} style={{
                     display: 'flex',
