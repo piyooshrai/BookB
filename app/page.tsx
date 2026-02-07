@@ -393,12 +393,14 @@ export default function Home() {
 
       <footer>
         <div className="container">
-          <div className="footer-grid">
+          {/* First row - Product info */}
+          <div className="footer-grid" style={{ marginBottom: '3rem' }}>
             <div className="footer-column">
               <h4>Product</h4>
               <ul>
                 <li><a href="/features">Features</a></li>
                 <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
@@ -424,6 +426,10 @@ export default function Home() {
                 <li><a href="/square-appointments-alternative">Square Alternative</a></li>
               </ul>
             </div>
+          </div>
+
+          {/* Second row - Locations */}
+          <div className="footer-grid">
             <div className="footer-column">
               <h4>United Kingdom</h4>
               <ul>
