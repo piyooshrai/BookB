@@ -1,9 +1,11 @@
+import Image from 'next/image'
+
 export default function Navigation() {
   return (
     <nav>
       <div className="container">
         <a href="/" className="logo">
-          <img src="/bookb-logo.svg" alt="BookB Logo" width="40" height="40" style={{ display: 'block' }} />
+          <Image src="/bookb-logo.svg" alt="BookB Logo" width={40} height={40} style={{ display: 'block' }} />
           <span>BookB</span>
         </a>
         <ul>
