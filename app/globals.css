@@ -602,3 +602,30 @@ footer .container {
 .by-the-algorithm a:hover {
     color: #60A5FA;
 }
+
+/* 3-Column Pricing Grid */
+.pricing-grid-3 {
+    display: grid;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 3rem auto 0;
+}
+
+@media (min-width: 1024px) {
+    .pricing-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .pricing-grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing-grid-3 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

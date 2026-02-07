@@ -50,11 +50,13 @@ export default function PricingContent() {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-            gap: '2rem',
-            maxWidth: '1400px',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gap: '2.5rem',
+            maxWidth: '1200px',
             margin: '3rem auto 0'
-          }}>
+          }}
+          className="pricing-grid-3"
+          >
             {/* Starter Plan */}
             <div style={{
               background: 'white',
@@ -163,20 +165,22 @@ export default function PricingContent() {
                   <span style={{ fontSize: '1.125rem', color: 'rgba(255,255,255,0.8)' }}>/month</span>
                 </div>
                 <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
-                  Best for growing salons
+                  Best for most salons
                 </p>
               </div>
 
               <div style={{ flex: 1, marginBottom: '1.5rem' }}>
                 {[
-                  'Up to 5 staff members',
+                  'Up to 15 staff members',
                   'All Starter features',
-                  'Advanced analytics',
+                  'Advanced analytics & reporting',
                   'Inventory management',
-                  'Email marketing (1,000/mo)',
+                  'Multi-location support',
+                  'Email marketing (5,000/mo)',
                   'Custom branding',
-                  'Staff performance reports',
-                  'Priority support'
+                  'API access',
+                  'Loyalty programs',
+                  'Dedicated account manager'
                 ].map((feature, idx) => (
                   <div key={idx} style={{
                     display: 'flex',
@@ -210,70 +214,6 @@ export default function PricingContent() {
               </a>
             </div>
 
-            {/* Business Plan */}
-            <div style={{
-              background: 'white',
-              border: '2px solid #E5E7EB',
-              borderRadius: '16px',
-              padding: '2rem',
-              display: 'flex',
-              flexDirection: 'column'
-            }}>
-              <div style={{ marginBottom: '1.5rem' }}>
-                <h3 style={{
-                  fontSize: '1.5rem',
-                  fontWeight: 700,
-                  color: 'var(--text)',
-                  marginBottom: '0.5rem'
-                }}>Business</h3>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
-                  <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text)' }}>
-                    {pricing.symbol}{pricing.business}
-                  </span>
-                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>/month</span>
-                </div>
-                <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', margin: 0 }}>
-                  For established businesses
-                </p>
-              </div>
-
-              <div style={{ flex: 1, marginBottom: '1.5rem' }}>
-                {[
-                  'Up to 15 staff members',
-                  'All Professional features',
-                  'Multi-location support',
-                  'Advanced reporting',
-                  'Email marketing (5,000/mo)',
-                  'API access',
-                  'Loyalty programs',
-                  'Dedicated account manager'
-                ].map((feature, idx) => (
-                  <div key={idx} style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '0.75rem',
-                    marginBottom: '0.875rem'
-                  }}>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
-                      <circle cx="10" cy="10" r="10" fill="#10B981"/>
-                      <path d="M14 7L8.5 12.5L6 10" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                    <span style={{ fontSize: '0.9375rem', color: 'var(--text)' }}>{feature}</span>
-                  </div>
-                ))}
-              </div>
-
-              <a href="#trial" className="btn btn-secondary" style={{
-                width: '100%',
-                textAlign: 'center',
-                padding: '0.875rem',
-                fontSize: '1rem',
-                fontWeight: 600
-              }} onClick={handleTrialClick}>
-                Start Free Trial
-              </a>
-            </div>
-
             {/* Enterprise Plan */}
             <div style={{
               background: 'white',
@@ -292,25 +232,29 @@ export default function PricingContent() {
                 }}>Enterprise</h3>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1rem' }}>
                   <span style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--text)' }}>
-                    {pricing.symbol}{pricing.enterprise}
+                    {typeof pricing.enterprise === 'string' ? pricing.enterprise : `${pricing.symbol}${pricing.enterprise}`}
                   </span>
-                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>/month</span>
+                  <span style={{ fontSize: '1.125rem', color: 'var(--text-light)' }}>
+                    {typeof pricing.enterprise === 'string' ? '' : '/month'}
+                  </span>
                 </div>
                 <p style={{ fontSize: '0.875rem', color: 'var(--text-light)', margin: 0 }}>
-                  For large operations
+                  For large salon groups
                 </p>
               </div>
 
               <div style={{ flex: 1, marginBottom: '1.5rem' }}>
                 {[
-                  'Unlimited staff members',
-                  'All Business features',
+                  'Unlimited staff & locations',
+                  'All Professional features',
                   'Custom integrations',
                   'White-label option',
                   'Unlimited email marketing',
                   '99.9% uptime SLA',
-                  'Custom contracts',
-                  '24/7 phone support'
+                  'Custom contracts & pricing',
+                  '24/7 priority phone support',
+                  'Onboarding & training',
+                  'Dedicated success team'
                 ].map((feature, idx) => (
                   <div key={idx} style={{
                     display: 'flex',
