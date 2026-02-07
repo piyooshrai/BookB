@@ -629,3 +629,22 @@ footer .container {
         gap: 2rem;
     }
 }
+
+/* ROI Calculator Grid */
+.roi-calculator-grid {
+    display: grid;
+    gap: 3rem;
+}
+
+@media (min-width: 768px) {
+    .roi-calculator-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .roi-calculator-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
