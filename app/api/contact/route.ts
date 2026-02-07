@@ -13,11 +13,38 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate email format
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(body.email)) {
+    // Validate name (2-100 characters, letters, spaces, hyphens, apostrophes only)
+    const nameRegex = /^[a-zA-Z\s'-]{2,100}$/;
+    if (!nameRegex.test(body.name.trim())) {
       return NextResponse.json(
-        { success: false, error: 'Invalid email format' },
+        { success: false, error: 'Please enter a valid name (2-100 characters, letters only)' },
+        { status: 400 }
+      );
+    }
+
+    // Validate email format and length
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(body.email) || body.email.length > 254) {
+      return NextResponse.json(
+        { success: false, error: 'Please enter a valid email address' },
+        { status: 400 }
+      );
+    }
+
+    // Block common disposable/temporary email domains
+    const disposableDomains = ['tempmail.com', 'throwaway.email', 'guerrillamail.com', '10minutemail.com', 'mailinator.com'];
+    const emailDomain = body.email.split('@')[1]?.toLowerCase();
+    if (disposableDomains.includes(emailDomain)) {
+      return NextResponse.json(
+        { success: false, error: 'Please use a permanent email address' },
+        { status: 400 }
+      );
+    }
+
+    // Honeypot field check (if present, it's a bot)
+    if (body.website || body.url) {
+      return NextResponse.json(
+        { success: false, error: 'Invalid submission' },
         { status: 400 }
       );
     }

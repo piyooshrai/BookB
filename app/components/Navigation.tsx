@@ -60,6 +60,7 @@ export default function Navigation() {
               <ul className="dropdown-menu">
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/salon-software-roi-calculator">ROI Calculator</a></li>
+                <li><a href="/salon-templates">Free Templates</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </li>
