@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: 'BookB',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-default.png',
         width: 1200,
         height: 630,
         alt: 'BookB Salon Management Software - Professional tools for hair salons, barbershops, and beauty businesses',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'BookB - Professional Salon Software Starting at $20/month',
     description: 'Complete salon management system with booking, queue management, POS, and analytics. Save $3,000+ annually vs expensive alternatives. No contracts. 14-day free trial.',
-    images: ['/og-image.svg'],
+    images: ['/og-default.png'],
   },
   robots: {
     index: true,
