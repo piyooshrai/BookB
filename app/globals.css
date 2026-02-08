@@ -123,6 +123,122 @@ nav a:hover {
     display: block;
 }
 
+/* Mobile Navigation */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--primary);
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.desktop-nav {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border-top: 1px solid var(--border);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .mobile-nav > ul > li {
+        border-bottom: 1px solid var(--border);
+    }
+
+    .mobile-nav > ul > li > a,
+    .mobile-nav > ul > li > button {
+        display: block;
+        padding: 1rem 2rem;
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .mobile-nav > ul > li > a:hover,
+    .mobile-nav > ul > li > button:hover {
+        background: var(--surface);
+        color: var(--primary);
+    }
+
+    .mobile-dropdown button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-submenu {
+        background: var(--surface);
+        list-style: none;
+        padding: 0;
+    }
+
+    .mobile-submenu li {
+        border-bottom: 1px solid var(--border);
+    }
+
+    .mobile-submenu li:last-child {
+        border-bottom: none;
+    }
+
+    .mobile-submenu a {
+        display: block;
+        padding: 0.875rem 2rem 0.875rem 3rem;
+        color: var(--text-light);
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .mobile-submenu a:hover {
+        background: white;
+        color: var(--primary);
+    }
+
+    .mobile-nav .nav-cta {
+        display: block;
+        margin: 1rem 2rem;
+        text-align: center;
+        background: var(--primary);
+        color: white !important;
+        padding: 0.75rem 1.25rem;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+}
+
 .hero {
     padding: 140px 2rem 60px;
     max-width: 1200px;
