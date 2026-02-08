@@ -4,7 +4,7 @@ import { CurrencyProvider } from '@/components/CurrencyDetector'
 import { Analytics } from '@/lib/analytics'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://bookb.io'),
+  // metadataBase removed to allow dynamic OG image URLs on any domain (Vercel preview or production)
   title: {
     default: 'BookB - Professional Salon Management Software Starting at $20/month',
     template: '%s | BookB Salon Software'
