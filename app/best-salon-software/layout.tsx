@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: 'https://bookb.io/best-salon-software',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-best-software.png',
         width: 1200,
         height: 630,
         alt: 'Best Salon Software 2026 Comparison - BookB',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Salon Software 2026: Top 6 Platforms Compared & Ranked',
     description: 'Comprehensive comparison of the best salon management software. Compare BookB, Vagaro, Square, Fresha, Mindbody, and Boulevard on pricing, features, and value.',
-    images: ['/og-image.svg'],
+    images: ['/og-best-software.png'],
   },
   alternates: {
     canonical: 'https://bookb.io/best-salon-software',

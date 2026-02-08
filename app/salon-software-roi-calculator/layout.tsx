@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: 'https://bookb.io/salon-software-roi-calculator',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-roi-calculator.png',
         width: 1200,
         height: 630,
         alt: 'BookB Salon Software ROI Calculator',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Salon Software ROI Calculator: Calculate Your Savings (2026)',
     description: 'Free salon software ROI calculator shows exactly how much you save with BookB vs competitors. Calculate cost savings, no-show recovery, and setup fees.',
-    images: ['/og-image.svg'],
+    images: ['/og-roi-calculator.png'],
   },
   alternates: {
     canonical: 'https://bookb.io/salon-software-roi-calculator',

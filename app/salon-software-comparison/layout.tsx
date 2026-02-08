@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: 'https://bookb.io/salon-software-comparison',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-comparison.png',
         width: 1200,
         height: 630,
         alt: 'Salon Software Cost Comparison Calculator - BookB',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Salon Software Cost Comparison Calculator 2026 | Compare Real Prices',
     description: 'Interactive salon software cost calculator. Compare BookB, Vagaro, Square, Fresha, Mindbody, and Boulevard with real pricing including transaction fees, setup costs, and hidden charges.',
-    images: ['/og-image.svg'],
+    images: ['/og-comparison.png'],
   },
   alternates: {
     canonical: 'https://bookb.io/salon-software-comparison',
