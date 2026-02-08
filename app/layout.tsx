@@ -6,10 +6,10 @@ import { Analytics } from '@/lib/analytics'
 export const metadata: Metadata = {
   metadataBase: new URL('https://bookb.io'),
   title: {
-    default: 'BookB - Professional Salon Management Software Starting at $15/month',
+    default: 'BookB - Professional Salon Management Software Starting at $20/month',
     template: '%s | BookB Salon Software'
   },
-  description: 'Professional salon management software trusted by 10,000+ salons worldwide. Complete booking system, queue management, POS, analytics, and mobile apps starting at just $15/month. No contracts, no setup fees. Why pay $300+ when BookB delivers the same enterprise features for 95% less?',
+  description: 'Professional salon management software trusted by 1,000+ salons worldwide. Complete booking system, queue management, POS, analytics, and mobile apps starting at just $20/month. No contracts, no setup fees. Save $3,000+ annually vs competitors.',
   keywords: [
     'salon software',
     'salon management system',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     alternateLocale: ['en_GB', 'en_AU'],
     url: 'https://bookb.io',
-    title: 'BookB - Professional Salon Management Software | $15/month',
-    description: 'Professional salon management software for $15/month. Queue management, appointment scheduling, POS system, analytics, and mobile apps. No contracts. 14-day free trial.',
+    title: 'BookB - Professional Salon Management Software | $20/month',
+    description: 'Professional salon management software for $20/month. Queue management, appointment scheduling, POS system, analytics, and mobile apps. No contracts. 14-day free trial.',
     siteName: 'BookB',
     images: [
       {
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BookB - Professional Salon Software Starting at $15/month',
-    description: 'Complete salon management system with booking, queue management, POS, and analytics. Save $3,420 annually vs expensive alternatives. No contracts. 14-day free trial.',
+    title: 'BookB - Professional Salon Software Starting at $20/month',
+    description: 'Complete salon management system with booking, queue management, POS, and analytics. Save $3,000+ annually vs expensive alternatives. No contracts. 14-day free trial.',
     images: ['/og-image.svg'],
   },
   robots: {
