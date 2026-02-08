@@ -16,6 +16,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/hair-salon-software',
     '/salon-booking-system',
     '/blog',
+    '/features',
+    '/salon-software-roi-calculator',
+    '/salon-templates',
+    '/salon-glossary',
+    '/best-salon-software',
+    '/salon-software-comparison',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
