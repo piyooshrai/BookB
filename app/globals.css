@@ -137,16 +137,9 @@ nav .desktop-nav a:hover {
     display: none;
 }
 
-.desktop-nav {
-    display: flex;
-    list-style: none;
-    gap: 2.5rem;
-    align-items: center;
-}
-
 @media (max-width: 768px) {
     .desktop-nav {
-        display: none;
+        display: none !important;
     }
 
     .mobile-menu-btn {
