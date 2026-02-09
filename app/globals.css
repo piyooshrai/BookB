@@ -87,6 +87,20 @@ nav .desktop-nav a:hover {
     position: relative;
 }
 
+.desktop-nav .dropdown::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    display: none;
+}
+
+.desktop-nav .dropdown:hover::before {
+    display: block;
+}
+
 .desktop-nav .dropdown-menu {
     display: none;
     position: absolute;
