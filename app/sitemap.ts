@@ -36,7 +36,7 @@ function getAllStaticRoutes(dir: string, baseDir: string = dir): string[] {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://bookb.io'
+  const baseUrl = 'https://www.bookb.io'
   const appDir = join(process.cwd(), 'app')
 
   // Get all static routes automatically
